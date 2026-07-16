@@ -626,6 +626,11 @@ h3 {
     align-items: start;
     gap: var(--space-8);
   }
+    .hero-grid-1col {
+    grid-template-columns: minmax(0, 1.02fr);
+    align-items: start;
+    gap: var(--space-8);
+  }
 
   .signup-panel {
     order: 0;
@@ -667,5 +672,109 @@ h3 {
     transition-duration: 0.01ms !important;
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
+  }
+}
+/* Mailchimp */
+#mc_embed_signup .indicates-required {
+  margin-bottom: 1rem;
+}
+
+#mc_embed_signup .mc-field-group label {
+  margin: 0;
+  padding-bottom: 0.5em;
+}
+
+#mc_embed_signup .mc-field-group input[type="text"],
+#mc_embed_signup .mc-field-group input[type="email"],
+#mc_embed_signup .mc-field-group select {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  min-width: 0;
+}
+#mc_embed_signup .mc-field-group.input-group ul {
+  display: block;
+  grid-template-columns: 1fr 1fr;
+  list-style: none;
+}
+
+#mc_embed_signup .clear {
+  margin-left: 0;
+}
+
+/* Mobile: stacked */
+#mc_embed_signup #mc_embed_signup_scroll {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+#mc_embed_signup .mc-field-group {
+  display: block;
+  grid-template-columns: 1fr;
+  gap: 0.05rem;
+  margin-bottom: 0.5em;
+}
+
+.interest-group {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.interest-group li {
+  margin: 0 0 0.4rem 0;
+}
+
+.interest-group__child {
+  padding-left: 1.5rem;
+}
+
+
+/* Desktop: same split feeling as your normal sections */
+@media (min-width: 920px) {
+  #mc_embed_signup #mc_embed_signup_scroll {
+    display: grid;
+    grid-template-columns: 0.9fr 1.1fr;
+    column-gap: var(--space-8);
+    row-gap: 1rem;
+    align-items: center;
+  }
+
+  #mc_embed_signup .mc-field-group {
+    display: contents;
+    align-items: left;
+  }
+
+  #mc_embed_signup .mc-field-group.input-group, #mc_embed_signup .mc-field-group label {
+    text-align: right;
+    align-self: center;
+  }
+
+  #mc_embed_signup .mc-field-group input[type="text"],
+  #mc_embed_signup .mc-field-group input[type="email"],
+  #mc_embed_signup .mc-field-group select {
+    width: 100%;
+    max-width: 100%;
+      min-width: 0;
+  box-sizing: border-box;
+
+  min-height: 3rem;
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  color: var(--text);
+  font: inherit;
+  line-height: 1.2;
+  }
+
+  #mc_embed_signup .indicates-required,
+  #mc_embed_signup #mce-responses {
+    grid-column: 1 / -1;
+  }
+
+  #mc_embed_signup .clear {
+    grid-column: 2;
+    justify-self: start;
   }
 }
