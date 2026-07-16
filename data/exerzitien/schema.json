@@ -1,0 +1,260 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Retreat content database",
+  "type": "object",
+  "required": [
+    "meta",
+    "retreats"
+  ],
+  "properties": {
+    "meta": {
+      "type": "object",
+      "properties": {
+        "default_language": {
+          "type": "string",
+          "const": "de"
+        },
+        "supported_languages": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "de",
+              "es",
+              "it",
+              "en",
+              "pl"
+            ]
+          }
+        },
+        "version": {
+          "type": "string"
+        },
+        "updated_at": {
+          "type": "string",
+          "format": "date-time"
+        }
+      }
+    },
+    "retreats": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/retreat"
+      }
+    }
+  },
+  "$defs": {
+    "localizedText": {
+      "type": "object",
+      "properties": {
+        "de": {
+          "type": "string"
+        },
+        "es": {
+          "type": "string"
+        },
+        "it": {
+          "type": "string"
+        },
+        "en": {
+          "type": "string"
+        },
+        "pl": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "localizedAsset": {
+      "type": "object",
+      "properties": {
+        "de": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "es": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "it": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "en": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "pl": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "dayReflection": {
+      "type": "object",
+      "required": [
+        "day_index",
+        "day_key",
+        "reflection",
+        "video_url",
+        "podcast_url"
+      ],
+      "properties": {
+        "day_index": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 7
+        },
+        "day_key": {
+          "type": "string",
+          "enum": [
+            "monday",
+            "tuesday",
+            "wednesday",
+            "thursday",
+            "friday",
+            "saturday",
+            "sunday"
+          ]
+        },
+        "reflection": {
+          "$ref": "#/$defs/localizedText"
+        },
+        "video_url": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "podcast_url": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "week": {
+      "type": "object",
+      "required": [
+        "week_number",
+        "slug",
+        "title",
+        "main_text",
+        "days"
+      ],
+      "properties": {
+        "week_number": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "slug": {
+          "type": "string"
+        },
+        "title": {
+          "$ref": "#/$defs/localizedText"
+        },
+        "main_text": {
+          "$ref": "#/$defs/localizedText"
+        },
+        "video_url": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "podcast_url": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "days": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/dayReflection"
+          }
+        }
+      }
+    },
+    "retreat": {
+      "type": "object",
+      "required": [
+        "id",
+        "type",
+        "year",
+        "slug",
+        "title",
+        "summary",
+        "assets",
+        "content"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string",
+          "enum": [
+            "lent",
+            "advent",
+            "other"
+          ]
+        },
+        "year": {
+          "type": "integer"
+        },
+        "slug": {
+          "type": "string"
+        },
+        "title": {
+          "$ref": "#/$defs/localizedText"
+        },
+        "summary": {
+          "$ref": "#/$defs/localizedText"
+        },
+        "advertising_text": {
+          "$ref": "#/$defs/localizedText"
+        },
+        "assets": {
+          "type": "object",
+          "properties": {
+            "advertising_video_url": {
+              "$ref": "#/$defs/localizedAsset"
+            },
+            "header_image_url": {
+              "$ref": "#/$defs/localizedAsset"
+            },
+            "poster_url": {
+              "$ref": "#/$defs/localizedAsset"
+            }
+          },
+          "additionalProperties": false
+        },
+        "content": {
+          "type": "object",
+          "properties": {
+            "weeks": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/week"
+              }
+            }
+          },
+          "additionalProperties": false
+        }
+      }
+    }
+  }
+}

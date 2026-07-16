@@ -1,0 +1,50 @@
+{
+  "id": "lent-2026-st-john-of-the-cross",
+  "type": "lent",
+  "year": 2026,
+  "slug": "lent-2026-st-john-of-the-cross",
+  "title": {
+    "de": "Fastenzeit 2026 – Johannes vom Kreuz",
+    "es": "",
+    "it": "",
+    "en": "",
+    "pl": ""
+  },
+  "summary": {
+    "de": "Kurze Zusammenfassung der Exerzitien.",
+    "es": "",
+    "it": "",
+    "en": "",
+    "pl": ""
+  },
+  "advertising_text": {
+    "de": "Werbetext für Landingpage, Newsletter oder Social Media.",
+    "es": "",
+    "it": "",
+    "en": "",
+    "pl": ""
+  },
+  "assets": {
+    "advertising_video_url": {
+      "de": "",
+      "es": "",
+      "it": "",
+      "en": "",
+      "pl": ""
+    },
+    "header_image_url": {
+      "de": "",
+      "es": "",
+      "it": "",
+      "en": "",
+      "pl": ""
+    },
+    "poster_url": {
+      "de": "",
+      "es": "",
+      "it": "",
+      "en": "",
+      "pl": ""
+    }
+  }
+}

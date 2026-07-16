@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "default_language": "de",
+    "supported_languages": ["de", "es", "it", "en", "pl", "ar", "pt", "cn", "cz", "hr", "hu", "mt", "nl", "ro", "vt"],
+    "version": "1.0.0",
+    "updated_at": "2026-07-16T09:33:00+02:00"
+  },
+  "retreats": [
+    {
+      "id": "lent-2026-st-john-of-the-cross",
+      "type": "lent",
+      "year": 2026,
+      "slug": "2026_fs_johannes_vom_kreuz",
+      "heiligen": "Johannes vom Kreuz",
+      "start_datum": 2026-02-18,
+      "end_datum": 2026-04-05,
+      "location" "X:\ALLGEMEIN\0900 Veröffentlichungen\Veröffentlichungen-aktuell\2026 Fasten",
+      "thema": {
+        "fr": "",
+        "de": "Fastenzeit 2026 mit dem heiligen Johannes vom Kreuz",
+        "es": "",
+        "it": "",
+        "en": "",
+        "pl": "",
+        "ar":"",
+        "pt":"",
+        "cn": "",
+        "cz": "",
+        "hr": "",
+        "hu": "",
+        "mt": "",
+        "nl": "",
+        "ro": "",
+        "vt": ""
+      },
+      "titel": {
+        "de": "„Christus in der Tiefe des Herzens begegnen",
+        "es": "",
+        "it": "",
+        "en": "",
+        "pl": "",
+        "ar":"",
+        "pt":"",
+        "cn": "",
+        "cz": "",
+        "hr": "",
+        "hu": "",
+        "mt": "",
+        "nl": "",
+        "ro": "",
+        "vt": ""
+      }
+    }
+  ]
+}
