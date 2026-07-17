@@ -553,7 +553,7 @@ h3 {
     linear-gradient(180deg, rgba(14, 103, 100, 0.08), rgba(252, 251, 248, 0.92));
 }
 
-.archive-list {
+.archive-grid {
   display: grid;
   gap: var(--space-4);
   margin-top: var(--space-6);
@@ -598,7 +598,7 @@ h3 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .archive-list {
+  .archive-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }

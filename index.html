@@ -75,22 +75,22 @@
                 <div class="mc-field-group"><label for="mce-LNAME">Nachname </label>
                   <input type="text" name="LNAME" class=" text" id="mce-LNAME" value=""></div>
                     <div class="mc-field-group input-group">
-                        <strong>Ich interessiere mich für:</strong>
+                        <strong>Ich interessiere auch mich für:</strong>
                         <ul class="interest-group" style="text-align: left;">
-                        <li><input type="checkbox" name="group[16777][64]" id="mce-group[16777]-16777-0" value="" checked><label for="mce-group[16777]-16777-0">alle Veranstaltungen des Karmel in Österreich</label></li>
+                        <li><input type="checkbox" name="group[16777][64]" id="mce-group[16777]-16777-0" value=""><label for="mce-group[16777]-16777-0">alle Veranstaltungen des Karmel in Österreich</label></li>
                           <details class="option-group"><summary>Orte und Formate einschränken</summary>
                             <ul>
-                        <li><input type="checkbox" name="group[16777][512]" id="mce-group[16777]-16777-1" value="" checked><label for="mce-group[16777]-16777-1">in Wien</label></li>
-                        <li><input type="checkbox" name="group[16777][1024]" id="mce-group[16777]-16777-2" value="" checked><label for="mce-group[16777]-16777-2">in Linz</label></li>
-                        <li><input type="checkbox" name="group[16777][2048]" id="mce-group[16777]-16777-3" value="" checked><label for="mce-group[16777]-16777-3">in Graz</label></li>
-                        <li><input type="checkbox" name="group[16777][524288]" id="mce-group[16777]-16777-4" value="" checked><label for="mce-group[16777]-16777-4">online</label></li>
+                        <li><input type="checkbox" name="group[16777][512]" id="mce-group[16777]-16777-1" value="" ><label for="mce-group[16777]-16777-1">in Wien</label></li>
+                        <li><input type="checkbox" name="group[16777][1024]" id="mce-group[16777]-16777-2" value="" ><label for="mce-group[16777]-16777-2">in Linz</label></li>
+                        <li><input type="checkbox" name="group[16777][2048]" id="mce-group[16777]-16777-3" value="" ><label for="mce-group[16777]-16777-3">in Graz</label></li>
+                        <li><input type="checkbox" name="group[16777][524288]" id="mce-group[16777]-16777-4" value=""><label for="mce-group[16777]-16777-4">online</label></li>
                       </ul>
                       </details>
                         <li><input type="checkbox" name="group[16777][256]" id="mce-group[16777]-16777-5" value=""><label for="mce-group[16777]-16777-5">Infos/Veranstaltungen der Edith Stein Gesellschaft</label></li>
                         <details class="option-group"><summary>Novenen und Exerzitien auswählen</summary>
                           <ul>
                         <li><input type="checkbox" name="group[16777][128]" id="mce-group[16777]-16777-6" value=""><label for="mce-group[16777]-16777-6">Friedensgebet/Novene Hl. Edith Stein</label></li>
-                        <li><input type="checkbox" name="group[16777][32]" id="mce-group[16777]-16777-7" value=""><label for="mce-group[16777]-16777-7">Exerzitien Online in Advent/Fastenzeit</label></li>
+                        <li style="display:none"><input type="checkbox" name="group[16777][32]" id="mce-group[16777]-16777-7" value="" checked><label for="mce-group[16777]-16777-7">Exerzitien Online in Advent/Fastenzeit</label></li>
                         <li><input type="checkbox" name="group[16777][16]" id="mce-group[16777]-16777-8" value=""><label for="mce-group[16777]-16777-8">Novene Online zum Skapulierfest</label></li>
                         <li><input type="checkbox" name="group[16777][8192]" id="mce-group[16777]-16777-9" value=""><label for="mce-group[16777]-16777-9">33 Schritte mit Maria zu Jesus</label></li>
                         <li><input type="checkbox" name="group[16777][4096]" id="mce-group[16777]-16777-10" value=""><label for="mce-group[16777]-16777-10">Jesus-Gebet</label></li>                      
@@ -519,18 +519,14 @@
         </div>
       </section>
 
-      <section class="section section-archive">
+      <section class="section section-archive" aria-labelledby="archiv-titel" id="archiv-cards">
         <div class="container">
-          <div class="section-heading narrow">
-            <p class="section-kicker">Frühere Exerzitien</p>
+          <div class="section-head">
+            <p class="section-label">Frühere Exerzitien</p>
             <h2>Ausgewählte Reihen der vergangenen Jahre</h2>
-            <p>
-              Diese Übersicht kann später um weitere Exerzitienzeiten und Themen
-              ergänzt werden.
-            </p>
           </div>
 
-          <div class="archive-list">
+          <div class="archive-grid">
             <article class="archive-card">
               <div class="archive-meta">
                 <span class="archive-season">Osterzeit</span>
