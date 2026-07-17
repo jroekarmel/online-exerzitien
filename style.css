@@ -501,6 +501,17 @@ h3 {
   box-shadow: var(--shadow-sm);
 }
 
+.archive-card--accent {
+    padding: var(--space-5);
+  border-radius: var(--radius-lg);
+  background: linear-gradient(180deg, rgba(144, 252, 189, 0.171), rgba(251, 248, 243, 0.88));
+  border: 1px solid var(--color-border);
+  box-shadow: var(--shadow-sm);
+}
+
+[data-theme="dark"] .archive-card--accent {
+  background: linear-gradient(180deg, rgba(209, 136, 26, 0.2), rgba(42, 28, 25, 0.92));
+}
 .saint-card {
   display: flex;
   flex-direction: column;
@@ -563,6 +574,7 @@ h3 {
   display: flex;
   flex-wrap: wrap;
   gap: var(--space-2);
+  padding: 0.5rem;
   align-items: center;
   margin-bottom: var(--space-3);
 }
@@ -806,4 +818,50 @@ h3 {
 
 .cover-img:hover img {
   transform: scale(1.10);
+}
+/* This is the zoom for images when the mouse hovers over them */
+.image-zoom {
+  overflow: hidden;
+  border-radius: var(--radius-lg);
+}
+
+.image-zoom img {
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: transform 320ms ease;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .image-zoom:hover img,
+  .image-zoom:focus-within img {
+    transform: scale(1.08);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  * {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}
+.card-links a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2.75rem;
+  max-height: 3rem;
+  padding: 0.7rem 0.9rem;
+  border: 1px solid #d8d8d8;
+  border-radius: var(--radius-full);
+  background: rgba(209, 193, 173, 0.24);
+  color: var(--brown);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  text-decoration: none;
 }
