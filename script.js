@@ -321,3 +321,93 @@ const uniqueSaints = [
     container.innerHTML = `<p>Die Archivdaten konnten derzeit nicht geladen werden.</p>`;
   }
 });
+
+//saints rotation
+document.addEventListener("DOMContentLoaded", () => {
+  const grid = document.querySelector("#saintsGrid");
+  const dots = Array.from(document.querySelectorAll(".saints-dot"));
+  const toggleButton = document.querySelector(".saints-toggle");
+  const toggleIcon = document.querySelector(".saints-toggle-icon");
+
+  if (!grid || !dots.length || !toggleButton) return;
+
+  const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  let currentIndex = 0;
+  let autoRotate = null;
+  let isPaused = prefersReducedMotion;
+
+  function setActiveDot(index) {
+    dots.forEach((dot, i) => {
+      const active = i === index;
+      dot.classList.toggle("is-active", active);
+      dot.setAttribute("aria-current", active ? "true" : "false");
+    });
+  }
+
+  function goToSlide(index) {
+    currentIndex = Math.max(0, Math.min(index, dots.length - 1));
+
+    grid.scrollTo({
+      left: currentIndex * grid.clientWidth,
+      behavior: "smooth"
+    });
+
+    setActiveDot(currentIndex);
+  }
+
+  function startRotation() {
+    if (autoRotate || isPaused) return;
+
+    autoRotate = setInterval(() => {
+      goToSlide((currentIndex + 1) % dots.length);
+    }, 4000);
+
+    toggleButton.setAttribute("aria-label", "Karussell pausieren");
+    toggleButton.setAttribute("aria-pressed", "false");
+    if (toggleIcon) toggleIcon.textContent = "❚❚";
+  }
+
+  function stopRotation() {
+    clearInterval(autoRotate);
+    autoRotate = null;
+
+    toggleButton.setAttribute("aria-label", "Karussell abspielen");
+    toggleButton.setAttribute("aria-pressed", "true");
+    if (toggleIcon) toggleIcon.textContent = "▶";
+  }
+
+  toggleButton.addEventListener("click", () => {
+    if (autoRotate) {
+      isPaused = true;
+      stopRotation();
+    } else {
+      isPaused = false;
+      startRotation();
+    }
+  });
+
+  dots.forEach((dot, index) => {
+    dot.addEventListener("click", () => {
+      isPaused = true;
+      stopRotation();
+      goToSlide(index);
+    });
+  });
+
+  grid.addEventListener("scroll", () => {
+    const index = Math.round(grid.scrollLeft / grid.clientWidth);
+    currentIndex = Math.min(index, dots.length - 1);
+    setActiveDot(currentIndex);
+  });
+
+  grid.addEventListener("mouseenter", stopRotation);
+
+  setActiveDot(0);
+
+  if (!prefersReducedMotion) {
+    startRotation();
+  } else {
+    stopRotation();
+  }
+});
