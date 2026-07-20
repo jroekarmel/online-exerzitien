@@ -87,14 +87,14 @@
     "name": "Heiliger Josef",
     "slug": "heiliger_josef",
     "bio_de": "Der heilige Josef, Bräutigam der Gottesmutter Maria und Nährvater Jesu, wird als stiller Gerechter und treuer Beschützer der Kirche und der Familien verehrt.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Guido_Reni_042.jpg",
+    "image": "img/heiliger_josef.jpg",
     "link": "http://127.0.0.1:5500/index.html"
   },
   {
     "name": "Heilige Elisabeth von der Dreifaltigkeit",
     "slug": "elisabeth_von_der_dreifaltigkeit",
     "bio_de": "Elisabeth von der Dreifaltigkeit (1880–1906) war eine französische Karmelitin, deren Spiritualität von der inneren Gegenwart der Heiligsten Dreifaltigkeit im Herzen des Getauften geprägt ist.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/3/35/Elisabeth_of_the_Trinity.jpg",
+    "image": "",
     "link": "http://127.0.0.1:5500/index.html"
   },
   {
@@ -108,7 +108,7 @@
     "name": "Heiliger Elija",
     "slug": "heiliger_elija",
     "bio_de": "Der Prophet Elija gilt als geistlicher Vater der Karmeliten; sein Eifer für den einen wahren Gott und seine Gotteserfahrung auf dem Horeb prägen die Spiritualität des Ordens.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Prophet_Elijah_translation.jpg",
+    "image": "img/heiliger_elija.jpg",
     "link": "http://127.0.0.1:5500/index.html"
   },
   {
