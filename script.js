@@ -207,16 +207,29 @@ document.addEventListener("DOMContentLoaded", async () => {
       .replaceAll('"', "&quot;")
       .replaceAll("'", "&#39;");
 
-        const slugifySaint = (name = "") =>
+  const slugifySaint = (name = "") =>
     String(name)
       .toLowerCase()
       .replace(/^heiliger\s+/i, "")
       .replace(/^heilige\s+/i, "")
+      .replaceAll("á", "a")
+      .replaceAll("à", "a")
+      .replaceAll("â", "a")
       .replaceAll("ä", "ae")
+      .replaceAll("é", "e")
+      .replaceAll("è", "e")
+      .replaceAll("ê", "e")
+      .replaceAll("ë", "e")
+      .replaceAll("í", "i")
+      .replaceAll("ï", "i")
+      .replaceAll("ó", "o")
       .replaceAll("ö", "oe")
+      .replaceAll("ú", "u")
       .replaceAll("ü", "ue")
       .replaceAll("ß", "ss")
-      .replaceAll(" ", "_");
+      .replace(/[()]/g, "")
+      .replace(/[.,]/g, "")
+      .replace(/\s+/g, "_");
 
         const getLocalizedField = (field, lang = "de") => {
     if (!field) return "";
@@ -225,14 +238,15 @@ document.addEventListener("DOMContentLoaded", async () => {
   };
 
 const renderCard = (saint) => {
-    const imageSaint = `img/${saint.slug}.jpg`;
+    const imageSaint = `${saint.image}`;
 
 return `
       <article class="saint-card saint-card-featured">
-        <div class="image-zoom">
+        <div class="image-zoom-saint">
           <img
             src="${escapeHtml(imageSaint)}"
             alt="${escapeHtml(saint.name)}"
+            class="saint-image"
             loading="lazy"
           >
         </div>
@@ -243,30 +257,58 @@ return `
         </p>
 
         <div class="card-links">
-          <a href="" target="_blank" rel="noopener noreferrer">
-            Mehr zur Heiliger
+          <a href="${escapeHtml(saint.link || "#")}" target="_blank" rel="noopener noreferrer">
+            Mehr zum Heiligen
           </a>
         </div>
       </article>
     `;
 };
 
-   try {
-    const response = await fetch("data/exerzitien-katalog.json");
-    if (!response.ok) {
-      throw new Error("JSON konnte nicht geladen werden.");
+  try {
+    const [catalogResponse, infoResponse] = await Promise.all([
+      fetch("data/exerzitien-katalog.json"),
+      fetch("data/heiliger-info.json")
+    ]);
+
+    if (!catalogResponse.ok || !infoResponse.ok) {
+      throw new Error("Eine oder mehrere JSON-Dateien konnten nicht geladen werden.");
     }
 
-    const data = await response.json();
-    const retreats = Array.isArray(data.retreats) ? data.retreats : [];
-       const saints = retreats
-      .map((retreat) => retreat.heiliger)
-      .filter(Boolean);
+    const [catalogData, infoData] = await Promise.all([
+      catalogResponse.json(),
+      infoResponse.json()
+    ]);
 
-    const uniqueSaints = [...new Set(saints)].map((name) => ({
-      name,
-      slug: slugifySaint(name)
-    }));
+    const retreats = Array.isArray(catalogData.retreats) ? catalogData.retreats : [];
+    const saintsInfo = Array.isArray(infoData) ? infoData : [];
+
+    const saintsBySlug = Object.fromEntries(
+      saintsInfo.map((saint) => [saint.slug, saint])
+    );
+
+const uniqueSaints = [
+  ...new Map(
+    retreats
+      .filter((retreat) => retreat.heiliger)
+      .map((retreat) => {
+        const name = retreat.heiliger;
+        const slug = slugifySaint(name);
+        const saintInfo = saintsBySlug[slug] || {};
+
+        return [
+          slug,
+          {
+            slug,
+            name: saintInfo.name || name,
+            bio: saintInfo.bio_de || "",
+            link: saintInfo.link || "#",
+            image: saintInfo.image || "",
+          }
+        ];
+      })
+  ).values()
+];
 
     if (uniqueSaints.length === 0) {
       container.innerHTML = `<p>Derzeit sind keine Heiligen verfügbar.</p>`;
