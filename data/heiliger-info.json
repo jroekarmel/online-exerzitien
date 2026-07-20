@@ -3,14 +3,14 @@
     "name": "Heiliger Johannes vom Kreuz",
     "slug": "johannes_vom_kreuz",
     "bio_de": "Johannes vom Kreuz (1542–1591) war ein spanischer Karmelit, Mystiker und Kirchenlehrer, der durch seine Lehre vom geistlichen Weg der Läuterung und Vereinigung mit Gott bekannt wurde.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/b/ba/San_Juan_de_la_Cruz_%28Carmelitas_Descalzos_de_Segovia%29.jpg",
+    "image": "img/johannes_vom_kreuz.jpg",
     "link": "http://127.0.0.1:5500/index.html"
   },
   {
     "name": "Heilige Mirjam von Jesus, dem Gekreuzigten",
     "slug": "mirjam_von_jesus_dem_gekreuzigten",
     "bio_de": "Mirjam von Jesus, dem Gekreuzigten (1846–1878), auch Mariam Baouardy, war eine palästinensische Karmelitin, Mystikerin und Stigmatisierte, die für ihre Demut und außergewöhnlichen Gnadengaben verehrt wird.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/5/52/Mariam_Baouardy.jpg",
+    "image": "img/mirjam_von_jesus_dem_gekreuzigten.jpg",
     "link": "http://127.0.0.1:5500/index.html"
   },
   {
@@ -24,14 +24,14 @@
     "name": "Pater Jacques von Jesus",
     "slug": "pater_jacques_von_jesus",
     "bio_de": "Pater Jacques von Jesus (1900–1945), Karmelit und französischer Priester, versteckte während des Zweiten Weltkriegs jüdische Kinder, wurde verhaftet und starb kurz nach der Befreiung eines Konzentrationslagers.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/2/23/Father_Jacques_of_Jesus.jpg",
+    "image": "img/pater_jacques_von_jesus.jpg",
     "link": "http://127.0.0.1:5500/index.html"
   },
   {
     "name": "Heilige Teresa de Los Andes",
     "slug": "teresa_de_los_andes",
     "bio_de": "Teresa de Los Andes (1900–1920) war eine chilenische Karmelitin, die schon in jungen Jahren durch ihre tiefe Liebe zu Christus und ihre Hingabe im Klosterleben bekannt wurde.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Santa_Teresa_de_los_Andes.jpg",
+    "image": "img/teresa_de_los_andes.jpg",
     "link": "http://127.0.0.1:5500/index.html"
   },
   {
@@ -45,7 +45,7 @@
     "name": "Heilige Thérèse vom Kinde Jesu, Maria Montessori",
     "slug": "therese_vom_kinde_jesu_maria_montessori",
     "bio_de": "Diese Angabe verbindet die Karmelitin Thérèse vom Kinde Jesu mit Maria Montessori; thematisch kann sie etwa für eine Betrachtung über die christliche Erziehung und den „Kleinen Weg“ im pädagogischen Kontext stehen.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Maria_Montessori_%281870-1952%29.jpg",
+    "image": "img/therese_vom_kinde_jesu_maria_montessori.jpg",
     "link": "http://127.0.0.1:5500/index.html"
   },
   {
@@ -59,33 +59,33 @@
     "name": "Sr. Maria von der Menschwerdung",
     "slug": "maria_von_der_menschwerdung",
     "bio_de": "Sr. Maria von der Menschwerdung ist eine Karmelitin, deren Spiritualität sich besonders auf das Geheimnis der Menschwerdung Christi konzentriert und die zur Betrachtung des menschgewordenen Gottes einlädt.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Annunciation_icon.jpg",
+    "image": "img/maria_von_der_menschwerdung.jpg",
     "link": "http://127.0.0.1:5500/index.html"
   },
   {
     "name": "Unsere Liebe Frau vom Berge Karmel",
     "slug": "unsere_liebe_frau_vom_berge_karmel",
     "bio_de": "Unsere Liebe Frau vom Berge Karmel ist ein Marientitel, der auf den biblischen Berg Karmel verweist; sie wird als Patronin des Karmelitenordens verehrt und mit dem Skapulier verbunden.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Virgen_del_Carmen_de_Cospicua.jpg",
+    "image": "img/unsere_liebe_frau_vom_berge_karmel.jpg",
     "link": "http://127.0.0.1:5500/index.html"
   },
   {
     "name": "Heilige Teresa-Benedicta vom Kreuz (Edith Stein)",
     "slug": "teresa_benedicta_vom_kreuz_edith_stein",
     "bio_de": "Teresa-Benedicta vom Kreuz (Edith Stein, 1891–1942) war eine jüdischstämmige Philosophin, die zum katholischen Glauben konvertierte, Karmelitin wurde und als Märtyrin im KZ Auschwitz starb.",
-    "image": "edith_stein",
+    "image": "img/edith_stein.jpg",
     "link": "http://127.0.0.1:5500/index.html"
   },
   {
     "name": "Br. Lorenz von der Auferstehung",
     "slug": "lorenz_von_der_auferstehung",
     "bio_de": "Bruder Lorenz von der Auferstehung (1614–1691) war ein französischer Laienbruder des Karmel, der für seine Lehre von der beständigen Gegenwart Gottes im Alltag bekannt wurde.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Brother_Lawrence_of_the_Resurrection.jpg",
+    "image": "",
     "link": "http://127.0.0.1:5500/index.html"
   },
   {
     "name": "Heiliger Josef",
-    "slug": "heiliger_josef",
+    "slug": "josef",
     "bio_de": "Der heilige Josef, Bräutigam der Gottesmutter Maria und Nährvater Jesu, wird als stiller Gerechter und treuer Beschützer der Kirche und der Familien verehrt.",
     "image": "img/heiliger_josef.jpg",
     "link": "http://127.0.0.1:5500/index.html"
@@ -101,12 +101,12 @@
     "name": "Sel. Maria-Eugen vom Kinde Jesus OCD",
     "slug": "maria_eugen_vom_kinde_jesus",
     "bio_de": "Maria-Eugen vom Kinde Jesus (1894–1967) war ein französischer Karmelit und Gründer des Säkularinstituts Notre-Dame de Vie, der die geistliche Lehre Teresas von Ávila und Johannes’ vom Kreuz neu erschloss.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Pere_Marie-Eugene_de_lEnfant-Jesus.jpg",
+    "image": "",
     "link": "http://127.0.0.1:5500/index.html"
   },
   {
     "name": "Heiliger Elija",
-    "slug": "heiliger_elija",
+    "slug": "elija",
     "bio_de": "Der Prophet Elija gilt als geistlicher Vater der Karmeliten; sein Eifer für den einen wahren Gott und seine Gotteserfahrung auf dem Horeb prägen die Spiritualität des Ordens.",
     "image": "img/heiliger_elija.jpg",
     "link": "http://127.0.0.1:5500/index.html"
@@ -115,7 +115,7 @@
     "name": "Louis Martin und Zélie Martin (Eltern der hl. Thérèse von Lisieux)",
     "slug": "louis_und_zelie_martin",
     "bio_de": "Louis und Zélie Martin, die Eltern der heiligen Thérèse von Lisieux, führten eine tief christliche Ehe und wurden gemeinsam als Vorbilder für heilige Ehe und Familienleben heiliggesprochen.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/2/28/Louis_and_Zelie_Martin.jpg",
+    "image": "",
     "link": "http://127.0.0.1:5500/index.html"
   }
 ]
