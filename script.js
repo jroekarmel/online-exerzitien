@@ -229,6 +229,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       .replaceAll("ß", "ss")
       .replace(/[()]/g, "")
       .replace(/[.,]/g, "")
+      .replace(/[-]/g, "")
       .replace(/\s+/g, "_");
 
         const getLocalizedField = (field, lang = "de") => {

@@ -56,7 +56,7 @@
     "link": "http://127.0.0.1:5500/index.html"
   },
   {
-    "name": "Sr. Maria von der Menschwerdung",
+    "name": "Maria von der Menschwerdung",
     "slug": "maria_von_der_menschwerdung",
     "bio_de": "Sr. Maria von der Menschwerdung ist eine Karmelitin, deren Spiritualität sich besonders auf das Geheimnis der Menschwerdung Christi konzentriert und die zur Betrachtung des menschgewordenen Gottes einlädt.",
     "image": "img/heiligen/maria_von_der_menschwerdung.jpg",
@@ -71,23 +71,23 @@
   },
   {
     "name": "Heilige Teresa-Benedicta vom Kreuz (Edith Stein)",
-    "slug": "teresa_benedicta_vom_kreuz_edith_stein",
+    "slug": "teresabenedicta_vom_kreuz_edith_stein",
     "bio_de": "Teresa-Benedicta vom Kreuz (Edith Stein, 1891–1942) war eine jüdischstämmige Philosophin, die zum katholischen Glauben konvertierte, Karmelitin wurde und als Märtyrin im KZ Auschwitz starb.",
     "image": "img/heiligen/edith_stein.jpg",
     "link": "http://127.0.0.1:5500/index.html"
   },
   {
     "name": "Br. Lorenz von der Auferstehung",
-    "slug": "lorenz_von_der_auferstehung",
+    "slug": "br_lorenz_von_der_auferstehung",
     "bio_de": "Bruder Lorenz von der Auferstehung (1614–1691) war ein französischer Laienbruder des Karmel, der für seine Lehre von der beständigen Gegenwart Gottes im Alltag bekannt wurde.",
     "image": "img/heiligen/lorenz.jpg",
     "link": "http://127.0.0.1:5500/index.html"
   },
   {
     "name": "Heiliger Josef",
-    "slug": "josef",
+    "slug": "joseph",
     "bio_de": "Der heilige Josef, Bräutigam der Gottesmutter Maria und Nährvater Jesu, wird als stiller Gerechter und treuer Beschützer der Kirche und der Familien verehrt.",
-    "image": "img/heiligen/heiliger_josef.jpg",
+    "image": "img/heiligen/heiliger_joseph.jpg",
     "link": "http://127.0.0.1:5500/index.html"
   },
   {
@@ -99,9 +99,9 @@
   },
   {
     "name": "Sel. Maria-Eugen vom Kinde Jesus OCD",
-    "slug": "maria_eugen_vom_kinde_jesus",
+    "slug": "sel_mariaeugen_vom_kinde_jesus_ocd",
     "bio_de": "Maria-Eugen vom Kinde Jesus (1894–1967) war ein französischer Karmelit und Gründer des Säkularinstituts Notre-Dame de Vie, der die geistliche Lehre Teresas von Ávila und Johannes’ vom Kreuz neu erschloss.",
-    "image": "img/heiligen/maria_eugen-jpg",
+    "image": "img/heiligen/maria_eugen.jpg",
     "link": "http://127.0.0.1:5500/index.html"
   },
   {
@@ -113,7 +113,7 @@
   },
   {
     "name": "Louis Martin und Zélie Martin (Eltern der hl. Thérèse von Lisieux)",
-    "slug": "louis_und_zelie_martin",
+    "slug": "louis_und_zelie_martin_eltern_dr_hl_threse_von_lisieux",
     "bio_de": "Louis und Zélie Martin, die Eltern der heiligen Thérèse von Lisieux, führten eine tief christliche Ehe und wurden gemeinsam als Vorbilder für heilige Ehe und Familienleben heiliggesprochen.",
     "image": "img/heiligen/louis_und_zelie_martin.jpg",
     "link": "http://127.0.0.1:5500/index.html"
