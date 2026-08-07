@@ -113,7 +113,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   const getRetreatLink = (retreat) => {
     if (!retreat?.slug) return "#";
-    return `/${retreat.slug}/${retreat.slug}.html`;
+    return `./exerzitien-archiv/${retreat.slug}.html`;
   };
 
   const renderCard = (retreat, accented = false) => {
