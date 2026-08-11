@@ -4,6 +4,119 @@
   "weeks": [
     {
       "week_number": 1,
+      "slug": "week-0",
+      "title": {
+        "de": "Aschermittwoch: „Die Reinheit des Herzens wiedererlangen“",
+        "es": "",
+        "it": "",
+        "en": "",
+        "pl": ""
+      },
+      "main_text": {
+        "de": "Haupttext der Woche.",
+        "es": "",
+        "it": "",
+        "en": "",
+        "pl": ""
+      },
+      "video_url": "",
+      "podcast_url": "",
+      "days": [
+        {
+          "day_index": 1,
+          "day_key": "monday",
+          "reflection": {
+            "de": "Tagesimpuls Montag.",
+            "es": "",
+            "it": "",
+            "en": "",
+            "pl": ""
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 2,
+          "day_key": "tuesday",
+          "reflection": {
+            "de": "Tagesimpuls Dienstag.",
+            "es": "",
+            "it": "",
+            "en": "",
+            "pl": ""
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 3,
+          "day_key": "wednesday",
+          "reflection": {
+            "de": "Tagesimpuls Mittwoch.",
+            "es": "",
+            "it": "",
+            "en": "",
+            "pl": ""
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 4,
+          "day_key": "thursday",
+          "reflection": {
+            "de": "Tagesimpuls Donnerstag.",
+            "es": "",
+            "it": "",
+            "en": "",
+            "pl": ""
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 5,
+          "day_key": "friday",
+          "reflection": {
+            "de": "Tagesimpuls Freitag.",
+            "es": "",
+            "it": "",
+            "en": "",
+            "pl": ""
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 6,
+          "day_key": "saturday",
+          "reflection": {
+            "de": "Tagesimpuls Samstag.",
+            "es": "",
+            "it": "",
+            "en": "",
+            "pl": ""
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 7,
+          "day_key": "sunday",
+          "reflection": {
+            "de": "Tagesimpuls Sonntag.",
+            "es": "",
+            "it": "",
+            "en": "",
+            "pl": ""
+          },
+          "video_url": "",
+          "podcast_url": ""
+        }
+      ]
+    },
+    {
+      "week_number": 1,
       "slug": "week-1",
       "title": {
         "de": "Woche 1",
