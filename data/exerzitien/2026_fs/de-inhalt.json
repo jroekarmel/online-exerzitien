@@ -1,0 +1,527 @@
+{
+  "retreat_id": "lent-2026-st-john-of-the-cross",
+  "season_type": "lent",
+  "woches": [
+    {
+      "woche_number": 0,
+      "slug": "woche-0",
+      "title": "Aschermittwoch: „Die Reinheit des Herzens wiedererlangen“",
+      "kurz_text": "Sich von sich selbst lösen, um sich für Gott und die anderen zu öffnen",
+      "main_text": {
+        "de": "Haupttext der Woche."},
+      "bild_url": "../img/woche-0_header.png",
+      "video_url": "",
+      "podcast_url": "",
+      "days": [
+        {
+          "day_index": 1,
+          "day_key": "thursday",
+          "reflection": {
+            "de": "Tagesimpuls Donnerstag."},
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 2,
+          "day_key": "friday",
+          "reflection": {
+            "de": "Tagesimpuls Freitag."},
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 3,
+          "day_key": "saturday",
+          "reflection": {
+            "de": "Tagesimpuls Samstag."},
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 4,
+          "day_key": "sunday",
+          "reflection": {
+            "de": "Tagesimpuls Sonntag."},
+          "video_url": "",
+          "podcast_url": ""
+        }
+      ]
+    },
+    {
+      "woche_number": 1,
+      "slug": "woche-1",
+      "title": "Woche 1",
+      "main_text": {
+        "de": "Haupttext der Woche."},
+      "bild_url": "../img/woche-1_header.png",
+      "video_url": "",
+      "podcast_url": "",
+      "days": [
+        {
+          "day_index": 1,
+          "day_key": "monday",
+          "reflection": {
+            "de": "Tagesimpuls Montag."},
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 2,
+          "day_key": "tuesday",
+          "reflection": {
+            "de": "Tagesimpuls Dienstag."},
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 3,
+          "day_key": "wednesday",
+          "reflection": {
+            "de": "Tagesimpuls Mittwoch."},
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 4,
+          "day_key": "thursday",
+          "reflection": {
+            "de": "Tagesimpuls Donnerstag."},
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 5,
+          "day_key": "friday",
+          "reflection": {
+            "de": "Tagesimpuls Freitag."},
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 6,
+          "day_key": "saturday",
+          "reflection": {
+            "de": "Tagesimpuls Samstag."},
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 7,
+          "day_key": "sunday",
+          "reflection": {
+            "de": "Tagesimpuls Sonntag."},
+          "video_url": "",
+          "podcast_url": ""
+        }
+      ]
+    },
+        {
+      "woche_number": 2,
+      "slug": "woche-2",
+      "title": "Woche 2",
+      "main_text": {
+        "de": "Haupttext der Woche."},
+      "bild_url": "../img/woche-2_header.png",
+      "video_url": "",
+      "podcast_url": "",
+      "days": [
+        {
+          "day_index": 1,
+          "day_key": "monday",
+          "reflection": {
+            "de": "Tagesimpuls Montag."},
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 2,
+          "day_key": "tuesday",
+          "reflection": {
+            "de": "Tagesimpuls Dienstag."},
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 3,
+          "day_key": "wednesday",
+          "reflection": {
+            "de": "Tagesimpuls Mittwoch."},
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 4,
+          "day_key": "thursday",
+          "reflection": {
+            "de": "Tagesimpuls Donnerstag."},
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 5,
+          "day_key": "friday",
+          "reflection": {
+            "de": "Tagesimpuls Freitag."},
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 6,
+          "day_key": "saturday",
+          "reflection": {
+            "de": "Tagesimpuls Samstag."},
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 7,
+          "day_key": "sunday",
+          "reflection": {
+            "de": "Tagesimpuls Sonntag."},
+          "video_url": "",
+          "podcast_url": ""
+        }
+      ]
+    },
+        {
+      "woche_number": 3,
+      "slug": "woche-3",
+      "title": "Woche 3",
+      "main_text": {
+        "de": "Haupttext der Woche."},
+      "bild_url": "../img/woche-3_header.png",
+      "video_url": "",
+      "podcast_url": "",
+      "days": [
+        {
+          "day_index": 1,
+          "day_key": "monday",
+          "reflection": {
+            "de": "Tagesimpuls Montag."},
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 2,
+          "day_key": "tuesday",
+          "reflection": {
+            "de": "Tagesimpuls Dienstag."},
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 3,
+          "day_key": "wednesday",
+          "reflection": {
+            "de": "Tagesimpuls Mittwoch."},
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 4,
+          "day_key": "thursday",
+          "reflection": {
+            "de": "Tagesimpuls Donnerstag."},
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 5,
+          "day_key": "friday",
+          "reflection": {
+            "de": "Tagesimpuls Freitag."},
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 6,
+          "day_key": "saturday",
+          "reflection": {
+            "de": "Tagesimpuls Samstag."},
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 7,
+          "day_key": "sunday",
+          "reflection": {
+            "de": "Tagesimpuls Sonntag."},
+          "video_url": "",
+          "podcast_url": ""
+        }
+      ]
+    },
+        {
+      "woche_number": 4,
+      "slug": "woche-4",
+      "title": "Woche 4",
+      "main_text": {
+        "de": "Haupttext der Woche."},
+      "bild_url": "../img/woche-4_header.png",
+      "video_url": "",
+      "podcast_url": "",
+      "days": [
+        {
+          "day_index": 1,
+          "day_key": "monday",
+          "reflection": {
+            "de": "Tagesimpuls Montag."},
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 2,
+          "day_key": "tuesday",
+          "reflection": {
+            "de": "Tagesimpuls Dienstag."},
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 3,
+          "day_key": "wednesday",
+          "reflection": {
+            "de": "Tagesimpuls Mittwoch."},
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 4,
+          "day_key": "thursday",
+          "reflection": {
+            "de": "Tagesimpuls Donnerstag."},
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 5,
+          "day_key": "friday",
+          "reflection": {
+            "de": "Tagesimpuls Freitag."},
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 6,
+          "day_key": "saturday",
+          "reflection": {
+            "de": "Tagesimpuls Samstag."},
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 7,
+          "day_key": "sunday",
+          "reflection": {
+            "de": "Tagesimpuls Sonntag."},
+          "video_url": "",
+          "podcast_url": ""
+        }
+      ]
+    },
+        {
+      "woche_number": 5,
+      "slug": "woche-5",
+      "title": "Woche 5",
+      "main_text": {
+        "de": "Haupttext der Woche."},
+      "bild_url": "../img/woche-5_header.png",
+      "video_url": "",
+      "podcast_url": "",
+      "days": [
+        {
+          "day_index": 1,
+          "day_key": "monday",
+          "reflection": {
+            "de": "Tagesimpuls Montag."},
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 2,
+          "day_key": "tuesday",
+          "reflection": {
+            "de": "Tagesimpuls Dienstag."},
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 3,
+          "day_key": "wednesday",
+          "reflection": {
+            "de": "Tagesimpuls Mittwoch."},
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 4,
+          "day_key": "thursday",
+          "reflection": {
+            "de": "Tagesimpuls Donnerstag."},
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 5,
+          "day_key": "friday",
+          "reflection": {
+            "de": "Tagesimpuls Freitag."},
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 6,
+          "day_key": "saturday",
+          "reflection": {
+            "de": "Tagesimpuls Samstag."},
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 7,
+          "day_key": "sunday",
+          "reflection": {
+            "de": "Tagesimpuls Sonntag."},
+          "video_url": "",
+          "podcast_url": ""
+        }
+      ]
+    },
+        {
+      "woche_number": 6,
+      "slug": "woche-6",
+      "title": "Karfreitag",
+      "main_text": {
+        "de": "Haupttext der Woche."},
+      "bild_url": "../img/woche-6_header.png",
+      "video_url": "",
+      "podcast_url": "",
+      "days": [
+        {
+          "day_index": 1,
+          "day_key": "monday",
+          "reflection": {
+            "de": "Tagesimpuls Montag."},
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 2,
+          "day_key": "tuesday",
+          "reflection": {
+            "de": "Tagesimpuls Dienstag."},
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 3,
+          "day_key": "wednesday",
+          "reflection": {
+            "de": "Tagesimpuls Mittwoch."},
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 4,
+          "day_key": "thursday",
+          "reflection": {
+            "de": "Tagesimpuls Donnerstag."},
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 5,
+          "day_key": "friday",
+          "reflection": {
+            "de": "Tagesimpuls Freitag."},
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 6,
+          "day_key": "saturday",
+          "reflection": {
+            "de": "Tagesimpuls Samstag."},
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 7,
+          "day_key": "sunday",
+          "reflection": {
+            "de": "Tagesimpuls Sonntag."},
+          "video_url": "",
+          "podcast_url": ""
+        }
+      ]
+    },
+     {
+      "woche_number": 7,
+      "slug": "woche-7",
+      "title": "Ostersonntag",
+      "main_text": {
+        "de": "Haupttext der Woche."},
+      "bild_url": "../img/woche-7_header.png",
+      "video_url": "",
+      "podcast_url": "",
+      "days": [
+        {
+          "day_index": 1,
+          "day_key": "monday",
+          "reflection": {
+            "de": "Tagesimpuls Montag."},
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 2,
+          "day_key": "tuesday",
+          "reflection": {
+            "de": "Tagesimpuls Dienstag."},
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 3,
+          "day_key": "wednesday",
+          "reflection": {
+            "de": "Tagesimpuls Mittwoch."},
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 4,
+          "day_key": "thursday",
+          "reflection": {
+            "de": "Tagesimpuls Donnerstag."},
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 5,
+          "day_key": "friday",
+          "reflection": {
+            "de": "Tagesimpuls Freitag."},
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 6,
+          "day_key": "saturday",
+          "reflection": {
+            "de": "Tagesimpuls Samstag."},
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 7,
+          "day_key": "sunday",
+          "reflection": {
+            "de": "Tagesimpuls Sonntag."},
+          "video_url": "",
+          "podcast_url": ""
+        }
+      ]
+    }
+  ]
+}
