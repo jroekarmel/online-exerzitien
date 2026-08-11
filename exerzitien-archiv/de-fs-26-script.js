@@ -3,7 +3,7 @@ const weeksGrid = document.querySelector('#weeks-grid');
 let titleText;
 
 async function loadData(){
-let resp = await fetch('../data/exerzitien/2026_fs/de-inhalt.json');
+let resp = await fetch('../data/exerzitien/2026_fs/2026_fs_de-inhalt.json');
     fs26Data = await resp.json();
 }
 
