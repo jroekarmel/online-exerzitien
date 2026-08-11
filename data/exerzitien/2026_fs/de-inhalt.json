@@ -50,9 +50,9 @@
     {
       "woche_number": 1,
       "slug": "woche-1",
-      "title": "Woche 1",
-      "main_text": {
-        "de": "Haupttext der Woche."},
+      "title": "1. Sonntag: Mit Christus siegen",
+      "kurz_text": "Die Wüste durchqueren: Die Prüfung annehmen, um Christus aufzunehmen",
+      "main_text": "",
       "bild_url": "../img/woche-1_header.png",
       "video_url": "",
       "podcast_url": "",
@@ -118,7 +118,8 @@
         {
       "woche_number": 2,
       "slug": "woche-2",
-      "title": "Woche 2",
+      "title": "2. Sonntag: „Unser Herz – entflammt durch das Herz Christi“  ",
+      "kurz_text": "Vom brennenden Dornbusch zur Herrlichkeit des Kreuzes",
       "main_text": {
         "de": "Haupttext der Woche."},
       "bild_url": "../img/woche-2_header.png",
@@ -186,7 +187,8 @@
         {
       "woche_number": 3,
       "slug": "woche-3",
-      "title": "Woche 3",
+      "title": "3. Sonntag: „Wenn Eva wieder Maria wird”",
+      "kurz_text": "Jesus am Brunnen: Vom Nehmen zum Empfangen",
       "main_text": {
         "de": "Haupttext der Woche."},
       "bild_url": "../img/woche-3_header.png",
@@ -254,7 +256,8 @@
         {
       "woche_number": 4,
       "slug": "woche-4",
-      "title": "Woche 4",
+      "title": "4. Sonntag: „Mit den Augen Mariens sehen”",
+      "kurz_text": "Von der Blindheit zum Schauen: Die erlösende Menschwerdung und die Barmherzigkeit Gottes",
       "main_text": {
         "de": "Haupttext der Woche."},
       "bild_url": "../img/woche-4_header.png",
@@ -322,7 +325,8 @@
         {
       "woche_number": 5,
       "slug": "woche-5",
-      "title": "Woche 5",
+      "title": "5. Sonntag: „Die Freiheit der Kinder Gottes wiedererlangen“",
+      "kurz_text": "Schlaf, Tod und Erwachen: Die Freundschaft Jesu und das Pascha-Mysterium",
       "main_text": {
         "de": "Haupttext der Woche."},
       "bild_url": "../img/woche-5_header.png",
@@ -390,7 +394,8 @@
         {
       "woche_number": 6,
       "slug": "woche-6",
-      "title": "Karfreitag",
+      "title": "Karwoche: „Die Liebeswunde am Kreuz”",
+      "kurz_text": "Im Herzen des Tempels und der Liebe",
       "main_text": {
         "de": "Haupttext der Woche."},
       "bild_url": "../img/woche-6_header.png",
@@ -458,7 +463,8 @@
      {
       "woche_number": 7,
       "slug": "woche-7",
-      "title": "Ostersonntag",
+      "title": "Ostern: Vom Herzen aus Stein zum Herzen aus Fleisch",
+      "kurz_text": "Das offene Grab und die auferstandene Liebe",
       "main_text": {
         "de": "Haupttext der Woche."},
       "bild_url": "../img/woche-7_header.png",
