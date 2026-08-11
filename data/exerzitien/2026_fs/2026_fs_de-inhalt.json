@@ -1,7 +1,7 @@
 {
   "retreat_id": "lent-2026-st-john-of-the-cross",
   "season_type": "lent",
-  "woches": [
+  "weeks": [
     {
       "woche_number": 0,
       "slug": "woche-0",
@@ -21,10 +21,14 @@
           "day_index": 1,
           "day_key": "thursday",
           "reflection": {
-            "de": "Tagesimpuls Donnerstag."
-          },
-          "video_url": "",
-          "podcast_url": ""
+            "day": "",
+            "motif": "",
+            "bible": "",
+            "bible_ref": "",
+            "saint_text": "",
+            "saint_text_ref": "",
+            "prayer": ""
+          }
         },
         {
           "day_index": 2,
@@ -99,10 +103,14 @@
           "day_index": 4,
           "day_key": "thursday",
           "reflection": {
-            "de": "Tagesimpuls Donnerstag."
-          },
-          "video_url": "",
-          "podcast_url": ""
+            "day": "",
+            "motif": "",
+            "bible": "",
+            "bible_ref": "",
+            "saint_text": "",
+            "saint_text_ref": "",
+            "prayer": ""
+          }
         },
         {
           "day_index": 5,
@@ -179,10 +187,14 @@
           "day_index": 4,
           "day_key": "thursday",
           "reflection": {
-            "de": "Tagesimpuls Donnerstag."
-          },
-          "video_url": "",
-          "podcast_url": ""
+            "day": "",
+            "motif": "",
+            "bible": "",
+            "bible_ref": "",
+            "saint_text": "",
+            "saint_text_ref": "",
+            "prayer": ""
+          }
         },
         {
           "day_index": 5,
@@ -225,7 +237,7 @@
       "video_url": "https://www.youtube.com/watch?v=695dAu-JeL8",
       "podcast_url": "https://www.buzzsprout.com/870355/episodes/18788136-wenn-eva-wieder-maria-wird-3-sonntag-fastenzeit-2026.mp3?download=true",
       "a4_pdf": "https://mcusercontent.com/7c9d2aa0ecc1fde64fd44bc67/files/9320c08e-9a64-42ab-301a-5fe52093a42b/W3_DE.01.pdf",
-      "phone_pdf":"https://mcusercontent.com/7c9d2aa0ecc1fde64fd44bc67/files/c90f0de2-92d7-ac77-c8ac-d7b2aa981001/W3_DE_mobil.01.pdf",
+      "phone_pdf": "https://mcusercontent.com/7c9d2aa0ecc1fde64fd44bc67/files/c90f0de2-92d7-ac77-c8ac-d7b2aa981001/W3_DE_mobil.01.pdf",
       "mail_link": "https://mailchi.mp/karmel/einladung-zu-adventexerzitien-2018-7363328",
       "days": [
         {
@@ -259,10 +271,14 @@
           "day_index": 4,
           "day_key": "thursday",
           "reflection": {
-            "de": "Tagesimpuls Donnerstag."
-          },
-          "video_url": "",
-          "podcast_url": ""
+            "day": "",
+            "motif": "",
+            "bible": "",
+            "bible_ref": "",
+            "saint_text": "",
+            "saint_text_ref": "",
+            "prayer": ""
+          }
         },
         {
           "day_index": 5,
@@ -339,10 +355,14 @@
           "day_index": 4,
           "day_key": "thursday",
           "reflection": {
-            "de": "Tagesimpuls Donnerstag."
-          },
-          "video_url": "",
-          "podcast_url": ""
+            "day": "",
+            "motif": "",
+            "bible": "",
+            "bible_ref": "",
+            "saint_text": "",
+            "saint_text_ref": "",
+            "prayer": ""
+          }
         },
         {
           "day_index": 5,
@@ -419,10 +439,14 @@
           "day_index": 4,
           "day_key": "thursday",
           "reflection": {
-            "de": "Tagesimpuls Donnerstag."
-          },
-          "video_url": "",
-          "podcast_url": ""
+            "day": "",
+            "motif": "",
+            "bible": "",
+            "bible_ref": "",
+            "saint_text": "",
+            "saint_text_ref": "",
+            "prayer": ""
+          }
         },
         {
           "day_index": 5,
@@ -499,10 +523,14 @@
           "day_index": 4,
           "day_key": "thursday",
           "reflection": {
-            "de": "Tagesimpuls Donnerstag."
-          },
-          "video_url": "",
-          "podcast_url": ""
+            "day": "",
+            "motif": "",
+            "bible": "",
+            "bible_ref": "",
+            "saint_text": "",
+            "saint_text_ref": "",
+            "prayer": ""
+          }
         },
         {
           "day_index": 5,
@@ -580,10 +608,14 @@
           "day_index": 4,
           "day_key": "thursday",
           "reflection": {
-            "de": "Tagesimpuls Donnerstag."
-          },
-          "video_url": "",
-          "podcast_url": ""
+            "day": "",
+            "motif": "",
+            "bible": "",
+            "bible_ref": "",
+            "saint_text": "",
+            "saint_text_ref": "",
+            "prayer": ""
+          }
         },
         {
           "day_index": 5,

@@ -8,7 +8,7 @@ let resp = await fetch('../data/exerzitien/2026_fs/2026_fs_de-inhalt.json');
 }
 
 function displayWeeks(){
-  const weeks = fs26Data.woches;
+  const weeks = fs26Data.weeks;
     titleText ='';
     weeks.forEach(item => {
     
