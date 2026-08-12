@@ -26,6 +26,11 @@ function displayWeeks(){
         <p class="archive-theme">
           ${item.kurz_text}
         </p>
+        <div class="card-links">
+          <a href="${item.mail_link}" target="_blank" rel="noopener noreferrer">
+            Materialien dieses Impulses
+          </a>
+        </div>
       </article>
         `;
     });
