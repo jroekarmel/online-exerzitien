@@ -93,7 +93,9 @@ input,
 select,
 textarea {
   font: inherit;
-    display: inline-flex;
+}
+.button-signup{
+      display: inline-flex;
   align-items: center;
   justify-content: center;
   min-height: 2.75rem;
