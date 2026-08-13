@@ -1,14 +1,22 @@
-let fs26Data;
+let data;
 const weeksGrid = document.querySelector('#weeks-grid');
 let titleText;
 
-async function loadData(){
-let resp = await fetch('../data/exerzitien/2026_fs/2026_fs_de-inhalt.json');
-    fs26Data = await resp.json();
+async function loadData() {
+  const jsonPath = weeksGrid.dataset.json;
+  const response = await fetch(jsonPath);
+
+  if (!response.ok) {
+    throw new Error(
+      `Die JSON-Datei konnte nicht geladen werden: ${response.status} ${response.statusText}`
+    );
+  }
+
+  return response.json();
 }
 
-function displayWeeks(){
-  const weeks = fs26Data.weeks;
+function displayWeeks(data){
+  const weeks = data.weeks;
     titleText ='';
     weeks.forEach(item => {
     
