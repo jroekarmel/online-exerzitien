@@ -1,0 +1,650 @@
+{
+  "retreat_id": "lent-2025-therese_von_lisieux",
+  "season_type": "lent",
+  "weeks": [
+    {
+      "woche_number": 0,
+      "slug": "woche-0",
+      "title": "Aschermittwoch: „Oh ja! Auf Erden sollte man sich an nichts binden“",
+      "kurz_text": "Was ist die Fastenzeit? Eine Zeit, in der wir erneut nachdenken über unser christliches Leben, unsere Sünden und die Barmherzigkeit Gottes? Eine Zeit, in der wir uns wieder neu auf den Weg machen, IHM zu begegnen?",
+      "main_text": {
+        "de": "Haupttext der Woche."
+      },
+      "bild_url": "../img/2025_fs/2025_fs_woche-0_header.png",
+      "video_url": "https://www.youtube.com/watch?v=5Fc7kioe_Og",
+      "podcast_url": "https://www.buzzsprout.com/870355/episodes/16730863",
+      "a4_pdf": "https://mcusercontent.com/7c9d2aa0ecc1fde64fd44bc67/files/9b4502bc-7c21-5370-92bd-3420c5986297/Intro_DE.pdf",
+      "phone_pdf": "https://mcusercontent.com/7c9d2aa0ecc1fde64fd44bc67/files/84bf7309-c939-66b8-81ab-fe3b741ba90c/Intro_DE_mobil.pdf",
+      "mail_link": "https://mailchi.mp/karmel/einladung-zu-adventexerzitien-2018-7362270",
+      "days": [
+        {
+          "day_index": 1,
+          "day_key": "thursday",
+          "reflection": {
+            "day": "",
+            "motif": "",
+            "bible": "",
+            "bible_ref": "",
+            "saint_text": "",
+            "saint_text_ref": "",
+            "prayer": ""
+          }
+        },
+        {
+          "day_index": 2,
+          "day_key": "friday",
+          "reflection": {
+            "de": "Tagesimpuls Freitag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 3,
+          "day_key": "saturday",
+          "reflection": {
+            "de": "Tagesimpuls Samstag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 4,
+          "day_key": "sunday",
+          "reflection": {
+            "de": "Tagesimpuls Sonntag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        }
+      ]
+    },
+    {
+      "woche_number": 1,
+      "slug": "woche-1",
+      "title": "1. Sonntag: Selig jener, der würdig erachtet wurde, Anfechtung zu erleiden!",
+      "kurz_text": "Prüfungen und Versuchungen. Mit Thérèse durch den „Sturm“",
+      "main_text": "",
+      "bild_url": "../img/2025_fs/2025_fs_woche-1_header.png",
+      "video_url": "https://www.youtube.com/watch?v=n4sP5uplUng",
+      "podcast_url": "https://www.buzzsprout.com/870355/episodes/16744227-1-woche-der-fastenzeit-mit-der-hl-therese-von-lisieux.mp3?download=true",
+      "a4_pdf": "https://mcusercontent.com/7c9d2aa0ecc1fde64fd44bc67/files/bb825af7-aa33-15f7-4fe0-a1d1ffca7c30/2025Ostern_W1_DE.pdf",
+      "phone_pdf": "https://mcusercontent.com/7c9d2aa0ecc1fde64fd44bc67/files/77967e5e-1116-6616-de5d-3da3dcf29d78/W1_DE_mobil.pdf",
+      "mail_link": "https://mailchi.mp/karmel/einladung-zu-adventexerzitien-2018-7362289",
+      "days": [
+        {
+          "day_index": 1,
+          "day_key": "monday",
+          "reflection": {
+            "de": "Tagesimpuls Montag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 2,
+          "day_key": "tuesday",
+          "reflection": {
+            "de": "Tagesimpuls Dienstag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 3,
+          "day_key": "wednesday",
+          "reflection": {
+            "de": "Tagesimpuls Mittwoch."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 4,
+          "day_key": "thursday",
+          "reflection": {
+            "day": "",
+            "motif": "",
+            "bible": "",
+            "bible_ref": "",
+            "saint_text": "",
+            "saint_text_ref": "",
+            "prayer": ""
+          }
+        },
+        {
+          "day_index": 5,
+          "day_key": "friday",
+          "reflection": {
+            "de": "Tagesimpuls Freitag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 6,
+          "day_key": "saturday",
+          "reflection": {
+            "de": "Tagesimpuls Samstag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 7,
+          "day_key": "sunday",
+          "reflection": {
+            "de": "Tagesimpuls Sonntag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        }
+      ]
+    },
+    {
+      "woche_number": 2,
+      "slug": "woche-2",
+      "title": "2. Sonntag: „O Antlitz, schöner als die Lilien und Rosen des Frühlings!“",
+      "kurz_text": "Heute gibt uns das Evangelium die Gelegenheit, Jesu Verklärung zu erleben, die Offenbarung des Sohnes Gottes, und das auf dem Berg, dem traditionellen Ort der Theophanie, der göttlichen Manifestationen in der Heiligen Schrift. Während er betete, veränderte sich das Aussehen seines Gesichtes …",
+      "main_text": {
+        "de": "Haupttext der Woche."
+      },
+      "bild_url": "../img/2025_fs/2025_fs_woche-2_header.png",
+      "video_url": "https://www.youtube.com/watch?v=6WWCWeLa-mY",
+      "podcast_url": "https://karmelimpulse.buzzsprout.com/",
+      "a4_pdf": "https://mcusercontent.com/7c9d2aa0ecc1fde64fd44bc67/files/5411a056-e904-7083-fd6d-671047f6e5d7/2025Ostern_W2_DE.pdf",
+      "phone_pdf": "https://mcusercontent.com/7c9d2aa0ecc1fde64fd44bc67/files/30c51e32-8df4-f17a-ee56-feb48094cc67/2025Ostern_W2_DE_mobil.pdf",
+      "mail_link": "https://mailchi.mp/karmel/einladung-zu-adventexerzitien-2018-7362330",
+      "days": [
+        {
+          "day_index": 1,
+          "day_key": "monday",
+          "reflection": {
+            "de": "Tagesimpuls Montag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 2,
+          "day_key": "tuesday",
+          "reflection": {
+            "de": "Tagesimpuls Dienstag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 3,
+          "day_key": "wednesday",
+          "reflection": {
+            "de": "Tagesimpuls Mittwoch."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 4,
+          "day_key": "thursday",
+          "reflection": {
+            "day": "",
+            "motif": "",
+            "bible": "",
+            "bible_ref": "",
+            "saint_text": "",
+            "saint_text_ref": "",
+            "prayer": ""
+          }
+        },
+        {
+          "day_index": 5,
+          "day_key": "friday",
+          "reflection": {
+            "de": "Tagesimpuls Freitag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 6,
+          "day_key": "saturday",
+          "reflection": {
+            "de": "Tagesimpuls Samstag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 7,
+          "day_key": "sunday",
+          "reflection": {
+            "de": "Tagesimpuls Sonntag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        }
+      ]
+    },
+    {
+      "woche_number": 3,
+      "slug": "woche-3",
+      "title": "3. Sonntag: „Ich spürte ein großes Verlangen, an der Bekehrung der Sünder zu arbeiten.“",
+      "kurz_text": "Unweigerlich stellt sich die Frage nach der Sünde, die die Ursache für dieses Unglück sein könnte. Diese Theorie verwirft Jesus: Diejenigen, die von Pilatus niedergemetzelt oder vom Turm von Schiloach zermalmt wurden, haben nicht mehr gesündigt als die anderen.",
+      "main_text": {
+        "de": "Haupttext der Woche."
+      },
+      "bild_url": "../img/2025_fs/2025_fs_woche-3_header.png",
+      "video_url": "https://www.youtube.com/watch?v=AU_InWGu2TA",
+      "podcast_url": "https://karmelimpulse.buzzsprout.com/",
+      "a4_pdf": "https://mcusercontent.com/7c9d2aa0ecc1fde64fd44bc67/files/e5da696e-3e29-977c-acae-530dd268b424/2025Ostern_W3_DE.pdf",
+      "phone_pdf": "https://mcusercontent.com/7c9d2aa0ecc1fde64fd44bc67/files/12bcc54e-15f7-8b4e-d748-a528b14a292e/2025Ostern_W3_DE_mobil.pdf",
+      "mail_link": "https://mailchi.mp/karmel/einladung-zu-adventexerzitien-2018-7362348",
+      "days": [
+        {
+          "day_index": 1,
+          "day_key": "monday",
+          "reflection": {
+            "de": "Tagesimpuls Montag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 2,
+          "day_key": "tuesday",
+          "reflection": {
+            "de": "Tagesimpuls Dienstag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 3,
+          "day_key": "wednesday",
+          "reflection": {
+            "de": "Tagesimpuls Mittwoch."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 4,
+          "day_key": "thursday",
+          "reflection": {
+            "day": "",
+            "motif": "",
+            "bible": "",
+            "bible_ref": "",
+            "saint_text": "",
+            "saint_text_ref": "",
+            "prayer": ""
+          }
+        },
+        {
+          "day_index": 5,
+          "day_key": "friday",
+          "reflection": {
+            "de": "Tagesimpuls Freitag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 6,
+          "day_key": "saturday",
+          "reflection": {
+            "de": "Tagesimpuls Samstag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 7,
+          "day_key": "sunday",
+          "reflection": {
+            "de": "Tagesimpuls Sonntag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        }
+      ]
+    },
+    {
+      "woche_number": 4,
+      "slug": "woche-4",
+      "title": "4. Sonntag: „Hätte ich auch alle begehbaren Sünden auf dem Gewissen...\"",
+      "kurz_text": "Die unendliche Barmherzigkeit Gottes und seine bedingungslose Liebe",
+      "main_text": {
+        "de": "Haupttext der Woche."
+      },
+      "bild_url": "../img/2025_fs/2025_fs_woche-4_header.png",
+      "video_url": "https://www.youtube.com/watch?v=jQsCuvOGjoA",
+      "podcast_url": "https://karmelimpulse.buzzsprout.com/",
+      "a4_pdf": "https://mcusercontent.com/7c9d2aa0ecc1fde64fd44bc67/files/04e3b3ff-de4d-408f-7253-04b708bdab26/2025Ostern_W4_DE.pdf",
+      "phone_pdf": "https://mcusercontent.com/7c9d2aa0ecc1fde64fd44bc67/files/5fd46ba4-c939-43d2-982f-991dba1ac74b/2025Ostern_W4_DE_mobil.pdf",
+      "mail_link": "https://mailchi.mp/karmel/einladung-zu-adventexerzitien-2018-7362376",
+      "days": [
+        {
+          "day_index": 1,
+          "day_key": "monday",
+          "reflection": {
+            "de": "Tagesimpuls Montag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 2,
+          "day_key": "tuesday",
+          "reflection": {
+            "de": "Tagesimpuls Dienstag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 3,
+          "day_key": "wednesday",
+          "reflection": {
+            "de": "Tagesimpuls Mittwoch."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 4,
+          "day_key": "thursday",
+          "reflection": {
+            "day": "",
+            "motif": "",
+            "bible": "",
+            "bible_ref": "",
+            "saint_text": "",
+            "saint_text_ref": "",
+            "prayer": ""
+          }
+        },
+        {
+          "day_index": 5,
+          "day_key": "friday",
+          "reflection": {
+            "de": "Tagesimpuls Freitag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 6,
+          "day_key": "saturday",
+          "reflection": {
+            "de": "Tagesimpuls Samstag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 7,
+          "day_key": "sunday",
+          "reflection": {
+            "de": "Tagesimpuls Sonntag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        }
+      ]
+    },
+    {
+      "woche_number": 5,
+      "slug": "woche-5",
+      "title": "5. Sonntag: „Eine arme Sünderin wie ich“",
+      "kurz_text": "Vom Elend zur Barmherzigkeit…",
+      "main_text": {
+        "de": "Haupttext der Woche."
+      },
+      "bild_url": "../img/2025_fs/2025_fs_woche-5_header.png",
+      "video_url": "https://www.youtube.com/watch?v=dNjMyIvSe1o",
+      "podcast_url": "https://karmelimpulse.buzzsprout.com/",
+      "a4_pdf": "https://mcusercontent.com/7c9d2aa0ecc1fde64fd44bc67/files/125ab3f1-9ebc-cad1-5819-9bbf466385f1/2025Ostern_W5_DE.pdf",
+      "phone_pdf": "https://mcusercontent.com/7c9d2aa0ecc1fde64fd44bc67/files/a9d1a8dd-786f-288e-f8a3-74ddf650b107/2025Ostern_W5_DE_mobil.pdf",
+      "mail_link": "https://mailchi.mp/karmel/einladung-zu-adventexerzitien-2018-7362397",
+      "days": [
+        {
+          "day_index": 1,
+          "day_key": "monday",
+          "reflection": {
+            "de": "Tagesimpuls Montag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 2,
+          "day_key": "tuesday",
+          "reflection": {
+            "de": "Tagesimpuls Dienstag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 3,
+          "day_key": "wednesday",
+          "reflection": {
+            "de": "Tagesimpuls Mittwoch."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 4,
+          "day_key": "thursday",
+          "reflection": {
+            "day": "",
+            "motif": "",
+            "bible": "",
+            "bible_ref": "",
+            "saint_text": "",
+            "saint_text_ref": "",
+            "prayer": ""
+          }
+        },
+        {
+          "day_index": 5,
+          "day_key": "friday",
+          "reflection": {
+            "de": "Tagesimpuls Freitag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 6,
+          "day_key": "saturday",
+          "reflection": {
+            "de": "Tagesimpuls Samstag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 7,
+          "day_key": "sunday",
+          "reflection": {
+            "de": "Tagesimpuls Sonntag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        }
+      ]
+    },
+    {
+      "woche_number": 6,
+      "slug": "woche-6",
+      "title": "Karwoche: „Schau Jesus ins Antlitz ... Da wirst du sehen, wie er uns liebt!“",
+      "kurz_text": "Das „Schauspiel“ der Passion",
+      "main_text": {
+        "de": "Haupttext der Woche."
+      },
+      "bild_url": "../img/2025_fs/2025_fs_woche-6_header.png",
+      "video_url": "https://www.youtube.com/watch?v=T3bmfEUrSUo",
+      "podcast_url": "https://karmelimpulse.buzzsprout.com/",
+      "a4_pdf": "https://mcusercontent.com/7c9d2aa0ecc1fde64fd44bc67/files/438179c0-cdc3-f0ec-6d30-61a00917afed/2025Ostern_W6_DE.pdf",
+      "phone_pdf": "https://mcusercontent.com/7c9d2aa0ecc1fde64fd44bc67/files/1de6c24e-ead4-4b97-5d24-36b666c4f126/2025Ostern_W6_DE_mobil.pdf",
+      "mail_link": "https://mailchi.mp/karmel/einladung-zu-adventexerzitien-2018-7362429",
+      "days": [
+        {
+          "day_index": 1,
+          "day_key": "monday",
+          "reflection": {
+            "de": "Tagesimpuls Montag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 2,
+          "day_key": "tuesday",
+          "reflection": {
+            "de": "Tagesimpuls Dienstag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 3,
+          "day_key": "wednesday",
+          "reflection": {
+            "de": "Tagesimpuls Mittwoch."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 4,
+          "day_key": "thursday",
+          "reflection": {
+            "day": "",
+            "motif": "",
+            "bible": "",
+            "bible_ref": "",
+            "saint_text": "",
+            "saint_text_ref": "",
+            "prayer": ""
+          }
+        },
+        {
+          "day_index": 5,
+          "day_key": "friday",
+          "reflection": {
+            "de": "Tagesimpuls Freitag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 6,
+          "day_key": "saturday",
+          "reflection": {
+            "de": "Tagesimpuls Samstag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 7,
+          "day_key": "sunday",
+          "reflection": {
+            "de": "Tagesimpuls Sonntag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        }
+      ]
+    },
+    {
+      "woche_number": 7,
+      "slug": "woche-7",
+      "title": "Ostern: „Das ist mein Himmel ... das ist meine Bestimmung: Aus Liebe leben!!!“",
+      "kurz_text": "„Christus ist auferstanden, hat durch seinen Tod den Tod vernichtet und uns das Leben geschenkt, auf dass wir, Söhne im Sohn, im Geist rufen: Abba, Vater!“",
+      "main_text": {
+        "gospel": "",
+        "de": "Haupttext der Woche."
+      },
+      "bild_url": "../img/2025_fs/2025_fs_woche-7_header.png",
+      "video_url": "https://www.youtube.com/watch?v=B6VrnUiFDZI",
+      "podcast_url": "https://karmelimpulse.buzzsprout.com/",
+      "a4_pdf": "https://mcusercontent.com/7c9d2aa0ecc1fde64fd44bc67/files/510e029b-4698-f76a-c5a9-93da3deee409/2025Ostern_WO_DE.pdf",
+      "phone_pdf": "https://mcusercontent.com/7c9d2aa0ecc1fde64fd44bc67/files/c42d6dfa-0708-db30-944b-b5e71aeab5aa/2025Ostern_WO_DE_mobil.pdf",
+      "mail_link": "https://mailchi.mp/karmel/einladung-zu-adventexerzitien-2018-7362465",
+      "days": [
+        {
+          "day_index": 1,
+          "day_key": "monday",
+          "reflection": {
+            "de": "Tagesimpuls Montag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 2,
+          "day_key": "tuesday",
+          "reflection": {
+            "de": "Tagesimpuls Dienstag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 3,
+          "day_key": "wednesday",
+          "reflection": {
+            "de": "Tagesimpuls Mittwoch."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 4,
+          "day_key": "thursday",
+          "reflection": {
+            "day": "",
+            "motif": "",
+            "bible": "",
+            "bible_ref": "",
+            "saint_text": "",
+            "saint_text_ref": "",
+            "prayer": ""
+          }
+        },
+        {
+          "day_index": 5,
+          "day_key": "friday",
+          "reflection": {
+            "de": "Tagesimpuls Freitag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 6,
+          "day_key": "saturday",
+          "reflection": {
+            "de": "Tagesimpuls Samstag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 7,
+          "day_key": "sunday",
+          "reflection": {
+            "de": "Tagesimpuls Sonntag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        }
+      ]
+    }
+  ]
+}
