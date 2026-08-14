@@ -1,0 +1,300 @@
+% !TeX program = pdflatex
+% TeXworks template based on Intro_DE.01.pdf
+% Place image files in the same folder as this file.
+
+\documentclass[A4paper,14pt]{extarticle}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[ngerman]{babel}
+% Body text: Garamond-style
+\usepackage{ebgaramond}
+
+% Headings: Avenir-like sans-serif fallback
+\usepackage[scaled=0.95]{helvet}
+
+\usepackage{geometry}
+\geometry{left=0cm,right=0cm,top=1.5cm,bottom=1.5cm}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{parskip}
+\usepackage{ragged2e}
+\usepackage{etoolbox}
+\usepackage{changepage}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+%\usepackage{microtype}
+\usepackage{tikz}
+\usepackage{needspace}
+
+% ---------- Colours sampled approximately from the PDF ----------
+\definecolor{karmelviolett}{HTML}{46417D}
+\definecolor{karmelvioletthell}{HTML}{E9E8F2}
+\definecolor{evangeliumbeige}{HTML}{F8EEDB}
+\definecolor{bodygray}{HTML}{444444}
+
+% ---------- Document dimensions ----------
+\newlength{\contentwidth}
+\setlength{\contentwidth}{16.8cm}
+\newlength{\sectionwidth}
+\setlength{\sectionwidth}{\paperwidth}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.55em}
+
+% ---------- Header and footer ----------
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+
+% Page number at bottom-left
+\fancyfoot[L]{%
+  \hspace*{1.15cm}%
+  \small\thepage%
+}
+
+% No centre footer: text and logo are now in right section
+\fancyfoot[C]{}
+
+% Right-aligned copyright text and logo
+\fancyfoot[R]{%
+  \scriptsize\color{gray}%
+  \parbox[b]{10.5cm}{%
+    \raggedleft
+    Online-Exerzitien in der Fastenzeit 2026 –
+    mit dem Hl.\ Johannes vom Kreuz\\[-1pt]
+    © Online-Exerzitien des Karmel. Alle Rechte vorbehalten.%
+  }%
+  \hspace{0.25cm}%
+  \raisebox{-0.15cm}{%
+   \includegraphics[height=0.75cm]{logo.png}%
+  \hspace{0.25cm}%
+  }%
+}
+
+\setlength{\footskip}{1.1cm}
+
+% ---------- Utility commands ----------
+\newcommand{\contentstart}{\begin{adjustwidth}{1.5cm}{1.5cm}}
+\newcommand{\contentend}{\end{adjustwidth}}
+
+\newcommand{\topimage}[1]{%
+  \noindent
+  \hspace*{-0.0cm}%
+  \includegraphics[
+    width=\paperwidth,
+    height=6.85cm,
+    keepaspectratio=false
+  ]{#1}%
+  \par
+}
+\newcommand{\banner}[1]{%
+  \noindent
+  \colorbox{karmelviolett}{%
+\makebox[\dimexpr\paperwidth+1\fboxsep\relax][c]{%
+      \small\color{white}#1%
+    }%
+  }%
+  \par
+}
+
+
+\newcommand{\evangeliumbox}[1]{%
+  \noindent
+  \colorbox{evangeliumbeige}{%
+    \parbox{\dimexpr\linewidth-1\fboxsep\relax}{%
+      \color{bodygray}\small
+\fontsize{13}{16}\selectfont
+      #1%
+    }%
+  }%
+  \par\vspace{0.5cm}%
+}
+
+\newcommand{\hOne}[1]{%
+  \needspace{3\baselineskip}%
+  {\sffamily\bfseries\Large\color{karmelviolett}#1\par}%
+\hspace{5mm}%
+}
+
+\newcommand{\hTwo}[1]{%
+  \needspace{3\baselineskip}%
+  {\sffamily\bfseries\large\color{karmelviolett}#1\par}%
+}
+
+\newcommand{\hThree}[1]{%
+  {\sffamily\bfseries\normalsize\color{karmelviolett}#1\par}%
+}
+\newcommand{\roundedimage}[3]{%
+  \begin{tikzpicture}[baseline=(image.base)]
+    \clip[rounded corners=3mm]
+      (0,0) rectangle (#1,#2);
+    \node[anchor=south west,inner sep=0pt] (image) at (0,0) {%
+      \includegraphics[
+        width=#1,
+        height=#2,
+        keepaspectratio=false
+      ]{#3}%
+    };
+  \end{tikzpicture}%
+}
+
+% Full-width alternating devotional block.
+% #1 background: white or purple
+% #2 title, #3 text, #4 image, #5 image side: left or right
+\newcommand{\devotionalblock}[5]{%
+  \ifstrequal{#1}{purple}%
+    {\def\blockcolor{karmelvioletthell}}%
+    {\def\blockcolor{white}}%
+\fontsize{12}{15}\selectfont
+\noindent
+\hspace*{-5mm}%
+\colorbox{\blockcolor}{%
+  \parbox{\dimexpr\paperwidth+21mm-2\fboxsep\relax}{%
+      \vspace{0.35cm}%
+      \begin{adjustwidth}{1.2cm}{1.5cm}%
+
+      % Heading spans the full text area.
+      \hThree{#2}%
+      \vspace{0.30cm}%
+
+      % Only text and image appear side by side below the heading.
+\ifstrequal{#5}{left}{%
+  \begin{minipage}[t]{0.24\linewidth}
+    \vspace{0pt}%
+    \centering
+    \roundedimage{0.95\linewidth}{3.25cm}{#4}%
+  \end{minipage}%
+  \hspace{0.015\linewidth}%
+  \begin{minipage}[t]{0.72\linewidth}
+    \vspace{0pt}%
+    #3%
+  \end{minipage}%
+}{%
+  \begin{minipage}[t]{0.72\linewidth}
+    \vspace{0pt}%
+    #3%
+  \end{minipage}%
+  \hspace{0.015\linewidth}%
+  \begin{minipage}[t]{0.24\linewidth}
+    \vspace{0pt}%
+    \centering
+    \roundedimage{0.95\linewidth}{3.25cm}{#4}%
+  \end{minipage}%
+}%
+      \end{adjustwidth}%
+      \vspace{0.35cm}%
+    }%
+  }%
+  \par\vspace{0.3cm}%
+}
+
+\begin{document}
+% ================= PAGE 1 =================
+\vspace*{-2.28cm}
+\topimage{hero.jpg}
+\vspace{-5.8cm}
+
+\hspace*{1.45cm}%
+
+\vspace{4.4cm}
+\banner{Online-Exerzitien zur Fastenzeit 2026 – Mit dem heiligen Johannes vom Kreuz: „Christus in der Tiefe unseres Herzens begegnen“}
+\contentstart
+\hOne{Evangelium Jesu Christi nach Matthäus (Mt 6,1–6.16–18)}
+
+\evangeliumbox{%
+In jener Zeit sprach Jesus zu seinen Jüngern: Hütet euch, eure Gerechtigkeit vor den Menschen zu tun, um von ihnen gesehen zu werden; sonst habt ihr keinen Lohn von eurem Vater im Himmel zu erwarten.
+
+\medskip
+
+Wenn du Almosen gibst, posaune es nicht vor dir her, wie es die Heuchler in den Synagogen und auf den Gassen tun, um von den Leuten gelobt zu werden! Amen, ich sage euch: Sie haben ihren Lohn bereits erhalten. Wenn du Almosen gibst, soll deine linke Hand nicht wissen, was deine rechte tut, damit dein Almosen im Verborgenen bleibt; und dein Vater, der auch das Verborgene sieht, wird es dir vergelten.
+
+\medskip
+
+Wenn ihr betet, macht es nicht wie die Heuchler! Sie stellen sich beim Gebet gern in die Synagogen und an die Straßenecken, damit sie von den Leuten gesehen werden. Amen, ich sage euch: Sie haben ihren Lohn bereits erhalten. Du aber, wenn du betest, geh in deine Kammer, schließ die Tür zu; dann bete zu deinem Vater, der im Verborgenen ist! Dein Vater, der auch das Verborgene sieht, wird es dir vergelten.
+
+\medskip
+
+Wenn ihr fastet, macht kein finsteres Gesicht wie die Heuchler! Sie geben sich ein trübseliges Aussehen, damit die Leute merken, dass sie fasten. Amen, ich sage euch: Sie haben ihren Lohn bereits erhalten. Du aber, wenn du fastest, salbe dein Haupt und wasche dein Gesicht, damit die Leute nicht merken, dass du fastest, sondern nur dein Vater, der im Verborgenen ist; und dein Vater, der das Verborgene sieht, wird es dir vergelten.
+}
+
+\hTwo{Sich von sich selbst lösen, um sich für Gott und die anderen zu öffnen}
+
+Zu Beginn dieser Fastenzeit lädt uns die Kirche mit diesem Evangelium nach Matthäus zu den drei wichtigsten Werken der biblischen und christlichen Frömmigkeit ein: Almosen, Gebet und Fasten. Es geht also darum, uns von unserem Egozentrismus und Narzissmus zu befreien, denn Almosen bewirken, dass wir uns anderen zuwenden, und Fasten lenkt uns von unserem natürlichen Hunger ab, um uns für den übernatürlichen und ursprünglichen Hunger zu öffnen, nämlich den Hunger nach Gott. Ein Hunger, der nur durch das Gebet gestillt werden kann. Diese drei Werke haben also vor allem das Ziel, unser Herz für die Beziehung zu Gott und zu anderen zu öffnen.
+
+Diese Haltung wird von Johannes vom Kreuz empfohlen, der uns auffordert, uns von uns selbst zu „lösen“, um uns an Gott und seinen Willen zu binden.
+Im heutigen Evangelium warnt uns Jesus jedoch eindringlich vor unserer narzisstischen Bindung an diese drei Werke, die wir während der Fastenzeit praktizieren sollen. Er lädt uns zunächst ein, Almosen im Verborgenen zu geben und aus Liebe zu „deinem Vater, der im Verborgenen ist“ (V. 4), d. h. der die geheimen Absichten des Herzens sieht, während der Narzissmus uns dazu drängt, uns zur Schau zu stellen, „um von den Leuten gelobt zu werden“ (V. 2). Jesus fordert uns auch auf, im Verborgenen zu beten: „Geh in deine Kammer, schließ die Tür zu; dann bete zu deinem Vater, der im Verborgenen ist“ (V. 6). Auch hier geht es darum, in erster Linie in der Gegenwart Gottes und für ihn zu leben, und zwar in selbstloser Liebe und somit „losgelöst“ vom Blick der anderen, ohne Narzissmus.
+
+Diese selbstlose Liebe sucht nur den Blick des Vaters, „der auch das Verborgene sieht“ (V. 6) und den Willen des Vaters, denn Er „weiß, was [wir brauchen]“ (V. 8). Was das Fasten von irdischen Gütern angeht, so ist es, wenn es nicht die Freude der Sättigung durch himmlische Güter zum Ausdruck bringt, wertlos und sogar verwerflich.
+
+Erfüllt von einem sehr schönen und kraftvollen, dem Evangelium gemäßen Geist greift Johannes vom Kreuz die Lehre Jesu auf und warnt uns seinerseits vor den großen Gefahren des geistlichen Egozentrismus. Er nennt dies „die eitle Freude, [die der Mensch] an seinen eigenen guten Werken und Verhaltensweisen“ hat (3S 28,1). Eine „eitle“ Freude, weil sie uns in uns selbst einschließt, anstatt unser Herz für die Gemeinschaft mit Gott und den anderen zu öffnen.
+\hTwo{Das Geheimnis des Herzens: Weg zur Reinheit und Vereinigung}
+
+Zu Beginn dieser Fastenzeit geht es also darum, unser Herz „im Verborgenen“ neu auf Christus auszurichten, in einer innigen und selbstlosen Beziehung, die auf Liebe und Freundschaft basiert. Denn natürlich kann nur Jesus uns diese richtige Art und Weise lehren, Almosen zu geben, zu beten und zu fasten. Er allein hat schließlich aus tiefstem Herzen gebetet, im trauten Geheimnis der Nächte Palästinas und im trauten Geheimnis der geistlichen Nächte der Welt.
+
+In dieser „Loslösung“ von uns selbst und dieser Bindung an Jesus, in dieser Entäußerung, wird dein Vater, der das Verborgene sieht, es dir vergelten (Mt 6,18). Er wird uns im Verborgenen unseres Herzens wieder neu die wahre kindliche Haltung schenken.
+
+Wir müssen also „herausgehen“, aus uns selbst „auswandern“, versuchen, zu Christus, dem Bräutigam, und seinem Willen zu gelangen, und zwar in der geistlichen Armut der Wüste unseres „losgeschälten“ Herzens.
+
+Um den „Auszug“, „Exodus“ dieser Fastenzeit zu vollziehen, wollen wir uns diese wenigen Verse von Johannes vom Kreuz zueigen machen: „In einer Nacht, dunkel / in brennender Liebessehnsucht entflammt / – o glückliches Geschick! – / ging ich hinaus, ohne bemerkt zu sein; / mein Haus war schon zur Ruh gekommen“ (1NP).
+
+\hTwo{Ablauf der Exerzitien}
+
+Der heilige Johannes vom Kreuz führt uns in sechs Etappen zur Osterfreude:
+\begin{itemize}[leftmargin=1.3cm,itemsep=0pt,topsep=0pt]
+  \item 1. Sonntag: Mit Christus siegen
+  \item 2. Sonntag: Unser Herz – entflammt durch das Herz Christi
+  \item 3. Sonntag: Wenn Eva wieder Maria wird
+  \item 4. Sonntag: Mit den Augen Mariens sehen
+  \item 5. Sonntag: Die Freiheit der Kinder Gottes wiedererlangen
+  \item Karwoche: Die Liebeswunde am Kreuz
+  \item Ostern: Vom Herzen aus Stein zum Herzen aus Fleisch
+\end{itemize}
+
+Jeden Freitag erhalten Sie eine E-Mail: Sie können den Text von dort aus herunterladen oder die Audioversion als Podcast anhören. Ein Fastenkalender mit Zitaten und Bildern wird Sie außerdem jeden Tag durch geistliche Impulse bereichern.
+
+\hfill fr. Jean Honoré Sialelli OCD (Freiburg)
+\contentend
+
+\newpage
+
+% ================= PAGE 4 =================
+\vspace*{-2.29cm}
+\noindent
+\colorbox{karmelviolett}{%
+  \parbox[c][0.72cm][c]{\dimexpr\paperwidth-2\fboxsep\relax}{%
+    \centering\sffamily\bfseries\color{white}\large
+    Jeden Tag in der Woche beten – Einleitung%
+  }%
+}
+\par
+
+\devotionalblock{white}{Mittwoch, 18. Februar: Diese Fastenzeit Gott anvertrauen}{%
+\emph{„Der HERR behütet dich vor allem Bösen, er behütet dein Leben. Der HERR behütet dein Gehen und dein Kommen von nun an bis in Ewigkeit.“} (Ps 121,7–8)
+
+\emph{„Wenn ich überallhin mit dir gehe, mein Gott, wird es mir überall so gehen, wie ich es deinetwegen möchte.“} (D 52)
+
+Am Beginn dieser Fastenzeit bin ich voller guter Vorsätze ... Und wenn ich alles wieder in Gottes Hände lege? Er ist es, der mich als Erster auf diesen Weg führt, der sich vor uns auftut und den wir gemeinsam gehen werden.}{gebet.jpg}{right}
+
+\devotionalblock{purple}{Donnerstag, 19. Februar: Das Kreuz mit Christus tragen}{%
+\emph{„Wenn einer hinter mir hergehen will, verleugne er sich selbst, nehme täglich sein Kreuz auf sich und folge mir nach.“} (Lk 9,23–24)
+
+\emph{„Der Mensch, der nichts anderes beansprucht als das Gesetz des Herrn vollkommen zu halten und das Kreuz Christi zu tragen, wird eine wahre Bundeslade sein ...“} (1S 5,8)
+
+Welche Gegebenheiten aus meinem Alltag kann ich dem Herrn darbringen? Die, die mir als Hindernis auf meinem Weg erscheinen, damit ich darin die Gegenwart Gottes entdecken kann.}{kreuz.jpg}{left}
+
+\devotionalblock{white}{Freitag, 20. Februar: Ein neues Herz}{%
+\emph{„Erschaffe mir, Gott, ein reines Herz und einen festen Geist erneuere in meinem Innern!“} (Ps 51,12)
+
+\emph{„Gott gebe uns bei allem die richtige Absicht ... und alles wird zur Siegeskrone werden.“} (Ep 29)
+
+Für den geistlichen Kampf mein Vertrauen auf Gott setzen und aus dem Beispiel Christi das Verlangen schöpfen, den Vater in allem zu erfreuen.}{herz.jpg}{right}
+
+\devotionalblock{purple}{Samstag, 21. Februar: Die Größe der Demut}{%
+\emph{„Nicht die Gesunden bedürfen des Arztes, sondern die Kranken. Ich bin nicht gekommen, um Gerechte, sondern Sünder zur Umkehr zu rufen.“} (Lk 5,31–32)
+
+\emph{„Um sich in einen Menschen zu verlieben, richtet Gott seine Augen nicht auf dessen Größe, sondern auf die Größe seiner Demut.“} (D 102)
+
+Was für eine Freude, sich als schwach und unvollkommen zu erkennen, als bedürftig der Erlösung durch Gott. Das öffnet ihm die Tür zu meinem Herzen.}{demut.jpg}{left}
+
+\end{document}
