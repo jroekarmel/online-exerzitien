@@ -19,7 +19,7 @@ function displayWeeks(data){
   const weeks = data.weeks;
     titleText ='';
     weeks.forEach(item => {
-    
+    const videoEmbedUrl = getYouTubeEmbedUrl(item.video_url);
         titleText += `
         <article class="archive-card">
         <div class="image-zoom">
@@ -39,10 +39,47 @@ function displayWeeks(data){
             Materialien dieses Impulses
           </a>
         </div>
+
+        
+        ${videoEmbedUrl ? `
+          <div class="card-video">
+            <iframe
+              src="${videoEmbedUrl}"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+        ` : ''}
       </article>
         `;
     });
     weeksGrid.innerHTML = titleText;
 }
+// Helper: convert normal YouTube URL to embed URL
+  function getYouTubeEmbedUrl(url){
+    if (!url) return null;
+
+    // Already an embed URL
+    if (url.includes('youtube.com/embed/')) {
+      return url;
+    }
+
+    // youtu.be/VIDEO_ID
+    const shortMatch = url.match(/youtu\.be\/([a-zA-Z0-9_-]+)/);
+    if (shortMatch) {
+      return `https://www.youtube.com/embed/${shortMatch[1]}`;
+    }
+
+    // youtube.com/watch?v=VIDEO_ID
+    const longMatch = url.match(/[?&]v=([a-zA-Z0-9_-]+)/);
+    if (longMatch) {
+      return `https://www.youtube.com/embed/${longMatch[1]}`;
+    }
+
+    return null;
+  }
+
 loadData()
     .then(displayWeeks)
