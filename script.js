@@ -118,6 +118,8 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   const renderCard = (retreat, accented = false) => {
     if (!retreat) return "";
+      const localtitle = getLocalizedField(retreat.titel).trim();
+  if (!localtitle) return "";
 
     const season = seasonLabels[retreat.art] || retreat.art || "";
     const year = retreat.year || "";
