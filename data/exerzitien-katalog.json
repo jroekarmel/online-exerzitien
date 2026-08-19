@@ -420,7 +420,7 @@
       "id": "lent-2024-pater-jacques-de-jesus",
       "art": "lent",
       "year": 2024,
-      "slug": "2024_fs_pater_jacques_de_jesus",
+      "slug": "fastenzeit-2024",
       "heiliger": "Pater Jacques von Jesus",
       "start_datum": "2024-02-14",
       "end_datum": "2024-04-07",
@@ -499,10 +499,10 @@
       }
     },
     {
-      "id": "advent-2023-therese-des-andes",
+      "id": "advent-2023-teresa-de-los-andes",
       "art": "advent",
       "year": 2023,
-      "slug": "2023_ad_therese_des_andes",
+      "slug": "advent-2023",
       "heiliger": "Heilige Teresa de Los Andes",
       "start_datum": "2023-11-29",
       "end_datum": "2023-12-25",
