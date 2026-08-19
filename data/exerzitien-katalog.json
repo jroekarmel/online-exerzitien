@@ -1383,7 +1383,7 @@
       },
       "header_img": {
         "fr": "img/AD18_header_FR.png",
-        "de": "img/AD18_header_DE.png",
+        "de": "img/AD18_header_DE.jpg",
         "es": "img/AD18_header_ES.png",
         "it": "img/AD18_header_IT.png",
         "en": "img/AD18_header_EN.png",
@@ -1465,7 +1465,7 @@
       },
       "header_img": {
         "fr": "img/FS18_header_FR.png",
-        "de": "img/FS18_header_DE.png",
+        "de": "img/FS18_header_DE.jpg",
         "es": "img/FS18_header_ES.png",
         "it": "img/FS18_header_IT.png",
         "en": "img/FS18_header_EN.png",
@@ -1547,7 +1547,7 @@
       },
       "header_img": {
         "fr": "img/AD17_header_FR.png",
-        "de": "img/AD17_header_DE.png",
+        "de": "img/AD17_header_DE.jpg",
         "es": "img/AD17_header_ES.png",
         "it": "img/AD17_header_IT.png",
         "en": "img/AD17_header_EN.png",
@@ -1629,7 +1629,7 @@
       },
       "header_img": {
         "fr": "img/FS17_header_FR.png",
-        "de": "img/FS17_header_DE.png",
+        "de": "img/FS17_header_DE.jpg",
         "es": "img/FS17_header_ES.png",
         "it": "img/FS17_header_IT.png",
         "en": "img/FS17_header_EN.png",
@@ -1711,7 +1711,7 @@
       },
       "header_img": {
         "fr": "img/AD16_header_FR.png",
-        "de": "img/AD16_header_DE.png",
+        "de": "img/AD16_header_DE.jpg",
         "es": "img/AD16_header_ES.png",
         "it": "img/AD16_header_IT.png",
         "en": "img/AD16_header_EN.png",
@@ -1793,7 +1793,7 @@
       },
       "header_img": {
         "fr": "img/FS16_header_FR.png",
-        "de": "img/FS16_header_DE.png",
+        "de": "img/FS16_header_DE.jpg",
         "es": "img/FS16_header_ES.png",
         "it": "img/FS16_header_IT.png",
         "en": "img/FS16_header_EN.png",
@@ -1875,7 +1875,7 @@
       },
       "header_img": {
         "fr": "img/AD15_header_FR.png",
-        "de": "img/AD15_header_DE.png",
+        "de": "img/AD15_header_DE.jpg",
         "es": "img/AD15_header_ES.png",
         "it": "img/AD15_header_IT.png",
         "en": "img/AD15_header_EN.png",
@@ -1957,7 +1957,7 @@
       },
       "header_img": {
         "fr": "img/FS15_header_FR.png",
-        "de": "img/FS15_header_DE.png",
+        "de": "img/FS15_header_DE.jpg",
         "es": "img/FS15_header_ES.png",
         "it": "img/FS15_header_IT.png",
         "en": "img/FS15_header_EN.png",
@@ -2039,7 +2039,7 @@
       },
       "header_img": {
         "fr": "img/AD14_header_FR.png",
-        "de": "img/AD14_header_DE.png",
+        "de": "img/AD14_header_DE.jpg",
         "es": "img/AD14_header_ES.png",
         "it": "img/AD14_header_IT.png",
         "en": "img/AD14_header_EN.png",
@@ -2121,7 +2121,7 @@
       },
       "header_img": {
         "fr": "img/FS14_header_FR.png",
-        "de": "img/FS14_header_DE.png",
+        "de": "img/FS14_header_DE.jpg",
         "es": "img/FS14_header_ES.png",
         "it": "img/FS14_header_IT.png",
         "en": "img/FS14_header_EN.png",
@@ -2203,7 +2203,7 @@
       },
       "header_img": {
         "fr": "img/AD13_header_FR.png",
-        "de": "img/AD13_header_DE.png",
+        "de": "img/AD13_header_DE.jpg",
         "es": "img/AD13_header_ES.png",
         "it": "img/AD13_header_IT.png",
         "en": "img/AD13_header_EN.png",
@@ -2285,7 +2285,7 @@
       },
       "header_img": {
         "fr": "img/FS13_header_FR.png",
-        "de": "img/FS13_header_DE.png",
+        "de": "img/FS13_header_DE.jpg",
         "es": "img/FS13_header_ES.png",
         "it": "img/FS13_header_IT.png",
         "en": "img/FS13_header_EN.png",
@@ -2367,7 +2367,7 @@
       },
       "header_img": {
         "fr": "img/AD12_header_FR.png",
-        "de": "img/AD12_header_DE.png",
+        "de": "img/AD12_header_DE.jpg",
         "es": "img/AD12_header_ES.png",
         "it": "img/AD12_header_IT.png",
         "en": "img/AD12_header_EN.png",
@@ -2446,6 +2446,24 @@
         "nl": "",
         "ro": "",
         "vi": ""
+      },
+            "header_img": {
+        "fr": "img/AD12_header_FR.png",
+        "de": "img/FS12_header_DE.png",
+        "es": "img/AD12_header_ES.png",
+        "it": "img/AD12_header_IT.png",
+        "en": "img/AD12_header_EN.png",
+        "pl": "img/AD12_header_PL.png",
+        "ar": "img/AD12_header_AR.png",
+        "pt": "img/AD12_header_PT.png",
+        "zh": "img/AD12_header_ZH.png",
+        "cs": "img/AD12_header_CS.png",
+        "hr": "img/AD12_header_HR.png",
+        "hu": "img/AD12_header_HU.png",
+        "mt": "img/AD12_header_MT.png",
+        "nl": "img/AD12_header_NL.png",
+        "ro": "img/AD12_header_RO.png",
+        "vi": "img/AD12_header_VI.png"
       }
     }
   ]
