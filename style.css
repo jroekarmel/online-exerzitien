@@ -94,6 +94,7 @@ select,
 textarea {
   font: inherit;
 }
+
 .button-signup{
       display: inline-flex;
   align-items: center;
@@ -108,6 +109,55 @@ textarea {
   font-size: var(--text-sm);
   font-weight: 600;
   text-decoration: none;
+  cursor: pointer;
+}
+.button-signup:hover {
+   background: var(--color-primary-soft);
+  color: var(--color-primary);
+}
+#mc_embed_signup input[type="checkbox"],
+.card-option-input {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 1.35rem;
+  height: 1.35rem;
+  margin: 0.5rem;
+  flex: 0 0 1.35rem;
+  border: 1px solid goldenrod;
+  border-radius: 0.4rem;
+  background: white;
+  display: inline-grid;
+  place-content: center;
+  cursor: pointer;
+  transition: border-color 180ms ease, background 180ms ease, box-shadow 180ms ease;
+}
+
+#mc_embed_signup input[type="checkbox"]::before,
+.card-option-input::before {
+  content: "";
+  width: 0.7rem;
+  height: 0.7rem;
+  transform: scale(0);
+  transition: transform 160ms ease-in-out;
+  clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0, 43% 62%);
+  background: white;
+}
+
+#mc_embed_signup input[type="checkbox"]:checked,
+.card-option-input:checked {
+  background: goldenrod;
+  border-color: goldenrod;
+}
+
+#mc_embed_signup input[type="checkbox"]:checked::before,
+.card-option-input:checked::before {
+  transform: scale(1);
+}
+
+#mc_embed_signup input[type="checkbox"]:focus-visible,
+.card-option-input:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 2px;
 }
 
 .skip-link {
