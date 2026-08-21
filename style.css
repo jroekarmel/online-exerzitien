@@ -585,6 +585,11 @@ h3 {
   background: rgba(252, 252, 248, 0.84);
   border: 1px solid var(--color-border);
   box-shadow: var(--shadow-sm);
+    /* Animation setup */
+    opacity: 0;
+    animation: floatIn 1s ease forwards;
+    animation-timeline: view();
+    animation-range: entry 10% cover 30%;
 }
 
 .archive-card--accent {
@@ -593,6 +598,32 @@ h3 {
   background: linear-gradient(180deg, rgba(144, 200, 252, 0.171), rgba(251, 248, 243, 0.88));
   border: 1px solid var(--color-border);
   box-shadow: var(--shadow-sm);
+    /* Animation setup */
+    opacity: 0;
+    animation: floatIn 1s ease forwards;
+    animation-timeline: view();
+    animation-range: entry 10% cover 30%;
+}
+
+.archive-card {
+    background: rgba(252, 252, 248, 0.84);
+    --direction: -150px;
+}
+
+.archive-card--accent {
+    background: linear-gradient(180deg, rgba(144, 200, 252, 0.171), rgba(251, 248, 243, 0.88));
+    --direction: 150px;
+}
+
+@keyframes floatIn {
+    from {
+        opacity: 0;
+        transform: translateX(var(--direction));
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
 }
 
 [data-theme="dark"] .archive-card--accent {
