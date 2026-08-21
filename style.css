@@ -1020,3 +1020,61 @@ h3 {
   overflow: hidden;
   border-radius: var(--radius-lg);
 }
+/* Expandable Mails options*/
+.interest-details > summary {
+display: flex;
+  align-items: left;
+  justify-content: none;
+  max-width: 420px;
+  gap: 1rem;
+  min-height: 3rem;
+  padding: 0.75rem 1rem;
+  border-radius: var(--radius-md);
+  color: var(--text);
+  cursor: pointer;
+  list-style: none;
+  font-weight: 400;
+  font-style: italic;
+  transition: border-color 180ms ease, background 180ms ease, box-shadow 180ms ease;
+}
+
+/* Standard-Dreieck ausblenden */
+.interest-details > summary::-webkit-details-marker {
+    display: none;
+}
+
+/* Pluszeichen */
+.interest-details > summary::before {
+    content: "+";
+    display: inline-block;
+    width: 1.25rem;
+    margin-right: 0.35rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    text-align: center;
+}
+
+/* Optional: Minuszeichen im geöffneten Zustand */
+.interest-details[open] > summary::before {
+    content: "−";
+}
+
+.interest-details > summary:hover {
+    background: #e9e9e9;
+}
+
+.interest-details > summary:focus-visible {
+    outline: 3px solid #8ab4f8;
+    outline-offset: 2px;
+}
+
+.interest-group {
+    margin: 1rem 0 0;
+    padding: 0;
+    text-align: left;
+    list-style: none;
+}
+
+.interest-group li {
+    margin: 0.4rem 0;
+}
