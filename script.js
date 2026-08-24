@@ -452,3 +452,32 @@ document.addEventListener("DOMContentLoaded", function () {
     // Zustand auch beim Laden der Seite korrekt setzen
     updateSonstigesField();
 });
+// container loading archive slowly
+const lazyContainers = document.querySelectorAll('.archive-grid');
+
+const observer = new IntersectionObserver(async (entries, observer) => {
+  for (const entry of entries) {
+    if (!entry.isIntersecting) continue;
+
+    const container = entry.target;
+    const url = container.dataset.url;
+
+    try {
+      const response = await fetch(url);
+
+      if (!response.ok) {
+        throw new Error(`HTTP error: ${response.status}`);
+      }
+
+      container.innerHTML = await response.text();
+      observer.unobserve(container);
+    } catch (error) {
+      container.textContent = 'Content could not be loaded.';
+      console.error(error);
+    }
+  }
+}, {
+  rootMargin: '300px'
+});
+
+lazyContainers.forEach(container => observer.observe(container));

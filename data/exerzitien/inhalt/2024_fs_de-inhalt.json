@@ -149,7 +149,7 @@
       "main_text": {
         "de": "Haupttext der Woche."
       },
-      "bild_url": "../img/2024_fs/woche-2_header.png",
+      "bild_url": "../img/2024_fs/woche-2_header.jpg",
       "video_url": "",
       "podcast_url": "",
       "a4_pdf": "",
@@ -233,7 +233,7 @@
       "main_text": {
         "de": ""
       },
-      "bild_url": "../img/2024_fs/woche-3_header.png",
+      "bild_url": "../img/2024_fs/woche-3_header.jpg",
       "video_url": "",
       "podcast_url": "",
       "a4_pdf": "",
@@ -312,17 +312,17 @@
     {
       "woche_number": 4,
       "slug": "woche-4",
-      "title": "4. Sonntag: ",
-      "kurz_text": "",
+      "title": "4. Sonntag: Mit Christus Leben",
+      "kurz_text": "Dieser vierte Fastensonntag ist schon ganz eingetaucht in die österliche Freude. Paulus lädt uns ein, die « große Liebe » zu betrachten, mit der wir von Gott geliebt werden (Eph 2,4). Eine Liebe, die in einer überreichen Barmherzigkeit offenbar wird. « Gott […] hat uns […] zusammen mit Christus lebendig gemacht. » (Eph 2,5)",
       "main_text": {
         "de": "Haupttext der Woche."
       },
-      "bild_url": "../img/2024_fs/woche-4_header.png",
+      "bild_url": "../img/2024_fs/woche-4_header.jpg",
       "video_url": "",
       "podcast_url": "",
       "a4_pdf": "",
       "phone_pdf": "",
-      "mail_link": "",
+      "mail_link": "https://mailchi.mp/edith-stein-gesellschaft/einladung-zu-adventexerzitien-2018-1161734",
       "days": [
         {
           "day_index": 1,
@@ -401,7 +401,7 @@
       "main_text": {
         "de": ""
       },
-      "bild_url": "../img/2024_fs/woche-5_header.png",
+      "bild_url": "../img/2024_fs/woche-5_header.jpg",
       "video_url": "",
       "podcast_url": "",
       "a4_pdf": "",
@@ -485,7 +485,7 @@
       "main_text": {
         "de": ""
       },
-      "bild_url": "../img/2024_fs/woche-6_header.png",
+      "bild_url": "../img/2024_fs/woche-6_header.jpg",
       "video_url": "",
       "podcast_url": "",
       "a4_pdf": "",
@@ -570,7 +570,7 @@
         "gospel": "",
         "de": "Haupttext der Woche."
       },
-      "bild_url": "../img/2024_fs/woche-7_header.png",
+      "bild_url": "../img/2024_fs/woche-7_header.jpg",
       "video_url": "",
       "podcast_url": "",
       "a4_pdf": "",
