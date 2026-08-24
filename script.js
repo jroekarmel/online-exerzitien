@@ -188,9 +188,8 @@ document.addEventListener("DOMContentLoaded", async () => {
   };
 
   try {
-const response = await fetch(
-  new URL("/data/exerzitien-katalog.json", window.location.href)
-);
+
+ const response = await fetch("./data/exerzitien-katalog.json");
     if (!response.ok) {
       throw new Error("JSON konnte nicht geladen werden.");
     }
