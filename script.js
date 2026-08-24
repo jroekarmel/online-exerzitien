@@ -93,6 +93,17 @@ const applyExclusiveRules = (changedKey, checked) => {
 //setupToggle('mailchimp-toggle', 'mailchimp-form-wrap', 'Anmeldung schließen', 'Anmeldung / Mailchimp');
 //setupToggle('beschreibung-toggle', 'beschreibung-wrap', 'Beschreibung schließen', 'Beschreibung');
 //setupToggle('datenschutz-toggle', 'datenschutz-wrap', 'Datenschutz schließen', 'Datenschutz');
+const constDatenschutzToggle = document.querySelector("#datenschutz-toggle");
+const constDatenschutzInhalt = document.querySelector("#datenschutz-wrap")
+
+constDatenschutzToggle.addEventListener("click", (DatenSchutzevent) => {
+  DatenSchutzevent.preventDefault();
+
+  const DatenSchutzisOpen = !constDatenschutzInhalt.hidden
+
+  constDatenschutzInhalt.hidden = DatenSchutzisOpen;
+  toggle.setAttribute("aria-expanded", String(!DatenSchutzisOpen));
+});
 //setupToggle('impressum-toggle', 'impressum-wrap', 'Impressum schließen', 'Impressum');
 
 // Exerzitien-Archiv-Rendering
