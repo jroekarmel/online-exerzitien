@@ -456,6 +456,9 @@ h3 {
 .section {
   padding: var(--space-12) 0;
 }
+.section-intro {
+  padding: var(--space-2) 0;
+}
 
 .two-column,
 .section-heading,
