@@ -80,7 +80,7 @@ body {
   color: var(--color-text);
   font-family: var(--font-body);
   font-size: var(--text-base);
-  line-height: 1.65;
+  line-height: 1.45;
 }
 
 img,
@@ -106,7 +106,7 @@ textarea {
   align-items: center;
   justify-content: center;
   min-height: 2.75rem;
-  max-height: 3rem;
+  max-height: 2rem;
   padding: 0.7rem 0.9rem;
   border: 1px solid #d8d8d8;
   border-radius: var(--radius-full);
@@ -937,14 +937,13 @@ h3 {
   max-width: 100%;
   box-sizing: border-box;
   min-width: 0;
-    min-height: 3rem;
-  padding: 0.75rem 1rem;
+    min-height: 2rem;
+  padding: 0.4rem 0.4rem;
     border: 1px solid var(--border);
   border-radius: var(--radius-md);
 }
 #mc_embed_signup .mc-field-group.input-group ul {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display:contents;
   list-style: none;
 }
 
@@ -956,7 +955,7 @@ h3 {
 #mc_embed_signup #mc_embed_signup_scroll {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 1rem;
+  gap: 0.2rem;
 }
 
 #mc_embed_signup .mc-field-group {
@@ -1015,7 +1014,7 @@ h3 {
   border-radius: var(--radius-md);
   color: var(--text);
   font: inherit;
-  line-height: 1.1;
+  line-height: 1.05;
   }
 
   #mc_embed_signup .indicates-required,
