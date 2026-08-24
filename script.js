@@ -178,7 +178,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   try {
 const response = await fetch(
-  new URL("./data/exerzitien-katalog.json", window.location.href)
+  new URL("/data/exerzitien-katalog.json", window.location.href)
 );
     if (!response.ok) {
       throw new Error("JSON konnte nicht geladen werden.");
