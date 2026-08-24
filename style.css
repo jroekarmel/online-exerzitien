@@ -53,6 +53,11 @@
 
   --transition: 180ms cubic-bezier(0.16, 1, 0.3, 1);
   --bkgd: radial-gradient(circle at top right, rgba(14, 67, 103, 0.08), transparent 30%);
+
+    --brown: #8c6b43;
+  --gold: #b8860b;
+  --border: var(--color-border);
+  --text: var(--color-text-soft);
 }
 
 *,
@@ -622,17 +627,6 @@ h3 {
     animation-timeline: view();
     animation-range: entry 10% cover 30%;
 }
-
-.archive-card {
-    background: rgba(252, 252, 248, 0.84);
-    --direction: -150px;
-}
-
-.archive-card--accent {
-    background: linear-gradient(180deg, rgba(144, 200, 252, 0.171), rgba(251, 248, 243, 0.88));
-    --direction: 150px;
-}
-
 @keyframes floatIn {
     from {
         opacity: 0;
@@ -933,7 +927,7 @@ h3 {
 
 #mc_embed_signup .mc-field-group label {
   margin: 0;
-  padding-bottom: 0.5em;
+  padding-bottom: 0.5rem;
 }
 
 #mc_embed_signup .mc-field-group input[type="text"],
@@ -949,7 +943,7 @@ h3 {
   border-radius: var(--radius-md);
 }
 #mc_embed_signup .mc-field-group.input-group ul {
-  display: block;
+  display: grid;
   grid-template-columns: 1fr 1fr;
   list-style: none;
 }
@@ -969,7 +963,7 @@ h3 {
   display: block;
   grid-template-columns: 1fr;
   gap: 0.05rem;
-  margin-bottom: 0.5em;
+  margin-bottom: 0.05em;
 }
 
 .interest-group {
@@ -999,7 +993,7 @@ h3 {
 
   #mc_embed_signup .mc-field-group {
     display: contents;
-    align-items: left;
+    align-items: flex-start;
   }
 
   #mc_embed_signup .mc-field-group.input-group, #mc_embed_signup .mc-field-group label {
@@ -1124,8 +1118,8 @@ h3 {
 /* Expandable Mails options*/
 .interest-details > summary {
 display: flex;
-  align-items: left;
-  justify-content: none;
+  align-items: flex-start;
+  justify-content: flex-start;
   max-width: 420px;
   gap: 1rem;
   min-height: 3rem;
