@@ -556,7 +556,7 @@ h3 {
   }
 
   .cards-grid {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
   .steps {
@@ -590,6 +590,13 @@ h3 {
     animation: floatIn 1s ease forwards;
     animation-timeline: view();
     animation-range: entry 10% cover 30%;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
 }
 
 .archive-card--accent {
