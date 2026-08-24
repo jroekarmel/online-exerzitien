@@ -504,6 +504,7 @@ h3 {
   background: var(--color-primary);
   color: #fff;
   font-weight: 700;
+  cursor:default;
 }
 
 .narrow {
@@ -602,7 +603,7 @@ h3 {
   'FILL' 0,
   'wght' 400,
   'GRAD' 0,
-  'opsz' 48
+  'opsz' 48,
 }
 
 
