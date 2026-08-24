@@ -695,6 +695,9 @@ h3 {
   background:
     linear-gradient(180deg, rgba(14, 103, 100, 0.08), rgba(252, 251, 248, 0.92));
 }
+.saints-controls {
+  display: none;
+}
 
 @media (min-width: 980px) {
   .saints-carousel {
@@ -721,15 +724,14 @@ h3 {
     scroll-snap-align: start;
   }
 
-}
-
-.saints-controls {
+  .saints-controls {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 0.75rem;
   margin-top: 1.25rem;
   flex-wrap: wrap;
+}
 }
 
 .saints-dots {
