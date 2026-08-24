@@ -46,6 +46,7 @@
   --shadow-md: 0 12px 30px rgba(31, 24, 18, 0.08);
 
   --content-width: 1120px;
+  --content-width-signup: 900px;
 
   --font-body: "Inter", system-ui, sans-serif;
   --font-display: "Cormorant Garamond", Georgia, serif;
@@ -177,6 +178,11 @@ textarea {
 
 .container {
   width: min(100% - 2rem, var(--content-width));
+  margin-inline: auto;
+}
+
+.container-signup {
+  width: min(100% - 2rem, var(--content-width-signup));
   margin-inline: auto;
 }
 
@@ -599,6 +605,7 @@ h3 {
   'opsz' 48
 }
 
+
 .archive-card--accent {
     padding: var(--space-5);
   border-radius: var(--radius-lg);
@@ -694,7 +701,7 @@ h3 {
   }
 
   .saints-grid {
-    display: grid;
+    display: block;
     grid-auto-flow: column;
     grid-auto-columns: calc((100% - 2rem) / 3);
     gap: 1rem;
