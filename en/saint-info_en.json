@@ -1,0 +1,121 @@
+[
+  {
+    "name": "Saint John of the Cross",
+    "slug": "johannes_vom_kreuz",
+    "bio_de": "John of the Cross (1542–1591) was a Spanish Carmelite, mystic, and Doctor of the Church, known for his teaching on the spiritual path of purification and union with God.",
+    "image": "../img/heiligen/johannes_vom_kreuz.jpg",
+    "link": "#"
+  },
+  {
+    "name": "Saint Mariam of Jesus Crucified",
+    "slug": "mirjam_von_jesus_dem_gekreuzigten",
+    "bio_de": "Mariam of Jesus Crucified (1846–1878), also known as Mariam Baouardy, was a Palestinian Carmelite, mystic, and stigmatist, venerated for her humility and extraordinary gifts of grace.",
+    "image": "../img/heiligen/mirjam_von_jesus_dem_gekreuzigten.jpg",
+    "link": "#"
+  },
+  {
+    "name": "Saint Thérèse of Lisieux",
+    "slug": "therese_von_lisieux",
+    "bio_de": "Thérèse of Lisieux (1873–1897), a Carmelite and Doctor of the Church, taught the “Little Way” of trust and love and is one of the most popular saints of modern times.",
+    "image": "../img/heiligen/therese_von_lisieux.png",
+    "link": "#"
+  },
+  {
+    "name": "Father Jacques of Jesus",
+    "slug": "pater_jacques_von_jesus",
+    "bio_de": "Father Jacques of Jesus (1900–1945), a Carmelite and French priest, hid Jewish children during the Second World War, was arrested, and died shortly after the liberation of a concentration camp.",
+    "image": "../img/heiligen/pater_jacques_von_jesus.jpg",
+    "link": "#"
+  },
+  {
+    "name": "Saint Teresa of the Andes",
+    "slug": "teresa_de_los_andes",
+    "bio_de": "Teresa of the Andes (1900–1920) was a Chilean Carmelite who became known from a young age for her deep love of Christ and her devotion to life in the convent.",
+    "image": "../img/heiligen/teresa_de_los_andes.jpg",
+    "link": "#"
+  },
+  {
+    "name": "The Saints of Carmel",
+    "slug": "die_heiligen_des_karmel",
+    "bio_de": "The saints of Carmel include a great multitude of men and women who attained holiness in the spirit of Mary of Mount Carmel through contemplation, sacrifice, and service to the Church.",
+    "image": "../img/heiligen/heiligen_des_karmel.jpg",
+    "link": "#"
+  },
+  {
+    "name": "Saint Thérèse of the Child Jesus",
+    "slug": "therese_vom_kinde_jesu",
+    "bio_de": "",
+    "image": "../img/heiligen/therese_vom_kinde_jesu.jpg",
+    "link": "#"
+  },
+  {
+    "name": "Saint Teresa of Ávila",
+    "slug": "teresa_von_avila",
+    "bio_de": "Teresa of Ávila (1515–1582) was a Spanish mystic, reformer of Carmel, and Doctor of the Church whose spiritual writings and convent reforms profoundly shaped Western spirituality.",
+    "image": "../img/heiligen/teresa_von_avila.png",
+    "link": "#"
+  },
+  {
+    "name": "Mary of the Incarnation",
+    "slug": "maria_von_der_menschwerdung",
+    "bio_de": "Sister Mary of the Incarnation was a Carmelite whose spirituality focused particularly on the mystery of Christ’s Incarnation and invited people to contemplate God made man.",
+    "image": "../img/heiligen/maria_von_der_menschwerdung.jpg",
+    "link": "#"
+  },
+  {
+    "name": "Our Lady of Mount Carmel",
+    "slug": "unsere_liebe_frau_vom_berge_karmel",
+    "bio_de": "Our Lady of Mount Carmel is a Marian title referring to the biblical Mount Carmel. She is venerated as the patroness of the Carmelite Order and is associated with the scapular.",
+    "image": "../img/heiligen/unsere_liebe_frau_vom_berge_karmel.jpg",
+    "link": "#"
+  },
+  {
+    "name": "Saint Teresa Benedicta of the Cross (Edith Stein)",
+    "slug": "teresabenedicta_vom_kreuz_edith_stein",
+    "bio_de": "Teresa Benedicta of the Cross (Edith Stein, 1891–1942) was a philosopher of Jewish heritage who converted to the Catholic faith, became a Carmelite, and died as a martyr in Auschwitz concentration camp.",
+    "image": "../img/heiligen/edith_stein.jpg",
+    "link": "#"
+  },
+  {
+    "name": "Brother Lawrence of the Resurrection",
+    "slug": "br_lorenz_von_der_auferstehung",
+    "bio_de": "Brother Lawrence of the Resurrection (1614–1691) was a French Carmelite lay brother known for his teaching on the constant presence of God in everyday life.",
+    "image": "../img/heiligen/lorenz.jpg",
+    "link": "../heilige/bruder_lorenz.html"
+  },
+  {
+    "name": "Saint Joseph",
+    "slug": "joseph",
+    "bio_de": "Saint Joseph, husband of the Virgin Mary and foster father of Jesus, is venerated as the silent just man and faithful protector of the Church and families.",
+    "image": "../img/heiligen/heiliger_joseph.jpg",
+    "link": "#"
+  },
+  {
+    "name": "Saint Elisabeth of the Trinity",
+    "slug": "elisabeth_von_der_dreifaltigkeit",
+    "bio_de": "Elisabeth of the Trinity (1880–1906) was a French Carmelite whose spirituality was shaped by the indwelling presence of the Most Holy Trinity in the heart of the baptized person.",
+    "image": "../img/heiligen/elisabeth_dreifaltigkeit.jpg",
+    "link": "#"
+  },
+  {
+    "name": "Blessed Marie-Eugène of the Child Jesus OCD",
+    "slug": "sel_mariaeugen_vom_kinde_jesus_ocd",
+    "bio_de": "Marie-Eugène of the Child Jesus (1894–1967) was a French Carmelite and founder of the secular institute Notre-Dame de Vie. He renewed access to the spiritual teachings of Teresa of Ávila and John of the Cross.",
+    "image": "../img/heiligen/maria_eugen.jpg",
+    "link": "#"
+  },
+  {
+    "name": "Saint Elijah",
+    "slug": "elija",
+    "bio_de": "The prophet Elijah is regarded as the spiritual father of the Carmelites. His zeal for the one true God and his experience of God at Horeb have shaped the spirituality of the Order.",
+    "image": "../img/heiligen/heiliger_elija.jpg",
+    "link": "#"
+  },
+  {
+    "name": "Louis Martin and Zélie Martin (parents of Saint Thérèse of Lisieux)",
+    "slug": "louis_martin_und_zelie_martin_eltern_der_hl_therese_von_lisieux",
+    "bio_de": "Louis and Zélie Martin, the parents of Saint Thérèse of Lisieux, lived a deeply Christian marriage and were canonized together as role models of holy marriage and family life.",
+    "image": "../img/heiligen/louis_martin_und_zelie_martin.jpg",
+    "link": "#"
+  }
+]
