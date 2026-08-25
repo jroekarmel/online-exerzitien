@@ -131,6 +131,10 @@ document.addEventListener("DOMContentLoaded", async () => {
   const container = document.querySelector("#archiv-cards .archive-grid");
   if (!container) return;
 
+  const catalogPath =
+  container.dataset.json ||
+  "../data/exerzitien-katalog.json";
+
   const seasonLabels = {
     lent: "Fastenzeit",
     advent: "Advent"
@@ -207,9 +211,11 @@ document.addEventListener("DOMContentLoaded", async () => {
     `;
   };
 
+
+  
   try {
 
- const response = await fetch("../data/exerzitien-katalog.json");
+ const response = await fetch(catalogPath);
     if (!response.ok) {
       throw new Error("JSON konnte nicht geladen werden.");
     }
@@ -241,6 +247,15 @@ document.addEventListener("DOMContentLoaded", async () => {
 document.addEventListener("DOMContentLoaded", async () => {
   const container = document.querySelector("#saints-cards .saints-grid");
   if (!container) return;
+
+const catalogPath =
+  container.dataset.catalog ||
+  "../data/exerzitien-katalog.json";
+
+const saintsPath =
+  container.dataset.saints ||
+  "../data/heiliger-info.json";
+
     const escapeHtml = (value = "") =>
     String(value)
       .replaceAll("&", "&amp;")
@@ -310,8 +325,8 @@ return `
 
   try {
     const [catalogResponse, infoResponse] = await Promise.all([
-      fetch("../data/exerzitien-katalog.json"),
-      fetch("../data/heiliger-info.json")
+      fetch(catalogPath),
+      fetch(saintsPath)
     ]);
 
     if (!catalogResponse.ok || !infoResponse.ok) {
