@@ -1,3 +1,23 @@
+// lanugage support
+const languages = {
+  fr: "Français",
+  de: "Deutsch",
+  es: "Español",
+  it: "Italiano",
+  en: "English",
+  pl: "Polski",
+  ar: "العربية",
+  pt: "Português",
+  zh: "中文",
+  cs: "Čeština",
+  hr: "Hrvatski",
+  hu: "Magyar",
+  mt: "Malti",
+  nl: "Nederlands",
+  ro: "Română",
+  vi: "Tiếng Việt"
+};
+
 // syncing Rundbriefe boxes
 document.addEventListener("DOMContentLoaded", () => {
   const pairs = [
