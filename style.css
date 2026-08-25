@@ -75,12 +75,24 @@ html {
 body {
   margin: 0;
   min-height: 100vh;
-  background:
-    radial-gradient(circle at top right, rgba(14, 60, 103, 0.08), transparent 30%);
+  background: radial-gradient(circle at top right, rgba(14, 60, 103, 0.08), transparent 30%);
   color: var(--color-text);
   font-family: var(--font-body);
   font-size: var(--text-base);
   line-height: 1.45;
+}
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+
+  background-image: url("./img/website_banner.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: auto;
+  opacity: 0.04;
+  pointer-events: none;
 }
 
 img,
@@ -375,7 +387,7 @@ h3 {
   width: auto;
   height: auto;
   transform: translate(-50%, -50%);
-  z-index: -1;
+  z-index: 0;
   object-fit: cover;
   inset-block-start: 50%;
   inset-inline-start: 50%;
@@ -393,7 +405,6 @@ position: relative;
   width: 100%;
   height: 100%;
   object-fit: contain;
-
 }
 .video-sound-toggle {
   position: absolute;
@@ -1072,6 +1083,7 @@ position: relative;
   margin-inline: auto;
     overflow: hidden;
   border-radius: var(--radius-lg);
+  padding-top: 2%;
 }
 @media (min-width: 920px) {
  .cover-img {
