@@ -189,7 +189,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   try {
 
- const response = await fetch("./data/exerzitien-katalog.json");
+ const response = await fetch("../data/exerzitien-katalog.json");
     if (!response.ok) {
       throw new Error("JSON konnte nicht geladen werden.");
     }
@@ -290,8 +290,8 @@ return `
 
   try {
     const [catalogResponse, infoResponse] = await Promise.all([
-      fetch("data/exerzitien-katalog.json"),
-      fetch("data/heiliger-info.json")
+      fetch("../data/exerzitien-katalog.json"),
+      fetch("../data/heiliger-info.json")
     ]);
 
     if (!catalogResponse.ok || !infoResponse.ok) {
