@@ -136,7 +136,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   "../data/exerzitien-katalog.json";
 
   const seasonLabels = {
-    lent: "Fastenzeit",
+    lent: "Lent",
     advent: "Advent"
   };
 
@@ -204,7 +204,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
         <div class="card-links">
           <a href="${escapeHtml(link)}" target="_blank" rel="noopener noreferrer">
-            Mehr zu den Exerzitien
+            Access the materials
           </a>
         </div>
       </article>
@@ -316,7 +316,7 @@ return `
 
         <div class="card-links">
           <a href="${escapeHtml(saint.link || "#")}" target="_blank" rel="noopener noreferrer">
-            Mehr zum Heiligen
+            Find out more
           </a>
         </div>
       </article>
