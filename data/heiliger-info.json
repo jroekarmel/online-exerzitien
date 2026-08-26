@@ -24,8 +24,9 @@
     "name": "Pater Jacques von Jesus",
     "slug": "pater_jacques_von_jesus",
     "bio_de": "Pater Jacques von Jesus (1900–1945), Karmelit und französischer Priester, versteckte während des Zweiten Weltkriegs jüdische Kinder, wurde verhaftet und starb kurz nach der Befreiung eines Konzentrationslagers.",
+    "bio_de_lang": "Der kleine Lucien, der am 29. Januar 1900 in eine arme Familie, deren Alltag von harter Arbeit geprägt ist, hineingeboren wird, will sehr schnell ein « großer Herr Pfarrer » werden. Die entchristlichten Landstriche und die sich selbst überlassenen Kinder wecken und festigen seine Leidenschaft als Apostel und Erzieher.",
     "image": "../img/heiligen/pater_jacques_von_jesus.jpg",
-    "link": "#"
+    "link": "../de/heilige/jacques_von_jesus.html"
   },
   {
     "name": "Heilige Teresa de Los Andes",
@@ -39,13 +40,6 @@
     "slug": "die_heiligen_des_karmel",
     "bio_de": "Die Heiligen des Karmel umfassen eine große Schar von Männern und Frauen, die im Geist Marias vom Berge Karmel durch Kontemplation, Opfer und Dienst an der Kirche zur Heiligkeit gelangt sind.",
     "image": "../img/heiligen/heiligen_des_karmel.jpg",
-    "link": "#"
-  },
-  {
-    "name": "Heilige Thérèse vom Kinde Jesu",
-    "slug": "therese_vom_kinde_jesu",
-    "bio_de": "",
-    "image": "../img/heiligen/therese_vom_kinde_jesu.jpg",
     "link": "#"
   },
   {
