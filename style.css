@@ -518,7 +518,7 @@ h3 {
   width: auto;
   height: auto;
   transform: translate(-50%, -50%);
-  z-index: 0;
+  z-index: -1;
   object-fit: cover;
   inset-block-start: 50%;
   inset-inline-start: 50%;
