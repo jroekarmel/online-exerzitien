@@ -1,0 +1,650 @@
+{
+  "retreat_id": "lent-2024-jacques_von_jesus",
+  "season_type": "lent",
+  "weeks": [
+    {
+      "woche_number": 0,
+      "slug": "woche-0",
+      "title": "Aschermittwoch: Das ist der Tag der Gnade",
+      "kurz_text": "« Durch das Kreuz zum Licht » : Im März 1945, im Lager Mauthausen/Gusen, kritzelt Pater Jacques de Jésus mit Bleistift einige lateinische Worte auf das Blatt eines kleinen Notizbuchs, unterschreibt einfach mit « fr. Jacques », dann reißt er das Blatt heraus und übergibt es seinen Deportationsgefährten Francisco (Paco) Lopez (Spanier) und Wacek (Pole).",
+      "main_text": {
+        "de": ""
+      },
+      "bild_url": "../img/2024_fs/woche-0_header.jpg",
+      "video_url": "https://youtu.be/JYl8nYu1b0o",
+      "podcast_url": "https://www.buzzsprout.com/870355/14503485",
+      "a4_pdf": "https://mcusercontent.com/7c9d2aa0ecc1fde64fd44bc67/files/be09742c-9f2a-49d2-823c-9dda45b2dfc2/Ostern24_Intro_DE.01.pdf",
+      "phone_pdf": "https://mcusercontent.com/7c9d2aa0ecc1fde64fd44bc67/files/0f571ad2-a04c-e92e-c06d-4f6eb4a5e487/Ostern24_Intro_DE_Smartphone.01.pdf",
+      "mail_link": "https://mailchi.mp/edith-stein-gesellschaft/einladung-zu-adventexerzitien-2018-1161466",
+      "days": [
+        {
+          "day_index": 1,
+          "day_key": "thursday",
+          "reflection": {
+            "day": "",
+            "motif": "",
+            "bible": "",
+            "bible_ref": "",
+            "saint_text": "",
+            "saint_text_ref": "",
+            "prayer": ""
+          }
+        },
+        {
+          "day_index": 2,
+          "day_key": "friday",
+          "reflection": {
+            "de": "Tagesimpuls Freitag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 3,
+          "day_key": "saturday",
+          "reflection": {
+            "de": "Tagesimpuls Samstag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 4,
+          "day_key": "sunday",
+          "reflection": {
+            "de": "Tagesimpuls Sonntag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        }
+      ]
+    },
+    {
+      "woche_number": 1,
+      "slug": "woche-1",
+      "title": "1. Sonntag: Gerettet durch die Taufe",
+      "kurz_text": "Wir sind bereits in die Dynamik dieser Fastenzeit eingetreten, in der wir eingeladen sind, « durch das Kreuz » zu gehen, um « zum Licht » zu gelangen. Die vierzig Tage, die die Kirche uns vorschlägt, um uns auf Ostern vorzubereiten, sind von dieser Dynamik des Lebens geprägt...",
+      "main_text": "",
+      "bild_url": "../img/2024_fs/woche-1_header.jpg",
+      "video_url": "",
+      "podcast_url": "",
+      "a4_pdf": "",
+      "phone_pdf": "",
+      "mail_link": "https://mailchi.mp/edith-stein-gesellschaft/einladung-zu-adventexerzitien-2018-1161538",
+      "days": [
+        {
+          "day_index": 1,
+          "day_key": "monday",
+          "reflection": {
+            "de": "Tagesimpuls Montag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 2,
+          "day_key": "tuesday",
+          "reflection": {
+            "de": "Tagesimpuls Dienstag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 3,
+          "day_key": "wednesday",
+          "reflection": {
+            "de": "Tagesimpuls Mittwoch."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 4,
+          "day_key": "thursday",
+          "reflection": {
+            "day": "",
+            "motif": "",
+            "bible": "",
+            "bible_ref": "",
+            "saint_text": "",
+            "saint_text_ref": "",
+            "prayer": ""
+          }
+        },
+        {
+          "day_index": 5,
+          "day_key": "friday",
+          "reflection": {
+            "de": "Tagesimpuls Freitag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 6,
+          "day_key": "saturday",
+          "reflection": {
+            "de": "Tagesimpuls Samstag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 7,
+          "day_key": "sunday",
+          "reflection": {
+            "de": "Tagesimpuls Sonntag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        }
+      ]
+    },
+    {
+      "woche_number": 2,
+      "slug": "woche-2",
+      "title": "2. Sonntag: Von Gott auserwählt",
+      "kurz_text": "Nehmen wir uns die Zeit, dieses Geschenk, das der Vater uns durch seinen Sohn macht, zu betrachten und anzuschauen. Er schenkt uns das, was ihm am liebsten ist...",
+      "main_text": {
+        "de": "Haupttext der Woche."
+      },
+      "bild_url": "../img/2024_fs/woche-2_header.jpg",
+      "video_url": "",
+      "podcast_url": "",
+      "a4_pdf": "",
+      "phone_pdf": "",
+      "mail_link": "https://mailchi.mp/edith-stein-gesellschaft/einladung-zu-adventexerzitien-2018-1161606",
+      "days": [
+        {
+          "day_index": 1,
+          "day_key": "monday",
+          "reflection": {
+            "de": "Tagesimpuls Montag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 2,
+          "day_key": "tuesday",
+          "reflection": {
+            "de": "Tagesimpuls Dienstag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 3,
+          "day_key": "wednesday",
+          "reflection": {
+            "de": "Tagesimpuls Mittwoch."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 4,
+          "day_key": "thursday",
+          "reflection": {
+            "day": "",
+            "motif": "",
+            "bible": "",
+            "bible_ref": "",
+            "saint_text": "",
+            "saint_text_ref": "",
+            "prayer": ""
+          }
+        },
+        {
+          "day_index": 5,
+          "day_key": "friday",
+          "reflection": {
+            "de": "Tagesimpuls Freitag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 6,
+          "day_key": "saturday",
+          "reflection": {
+            "de": "Tagesimpuls Samstag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 7,
+          "day_key": "sunday",
+          "reflection": {
+            "de": "Tagesimpuls Sonntag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        }
+      ]
+    },
+    {
+      "woche_number": 3,
+      "slug": "woche-3",
+      "title": "3. Sonntag: Das Kreuz, die Weisheit Gottes",
+      "kurz_text": "Lassen wir uns von den Worten des heiligen Paulus ansprechen. Wir sind noch nicht bis in die letzten Tiefen unseres Seins evangelisiert. In jedem und jeder von uns steckt ein « Jude » und ein « Grieche ». Wir hätten gerne Zeichen, spektakuläre Wunder, die sich uns und aller Welt aufdrängen und uns von einem Glaubensakt entbinden, und manchmal bitten wir sogar darum...",
+      "main_text": {
+        "de": ""
+      },
+      "bild_url": "../img/2024_fs/woche-3_header.jpg",
+      "video_url": "",
+      "podcast_url": "",
+      "a4_pdf": "",
+      "phone_pdf": "",
+      "mail_link": "https://mailchi.mp/edith-stein-gesellschaft/einladung-zu-adventexerzitien-2018-1161682",
+      "days": [
+        {
+          "day_index": 1,
+          "day_key": "monday",
+          "reflection": {
+            "de": "Tagesimpuls Montag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 2,
+          "day_key": "tuesday",
+          "reflection": {
+            "de": "Tagesimpuls Dienstag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 3,
+          "day_key": "wednesday",
+          "reflection": {
+            "de": "Tagesimpuls Mittwoch."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 4,
+          "day_key": "thursday",
+          "reflection": {
+            "day": "",
+            "motif": "",
+            "bible": "",
+            "bible_ref": "",
+            "saint_text": "",
+            "saint_text_ref": "",
+            "prayer": ""
+          }
+        },
+        {
+          "day_index": 5,
+          "day_key": "friday",
+          "reflection": {
+            "de": "Tagesimpuls Freitag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 6,
+          "day_key": "saturday",
+          "reflection": {
+            "de": "Tagesimpuls Samstag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 7,
+          "day_key": "sunday",
+          "reflection": {
+            "de": "Tagesimpuls Sonntag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        }
+      ]
+    },
+    {
+      "woche_number": 4,
+      "slug": "woche-4",
+      "title": "4. Sonntag: Mit Christus Leben",
+      "kurz_text": "Dieser vierte Fastensonntag ist schon ganz eingetaucht in die österliche Freude. Paulus lädt uns ein, die « große Liebe » zu betrachten, mit der wir von Gott geliebt werden (Eph 2,4). Eine Liebe, die in einer überreichen Barmherzigkeit offenbar wird. « Gott […] hat uns […] zusammen mit Christus lebendig gemacht. » (Eph 2,5)",
+      "main_text": {
+        "de": "Haupttext der Woche."
+      },
+      "bild_url": "../img/2024_fs/woche-4_header.jpg",
+      "video_url": "",
+      "podcast_url": "",
+      "a4_pdf": "",
+      "phone_pdf": "",
+      "mail_link": "https://mailchi.mp/edith-stein-gesellschaft/einladung-zu-adventexerzitien-2018-1161734",
+      "days": [
+        {
+          "day_index": 1,
+          "day_key": "monday",
+          "reflection": {
+            "de": "Tagesimpuls Montag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 2,
+          "day_key": "tuesday",
+          "reflection": {
+            "de": "Tagesimpuls Dienstag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 3,
+          "day_key": "wednesday",
+          "reflection": {
+            "de": "Tagesimpuls Mittwoch."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 4,
+          "day_key": "thursday",
+          "reflection": {
+            "day": "",
+            "motif": "",
+            "bible": "",
+            "bible_ref": "",
+            "saint_text": "",
+            "saint_text_ref": "",
+            "prayer": ""
+          }
+        },
+        {
+          "day_index": 5,
+          "day_key": "friday",
+          "reflection": {
+            "de": "Tagesimpuls Freitag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 6,
+          "day_key": "saturday",
+          "reflection": {
+            "de": "Tagesimpuls Samstag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 7,
+          "day_key": "sunday",
+          "reflection": {
+            "de": "Tagesimpuls Sonntag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        }
+      ]
+    },
+    {
+      "woche_number": 5,
+      "slug": "woche-5",
+      "title": "5. Sonntag: ",
+      "kurz_text": "",
+      "main_text": {
+        "de": ""
+      },
+      "bild_url": "../img/2024_fs/woche-5_header.jpg",
+      "video_url": "",
+      "podcast_url": "",
+      "a4_pdf": "",
+      "phone_pdf": "",
+      "mail_link": "",
+      "days": [
+        {
+          "day_index": 1,
+          "day_key": "monday",
+          "reflection": {
+            "de": "Tagesimpuls Montag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 2,
+          "day_key": "tuesday",
+          "reflection": {
+            "de": "Tagesimpuls Dienstag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 3,
+          "day_key": "wednesday",
+          "reflection": {
+            "de": "Tagesimpuls Mittwoch."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 4,
+          "day_key": "thursday",
+          "reflection": {
+            "day": "",
+            "motif": "",
+            "bible": "",
+            "bible_ref": "",
+            "saint_text": "",
+            "saint_text_ref": "",
+            "prayer": ""
+          }
+        },
+        {
+          "day_index": 5,
+          "day_key": "friday",
+          "reflection": {
+            "de": "Tagesimpuls Freitag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 6,
+          "day_key": "saturday",
+          "reflection": {
+            "de": "Tagesimpuls Samstag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 7,
+          "day_key": "sunday",
+          "reflection": {
+            "de": "Tagesimpuls Sonntag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        }
+      ]
+    },
+    {
+      "woche_number": 6,
+      "slug": "woche-6",
+      "title": "Karwoche: ",
+      "kurz_text": "",
+      "main_text": {
+        "de": ""
+      },
+      "bild_url": "../img/2024_fs/woche-6_header.jpg",
+      "video_url": "",
+      "podcast_url": "",
+      "a4_pdf": "",
+      "phone_pdf": "",
+      "mail_link": "",
+      "days": [
+        {
+          "day_index": 1,
+          "day_key": "monday",
+          "reflection": {
+            "de": "Tagesimpuls Montag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 2,
+          "day_key": "tuesday",
+          "reflection": {
+            "de": "Tagesimpuls Dienstag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 3,
+          "day_key": "wednesday",
+          "reflection": {
+            "de": "Tagesimpuls Mittwoch."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 4,
+          "day_key": "thursday",
+          "reflection": {
+            "day": "",
+            "motif": "",
+            "bible": "",
+            "bible_ref": "",
+            "saint_text": "",
+            "saint_text_ref": "",
+            "prayer": ""
+          }
+        },
+        {
+          "day_index": 5,
+          "day_key": "friday",
+          "reflection": {
+            "de": "Tagesimpuls Freitag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 6,
+          "day_key": "saturday",
+          "reflection": {
+            "de": "Tagesimpuls Samstag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 7,
+          "day_key": "sunday",
+          "reflection": {
+            "de": "Tagesimpuls Sonntag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        }
+      ]
+    },
+    {
+      "woche_number": 7,
+      "slug": "woche-7",
+      "title": "Ostern: ",
+      "kurz_text": "",
+      "main_text": {
+        "gospel": "",
+        "de": "Haupttext der Woche."
+      },
+      "bild_url": "../img/2024_fs/woche-7_header.jpg",
+      "video_url": "",
+      "podcast_url": "",
+      "a4_pdf": "",
+      "phone_pdf": "",
+      "mail_link": "",
+      "days": [
+        {
+          "day_index": 1,
+          "day_key": "monday",
+          "reflection": {
+            "de": "Tagesimpuls Montag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 2,
+          "day_key": "tuesday",
+          "reflection": {
+            "de": "Tagesimpuls Dienstag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 3,
+          "day_key": "wednesday",
+          "reflection": {
+            "de": "Tagesimpuls Mittwoch."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 4,
+          "day_key": "thursday",
+          "reflection": {
+            "day": "",
+            "motif": "",
+            "bible": "",
+            "bible_ref": "",
+            "saint_text": "",
+            "saint_text_ref": "",
+            "prayer": ""
+          }
+        },
+        {
+          "day_index": 5,
+          "day_key": "friday",
+          "reflection": {
+            "de": "Tagesimpuls Freitag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 6,
+          "day_key": "saturday",
+          "reflection": {
+            "de": "Tagesimpuls Samstag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 7,
+          "day_key": "sunday",
+          "reflection": {
+            "de": "Tagesimpuls Sonntag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        }
+      ]
+    }
+  ]
+}

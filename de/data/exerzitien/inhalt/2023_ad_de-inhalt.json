@@ -1,0 +1,481 @@
+{
+  "retreat_id": "advent-2023-teresa-de-los-andes",
+  "season_type": "advent",
+  "weeks": [
+    {
+      "woche_number": 0,
+      "slug": "woche-0",
+      "title": "Einleitung: Das Strahlen Gottes",
+      "kurz_text": "«Gott ist unendliche Freude» ! Dieser berühmte Ausspruch der heiligen Teresa de Los Andes (1900-1920) ist das Leitmotiv für diese Weihnachts-Exerzitien.",
+      "main_text": {
+        "de": ""
+      },
+      "bild_url": "../img/2023_ad/2023_ad_woche-0_header.png",
+      "video_url": "https://youtu.be/UmnqtiQgAWM?feature=shared",
+      "podcast_url": "https://www.buzzsprout.com/870355/14041327",
+      "a4_pdf": "https://mcusercontent.com/7c9d2aa0ecc1fde64fd44bc67/files/9b6a1476-1234-5adf-ead9-4a8c44ca9900/2023_Intro_DE.pdf",
+      "phone_pdf": "https://mcusercontent.com/7c9d2aa0ecc1fde64fd44bc67/files/a05b9a12-859f-af6d-78e3-50476222d8ec/2023_Intro_DE_Smartphone.pdf",
+      "mail_link": "https://mailchi.mp/edith-stein-gesellschaft/einladung-zu-adventexerzitien-2018-1161002",
+      "days": [
+        {
+          "day_index": 1,
+          "day_key": "thursday",
+          "reflection": {
+            "day": "",
+            "motif": "",
+            "bible": "",
+            "bible_ref": "",
+            "saint_text": "",
+            "saint_text_ref": "",
+            "prayer": ""
+          }
+        },
+        {
+          "day_index": 2,
+          "day_key": "friday",
+          "reflection": {
+            "de": "Tagesimpuls Freitag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 3,
+          "day_key": "saturday",
+          "reflection": {
+            "de": "Tagesimpuls Samstag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 4,
+          "day_key": "sunday",
+          "reflection": {
+            "de": "Tagesimpuls Sonntag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        }
+      ]
+    },
+    {
+      "woche_number": 1,
+      "slug": "woche-1",
+      "title": "1. Sonntag: Heiligkeit als Ziel",
+      "kurz_text": "« Wachet! », rief Jesus aus, ja, « bleibt wach! Denn ihr wisst nicht, wann die Zeit da ist ». Zu Beginn dieses neuen liturgischen Jahres wendet sich der Himmel an die Bewohner der Erde und richtet diese dringende Aufforderung an sie. – Was macht ihr aus eurem Leben? ...",
+      "main_text": "",
+      "bild_url": "../img/2023_ad/2023_ad_woche-1_header.png",
+      "video_url": "https://youtu.be/jr-E68l2ZR4?si=J1Mpl9wbGJGwUShq",
+      "podcast_url": "https://www.buzzsprout.com/870355/14041403",
+      "a4_pdf": "https://mcusercontent.com/7c9d2aa0ecc1fde64fd44bc67/files/1a55ee89-58ff-239a-39fd-c69e241672b0/2023_W1_DE.pdf",
+      "phone_pdf": "https://mcusercontent.com/7c9d2aa0ecc1fde64fd44bc67/files/71b0657a-9961-5f5f-621a-55a37089dc57/2023_W1_DE_Smartphone.pdf",
+      "mail_link": "https://mailchi.mp/edith-stein-gesellschaft/einladung-zu-adventexerzitien-2018-1161006",
+      "days": [
+        {
+          "day_index": 1,
+          "day_key": "monday",
+          "reflection": {
+            "de": "Tagesimpuls Montag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 2,
+          "day_key": "tuesday",
+          "reflection": {
+            "de": "Tagesimpuls Dienstag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 3,
+          "day_key": "wednesday",
+          "reflection": {
+            "de": "Tagesimpuls Mittwoch."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 4,
+          "day_key": "thursday",
+          "reflection": {
+            "day": "",
+            "motif": "",
+            "bible": "",
+            "bible_ref": "",
+            "saint_text": "",
+            "saint_text_ref": "",
+            "prayer": ""
+          }
+        },
+        {
+          "day_index": 5,
+          "day_key": "friday",
+          "reflection": {
+            "de": "Tagesimpuls Freitag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 6,
+          "day_key": "saturday",
+          "reflection": {
+            "de": "Tagesimpuls Samstag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 7,
+          "day_key": "sunday",
+          "reflection": {
+            "de": "Tagesimpuls Sonntag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        }
+      ]
+    },
+    {
+      "woche_number": 2,
+      "slug": "woche-2",
+      "title": "2. Sonntag: Die Demut ist der Weg zur Gotteserkenntnis",
+      "kurz_text": "Die Adventszeit, die auf Weihnachten vorbereitet, ist nicht nur eine Zeit des Wartens, sondern auch (und vor allem) eine Zeit der Vorbereitung auf die Ankunft des Gotteskindes. Aber was würde es nützen, auf den Besuch eines Freundes zu Hause zu warten, wenn wir ihm bei seiner Ankunft nichts anzubieten haben?",
+      "main_text": {
+        "de": ""
+      },
+      "bild_url": "../img/2023_ad/2023_ad_woche-2_header.jpg",
+      "video_url": "https://youtu.be/m4E9iC_spBI",
+      "podcast_url": "https://www.buzzsprout.com/870355/14106880",
+      "a4_pdf": "https://mcusercontent.com/7c9d2aa0ecc1fde64fd44bc67/files/1179b763-870b-385e-9753-fb7699841633/2023_W2_DE.pdf",
+      "phone_pdf": "https://mcusercontent.com/7c9d2aa0ecc1fde64fd44bc67/files/4c2de15f-defa-872f-7a7e-a9f2de1551fb/2023_W2_DE_Smartphone.pdf",
+      "mail_link": "https://mailchi.mp/edith-stein-gesellschaft/einladung-zu-adventexerzitien-2018-1161150",
+      "days": [
+        {
+          "day_index": 1,
+          "day_key": "monday",
+          "reflection": {
+            "de": "Tagesimpuls Montag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 2,
+          "day_key": "tuesday",
+          "reflection": {
+            "de": "Tagesimpuls Dienstag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 3,
+          "day_key": "wednesday",
+          "reflection": {
+            "de": "Tagesimpuls Mittwoch."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 4,
+          "day_key": "thursday",
+          "reflection": {
+            "day": "",
+            "motif": "",
+            "bible": "",
+            "bible_ref": "",
+            "saint_text": "",
+            "saint_text_ref": "",
+            "prayer": ""
+          }
+        },
+        {
+          "day_index": 5,
+          "day_key": "friday",
+          "reflection": {
+            "de": "Tagesimpuls Freitag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 6,
+          "day_key": "saturday",
+          "reflection": {
+            "de": "Tagesimpuls Samstag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 7,
+          "day_key": "sunday",
+          "reflection": {
+            "de": "Tagesimpuls Sonntag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        }
+      ]
+    },
+    {
+      "woche_number": 3,
+      "slug": "woche-3",
+      "title": "3. Sonntag: Gott ist unendliche Freude",
+      "kurz_text": "Johannes der Täufer spricht zu den Priestern und Leviten über jemanden, den sie nicht kennen. Und er fügt mit großer Demut hinzu, dass er selbst nicht würdig sei, die Riemen der Sandalen dieses geheimnisvollen Unbekannten zu lösen...",
+      "main_text": {
+        "de": ""
+      },
+      "bild_url": "../img/2023_ad/2023_ad_woche-3_header.jpg",
+      "video_url": "https://youtu.be/7UCVLrIL-hE",
+      "podcast_url": "https://www.buzzsprout.com/870355/14141421",
+      "a4_pdf": "https://mcusercontent.com/7c9d2aa0ecc1fde64fd44bc67/files/45352bdd-95de-d9d8-f8cb-c304752ae547/2023_W3_DE.pdf",
+      "phone_pdf": "https://mcusercontent.com/7c9d2aa0ecc1fde64fd44bc67/files/096363ca-0973-7c24-a98f-86e600a978f6/2023_W3_DE_Smartphone.pdf",
+      "mail_link": "https://mailchi.mp/edith-stein-gesellschaft/einladung-zu-adventexerzitien-2018-1161266",
+      "days": [
+        {
+          "day_index": 1,
+          "day_key": "monday",
+          "reflection": {
+            "de": "Tagesimpuls Montag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 2,
+          "day_key": "tuesday",
+          "reflection": {
+            "de": "Tagesimpuls Dienstag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 3,
+          "day_key": "wednesday",
+          "reflection": {
+            "de": "Tagesimpuls Mittwoch."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 4,
+          "day_key": "thursday",
+          "reflection": {
+            "day": "",
+            "motif": "",
+            "bible": "",
+            "bible_ref": "",
+            "saint_text": "",
+            "saint_text_ref": "",
+            "prayer": ""
+          }
+        },
+        {
+          "day_index": 5,
+          "day_key": "friday",
+          "reflection": {
+            "de": "Tagesimpuls Freitag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 6,
+          "day_key": "saturday",
+          "reflection": {
+            "de": "Tagesimpuls Samstag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 7,
+          "day_key": "sunday",
+          "reflection": {
+            "de": "Tagesimpuls Sonntag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        }
+      ]
+    },
+    {
+      "woche_number": 4,
+      "slug": "woche-4",
+      "title": "4. Sonntag: In Deiner Nähe",
+      "kurz_text": "Der Herr ist mit Maria. Indem Gott in Mariens Schoß Fleisch geworden ist, machte er sie zu seiner Mutter. Von da an ist dort, wo Maria, die Mutter, ist, auch Jesus, der Sohn. Das ist der göttliche Wille. Wir können Maria und Jesus nicht voneinander trennen.",
+      "main_text": {
+        "de": ""
+      },
+      "bild_url": "../img/2023_ad/2023_ad_woche-4_header.jpg",
+      "video_url": "https://youtu.be/sCGid-uN8_c",
+      "podcast_url": "https://www.buzzsprout.com/870355/14187026",
+      "a4_pdf": "https://mcusercontent.com/7c9d2aa0ecc1fde64fd44bc67/files/64055fc6-3b91-f7b5-6da1-9b41304d8ed7/2023_W4_DE.pdf",
+      "phone_pdf": "https://mcusercontent.com/7c9d2aa0ecc1fde64fd44bc67/files/9b99ed6d-16f7-138b-d41f-4b873b7423cd/2023_W4_DE_Smartphone.pdf",
+      "mail_link": "https://mailchi.mp/edith-stein-gesellschaft/einladung-zu-adventexerzitien-2018-1161314",
+      "days": [
+        {
+          "day_index": 1,
+          "day_key": "monday",
+          "reflection": {
+            "de": "Tagesimpuls Montag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 2,
+          "day_key": "tuesday",
+          "reflection": {
+            "de": "Tagesimpuls Dienstag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 3,
+          "day_key": "wednesday",
+          "reflection": {
+            "de": "Tagesimpuls Mittwoch."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 4,
+          "day_key": "thursday",
+          "reflection": {
+            "day": "",
+            "motif": "",
+            "bible": "",
+            "bible_ref": "",
+            "saint_text": "",
+            "saint_text_ref": "",
+            "prayer": ""
+          }
+        },
+        {
+          "day_index": 5,
+          "day_key": "friday",
+          "reflection": {
+            "de": "Tagesimpuls Freitag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 6,
+          "day_key": "saturday",
+          "reflection": {
+            "de": "Tagesimpuls Samstag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 7,
+          "day_key": "sunday",
+          "reflection": {
+            "de": "Tagesimpuls Sonntag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        }
+      ]
+    },
+    {
+      "woche_number": 5,
+      "slug": "woche-5",
+      "title": "Weihnachten: Welche Schönheit!",
+      "kurz_text": "Wie schön ist doch die Heilige Nacht! In der Stille dieser besonderen Nacht hüllt Maria ihr neugeborenes Kind in Windeln, wie es jede Mutter tut. Auch heute noch ist es die erste Geste einer Mutter, ihr Baby nach der Geburt mit ihren Armen und ihrer Liebe zu umhüllen ...",
+      "main_text": {
+        "de": ""
+      },
+      "bild_url": "../img/2023_ad/2023_ad_woche-5_header.jpg",
+      "video_url": "https://youtu.be/Q-0N9VlJhQw",
+      "podcast_url": "https://www.buzzsprout.com/870355/14199149",
+      "a4_pdf": "https://mcusercontent.com/7c9d2aa0ecc1fde64fd44bc67/files/ffd08349-3d0b-7869-bcdb-ee8718b3d5e4/2023_Noel_DE.pdf",
+      "phone_pdf": "https://mcusercontent.com/7c9d2aa0ecc1fde64fd44bc67/files/e50dc0e1-a120-b240-07fe-ffb795f8e199/2023_Noel_DE_Smartphone.pdf",
+      "mail_link": "https://mailchi.mp/edith-stein-gesellschaft/einladung-zu-adventexerzitien-2018-1161398",
+      "days": [
+        {
+          "day_index": 1,
+          "day_key": "monday",
+          "reflection": {
+            "de": "Tagesimpuls Montag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 2,
+          "day_key": "tuesday",
+          "reflection": {
+            "de": "Tagesimpuls Dienstag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 3,
+          "day_key": "wednesday",
+          "reflection": {
+            "de": "Tagesimpuls Mittwoch."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 4,
+          "day_key": "thursday",
+          "reflection": {
+            "day": "",
+            "motif": "",
+            "bible": "",
+            "bible_ref": "",
+            "saint_text": "",
+            "saint_text_ref": "",
+            "prayer": ""
+          }
+        },
+        {
+          "day_index": 5,
+          "day_key": "friday",
+          "reflection": {
+            "de": "Tagesimpuls Freitag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 6,
+          "day_key": "saturday",
+          "reflection": {
+            "de": "Tagesimpuls Samstag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 7,
+          "day_key": "sunday",
+          "reflection": {
+            "de": "Tagesimpuls Sonntag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        }
+      ]
+    }
+  ]
+}

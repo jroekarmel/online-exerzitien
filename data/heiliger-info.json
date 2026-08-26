@@ -4,14 +4,14 @@
     "slug": "johannes_vom_kreuz",
     "bio_de": "Johannes vom Kreuz (1542–1591) war ein spanischer Karmelit, Mystiker und Kirchenlehrer, der durch seine Lehre vom geistlichen Weg der Läuterung und Vereinigung mit Gott bekannt wurde.",
     "image": "../img/heiligen/johannes_vom_kreuz.jpg",
-    "link": "../heilige/johannes_vom_kreuz.html"
+    "link": "../de/heilige/johannes_vom_kreuz.html"
   },
   {
     "name": "Heilige Mirjam von Jesus, dem Gekreuzigten",
     "slug": "mirjam_von_jesus_dem_gekreuzigten",
     "bio_de": "Mirjam von Jesus, dem Gekreuzigten (1846–1878), auch Mariam Baouardy, war eine palästinensische Karmelitin, Mystikerin und Stigmatisierte, die für ihre Demut und außergewöhnlichen Gnadengaben verehrt wird.",
     "image": "../img/heiligen/mirjam_von_jesus.jpg",
-    "link": "../heilige/mirjam_von_jesus.html"
+    "link": "../de/heilige/mirjam_von_jesus.html"
   },
   {
     "name": "Heilige Thérèse von Lisieux",
@@ -81,7 +81,7 @@
     "slug": "br_lorenz_von_der_auferstehung",
     "bio_de": "Bruder Lorenz von der Auferstehung (1614–1691) war ein französischer Laienbruder des Karmel, der für seine Lehre von der beständigen Gegenwart Gottes im Alltag bekannt wurde.",
     "image": "../img/heiligen/lorenz.jpg",
-    "link": "../heilige/bruder_lorenz.html"
+    "link": "../de/heilige/bruder_lorenz.html"
   },
   {
     "name": "Heiliger Josef",
