@@ -133,7 +133,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   const catalogPath =
   container.dataset.json ||
-  "../data/exerzitien-katalog.json";
+  "https://www.karmel.at/daten/online_exerzitien_daten/exerzitien-katalog.json";
 
   const seasonLabels = {
     lent: "Fastenzeit",
@@ -250,7 +250,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
 const catalogPath =
   container.dataset.catalog ||
-  "../data/exerzitien-katalog.json";
+  "https://www.karmel.at/daten/online_exerzitien_daten/exerzitien-katalog.json";
 
 const saintsPath =
   container.dataset.saints ||
@@ -496,23 +496,4 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Zustand auch beim Laden der Seite korrekt setzen
     updateSonstigesField();
-});
-const video = document.querySelector("#retreat-video");
-const soundToggle = document.querySelector("#video-sound-toggle");
-
-soundToggle.addEventListener("click", () => {
-  video.muted = !video.muted;
-
-  const isMuted = video.muted;
-
-  soundToggle.textContent = isMuted
-    ? "🔊 Ton einschalten"
-    : "🔇 Ton ausschalten";
-
-  soundToggle.setAttribute(
-    "aria-label",
-    isMuted ? "Ton einschalten" : "Ton ausschalten"
-  );
-
-  soundToggle.setAttribute("aria-pressed", String(!isMuted));
 });
