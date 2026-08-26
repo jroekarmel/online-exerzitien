@@ -8,10 +8,10 @@
   },
   {
     "name": "Heilige Mirjam von Jesus, dem Gekreuzigten",
-    "slug": "mirjam_von_jesus_dem_gekreuzigten",
+    "slug": "mirjam_von_jesus",
     "bio_de": "Mirjam von Jesus, dem Gekreuzigten (1846–1878), auch Mariam Baouardy, war eine palästinensische Karmelitin, Mystikerin und Stigmatisierte, die für ihre Demut und außergewöhnlichen Gnadengaben verehrt wird.",
-    "image": "../img/heiligen/mirjam_von_jesus_dem_gekreuzigten.jpg",
-    "link": "#"
+    "image": "../img/heiligen/mirjam_von_jesus.jpg",
+    "link": "../heilige/mirjam_von_jesus.html"
   },
   {
     "name": "Heilige Thérèse von Lisieux",
