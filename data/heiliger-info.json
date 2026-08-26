@@ -32,8 +32,9 @@
     "name": "Heilige Teresa de Los Andes",
     "slug": "teresa_de_los_andes",
     "bio_de": "Teresa de Los Andes (1900–1920) war eine chilenische Karmelitin, die schon in jungen Jahren durch ihre tiefe Liebe zu Christus und ihre Hingabe im Klosterleben bekannt wurde.",
+    "bio_de_lang": "Die heilige Teresa von Jesu (von Los Andes) wurde am 13. Juli 1900 in Santiago de Chile geboren. Mit 19 Jahren trat sie in den Karmel der Stadt Los Andes ein, starb aber bereits nach einem knappen Jahr am 12. April 1920 an Typhus. Sie ist die erste Heilige Chiles und des Teresianischen Karmel in Lateinamerika. Vor allem die armen und einfachen Menschen ihres Heimatlandes haben sie lieb gewonnen. Am 3. April 1987 sprach sie Papst Johannes Paul II. bei seinem Besuch in Santiago de Chile selig. Ihre Heiligsprechung fand am 21.März 1993 in Rom statt.",
     "image": "../img/heiligen/teresa_de_los_andes.jpg",
-    "link": "#"
+    "link": "../de/heilige/teresa_de_los_andes.html"
   },
   {
     "name": "Die Heiligen des Karmel",
