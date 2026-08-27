@@ -728,7 +728,7 @@ position: relative;
 }
 
 .faq-item p {
-  padding: 0 var(--space-5) var(--space-5);
+  padding: var(--space-5) var(--space-5);
   margin: 0;
 }
 
