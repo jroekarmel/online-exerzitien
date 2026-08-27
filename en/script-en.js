@@ -156,7 +156,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   const getRetreatLink = (retreat) => {
     if (!retreat?.slug) return "#";
-    return `./exerzitien-archiv/${retreat.slug}.html`;
+    return `./retreat_archive/${retreat.slug}.html`;
   };
 
   const renderCard = (retreat, accented = false) => {
