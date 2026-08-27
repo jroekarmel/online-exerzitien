@@ -569,7 +569,7 @@ position: relative;
 .faq-item p,
 .step p,
 .info-card p {
-  color: var(--color-text-muted);
+  color: var(--color-text-muted)
 }
 
 .form-placeholder {
@@ -728,7 +728,7 @@ position: relative;
 }
 
 .faq-item p {
-  padding: 0 var(--space-5) var(--space-5);
+  padding: var(--space-5) var(--space-5);
   margin: 0;
 }
 
