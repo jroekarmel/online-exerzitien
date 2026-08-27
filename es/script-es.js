@@ -148,7 +148,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       .replaceAll('"', "&quot;")
       .replaceAll("'", "&#39;");
 
-  const getLocalizedField = (field, lang = "en") => {
+  const getLocalizedField = (field, lang = "es") => {
     if (!field) return "";
     if (typeof field === "string") return field;
     return field?.[lang] || "";
@@ -254,7 +254,7 @@ const catalogPath =
 
 const saintsPath =
   container.dataset.saints ||
-  "./saint-info_en.json";
+  "./saint-info_es.json";
 
     const escapeHtml = (value = "") =>
     String(value)
@@ -289,7 +289,7 @@ const saintsPath =
       .replace(/[-]/g, "")
       .replace(/\s+/g, "_");
 
-        const getLocalizedField = (field, lang = "de") => {
+        const getLocalizedField = (field, lang = "es") => {
     if (!field) return "";
     if (typeof field === "string") return field;
     return field?.[lang] || "";
@@ -359,7 +359,7 @@ const uniqueSaints = [
           {
             slug,
             name: saintInfo.name || name,
-            bio: saintInfo.bio_de || "",
+            bio: saintInfo.bio || "",
             link: saintInfo.link || "#",
             image: saintInfo.image || "",
           }

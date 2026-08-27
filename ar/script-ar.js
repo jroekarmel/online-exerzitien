@@ -266,7 +266,7 @@ const uniqueSaints = [
           {
             slug,
             name: saintInfo.name || name,
-            bio: saintInfo.bio_de || "",
+            bio: saintInfo.bio || "",
             link: saintInfo.link || "#",
             image: saintInfo.image || "",
           }
