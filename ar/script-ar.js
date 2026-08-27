@@ -376,31 +376,3 @@ document.addEventListener("DOMContentLoaded", () => {
     stopRotation();
   }
 });
-// hiding and showing Sonstiges field:
-document.addEventListener("DOMContentLoaded", function () {
-    const select = document.getElementById("mce-AUFMERKS01");
-    const sonstigesField = document.getElementById("sonstiges-field");
-    const sonstigesInput = document.getElementById("mce-AUFMERKS02");
-
-    function updateSonstigesField() {
-        const isSonstiges =
-            select.value === "Sonstiges";
-        console.log({
-    select: document.getElementById("mce-AUFMERKS01"),
-    field: document.getElementById("sonstiges-field"),
-    input: document.getElementById("mce-AUFMERKS02")
-});
-
-        sonstigesField.style.display = isSonstiges ? 'contents': 'none';
-        sonstigesInput.disabled = !isSonstiges;
-
-        if (!isSonstiges) {
-            sonstigesInput.value = "";
-        }
-    }
-
-    select.addEventListener("change", updateSonstigesField);
-
-    // Zustand auch beim Laden der Seite korrekt setzen
-    updateSonstigesField();
-});
