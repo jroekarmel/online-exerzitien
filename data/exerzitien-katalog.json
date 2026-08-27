@@ -428,7 +428,7 @@
       "thema": {
         "fr": "Carême 2024",
         "de": "Fastenzeit 2024 mit Pater Jacuqes von Jesus (1900-1945)",
-        "es": "",
+        "es": "Cuaresma 2024 Con el Padre Jacobo de Jesús (Lucien Bunel)",
         "it": "",
         "en": "",
         "pl": "",
@@ -446,7 +446,7 @@
       "titel": {
         "fr": "Par la croix vers la lumière avec le Père Jacques de Jésus (1900-1945)",
         "de": "Durch das Kreuz zum Licht",
-        "es": "",
+        "es": "Por la Cruz a la Luz",
         "it": "",
         "en": "",
         "pl": "",
@@ -464,7 +464,7 @@
       "zusammenfassung": {
         "fr": "",
         "de": "„Durch das Kreuz zum Licht“: So lautet der Anfang der Worte, die Pater Jacques von Jesus im März 1945 im Konzentrationslager Gusen (Österreich) mit Bleistift in ein Notizbuch kritzelte. Sie haben den Wert eines geistlichen Testaments. Dieser bemerkenswerte Erzieher, der im Januar 1944 im Karmeliterkloster von Avon von der Gestapo verhaftet worden war (ein Vorfall, der in dem Film „Auf Wiedersehen, Kinder“  von Louis Malle aufgegriffen wird) und dessen Seligsprechungsprozess im Gange ist, wird uns einen wirkkräftigen Fastenweg aufzeigen, um dem Licht Christi entgegenzugehen.",
-        "es": "",
+        "es": "¡Prepárate para la Cuaresma junto con los Carmelitas Descalzos \"Por la Cruz a la Luz\": en marzo de 1945, en el campo de concentración de Gusen, el Padre Jacobo de Jésus garabateó a lápiz estas primeras palabras convertidas en testamento espiritual. Detenido por la Gestapo en enero de 1944 en el convento de los Carmelitas de Avon (escena evocada en la película de Louis Malle \"Adios, muchachos\"), este destacado educador, cuyo proceso de beatificación está actualmente en curso, nos abrirá un vigoroso sendero cuaresmal para caminar hacia la luz de Cristo.",
         "it": "",
         "en": "",
         "pl": "",
@@ -482,11 +482,11 @@
       "header_img": {
         "fr": "../img/FS24_header_FR.png",
         "de": "../de/img/FS24_header_DE.png",
-        "es": "../img/FS24_header_ES.png",
+        "es": "../es/img/2024_lent_header_ES.png",
         "it": "../img/FS24_header_IT.png",
-        "en": "../img/FS24_header_EN.png",
+        "en": "../en/img/2024_lent_header_EN.png",
         "pl": "../img/FS24_header_PL.png",
-        "ar": "../img/FS24_header_AR.png",
+        "ar": "../ar/img/2024_lent_header_AR.png",
         "pt": "../img/FS24_header_PT.png",
         "zh": "../img/FS24_header_ZH.png",
         "cs": "../img/FS24_header_CS.png",
@@ -920,7 +920,7 @@
       "thema": {
         "fr": "Carême 2021",
         "de": "Fastenzeit 2021 mit der Heilige Teresa von Ávila",
-        "es": "",
+        "es": "Cuaresma 2021 con Santa Teresa",
         "it": "",
         "en": "",
         "pl": "",
@@ -938,7 +938,7 @@
       "titel": {
         "fr": "Marcher de demeures en demeures avec sainte Thérèse d’Ávila",
         "de": "Tretet ein in die Burg Eurer Seele...",
-        "es": "",
+        "es": "Caminando de morada en morada",
         "it": "",
         "en": "",
         "pl": "",
@@ -956,7 +956,7 @@
       "zusammenfassung": {
         "fr": "",
         "de": "Es war mitten in einer Krise, als die heilige Teresa von Ávila (1515-1582) ihr geistliches Meisterwerk, das Buch der Wohnungen der Inneren Burg, schrieb. Während ihr gesamtes Werk als Gründerin des Karmel in sich zusammenzufallen scheint, schöpft sie ihre Energie aus ihrer inneren Burg. In unserem Kontext der Gesundheits- und Wirtschaftskrise kann uns die ‘Madre’ in dieser Fastenzeit helfen, zu entdecken, dass unsere Stärke im Inneren liegt. Mit dieser Kirchenlehrerin gehen wir durch die Burg von Wohnung zu Wohnung zum Zentrum, wo das Licht von Ostern leuchtet. Die Gegenwart des Auferstandenen ist die wahre gute Nachricht, die unser geistliches Leben wiederbeleben kann. \nDie Meditationen wurden von P. Guillaume Dehorter OCD (Karmelit in Avon bei Paris) und einem Team zusammengestellt. Die Aussendung in deutscher Sprache geschieht als Initiative des Verlags Christliche Innerlichkeit und des Teresianischen Karmel in Österreich, der Edith Stein Gesellschaft Österreich und der Marienschwestern vom Karmel. Die deutsche Fassung wurde von den Karmelitinnen in Mayerling bereitgestellt.",
-        "es": "",
+        "es": "Durante esta Cuaresma nos acompañara las enseñanzas de Santa Teresa de Ávila (1515-1582, gran mística y maestra de oración que nos alentará a adentrarnos en nosotros mismos y fijar  la mirada  en “Aquel que sabemos nos Ama”infinitamente,  nuestro modelo y camino de toda vida cristiana. Fue en medio de una gran crisis que Teresa de Jesús escribió su obra maestra espiritual, Las Moradas. Cuando parece que la obra fundacional de sus “Carmelos” parece desmoronarse, la Santa extrae toda su fortaleza de su Castillo Interior. En nuestro contexto de crisis sanitaria y económica, la Santa Madre puede ayudarnos durante  esta Cuaresma a descubrir que nuestra fuerza está en nuestro interior. Con esta Doctora de la Iglesia, caminaremos de morada en morada  hasta el centro donde resplandece la luz de la Pascua. La presencia del Resucitado es la verdadera Buena Noticia que puede revitalizar nuestra vida espiritual. ¡Qué esta Cuaresma sea un tiempo en el que experimentemos la amistad con Dios hasta convertirnos en sus compañeros de camino de entrega!",
         "it": "",
         "en": "",
         "pl": "",
@@ -974,7 +974,7 @@
       "header_img": {
         "fr": "../img/FS21_header_FR.png",
         "de": "../de/img/FS21_header_DE.jpg",
-        "es": "../img/FS21_header_ES.png",
+        "es": "../es/img/2021_lent_header_ES.jpg",
         "it": "../img/FS21_header_IT.png",
         "en": "../img/FS21_header_EN.png",
         "pl": "../img/FS21_header_PL.png",

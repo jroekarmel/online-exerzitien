@@ -204,7 +204,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
         <div class="card-links">
           <a href="${escapeHtml(link)}" target="_blank" rel="noopener noreferrer">
-            Access the materials
+            Más información
           </a>
         </div>
       </article>
@@ -316,7 +316,7 @@ return `
 
         <div class="card-links">
           <a href="${escapeHtml(saint.link || "#")}" target="_blank" rel="noopener noreferrer">
-            Find out more
+            Más información
           </a>
         </div>
       </article>

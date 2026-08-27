@@ -22,9 +22,9 @@
     "link": "#"
   },
   {
-    "name": "Father Jacques of Jesus",
+    "name": "Padre Jacobo de Jesús (lucien Bunel)",
     "slug": "pater_jacques_von_jesus",
-    "bio": "Father Jacques of Jesus (1900–1945), a Carmelite and French priest, hid Jewish children during the Second World War, was arrested, and died shortly after the liberation of a concentration camp.",
+    "bio": "El Padre Jacobo de Jésus garabateó a lápiz estas primeras palabras convertidas en testamento espiritual. Detenido por la Gestapo en enero de 1944 en el convento de los Carmelitas de Avon (escena evocada en la película de Louis Malle \"Adios, muchachos\"), este destacado educador, cuyo proceso de beatificación está actualmente en curso, nos abrirá un vigoroso sendero cuaresmal para caminar hacia la luz de Cristo.",
     "image": "./img/saints/pater_jacques_von_jesus.jpg",
     "link": "#"
   },
@@ -36,23 +36,16 @@
     "link": "#"
   },
   {
-    "name": "The Saints of Carmel",
+    "name": "I Santi del Carmelo",
     "slug": "die_heiligen_des_karmel",
-    "bio": "The saints of Carmel include a great multitude of men and women who attained holiness in the spirit of Mary of Mount Carmel through contemplation, sacrifice, and service to the Church.",
+    "bio": "",
     "image": "./img/saints/heiligen_des_karmel.jpg",
     "link": "#"
   },
   {
-    "name": "Saint Thérèse of the Child Jesus",
-    "slug": "therese_vom_kinde_jesu",
-    "bio": "",
-    "image": "./img/saints/therese_vom_kinde_jesu.jpg",
-    "link": "#"
-  },
-  {
-    "name": "Saint Teresa of Ávila",
+    "name": "Santa Teresa de Ávila",
     "slug": "teresa_von_avila",
-    "bio": "Teresa of Ávila (1515–1582) was a Spanish mystic, reformer of Carmel, and Doctor of the Church whose spiritual writings and convent reforms profoundly shaped Western spirituality.",
+    "bio": "Santa Teresa de Ávila (1515–1582), gran mística y maestra de oración, que nos alentará a adentrarnos en nosotros mismos y a fijar la mirada en “Aquel que sabemos nos ama” infinitamente, nuestro modelo y camino de toda vida cristiana.",
     "image": "./img/saints/teresa_von_avila.png",
     "link": "#"
   },
