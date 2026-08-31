@@ -136,8 +136,8 @@ document.addEventListener("DOMContentLoaded", async () => {
   "../data/exerzitien-katalog.json";
 
   const seasonLabels = {
-    lent: "Lent",
-    advent: "Advent"
+    lent: "Cuaresma",
+    advent: "Adviento"
   };
 
   const escapeHtml = (value = "") =>

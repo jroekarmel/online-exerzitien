@@ -43,8 +43,8 @@ document.addEventListener("DOMContentLoaded", async () => {
   "../data/exerzitien-katalog.json";
 
   const seasonLabels = {
-    lent: "Lent",
-    advent: "Advent"
+    lent: "صوم",
+    advent: "المجيء"
   };
 
   const escapeHtml = (value = "") =>
