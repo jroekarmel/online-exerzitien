@@ -133,7 +133,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   const catalogPath =
   container.dataset.json ||
-  "https://www.karmel.at/daten/online_exerzitien_daten/exerzitien-katalog.json";
+  "../de/data/exerzitien-katalog.json";
 
   const seasonLabels = {
     lent: "Fastenzeit",
@@ -250,11 +250,11 @@ document.addEventListener("DOMContentLoaded", async () => {
 
 const catalogPath =
   container.dataset.catalog ||
-  "https://www.karmel.at/daten/online_exerzitien_daten/exerzitien-katalog.json";
-
+  "../de/data/exerzitien-katalog.json";
+ 
 const saintsPath =
   container.dataset.saints ||
-  "../data/heiliger-info.json";
+  "../de/data/heiliger-info.json";
 
     const escapeHtml = (value = "") =>
     String(value)
@@ -374,66 +374,126 @@ const uniqueSaints = [
     }
 
     container.innerHTML = uniqueSaints.map(renderCard).join("");
+    document.dispatchEvent(
+  new CustomEvent("saintsRendered", {
+    detail: {
+      count: uniqueSaints.length
+    }
+  })
+);
   } catch (error) {
     console.error(error);
     container.innerHTML = `<p>Die Archivdaten konnten derzeit nicht geladen werden.</p>`;
   }
 });
 
-//saints rotation
+// Saints carousel: previous, pause/play, next
 document.addEventListener("DOMContentLoaded", () => {
-  const grid = document.querySelector("#saintsGrid");
-  const dots = Array.from(document.querySelectorAll(".saints-dot"));
+  const grid = document.querySelector("#saints-grid");
+  const previousButton = document.querySelector(".saints-prev");
+  const nextButton = document.querySelector(".saints-next");
   const toggleButton = document.querySelector(".saints-toggle");
   const toggleIcon = document.querySelector(".saints-toggle-icon");
 
-  if (!grid || !dots.length || !toggleButton) return;
+  if (!grid || !previousButton || !nextButton || !toggleButton) return;
 
-  const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const prefersReducedMotion = window.matchMedia(
+    "(prefers-reduced-motion: reduce)"
+  ).matches;
 
   let currentIndex = 0;
   let autoRotate = null;
   let isPaused = prefersReducedMotion;
+  let carouselReady = false;
 
-  function setActiveDot(index) {
-    dots.forEach((dot, i) => {
-      const active = i === index;
-      dot.classList.toggle("is-active", active);
-      dot.setAttribute("aria-current", active ? "true" : "false");
-    });
+  function getSlides() {
+    return [...grid.querySelectorAll(".saint-card")];
   }
 
-  function goToSlide(index) {
-    currentIndex = Math.max(0, Math.min(index, dots.length - 1));
+  function getTotalSlides() {
+    return getSlides().length;
+  }
 
+  function updateButtons() {
+    const hasMoreThanOneSlide = getTotalSlides() > 1;
+
+    previousButton.disabled = !hasMoreThanOneSlide;
+    nextButton.disabled = !hasMoreThanOneSlide;
+    toggleButton.disabled = !hasMoreThanOneSlide;
+
+    previousButton.setAttribute(
+      "aria-label",
+      "Vorherigen Heiligen anzeigen"
+    );
+
+    nextButton.setAttribute(
+      "aria-label",
+      "Nächsten Heiligen anzeigen"
+    );
+  }
+
+  function goToSlide(index, behavior = "smooth") {
+    const slides = getSlides();
+    const totalSlides = slides.length;
+
+    if (totalSlides === 0) return;
+
+    currentIndex = (index + totalSlides) % totalSlides;
+
+    /*
+      This is more reliable than:
+      currentIndex * grid.clientWidth
+
+      It scrolls precisely to the actual card position, even if your cards
+      have a gap, responsive width, padding, or scroll-snap styling.
+    */
     grid.scrollTo({
-      left: currentIndex * grid.clientWidth,
-      behavior: "smooth"
+      left: slides[currentIndex].offsetLeft,
+      behavior
     });
-
-    setActiveDot(currentIndex);
   }
 
   function startRotation() {
-    if (autoRotate || isPaused) return;
+    if (
+      autoRotate ||
+      isPaused ||
+      !carouselReady ||
+      getTotalSlides() < 2
+    ) {
+      return;
+    }
 
-    autoRotate = setInterval(() => {
-      goToSlide((currentIndex + 1) % dots.length);
+    autoRotate = window.setInterval(() => {
+      goToSlide(currentIndex + 1);
     }, 4000);
 
     toggleButton.setAttribute("aria-label", "Karussell pausieren");
     toggleButton.setAttribute("aria-pressed", "false");
-    if (toggleIcon) toggleIcon.textContent = "❚❚";
+
+    if (toggleIcon) {
+      toggleIcon.textContent = "❚❚";
+    }
   }
 
   function stopRotation() {
-    clearInterval(autoRotate);
+    window.clearInterval(autoRotate);
     autoRotate = null;
 
     toggleButton.setAttribute("aria-label", "Karussell abspielen");
     toggleButton.setAttribute("aria-pressed", "true");
-    if (toggleIcon) toggleIcon.textContent = "▶";
+
+    if (toggleIcon) {
+      toggleIcon.textContent = "▶";
+    }
   }
+
+  previousButton.addEventListener("click", () => {
+    goToSlide(currentIndex - 1);
+  });
+
+  nextButton.addEventListener("click", () => {
+    goToSlide(currentIndex + 1);
+  });
 
   toggleButton.addEventListener("click", () => {
     if (autoRotate) {
@@ -445,29 +505,64 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
-  dots.forEach((dot, index) => {
-    dot.addEventListener("click", () => {
+  grid.addEventListener("scroll", () => {
+    const slides = getSlides();
+
+    if (slides.length === 0) return;
+
+    let nearestIndex = 0;
+    let nearestDistance = Infinity;
+
+    slides.forEach((slide, index) => {
+      const distance = Math.abs(slide.offsetLeft - grid.scrollLeft);
+
+      if (distance < nearestDistance) {
+        nearestDistance = distance;
+        nearestIndex = index;
+      }
+    });
+
+    currentIndex = nearestIndex;
+  });
+
+  grid.addEventListener("mouseenter", () => {
+    if (autoRotate) {
       isPaused = true;
       stopRotation();
-      goToSlide(index);
-    });
+    }
   });
 
-  grid.addEventListener("scroll", () => {
-    const index = Math.round(grid.scrollLeft / grid.clientWidth);
-    currentIndex = Math.min(index, dots.length - 1);
-    setActiveDot(currentIndex);
+  grid.addEventListener("focusin", () => {
+    if (autoRotate) {
+      isPaused = true;
+      stopRotation();
+    }
   });
 
-  grid.addEventListener("mouseenter", stopRotation);
+  /*
+    At initial page load there are no cards yet because fetch() is still
+    loading the JSON. Disable controls until the saints-rendering script
+    announces that it has inserted the cards.
+  */
+  updateButtons();
 
-  setActiveDot(0);
+  document.addEventListener(
+    "saintsRendered",
+    () => {
+      carouselReady = true;
+      currentIndex = 0;
 
-  if (!prefersReducedMotion) {
-    startRotation();
-  } else {
-    stopRotation();
-  }
+      updateButtons();
+      goToSlide(0, "auto");
+
+      if (!prefersReducedMotion) {
+        startRotation();
+      } else {
+        stopRotation();
+      }
+    },
+    { once: true }
+  );
 });
 // hiding and showing Sonstiges field:
 document.addEventListener("DOMContentLoaded", function () {

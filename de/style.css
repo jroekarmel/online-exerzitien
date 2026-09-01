@@ -903,13 +903,48 @@ position: relative;
     scroll-snap-align: start;
   }
 
-  .saints-controls {
+.saints-controls {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 0.75rem;
-  margin-top: 1.25rem;
-  flex-wrap: wrap;
+}
+
+.saints-prev,
+.saints-next,
+.saints-toggle {
+  display: inline-grid;
+  place-items: center;
+  min-width: 2.75rem;
+  min-height: 2.75rem;
+  padding: 0.5rem;
+  border: 1px solid var(--border-color, #c9c9c9);
+  border-radius: 999px;
+  background: var(--surface-color, #fff);
+  color: inherit;
+  font: inherit;
+  font-size: 1.25rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.saints-prev:hover,
+.saints-next:hover,
+.saints-toggle:hover {
+  background: var(--hover-color, #f1f1f1);
+}
+
+.saints-prev:focus-visible,
+.saints-next:focus-visible,
+.saints-toggle:focus-visible {
+  outline: 3px solid #005fcc;
+  outline-offset: 3px;
+}
+
+.saints-prev:disabled,
+.saints-next:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
 }
 }
 
