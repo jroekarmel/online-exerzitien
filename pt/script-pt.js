@@ -148,7 +148,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       .replaceAll('"', "&quot;")
       .replaceAll("'", "&#39;");
 
-  const getLocalizedField = (field, lang = "en") => {
+  const getLocalizedField = (field, lang = "pt") => {
     if (!field) return "";
     if (typeof field === "string") return field;
     return field?.[lang] || "";
