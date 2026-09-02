@@ -136,8 +136,8 @@ document.addEventListener("DOMContentLoaded", async () => {
   "../data/exerzitien-katalog.json";
 
   const seasonLabels = {
-    lent: "Lent",
-    advent: "Advent"
+    lent: "Wielki post",
+    advent: "Adwent"
   };
 
   const escapeHtml = (value = "") =>
@@ -204,7 +204,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
         <div class="card-links">
           <a href="${escapeHtml(link)}" target="_blank" rel="noopener noreferrer">
-            Access the materials
+            Uzyskaj dostęp do materiałów 
           </a>
         </div>
       </article>
@@ -254,7 +254,7 @@ const catalogPath =
 
 const saintsPath =
   container.dataset.saints ||
-  "./saint-info_en.json";
+  "./saint-info_pl.json";
 
     const escapeHtml = (value = "") =>
     String(value)
@@ -310,13 +310,13 @@ return `
         </div>
         <h3>${escapeHtml(saint.name)}</h3>
 
-        <p class="saint-bio">
+        <p class="saint-bio" hidden>
           ${escapeHtml(saint.bio)}
         </p>
 
-        <div class="card-links">
+        <div class="card-links" hidden>
           <a href="${escapeHtml(saint.link || "#")}" target="_blank" rel="noopener noreferrer">
-            Find out more
+            Dowiedz się więcej
           </a>
         </div>
       </article>
