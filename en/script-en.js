@@ -243,6 +243,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   }
 });
 
+<<<<<<< HEAD
 // list of saints – horizontal scroll with prev/next buttons
 document.addEventListener("DOMContentLoaded", async () => {
   const grid = document.getElementById("saints-grid");
@@ -258,6 +259,22 @@ document.addEventListener("DOMContentLoaded", async () => {
   const saintsPath =
     grid.dataset.saints ||
     "./saint-info_en.json";
+=======
+// list of saints (debug + simple fallback)
+document.addEventListener("DOMContentLoaded", async () => {
+
+  const container = document.querySelector("#saints-carousel-inner");
+  if (!container) return;
+
+  const catalogPath =
+    container.dataset.catalog ||
+    "../data/exerzitien-katalog.json";
+
+  const saintsPath =
+    container.dataset.saints ||
+    "./saint-info_en.json";
+
+>>>>>>> a71d6ac7172ec0200a8f1b7a5cceec0692f6abc0
 
   const escapeHtml = (value = "") =>
     String(value)
@@ -292,6 +309,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       .replace(/[-]/g, "")
       .replace(/\s+/g, "_");
 
+<<<<<<< HEAD
   const renderCard = (saint) => {
     const imageSaint = saint.image || "";
 
@@ -312,11 +330,23 @@ document.addEventListener("DOMContentLoaded", async () => {
         </p>
 
         <div class="card-links">
+=======
+  const renderCard = (saint, index = 0) => {
+    const imageSaint = saint.image || "";
+    const activeClass = index === 0 ? " active" : "";
+
+    return `
+      <div class="carousel-item${activeClass}">
+        <img src="${escapeHtml(imageSaint)}" class="d-block w-100" alt="${escapeHtml(saint.name)}">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>${escapeHtml(saint.name)}</h5>
+          <p>${escapeHtml(saint.bio || "")}</p>
+>>>>>>> a71d6ac7172ec0200a8f1b7a5cceec0692f6abc0
           <a href="${escapeHtml(saint.link || "#")}" target="_blank" rel="noopener noreferrer">
             Find out more
           </a>
         </div>
-      </article>
+      </div>
     `;
   };
 
@@ -325,6 +355,9 @@ document.addEventListener("DOMContentLoaded", async () => {
       fetch(catalogPath),
       fetch(saintsPath),
     ]);
+
+    console.log("catalogResponse.ok", catalogResponse.ok, catalogResponse.status);
+    console.log("infoResponse.ok", infoResponse.ok, infoResponse.status);
 
     if (!catalogResponse.ok || !infoResponse.ok) {
       throw new Error("Eine oder mehrere JSON-Dateien konnten nicht geladen werden.");
@@ -335,8 +368,14 @@ document.addEventListener("DOMContentLoaded", async () => {
       infoResponse.json(),
     ]);
 
+    console.log("catalogData", catalogData);
+    console.log("infoData", infoData);
+
     const retreats = Array.isArray(catalogData.retreats) ? catalogData.retreats : [];
     const saintsInfo = Array.isArray(infoData) ? infoData : [];
+
+    console.log("retreats count", retreats.length);
+    console.log("saintsInfo count", saintsInfo.length);
 
     const saintsBySlug = Object.fromEntries(
       saintsInfo.map((saint) => [saint.slug, saint])
@@ -365,6 +404,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       ).values(),
     ];
 
+<<<<<<< HEAD
     if (uniqueSaints.length === 0) {
       grid.innerHTML = `<p>Derzeit sind keine Heiligen verfügbar.</p>`;
       prevBtn.disabled = true;
@@ -421,6 +461,48 @@ nextBtn.addEventListener("click", () => {
   } catch (error) {
     console.error("Saints script error", error);
     grid.innerHTML = `<p>Die Archivdaten konnten derzeit nicht geladen werden.</p>`;
+=======
+    console.log("uniqueSaints length", uniqueSaints.length);
+    console.log("uniqueSaints", uniqueSaints);
+
+    // If no saints from catalog, fall back to showing all saints from saint-info_en.json
+    if (uniqueSaints.length === 0 && saintsInfo.length > 0) {
+      console.log("No matched saints; using fallback to all saints from saint-info_en.json");
+      container.innerHTML = saintsInfo
+        .map((saint, i) =>
+          renderCard(
+            {
+              name: saint.name || "Saint",
+              bio: saint.bio_en || saint.bio || "",
+              link: saint.link || "#",
+              image: saint.image || "",
+            },
+            i
+          )
+        )
+        .join("");
+
+      const slides = container.querySelectorAll(".carousel-item");
+      console.log("fallback slides count", slides.length);
+      return;
+    }
+
+    if (uniqueSaints.length === 0) {
+      container.innerHTML = `<p>Derzeit sind keine Heiligen verfügbar.</p>`;
+      console.warn("No saints to display.");
+      return;
+    }
+
+    container.innerHTML = uniqueSaints
+      .map((saint, i) => renderCard(saint, i))
+      .join("");
+
+    const slides = container.querySelectorAll(".carousel-item");
+    console.log("final slides count", slides.length);
+  } catch (error) {
+    console.error("Saints script error", error);
+    container.innerHTML = `<p>Die Archivdaten konnten derzeit nicht geladen werden.</p>`;
+>>>>>>> a71d6ac7172ec0200a8f1b7a5cceec0692f6abc0
   }
 });
 // hiding and showing Sonstiges field:
@@ -429,9 +511,13 @@ document.addEventListener("DOMContentLoaded", function () {
     const sonstigesField = document.getElementById("sonstiges-field");
     const sonstigesInput = document.getElementById("mce-AUFMERKS02");
 
+      // If any of these are missing, skip this logic entirely
+  if (!select || !sonstigesField || !sonstigesInput) {
+    return;
+  }
     function updateSonstigesField() {
         const isSonstiges =
-            select.value === "Sonstiges";
+            select.value === "Other (please specify)";
         console.log({
     select: document.getElementById("mce-AUFMERKS01"),
     field: document.getElementById("sonstiges-field"),
