@@ -771,9 +771,24 @@ position: relative;
 }
 
 .saints-grid {
-  display: grid;
-  gap: var(--space-4);
-  margin-top: var(--space-6);
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  padding-bottom: 0.5rem;
+  scrollbar-width: none; /* Firefox */
+}
+
+.saints-grid::-webkit-scrollbar {
+  display: none; /* Chrome/Safari */
+}
+
+/* Card width: 1 visible on mobile */
+.saints-grid .saint-card {
+  flex: 0 0 min(260px, 85vw);
+  scroll-snap-align: start;
 }
 
 .archive-card {
@@ -883,16 +898,8 @@ position: relative;
     width: 100%;
   }
 
-  .saints-grid {
-    display: block;
-    grid-auto-flow: column;
-    grid-auto-columns: calc((100% - 2rem) / 3);
-    gap: 1rem;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
-    scroll-behavior: smooth;
-    scrollbar-width: none;
-    -ms-overflow-style: none;
+  .saints-grid .saint-card {
+    flex: 0 0 calc(25% - 0.75rem);
   }
 
   .saints-grid::-webkit-scrollbar {
@@ -995,49 +1002,6 @@ position: relative;
   color: var(--color-text-soft);
 }
 
-@media (min-width: 700px) {
-  .saints-grid {
-    display: grid;
-    grid-auto-flow: column;
-    grid-auto-columns: calc((100% - 2rem) / 3);
-    gap: 1rem;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
-    scroll-behavior: smooth;
-    padding-bottom: 0.5rem;
-  }
-
-  .saint-card-featured {
-    scroll-snap-align: start;
-  }
-
-  .saints-grid::-webkit-scrollbar {
-    height: 10px;
-  }
-}
-
-@media (min-width: 980px) {
-  .saints-grid {
-    display: grid;
-    grid-auto-flow: column;
-    grid-auto-columns: calc((100% - 2rem) / 3);
-    gap: 1rem;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
-    scroll-behavior: smooth;
-    padding-bottom: 0.5rem;
-  }
-
-  .saint-card-featured {
-    scroll-snap-align: start;
-  }
-
-  .saints-grid::-webkit-scrollbar {
-    height: 10px;
-  }
-
-  
-}
 
 @media (hover: hover) {
   .saint-card:hover,

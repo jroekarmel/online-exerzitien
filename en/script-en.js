@@ -243,20 +243,23 @@ document.addEventListener("DOMContentLoaded", async () => {
   }
 });
 
-//list of saints
+// list of saints – horizontal scroll with prev/next buttons
 document.addEventListener("DOMContentLoaded", async () => {
-  const container = document.querySelector("#saints-cards .saints-grid");
-  if (!container) return;
+  const grid = document.getElementById("saints-grid");
+  const prevBtn = document.querySelector(".saints-prev");
+  const nextBtn = document.querySelector(".saints-next");
 
-const catalogPath =
-  container.dataset.catalog ||
-  "../data/exerzitien-katalog.json";
+  if (!grid || !prevBtn || !nextBtn) return;
 
-const saintsPath =
-  container.dataset.saints ||
-  "./saint-info_en.json";
+  const catalogPath =
+    grid.dataset.catalog ||
+    "../data/exerzitien-katalog.json";
 
-    const escapeHtml = (value = "") =>
+  const saintsPath =
+    grid.dataset.saints ||
+    "./saint-info_en.json";
+
+  const escapeHtml = (value = "") =>
     String(value)
       .replaceAll("&", "&amp;")
       .replaceAll("<", "&lt;")
@@ -289,16 +292,10 @@ const saintsPath =
       .replace(/[-]/g, "")
       .replace(/\s+/g, "_");
 
-        const getLocalizedField = (field, lang = "de") => {
-    if (!field) return "";
-    if (typeof field === "string") return field;
-    return field?.[lang] || "";
-  };
+  const renderCard = (saint) => {
+    const imageSaint = saint.image || "";
 
-const renderCard = (saint) => {
-    const imageSaint = `${saint.image}`;
-
-return `
+    return `
       <article class="saint-card saint-card-featured">
         <div class="image-zoom-saint">
           <img
@@ -321,12 +318,12 @@ return `
         </div>
       </article>
     `;
-};
+  };
 
   try {
     const [catalogResponse, infoResponse] = await Promise.all([
       fetch(catalogPath),
-      fetch(saintsPath)
+      fetch(saintsPath),
     ]);
 
     if (!catalogResponse.ok || !infoResponse.ok) {
@@ -335,7 +332,7 @@ return `
 
     const [catalogData, infoData] = await Promise.all([
       catalogResponse.json(),
-      infoResponse.json()
+      infoResponse.json(),
     ]);
 
     const retreats = Array.isArray(catalogData.retreats) ? catalogData.retreats : [];
@@ -345,128 +342,63 @@ return `
       saintsInfo.map((saint) => [saint.slug, saint])
     );
 
-const uniqueSaints = [
-  ...new Map(
-    retreats
-      .filter((retreat) => retreat.heiliger)
-      .map((retreat) => {
-        const name = retreat.heiliger;
-        const slug = slugifySaint(name);
-        const saintInfo = saintsBySlug[slug] || {};
+    const uniqueSaints = [
+      ...new Map(
+        retreats
+          .filter((retreat) => retreat.heiliger)
+          .map((retreat) => {
+            const name = retreat.heiliger;
+            const slug = slugifySaint(name);
+            const saintInfo = saintsBySlug[slug] || {};
 
-        return [
-          slug,
-          {
-            slug,
-            name: saintInfo.name || name,
-            bio: saintInfo.bio_de || "",
-            link: saintInfo.link || "#",
-            image: saintInfo.image || "",
-          }
-        ];
-      })
-  ).values()
-];
+            return [
+              slug,
+              {
+                slug,
+                name: saintInfo.name || name,
+                bio: saintInfo.bio_en || saintInfo.bio || "",
+                link: saintInfo.link || "#",
+                image: saintInfo.image || "",
+              },
+            ];
+          })
+      ).values(),
+    ];
 
     if (uniqueSaints.length === 0) {
-      container.innerHTML = `<p>Derzeit sind keine Heiligen verfügbar.</p>`;
+      grid.innerHTML = `<p>Derzeit sind keine Heiligen verfügbar.</p>`;
+      prevBtn.disabled = true;
+      nextBtn.disabled = true;
       return;
     }
 
-    container.innerHTML = uniqueSaints.map(renderCard).join("");
+    grid.innerHTML = uniqueSaints.map(renderCard).join("");
+
+    // Scroll behavior: 4 cards on desktop, 1 on mobile
+    const getScrollAmount = () => {
+      const card = grid.querySelector(".saint-card");
+      if (!card) return 0;
+      const cardWidth = card.getBoundingClientRect().width;
+      const gap = 16; // approx 1rem
+
+      if (window.innerWidth >= 992) {
+        return (cardWidth + gap) * 4;
+      }
+      return cardWidth + gap;
+    };
+
+    prevBtn.addEventListener("click", () => {
+      const amount = getScrollAmount();
+      grid.scrollBy({ left: -amount, behavior: "smooth" });
+    });
+
+    nextBtn.addEventListener("click", () => {
+      const amount = getScrollAmount();
+      grid.scrollBy({ left: amount, behavior: "smooth" });
+    });
   } catch (error) {
-    console.error(error);
-    container.innerHTML = `<p>Die Archivdaten konnten derzeit nicht geladen werden.</p>`;
-  }
-});
-
-//saints rotation
-document.addEventListener("DOMContentLoaded", () => {
-  const grid = document.querySelector("#saintsGrid");
-  const dots = Array.from(document.querySelectorAll(".saints-dot"));
-  const toggleButton = document.querySelector(".saints-toggle");
-  const toggleIcon = document.querySelector(".saints-toggle-icon");
-
-  if (!grid || !dots.length || !toggleButton) return;
-
-  const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-
-  let currentIndex = 0;
-  let autoRotate = null;
-  let isPaused = prefersReducedMotion;
-
-  function setActiveDot(index) {
-    dots.forEach((dot, i) => {
-      const active = i === index;
-      dot.classList.toggle("is-active", active);
-      dot.setAttribute("aria-current", active ? "true" : "false");
-    });
-  }
-
-  function goToSlide(index) {
-    currentIndex = Math.max(0, Math.min(index, dots.length - 1));
-
-    grid.scrollTo({
-      left: currentIndex * grid.clientWidth,
-      behavior: "smooth"
-    });
-
-    setActiveDot(currentIndex);
-  }
-
-  function startRotation() {
-    if (autoRotate || isPaused) return;
-
-    autoRotate = setInterval(() => {
-      goToSlide((currentIndex + 1) % dots.length);
-    }, 4000);
-
-    toggleButton.setAttribute("aria-label", "Karussell pausieren");
-    toggleButton.setAttribute("aria-pressed", "false");
-    if (toggleIcon) toggleIcon.textContent = "❚❚";
-  }
-
-  function stopRotation() {
-    clearInterval(autoRotate);
-    autoRotate = null;
-
-    toggleButton.setAttribute("aria-label", "Karussell abspielen");
-    toggleButton.setAttribute("aria-pressed", "true");
-    if (toggleIcon) toggleIcon.textContent = "▶";
-  }
-
-  toggleButton.addEventListener("click", () => {
-    if (autoRotate) {
-      isPaused = true;
-      stopRotation();
-    } else {
-      isPaused = false;
-      startRotation();
-    }
-  });
-
-  dots.forEach((dot, index) => {
-    dot.addEventListener("click", () => {
-      isPaused = true;
-      stopRotation();
-      goToSlide(index);
-    });
-  });
-
-  grid.addEventListener("scroll", () => {
-    const index = Math.round(grid.scrollLeft / grid.clientWidth);
-    currentIndex = Math.min(index, dots.length - 1);
-    setActiveDot(currentIndex);
-  });
-
-  grid.addEventListener("mouseenter", stopRotation);
-
-  setActiveDot(0);
-
-  if (!prefersReducedMotion) {
-    startRotation();
-  } else {
-    stopRotation();
+    console.error("Saints script error", error);
+    grid.innerHTML = `<p>Die Archivdaten konnten derzeit nicht geladen werden.</p>`;
   }
 });
 // hiding and showing Sonstiges field:
