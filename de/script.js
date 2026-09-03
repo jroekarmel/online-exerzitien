@@ -155,7 +155,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   };
 
   const getRetreatLink = (retreat) => {
-    if (!retreat?.slug) return "#";
+    if (!retreat?.slug) return;
     return `./exerzitien-archiv/${retreat.slug}.html`;
   };
 

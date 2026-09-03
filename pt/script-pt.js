@@ -136,8 +136,8 @@ document.addEventListener("DOMContentLoaded", async () => {
   "../data/exerzitien-katalog.json";
 
   const seasonLabels = {
-    lent: "Wielki post",
-    advent: "Adwent"
+    lent: "Lent",
+    advent: "Advent"
   };
 
   const escapeHtml = (value = "") =>
@@ -148,7 +148,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       .replaceAll('"', "&quot;")
       .replaceAll("'", "&#39;");
 
-  const getLocalizedField = (field, lang = "pl") => {
+  const getLocalizedField = (field, lang = "pt") => {
     if (!field) return "";
     if (typeof field === "string") return field;
     return field?.[lang] || "";
@@ -204,7 +204,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
         <div class="card-links">
           <a href="${escapeHtml(link)}" target="_blank" rel="noopener noreferrer">
-            Uzyskaj dostęp do materiałów 
+            Access the materials
           </a>
         </div>
       </article>
@@ -254,7 +254,7 @@ const catalogPath =
 
 const saintsPath =
   container.dataset.saints ||
-  "./saint-info_pl.json";
+  "./saint-info_en.json";
 
     const escapeHtml = (value = "") =>
     String(value)
@@ -310,13 +310,13 @@ return `
         </div>
         <h3>${escapeHtml(saint.name)}</h3>
 
-        <p class="saint-bio" hidden>
+        <p class="saint-bio">
           ${escapeHtml(saint.bio)}
         </p>
 
-        <div class="card-links" hidden>
+        <div class="card-links">
           <a href="${escapeHtml(saint.link || "#")}" target="_blank" rel="noopener noreferrer">
-            Dowiedz się więcej
+            Find out more
           </a>
         </div>
       </article>
