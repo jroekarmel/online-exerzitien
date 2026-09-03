@@ -387,15 +387,37 @@ document.addEventListener("DOMContentLoaded", async () => {
       return cardWidth + gap;
     };
 
-    prevBtn.addEventListener("click", () => {
-      const amount = getScrollAmount();
-      grid.scrollBy({ left: -amount, behavior: "smooth" });
-    });
 
-    nextBtn.addEventListener("click", () => {
-      const amount = getScrollAmount();
-      grid.scrollBy({ left: amount, behavior: "smooth" });
-    });
+const isScrolledToEnd = () => {
+  // Allow 1px tolerance for rounding errors
+  return grid.scrollLeft + grid.clientWidth >= grid.scrollWidth - 1;
+};
+
+const isScrolledToStart = () => {
+  return grid.scrollLeft <= 0;
+};
+
+prevBtn.addEventListener("click", () => {
+  const amount = getScrollAmount();
+
+  if (isScrolledToStart()) {
+    // Wrap to end
+    grid.scrollTo({ left: grid.scrollWidth, behavior: "smooth" });
+  } else {
+    grid.scrollBy({ left: -amount, behavior: "smooth" });
+  }
+});
+
+nextBtn.addEventListener("click", () => {
+  const amount = getScrollAmount();
+
+  if (isScrolledToEnd()) {
+    // Wrap to start
+    grid.scrollTo({ left: 0, behavior: "smooth" });
+  } else {
+    grid.scrollBy({ left: amount, behavior: "smooth" });
+  }
+});
   } catch (error) {
     console.error("Saints script error", error);
     grid.innerHTML = `<p>Die Archivdaten konnten derzeit nicht geladen werden.</p>`;
