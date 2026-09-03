@@ -247,7 +247,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
 // list of saints – horizontal scroll with prev/next buttons
 document.addEventListener("DOMContentLoaded", async () => {
-  const grid = document.getElementById("saintsGrid");
+  const grid = document.getElementById("saints-grid");
   const prevBtn = document.querySelector(".saints-prev");
   const nextBtn = document.querySelector(".saints-next");
 
