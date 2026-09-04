@@ -132,8 +132,8 @@ document.addEventListener("DOMContentLoaded", async () => {
     "../data/exerzitien-katalog.json";
 
   const seasonLabels = {
-    lent: "Lent",
-    advent: "Advent"
+    lent: "大齋期",
+    advent: "將臨期"
   };
 
   const escapeHtml = (value = "") =>
@@ -144,7 +144,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       .replaceAll('"', "&quot;")
       .replaceAll("'", "&#39;");
 
-  const getLocalizedField = (field, lang = "en") => {
+  const getLocalizedField = (field, lang = "zh") => {
     if (!field) return "";
     if (typeof field === "string") return field;
     return field?.[lang] || "";
@@ -251,7 +251,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   const saintsPath =
     grid.dataset.saints ||
-    "./saint-info_en.json";
+    "./saint-info_zh.json";
 
   const escapeHtml = (value = "") =>
     String(value)
@@ -305,7 +305,7 @@ document.addEventListener("DOMContentLoaded", async () => {
           ${escapeHtml(saint.bio)}
         </p>
 
-        <div class="card-links">
+        <div class="card-links" hidden>
           <a href="${escapeHtml(saint.link || "#")}" target="_blank" rel="noopener noreferrer">
             Find out more
           </a>
@@ -344,7 +344,8 @@ document.addEventListener("DOMContentLoaded", async () => {
             const name = retreat.heiliger;
             const slug = slugifySaint(name);
             const saintInfo = saintsBySlug[slug] || {};
-                                // If the saint is not found in saints-info, skip creating a card
+
+                    // If the saint is not found in saints-info, skip creating a card
         if (!saintInfo.slug) {
           console.warn(`Saint not found: ${name} (slug: ${slug})`);
           return null;
@@ -354,13 +355,13 @@ document.addEventListener("DOMContentLoaded", async () => {
               {
                 slug,
                 name: saintInfo.name || name,
-                bio: saintInfo.bio_en || saintInfo.bio || "",
+                bio: saintInfo.bio_zh || "",
                 link: saintInfo.link || "#",
                 image: saintInfo.image || "",
               },
             ];
           })
-          .filter((entry) => entry !== null) // Remove entries where saint was not found
+                .filter((entry) => entry !== null) // Remove entries where saint was not found
       ).values(),
     ];
 
@@ -370,7 +371,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       nextBtn.disabled = true;
       return;
     }
-        if (uniqueSaints.length <= 4) {
+            if (uniqueSaints.length <= 4) {
       prevBtn.remove();
       nextBtn.remove();  
     }

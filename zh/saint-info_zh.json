@@ -1,0 +1,31 @@
+[
+  {
+    "name": "圣十字若望 (John of the Cross)",
+    "slug": "johannes_vom_kreuz",
+    "bio_en": "John of the Cross (1542–1591) was a Spanish Carmelite, mystic, and Doctor of the Church, known for his teaching on the spiritual path of purification and union with God.",
+    "image": "./img/saints/johannes_vom_kreuz.jpg",
+    "link": "#"
+  },
+  {
+    "name": "走向圣诞的是圣女耶稣苦难玛利安（St. Mariam of Jesus Crucified，原名Mariam Baouardy）",
+    "slug": "mirjam_von_jesus_dem_gekreuzigten",
+    "bio_en": "Saint Mariam of Jesus Crucified (1846-1878), the \"Little Arab,\" born in the Holy Land, a humble Carmelite who learned to read and write as an adult, founded Carmelite monasteries in the Holy Land and India. Her simple and radiant life, led by the Holy Spirit, invites us to let ourselves be loved and transformed by Jesus.",
+    "bio_en_long": "Mariam Baouardy was born on 5 January 1846 in Ibillin, in Upper Galilee, into a poor, faith led, Eastern Christian family. After her parents lost twelve boys in infancy, Mariam was born to them thanks to a pilgrimage to Bethlehem. Two years later, her brother Boulos was born, but at three years old she lost both her parents and was entrusted to a paternal uncle, who later moved to Alexandria. \n From a very young age, she was marked by a profound spiritual sensitivity, perceiving the eeting nature of life and an invitation to give her heart to God. Not yet 13 years old, she refused an arranged marriage, desiring to consecrate herself entirely to Christ. Mistreated by her uncle, she went to see a former servant of her uncle who pressured her to convert to Islam. She refused, proclaiming her Christian faith. The servant slit her throat and abandoned her in a dark alley. Mariam awoke in a cave, cared for by a woman dressed in blue, whom she would later identify as the Virgin Mary. One woman then led her to a church and left her there. Mariam began to work as a servant for families in Alexandria, Jerusalem, Beirut, and then Marseille, where, in 1865, she entered the Sisters of Saint Joseph of the Apparition. Soon, her mystical gifts began to appear: visions, ecstasies, stigmata, and prophecies. After two years of novitiate, Mariam was not permitted to profess vows. \n In June 1867, she joined the Carmel of Pau, France, as a lay sister and took the name Sister Mary of Jesus Crucified. Little and unassuming, she devoted herself to manual labor even as she experienced her mystical gifts with humility. In 1870, she departed for India to help found the Carmel of Mangalore, where she accomplished her work with self-denial. She professed her vows at the end of her novitiate on 21 November 1871. However, misunderstandings related to the manifestations of her mystical gifts began to arise around her, casting doubt on the authenticity of what she was experiencing. The resulting tensions finally led to her being sent back to the Carmel of Pau, France, in 1872. She was warmly welcomed there. There she returned to her simple life as a lay sister amid the affection of her sisters.\n In 1875, after many obstacles, she founded the Carmel of Bethlehem. The Lord revealed to her both the location and the construction plans. She supervised the construction thanks to her knowledge of Arabic. She also contributed to the acquisition of land for the future Carmel of Nazareth. While carrying water to the construction workers at the Carmel of Bethlehem, she fell and was seriously injured; gangrene led to her death on 26 August 1878. Her life, marked by humility, service, and mystical experiences, makes her a witness to the invisible universe of faith.",
+    "image": "./img/saints/mirjam_von_jesus.jpg",
+    "link": "#"
+  },
+  {
+    "name": "圣小德兰（St. Thérèse of Lisieux)",
+    "slug": "therese_von_lisieux",
+    "bio_en": "Thérèse of Lisieux (1873–1897), a Carmelite and Doctor of the Church, taught the “Little Way” of trust and love and is one of the most popular saints of modern times.",
+    "image": "./img/saints/therese_von_lisieux.png",
+    "link": "#"
+  },
+  {
+    "name": "复活者劳伦斯会士（Brother Lawrence of the Resurrection）",
+    "slug": "br_lorenz_von_der_auferstehung",
+    "bio_en": "Brother Lawrence of the Resurrection (1614–1691) was a French Carmelite lay brother known for his teaching on the constant presence of God in everyday life.",
+    "image": "./img/saints/lorenz.jpg",
+    "link": "../heilige/bruder_lorenz.html"
+  }
+]

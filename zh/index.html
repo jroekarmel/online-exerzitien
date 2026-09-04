@@ -1,0 +1,539 @@
+<!doctype html>
+<html lang="zh">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>加尔默罗在线退省</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=dictionary,folded_hands,movie_speaker,today"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">跳至主要内容</a>
+
+    <header class="site-header">
+      <div class="cover-img" hidden>
+        <img src="../img/website_banner.jpg" alt="加尔默罗圣徒" />
+      </div>
+    </header>
+
+    <nav class="header-inner">
+      <a href="#" class="brand" aria-label="首页">
+        <span class="brand-mark" aria-hidden="true">
+          <img
+            src="../img/apple-touch-icon.png"
+            style="border-radius: var(--radius-lg)"
+          />
+        </span>
+        <span class="brand-text">
+          <span class="brand-kicker">赤足加尔默罗会</span>
+          <span class="brand-name">在线退省</span>
+        </span>
+      </a>
+
+      <div class="header-actions">
+        <details class="language-menu">
+          <summary class="language-menu__trigger" aria-label="选择语言">
+            <span aria-hidden="true">🌐</span>
+            <span>ZH</span>
+            <span class="language-menu__current">中文</span>
+          </summary>
+
+          <nav class="language-menu__list" aria-label="语言选择">
+            <a
+              href="https://retraites.carmes-paris.org/"
+              lang="fr"
+              hreflang="fr"
+            >
+              <span class="language-flag" aria-hidden="true">🇫🇷</span>
+              <span class="language-code">FR</span>
+              <span>Français</span>
+            </a>
+
+            <a href="../de/" lang="de" hreflang="de">
+              <span class="language-flag" aria-hidden="true">🇦🇹🇩🇪</span>
+              <span class="language-code">DE</span>
+              <span>Deutsch</span>
+            </a>
+
+            <a href="../es/" lang="es" hreflang="es">
+              <span class="language-flag" aria-hidden="true">🇪🇸</span>
+              <span class="language-code">ES</span>
+              <span>Español</span>
+            </a>
+
+            <a href="../it/" lang="it" hreflang="it">
+              <span class="language-flag" aria-hidden="true">🇮🇹</span>
+              <span class="language-code">IT</span>
+              <span>Italiano</span>
+            </a>
+
+            <a href="../en/" lang="en" hreflang="en">
+              <span class="language-flag" aria-hidden="true">🇬🇧🇺🇸</span>
+              <span class="language-code">EN</span>
+              <span>English</span>
+            </a>
+
+            <a href="../pl/" lang="pl" hreflang="pl">
+              <span class="language-flag" aria-hidden="true">🇵🇱</span>
+              <span class="language-code">PL</span>
+              <span>Polski</span>
+            </a>
+
+            <a href="../ar/" lang="ar" hreflang="ar" dir="rtl">
+              <span class="language-flag" aria-hidden="true">🇱🇧🇸🇦</span>
+              <span class="language-code">AR</span>
+              <span>العربية</span>
+            </a>
+
+            <a href="../pt/" lang="pt" hreflang="pt">
+              <span class="language-flag" aria-hidden="true">🇧🇷🇵🇹</span>
+              <span class="language-code">PT</span>
+              <span>Português</span>
+            </a>
+
+            <a href="../zh/" lang="zh" hreflang="zh" aria-current="page">
+              <span class="language-flag" aria-hidden="true">🇨🇳</span>
+              <span class="language-code">ZH</span>
+              <span>中文</span>
+              <span class="language-check" aria-hidden="true">✓</span>
+            </a>
+
+            <a href="../cs/" lang="cs" hreflang="cs">
+              <span class="language-flag" aria-hidden="true">🇨🇿</span>
+              <span class="language-code">CS</span>
+              <span>Čeština</span>
+            </a>
+
+            <a href="../hr/" lang="hr" hreflang="hr">
+              <span class="language-flag" aria-hidden="true">🇭🇷</span>
+              <span class="language-code">HR</span>
+              <span>Hrvatski</span>
+            </a>
+
+            <a href="../hu/" lang="hu" hreflang="hu">
+              <span class="language-flag" aria-hidden="true">🇭🇺</span>
+              <span class="language-code">HU</span>
+              <span>Magyar</span>
+            </a>
+
+            <a href="../mt/" lang="mt" hreflang="mt">
+              <span class="language-flag" aria-hidden="true">🇲🇹</span>
+              <span class="language-code">MT</span>
+              <span>Malti</span>
+            </a>
+
+            <a href="../nl/" lang="nl" hreflang="nl">
+              <span class="language-flag" aria-hidden="true">🇳🇱</span>
+              <span class="language-code">NL</span>
+              <span>Nederlands</span>
+            </a>
+
+            <a href="../ro/" lang="ro" hreflang="ro">
+              <span class="language-flag" aria-hidden="true">🇷🇴</span>
+              <span class="language-code">RO</span>
+              <span>Română</span>
+            </a>
+
+            <a href="../vi/" lang="vi" hreflang="vi">
+              <span class="language-flag" aria-hidden="true">🇻🇳</span>
+              <span class="language-code">VI</span>
+              <span>Tiếng Việt</span>
+            </a>
+          </nav>
+        </details>
+      </div>
+    </nav>
+
+    <main id="main">
+      <section class="hero">
+        <div class="hero-grid">
+          <div class="hero-content">
+            <p class="hero-eyebrow">一段用于默想、休憩与准备的时光</p>
+
+            <h2 hero-content>赤足加尔默罗会诚邀您参加我们的在线退省</h2>
+
+            <div class="signup-panel">
+              <p class="eyebrow">报名</p>
+              <h1>请在此报名参加在线退省</h1>
+
+              <p class="lead">
+                通过电子邮件直接接收退省默想内容，让加尔默罗灵修引导您走过将临期或四旬期。
+              </p>
+
+              <div
+                class="form-placeholder"
+                aria-label="Platzhalter für Anmeldeformular"
+              >
+                <div class="embed-box">
+                  <section class="section-intro" id="abonniere">
+                    <div id="mc_embed_shell">
+                      <div id="mc_embed_signup">
+                        <form
+                          action="https://eepurl.us6.list-manage.com/subscribe/post?u=7c9d2aa0ecc1fde64fd44bc67&amp;id=48970c68bf&amp;f_id=008a54e3f0"
+                          method="post"
+                          id="mc-embedded-subscribe-form"
+                          name="mc-embedded-subscribe-form"
+                          class="validate"
+                          target="_self"
+                          novalidate=""
+                        >
+                          <div id="mc_embed_signup_scroll">
+                            <div class="mc-field-group">
+                              <label for="mce-EMAIL"
+                                >Email Address* (required)</label
+                              ><input
+                                type="email"
+                                name="EMAIL"
+                                class="required email"
+                                id="mce-EMAIL"
+                                required=""
+                                value=""
+                              />
+                            </div>
+                            <div class="mc-field-group">
+                              <label for="mce-FNAME">First Name </label
+                              ><input
+                                type="text"
+                                name="FNAME"
+                                class="text"
+                                id="mce-FNAME"
+                                value=""
+                              />
+                            </div>
+                            <div class="mc-field-group">
+                              <label for="mce-LNAME">Last Name </label
+                              ><input
+                                type="text"
+                                name="LNAME"
+                                class="text"
+                                id="mce-LNAME"
+                                value=""
+                              />
+                            </div>
+                            <div class="mc-field-group">
+                              <label for="mce-MMERGE3">Country </label
+                              ><input
+                                type="text"
+                                name="MMERGE3"
+                                class="text"
+                                id="mce-MMERGE3"
+                                value=""
+                              />
+                            </div>
+                            <div class="mc-field-group">
+                              <label for="mce-MMERGE4"
+                                >How did you hear about the retreat? </label
+                              ><select name="MMERGE4" class="" id="mce-MMERGE4">
+                                <option value=""></option>
+                                <option value="Please select...">
+                                  Please select...
+                                </option>
+                                <option
+                                  value="ICS Publications (website / email)"
+                                >
+                                  ICS Publications (website / email)
+                                </option>
+                                <option
+                                  value="Parish, monastery, or Carmelite community"
+                                >
+                                  Parish, monastery, or Carmelite community
+                                </option>
+                                <option
+                                  value="Friend, family member, or colleague"
+                                >
+                                  Friend, family member, or colleague
+                                </option>
+                                <option value="Search engine (Google, etc.)">
+                                  Search engine (Google, etc.)
+                                </option>
+                                <option
+                                  value="Social Media (Instagram, Facebook, etc.)"
+                                >
+                                  Social Media (Instagram, Facebook, etc.)
+                                </option>
+                                <option value="Other (please specify)">
+                                  Other (please specify)
+                                </option>
+                              </select>
+                            </div>
+                            <div class="mc-field-group">
+                              <label for="mce-HOWFOUND2"
+                                >Other (please specify) </label
+                              ><input
+                                type="text"
+                                name="HOWFOUND2"
+                                class="text"
+                                id="mce-HOWFOUND2"
+                                value=""
+                              />
+                            </div>
+                            <div id="mce-responses" class="clear">
+                              <div
+                                class="response"
+                                id="mce-error-response"
+                                style="display: none"
+                              ></div>
+                              <div
+                                class="response"
+                                id="mce-success-response"
+                                style="display: none"
+                              ></div>
+                            </div>
+                            <div
+                              style="position: absolute; left: -5000px"
+                              aria-hidden="true"
+                            >
+                              <input
+                                type="text"
+                                name="b_7c9d2aa0ecc1fde64fd44bc67_48970c68bf"
+                                tabindex="-1"
+                                value=""
+                              />
+                            </div>
+                            <div class="clear">
+                              <input
+                                type="submit"
+                                name="subscribe"
+                                id="mc-embedded-subscribe"
+                                class="button-signup"
+                                value="Subscribe"
+                              />
+                            </div>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </section>
+                </div>
+              </div>
+                          <div class="datenschutz-toggle">
+              <a
+                href="#datenschutz-wrap"
+                id="datenschutz-toggle"
+                aria-expanded="false"
+                aria-controls="datenschutz-wrap"
+                >隐私政策</a
+              >
+              <div id="datenschutz-wrap" hidden>
+                <p style="font-size: 14px">
+                  我们使用 Mailchimp 作为营销平台。点击“订阅”按钮，即表示您同意将您的数据传输至 Mailchimp 进行处理。
+                </p>
+                <a
+                  class="plain-link"
+                  href="https://mailchimp.com/legal/terms/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style="
+                    display: inline-block;
+                    font-size: 14px;
+                    font-weight: 200;
+                    text-decoration: none;
+                  "
+                >
+                  您可在此查阅 Mailchimp 的数据保护政策详情。
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="container">
+        <h2 class="eyebrow">本期退省</h2>
+        <h3>2026 年将临期：与复活者劳伦斯会士同行</h3>
+        <p>
+          复活者劳伦斯（Laurentius of the Resurrection）是加尔默罗会中一位低调的平修士，也是 17 世纪伟大的灵修导师之一。他的教导最近被教宗良十四世重新推至聚光灯下，至今仍极具现实意义。
+        </p>
+        <p>
+          这位谦卑的平修士教导我们将天主的临在置于日常生活的中心。他的道理植根于伟大的基督教传统，回应耶稣“不断祈祷”的呼召（路加福音 18:1），并契合圣保禄的劝勉：“不断祈祷”（得撒洛尼前书 5:17）。对劳伦斯会士而言，方法很简单：无论我们从事何种工作，都要在每一刻保持活在天主的临在中。
+        </p>
+        <p>
+          在这个将临期，我们邀请您认识这所“天主临在的学校”，从而在与主的关系中成长，使之更单纯、更信赖、更亲密。
+        </p>
+
+        <div class="hero-video-frame">
+          <div class="video-wrapper">
+            <div class="hero-video">
+              <iframe
+                src="https://www.youtube.com/embed/3a4u8sFi0H8?autoplay=1&mute=1&loop=1&playlist=3a4u8sFi0H8&controls=1&rel=0&modestbranding=1"
+                title="四旬期不在于你的计划（圣灰礼仪日）"
+                allow="autoplay; encrypted-media; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-features">
+        <div class="container">
+          <p class="eyebrow">内容</p>
+          <h1>每周五发送至您的邮箱：</h1>
+          <div class="cards-grid">
+            <article class="info-card">
+              <span class="step-index"
+                ><span class="material-symbols-outlined"> dictionary </span></span
+              >
+              <h3>福音默想与圣人语录</h3>
+            </article>
+
+            <article class="info-card">
+              <span class="step-index"
+                ><span class="material-symbols-outlined"> movie_speaker </span></span
+              >
+              <h3>加尔默罗会士就本周主题录制的简短视频</h3>
+            </article>
+
+            <article class="info-card">
+              <span class="step-index"
+                ><span class="material-symbols-outlined"> folded_hands </span></span
+              >
+              <h3>丰富您祈祷生活的实用建议</h3>
+            </article>
+
+            <article class="info-card">
+              <span class="step-index"
+                ><span class="material-symbols-outlined"> today </span></span
+              >
+              <h3>每日祈祷引导日历</h3>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-saints" id="saints-cards">
+        <div class="container">
+          <div class="section-head">
+            <p class="section-label">加尔默罗灵修导师</p>
+            <h2>退省中呈现的圣人与标志性人物</h2>
+          </div>
+          <div class="saints-carousel">
+            <div class="saints-grid" id="saints-grid"></div>
+          </div>
+          <div class="saints-controls">
+            <button
+              class="button-signup saints-prev"
+              type="button"
+              aria-label="显示上一组"
+              aria-controls="saints-grid"
+            >
+              <span aria-hidden="true">&lt;&lt;</span>
+            </button>
+            <button
+              class="button-signup saints-next"
+              type="button"
+              aria-label="显示下一组"
+              aria-controls="saints-grid"
+            >
+              <span aria-hidden="true">&gt;&gt;</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="section section-archive"
+        aria-labelledby="archiv-titel"
+        id="archiv-cards"
+      >
+        <div class="container">
+          <div class="section-head">
+            <p class="section-label">往期退省</p>
+            <h2>历年精选退省</h2>
+          </div>
+
+          <div class="archive-grid">
+            <!-- 由 JavaScript 动态填充 -->
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-faq">
+        <div class="container">
+          <div class="section-heading narrow">
+            <p class="section-kicker">常见问题</p>
+            <h2>常见问题解答</h2>
+          </div>
+
+          <div class="faq-list">
+            <details class="faq-item">
+              <summary>什么是在线退省？</summary>
+              <p>
+                在线退省旨在帮助我们在福音的光照下加深与耶稣的灵性关系。为此，在将临期和四旬期的每一周，都会通过电子邮件发送默想内容。
+              </p>
+            </details>
+
+            <details class="faq-item">
+              <summary>我会多久收到一次邮件？</summary>
+              <p>
+                您将首先收到一封欢迎邮件，然后在将临期和四旬期期间每周收到一封邮件。
+              </p>
+            </details>
+
+            <details class="faq-item">
+              <summary>参与需要付费吗？</summary>
+              <p>
+                报名免费。欢迎您捐款以支持我们的工作。
+              </p>
+            </details>
+
+            <details class="faq-item">
+              <summary>我没有收到邮件，该怎么办？</summary>
+              <p>
+                请检查您的垃圾邮件文件夹。如果您错过了任何材料，也可以浏览本网站上的档案。
+              </p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-intro">
+        <div class="container two-column">
+          <div>
+            <p class="section-kicker">广为传播</p>
+          </div>
+          <div>
+            <p>
+              请邀请您的亲友参加此次退省，分享本网页：
+              <a href="https://zaixian-tuixing.karmel.at"
+                >zaixian-tuixing.karmel.at</a
+              >
+            </p>
+            <p>
+              我们建议您下载并打印退省海报，在您的堂区、团体或祈祷小组中分享。祝您有一个蒙福的将临期，并收获丰硕的退省体验！
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>
+          © The Discalced Carmelite Friars of Paris and Austria, together with
+          ICS Publications (Washington DC).
+        </p>
+        <p>
+          This online retreat was written by Fr. Didier, OCD (from the Paris
+          Convent) with a Carmelite working group. English translations prepared
+          by OCDS members from North America. The English distribution is
+          organized by Discalced Carmelite friars in the United States in
+          collaboration with ICS Publications in Washington, DC. Videos provided
+          by the Discalced Carmelite friars, Washington Province in
+          collaboration with ICS Publications.
+        </p>
+      </div>
+    </footer>
+  </body>
+  <script type="module" src="./script-zh.js"></script>
+</html>
