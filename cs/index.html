@@ -1,0 +1,564 @@
+<!doctype html>
+<html lang="cs">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Online exercicie karmelitánů</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=dictionary,folded_hands,movie_speaker,today"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Přejít na obsah</a>
+    <header class="site-header">
+      <div class="cover-img" hidden>
+        <img src="../img/website_banner.jpg" alt="Svatí Karmelu" />
+      </div>
+    </header>
+    <nav class="header-inner">
+      <a href="#" class="brand" aria-label="Domů">
+        <span class="brand-mark" aria-hidden="true"
+          ><img
+            src="../img/apple-touch-icon.png"
+            style="border-radius: var(--radius-lg)"
+        /></span>
+        <span class="brand-text">
+          <span class="brand-kicker">Obutí karmelitáni</span>
+          <span class="brand-name">Online exercicie</span>
+        </span>
+      </a>
+
+      <div class="header-actions">
+        <details class="language-menu">
+          <summary class="language-menu__trigger" aria-label="Vybrat jazyk">
+            <span aria-hidden="true">🌐</span>
+            <span>CS</span>
+            <span class="language-menu__current">Čeština</span>
+          </summary>
+
+          <nav class="language-menu__list" aria-label="Výběr jazyka">
+            <a
+              href="https://retraites.carmes-paris.org/"
+              lang="fr"
+              hreflang="fr"
+            >
+              <span class="language-flag" aria-hidden="true">🇫🇷</span>
+              <span class="language-code">FR</span>
+              <span>Français</span>
+            </a>
+
+            <a href="../de/" lang="de" hreflang="de">
+              <span class="language-flag" aria-hidden="true">🇦🇹🇩🇪</span>
+              <span class="language-code">DE</span>
+              <span>Deutsch</span>
+            </a>
+
+            <a href="../es/" lang="es" hreflang="es">
+              <span class="language-flag" aria-hidden="true">🇪🇸</span>
+              <span class="language-code">ES</span>
+              <span>Español</span>
+            </a>
+
+            <a href="../it/" lang="it" hreflang="it">
+              <span class="language-flag" aria-hidden="true">🇮🇹</span>
+              <span class="language-code">IT</span>
+              <span>Italiano</span>
+            </a>
+
+            <a href="../en/" lang="en" hreflang="en">
+              <span class="language-flag" aria-hidden="true">🇬🇧🇺🇸</span>
+              <span class="language-code">EN</span>
+              <span>English</span>
+            </a>
+
+            <a href="../pl/" lang="pl" hreflang="pl">
+              <span class="language-flag" aria-hidden="true">🇵🇱</span>
+              <span class="language-code">PL</span>
+              <span>Polski</span>
+            </a>
+
+            <a href="../ar/" lang="ar" hreflang="ar" dir="rtl">
+              <span class="language-flag" aria-hidden="true">🇱🇧🇸🇦</span>
+              <span class="language-code">AR</span>
+              <span>العربية</span>
+            </a>
+
+            <a href="../pt/" lang="pt" hreflang="pt">
+              <span class="language-flag" aria-hidden="true">🇧🇷🇵🇹</span>
+              <span class="language-code">PT</span>
+              <span>Português</span>
+            </a>
+
+            <a href="../zh/" lang="zh" hreflang="zh">
+              <span class="language-flag" aria-hidden="true">🇨🇳</span>
+              <span class="language-code">ZH</span>
+              <span>中文</span>
+            </a>
+
+            <a href="../cs/" lang="cs" hreflang="cs" aria-current="page">
+              <span class="language-flag" aria-hidden="true">🇨🇿</span>
+              <span class="language-code">CS</span>
+              <span>Čeština</span>
+              <span class="language-check" aria-hidden="true">✓</span>
+            </a>
+
+            <a href="../hr/" lang="hr" hreflang="hr">
+              <span class="language-flag" aria-hidden="true">🇭🇷</span>
+              <span class="language-code">HR</span>
+              <span>Hrvatski</span>
+            </a>
+
+            <a href="../hu/" lang="hu" hreflang="hu">
+              <span class="language-flag" aria-hidden="true">🇭🇺</span>
+              <span class="language-code">HU</span>
+              <span>Magyar</span>
+            </a>
+
+            <a href="../mt/" lang="mt" hreflang="mt">
+              <span class="language-flag" aria-hidden="true">🇲🇹</span>
+              <span class="language-code">MT</span>
+              <span>Malti</span>
+            </a>
+
+            <a href="../nl/" lang="nl" hreflang="nl">
+              <span class="language-flag" aria-hidden="true">🇳🇱</span>
+              <span class="language-code">NL</span>
+              <span>Nederlands</span>
+            </a>
+
+            <a href="../ro/" lang="ro" hreflang="ro">
+              <span class="language-flag" aria-hidden="true">🇷🇴</span>
+              <span class="language-code">RO</span>
+              <span>Română</span>
+            </a>
+
+            <a href="../vi/" lang="vi" hreflang="vi">
+              <span class="language-flag" aria-hidden="true">🇻🇳</span>
+              <span class="language-code">VI</span>
+              <span>Tiếng Việt</span>
+            </a>
+          </nav>
+        </details>
+      </div>
+    </nav>
+
+    <main id="main">
+      <section class="hero">
+        <div class="hero-grid">
+          <div class="hero-content">
+            <p class="hero-eyebrow">Čas k rozjímání, odpočinku a přípravě</p>
+            <h2 hero-content>
+              Obutí karmelitáni vás pozývají k účasti na online retreatu
+            </h2>
+            <div class="signup-panel">
+              <p class="eyebrow">Registrace</p>
+              <h1>Zde se přihlaste k online retreatu</h1>
+              <p class="lead">
+                Získávejte úvahy z retreatu přímo e‑mailem a nechte se
+                karmelitánskou spiritualitou vést na vaší cestě adventem či
+                postní dobou
+              </p>
+
+              <div
+                class="form-placeholder"
+                aria-label="Platzhalter für Anmeldeformular"
+              >
+                <div class="embed-box">
+                  <section class="section-intro" id="abonniere">
+                    <div id="mc_embed_shell">
+                      <div id="mc_embed_signup">
+                        <form
+                          action="https://eepurl.us6.list-manage.com/subscribe/post?u=7c9d2aa0ecc1fde64fd44bc67&amp;id=48970c68bf&amp;f_id=008a54e3f0"
+                          method="post"
+                          id="mc-embedded-subscribe-form"
+                          name="mc-embedded-subscribe-form"
+                          class="validate"
+                          target="_self"
+                          novalidate=""
+                        >
+                          <div id="mc_embed_signup_scroll">
+                            <div class="mc-field-group">
+                              <label for="mce-EMAIL"
+                                >Email Address* (required)</label
+                              ><input
+                                type="email"
+                                name="EMAIL"
+                                class="required email"
+                                id="mce-EMAIL"
+                                required=""
+                                value=""
+                              />
+                            </div>
+                            <div class="mc-field-group">
+                              <label for="mce-FNAME">First Name </label
+                              ><input
+                                type="text"
+                                name="FNAME"
+                                class="text"
+                                id="mce-FNAME"
+                                value=""
+                              />
+                            </div>
+                            <div class="mc-field-group">
+                              <label for="mce-LNAME">Last Name </label
+                              ><input
+                                type="text"
+                                name="LNAME"
+                                class="text"
+                                id="mce-LNAME"
+                                value=""
+                              />
+                            </div>
+                            <div class="mc-field-group">
+                              <label for="mce-MMERGE3">Country </label
+                              ><input
+                                type="text"
+                                name="MMERGE3"
+                                class="text"
+                                id="mce-MMERGE3"
+                                value=""
+                              />
+                            </div>
+                            <div class="mc-field-group">
+                              <label for="mce-MMERGE4"
+                                >How did you hear about the retreat? </label
+                              ><select name="MMERGE4" class="" id="mce-MMERGE4">
+                                <option value=""></option>
+                                <option value="Please select...">
+                                  Please select...
+                                </option>
+                                <option
+                                  value="ICS Publications (website / email)"
+                                >
+                                  ICS Publications (website / email)
+                                </option>
+                                <option
+                                  value="Parish, monastery, or Carmelite community"
+                                >
+                                  Parish, monastery, or Carmelite community
+                                </option>
+                                <option
+                                  value="Friend, family member, or colleague"
+                                >
+                                  Friend, family member, or colleague
+                                </option>
+                                <option value="Search engine (Google, etc.)">
+                                  Search engine (Google, etc.)
+                                </option>
+                                <option
+                                  value="Social Media (Instagram, Facebook, etc.)"
+                                >
+                                  Social Media (Instagram, Facebook, etc.)
+                                </option>
+                                <option value="Other (please specify)">
+                                  Other (please specify)
+                                </option>
+                              </select>
+                            </div>
+                            <div class="mc-field-group">
+                              <label for="mce-HOWFOUND2"
+                                >Other (please specify) </label
+                              ><input
+                                type="text"
+                                name="HOWFOUND2"
+                                class="text"
+                                id="mce-HOWFOUND2"
+                                value=""
+                              />
+                            </div>
+                            <div id="mce-responses" class="clear">
+                              <div
+                                class="response"
+                                id="mce-error-response"
+                                style="display: none"
+                              ></div>
+                              <div
+                                class="response"
+                                id="mce-success-response"
+                                style="display: none"
+                              ></div>
+                            </div>
+                            <div
+                              style="position: absolute; left: -5000px"
+                              aria-hidden="true"
+                            >
+                              <input
+                                type="text"
+                                name="b_7c9d2aa0ecc1fde64fd44bc67_48970c68bf"
+                                tabindex="-1"
+                                value=""
+                              />
+                            </div>
+                            <div class="clear">
+                              <input
+                                type="submit"
+                                name="subscribe"
+                                id="mc-embedded-subscribe"
+                                class="button-signup"
+                                value="Subscribe"
+                              />
+                            </div>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </section>
+                </div>
+              </div>
+              <div class="datenschutz-toggle">
+                <a
+                  href="#datenschutz-wrap"
+                  id="datenschutz-toggle"
+                  aria-expanded="false"
+                  aria-controls="datenschutz-wrap"
+                  >Zásady ochrany osobních údajů</a
+                >
+                <div id="datenschutz-wrap" hidden>
+                  <p style="font-size: 14px">
+                    Jako marketingovou platformu používáme službu Mailchimp.
+                    Kliknutím na tlačítko „Přihlásit se“ souhlasíte s tím, že
+                    vaše údaje budou předány službě Mailchimp ke zpracování.
+                  </p>
+                  <a
+                    class="plain-link"
+                    href="https://mailchimp.com/legal/terms/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style="
+                      display: inline-block;
+                      font-size: 14px;
+                      font-weight: 200;
+                      text-decoration: none;
+                    "
+                  >
+                    Další informace o zásadách ochrany údajů služby Mailchimp
+                    naleznete zde.
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="container">
+        <h2 class="eyebrow">Aktuální retreat</h2>
+        <h3>Advent 2026 s bratrem Laurencem od Vzkříšení</h3>
+        <p>
+          Bratr Laurentius od Vzkříšení, nenápadná postava karmelitánského řádu,
+          byl jedním z velkých mistrů duchovního života 17. století. Jeho učení,
+          které nedávno znovu vyzdvihl papež Lev XIV., zůstává i dnes mimořádně
+          aktuální.
+        </p>
+        <p>
+          Tento pokorný laik nás učí klást Boží přítomnost do středu našeho
+          každodenního života. Jeho nauka vyrůstá z velké křesťanské tradice a
+          odpovídá na Ježíšovo volání „modlit se nepřestávaje“ (Lk 18,1) v
+          souladu s nabádáním svatého Pavla: „Bez přestání se modlete“ (1 Sol
+          5,17). Pro bratra Vavřince je cesta prostá: zůstávat v každém okamžiku
+          v Boží přítomnosti, ať už děláme cokoli.
+        </p>
+        <p>
+          V tomto adventním čase vás pozýváme, abyste objevili tuto školu Boží
+          přítomnosti, a tak rostli v jednodušším, důvěrnějším a intimnějším
+          vztahu k Pánu.
+        </p>
+
+        <div class="hero-video-frame">
+          <div class="video-wrapper">
+            <div class="hero-video">
+              <iframe
+                src="https://www.youtube.com/embed/3a4u8sFi0H8?autoplay=1&mute=1&loop=1&playlist=3a4u8sFi0H8&controls=1&rel=0&modestbranding=1"
+                title="Post není o vašem plánu (Popelavá středa)"
+                allow="autoplay; encrypted-media; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section section-features">
+        <div class="container">
+          <p class="eyebrow">Obsah</p>
+          <h1>Každý pátek ve vaší e‑mailové schránce:</h1>
+          <div class="cards-grid">
+            <article class="info-card">
+              <span class="step-index"
+                ><span class="material-symbols-outlined">
+                  dictionary
+                </span></span
+              >
+              <h3>Rozjímání nad evangeliem a citáty ze světcova díla</h3>
+            </article>
+
+            <article class="info-card">
+              <span class="step-index"
+                ><span class="material-symbols-outlined">
+                  movie_speaker
+                </span></span
+              >
+              <h3>
+                Krátké video od našich karmelitánských bratří k týdennímu tématu
+              </h3>
+            </article>
+
+            <article class="info-card">
+              <span class="step-index"
+                ><span class="material-symbols-outlined">
+                  folded_hands
+                </span></span
+              >
+              <h3>Praktické podněty k obohacení vaší modlitby</h3>
+            </article>
+            <article class="info-card">
+              <span class="step-index"
+                ><span class="material-symbols-outlined"> today </span></span
+              >
+              <h3>Kalendář s podněty k modlitbě pro každý den</h3>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-saints" id="saints-cards">
+        <div class="container">
+          <div class="section-head">
+            <p class="section-label">Karmelitánští duchovní vůdci</p>
+            <h2>Světci a ikony představované v našich retreatách</h2>
+          </div>
+          <div class="saints-carousel">
+            <div class="saints-grid" id="saints-grid"></div>
+          </div>
+          <div class="saints-controls">
+            <button
+              class="button-signup saints-prev"
+              type="button"
+              aria-label="Zobrazit předchozí skupinu"
+              aria-controls="saints-grid"
+            >
+              <span aria-hidden="true">&lt;&lt;</span>
+            </button>
+            <button
+              class="button-signup saints-next"
+              type="button"
+              aria-label="Zobrazit následující skupinu"
+              aria-controls="saints-grid"
+            >
+              <span aria-hidden="true">&gt;&gt;</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="section section-archive"
+        aria-labelledby="archiv-titel"
+        id="archiv-cards"
+      >
+        <div class="container">
+          <div class="section-head">
+            <p class="section-label">Předchozí retreaty</p>
+            <h2>Vybrané retreaty z předchozích let</h2>
+          </div>
+
+          <div class="archive-grid">
+            <!-- bude vyplněno pomocí JavaScriptu -->
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-faq">
+        <div class="container">
+          <div class="section-heading narrow">
+            <p class="section-kicker">Časté dotazy</p>
+            <h2>Často kladené otázky</h2>
+          </div>
+
+          <div class="faq-list">
+            <details class="faq-item">
+              <summary>Co je online retreat?</summary>
+              <p>
+                Online retreat je navržen tak, aby pomohl prohloubit náš
+                duchovní vztah k Ježíši ve světle evangelií. Za tímto účelem
+                budou během každého týdne adventu a postní doby zasílány úvahy
+                e‑mailem.
+              </p>
+            </details>
+
+            <details class="faq-item">
+              <summary>Jak často budu dostávat zprávy?</summary>
+              <p>
+                Obdržíte uvítací e‑mail a poté týdenní e‑maily během adventu a
+                postní doby.
+              </p>
+            </details>
+
+            <details class="faq-item">
+              <summary>Stojí účast nějaké peníze?</summary>
+              <p>
+                Registrace je zdarma. Příspěvky ve formě darů jsou vítány na
+                podporu naší práce.
+              </p>
+            </details>
+
+            <details class="faq-item">
+              <summary>Neobdržel/a jsem e‑mail – co mám dělat?</summary>
+              <p>
+                Zkontrolujte prosím složku se spamem. Pokud vám chybí nějaké
+                materiály, můžete také procházet archiv na tomto webu.
+              </p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-intro">
+        <div class="container two-column">
+          <div>
+            <p class="section-kicker">Sdílejte dál</p>
+          </div>
+          <div>
+            <p>
+              Pozvěte prosím své přátele a rodinu k účasti na tomto retreatu
+              sdílením této webové stránky:
+              <a href="https://exercicie-online.karmel.at/"
+                >exercicie-online.karmel.at</a
+              >
+            </p>
+            <p>
+              Pokud máte jakékoli potíže s registrací nebo se objeví jakékoli
+              problémy, napište prosím koordinátorům retreatu na e‑mail
+              <a href="mailto:retreat-online@karmel.at"
+                >retreat-online@karmel.at</a
+              >.
+            </p>
+            <p>
+              Doporučujeme stáhnout a vytisknout plakát k retreatu a sdílet jej
+              ve vaší farnosti, komunitě nebo modlitební skupině. Přejeme vám
+              požehnaný advent a plodnou zkušenost z retreatu!
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>
+          © Tereziánský Karmel v Rakousku Nakladatelství Christliche
+          Innerlichkeit Společnost Edity Steinové v Rakousku Sestry P. Marie
+          Karmelské
+        </p>
+      </div>
+    </footer>
+  </body>
+  <script type="module" src="./script.js"></script>
+</html>
