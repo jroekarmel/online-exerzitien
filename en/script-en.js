@@ -1,4 +1,4 @@
-// lanugage support
+// language support
 const languages = {
   fr: "Français",
   de: "Deutsch",
@@ -17,6 +17,7 @@ const languages = {
   ro: "Română",
   vi: "Tiếng Việt"
 };
+
 
 // syncing Rundbriefe boxes
 document.addEventListener("DOMContentLoaded", () => {
@@ -41,11 +42,11 @@ document.addEventListener("DOMContentLoaded", () => {
     const formCheckbox = document.getElementById(formId);
 
     console.log({
-        key,
-        card,
-        cardCheckbox,
-        formId,
-        formCheckbox
+      key,
+      card,
+      cardCheckbox,
+      formId,
+      formCheckbox
     });
 
     if (!cardCheckbox || !formCheckbox) return;
@@ -83,16 +84,16 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const regionalKeys = ["wien", "linz", "graz", "online"];
 
-const applyExclusiveRules = (changedKey, checked) => {
-  if (changedKey === "oesterreich") {
-    regionalKeys.forEach((key) => setChecked(key, checked));
-    return;
-  }
+  const applyExclusiveRules = (changedKey, checked) => {
+    if (changedKey === "oesterreich") {
+      regionalKeys.forEach((key) => setChecked(key, checked));
+      return;
+    }
 
-  if (regionalKeys.includes(changedKey)) {
-    setChecked("oesterreich", false);
-  }
-};
+    if (regionalKeys.includes(changedKey)) {
+      setChecked("oesterreich", false);
+    }
+  };
 
   Object.keys(items).forEach((key) => {
     syncVisualState(key);
@@ -110,21 +111,24 @@ const applyExclusiveRules = (changedKey, checked) => {
     });
   });
 });
-//setupToggle('mailchimp-toggle', 'mailchimp-form-wrap', 'Anmeldung schließen', 'Anmeldung / Mailchimp');
-//setupToggle('beschreibung-toggle', 'beschreibung-wrap', 'Beschreibung schließen', 'Beschreibung');
-//setupToggle('datenschutz-toggle', 'datenschutz-wrap', 'Datenschutz schließen', 'Datenschutz');
+
+// setupToggle('mailchimp-toggle', 'mailchimp-form-wrap', 'Anmeldung schließen', 'Anmeldung / Mailchimp');
+// setupToggle('beschreibung-toggle', 'beschreibung-wrap', 'Beschreibung schließen', 'Beschreibung');
+// setupToggle('datenschutz-toggle', 'datenschutz-wrap', 'Datenschutz schließen', 'Datenschutz');
 const constDatenschutzToggle = document.querySelector("#datenschutz-toggle");
-const constDatenschutzInhalt = document.querySelector("#datenschutz-wrap")
+const constDatenschutzInhalt = document.querySelector("#datenschutz-wrap");
 
 constDatenschutzToggle.addEventListener("click", (DatenSchutzevent) => {
   DatenSchutzevent.preventDefault();
 
-  const DatenSchutzisOpen = !constDatenschutzInhalt.hidden
+  const DatenSchutzisOpen = !constDatenschutzInhalt.hidden;
 
   constDatenschutzInhalt.hidden = DatenSchutzisOpen;
-  toggle.setAttribute("aria-expanded", String(!DatenSchutzisOpen));
+  constDatenschutzToggle.setAttribute("aria-expanded", String(!DatenSchutzisOpen));
 });
-//setupToggle('impressum-toggle', 'impressum-wrap', 'Impressum schließen', 'Impressum');
+
+// setupToggle('impressum-toggle', 'impressum-wrap', 'Impressum schließen', 'Impressum');
+
 
 // Exerzitien-Archiv-Rendering
 document.addEventListener("DOMContentLoaded", async () => {
@@ -132,8 +136,8 @@ document.addEventListener("DOMContentLoaded", async () => {
   if (!container) return;
 
   const catalogPath =
-  container.dataset.json ||
-  "../data/exerzitien-katalog.json";
+    container.dataset.json ||
+    "../data/exerzitien-katalog.json";
 
   const seasonLabels = {
     lent: "Lent",
@@ -161,8 +165,8 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   const renderCard = (retreat, accented = false) => {
     if (!retreat) return "";
-      const localtitle = getLocalizedField(retreat.titel).trim();
-  if (!localtitle) return "";
+    const localtitle = getLocalizedField(retreat.titel).trim();
+    if (!localtitle) return "";
 
     const season = seasonLabels[retreat.art] || retreat.art || "";
     const year = retreat.year || "";
@@ -171,8 +175,8 @@ document.addEventListener("DOMContentLoaded", async () => {
     const summary = getLocalizedField(retreat.zusammenfassung);
     const image = getLocalizedField(retreat.header_img);
     const link = getRetreatLink(retreat);
-        // Advent cards accented, Lent normal
-       const articleClass =
+
+    const articleClass =
       retreat.art === "advent"
         ? "archive-card archive-card--accent"
         : "archive-card";
@@ -211,11 +215,8 @@ document.addEventListener("DOMContentLoaded", async () => {
     `;
   };
 
-
-  
   try {
-
- const response = await fetch(catalogPath);
+    const response = await fetch(catalogPath);
     if (!response.ok) {
       throw new Error("JSON konnte nicht geladen werden.");
     }
@@ -243,20 +244,24 @@ document.addEventListener("DOMContentLoaded", async () => {
   }
 });
 
-//list of saints
+
+// list of saints – horizontal scroll with prev/next buttons
 document.addEventListener("DOMContentLoaded", async () => {
-  const container = document.querySelector("#saints-cards .saints-grid");
-  if (!container) return;
+  const grid = document.getElementById("saints-grid");
+  const prevBtn = document.querySelector(".saints-prev");
+  const nextBtn = document.querySelector(".saints-next");
 
-const catalogPath =
-  container.dataset.catalog ||
-  "../data/exerzitien-katalog.json";
+  if (!grid || !prevBtn || !nextBtn) return;
 
-const saintsPath =
-  container.dataset.saints ||
-  "./saint-info_en.json";
+  const catalogPath =
+    grid.dataset.catalog ||
+    "../data/exerzitien-katalog.json";
 
-    const escapeHtml = (value = "") =>
+  const saintsPath =
+    grid.dataset.saints ||
+    "./saint-info_en.json";
+
+  const escapeHtml = (value = "") =>
     String(value)
       .replaceAll("&", "&amp;")
       .replaceAll("<", "&lt;")
@@ -289,16 +294,10 @@ const saintsPath =
       .replace(/[-]/g, "")
       .replace(/\s+/g, "_");
 
-        const getLocalizedField = (field, lang = "de") => {
-    if (!field) return "";
-    if (typeof field === "string") return field;
-    return field?.[lang] || "";
-  };
+  const renderCard = (saint) => {
+    const imageSaint = saint.image || "";
 
-const renderCard = (saint) => {
-    const imageSaint = `${saint.image}`;
-
-return `
+    return `
       <article class="saint-card saint-card-featured">
         <div class="image-zoom-saint">
           <img
@@ -321,12 +320,12 @@ return `
         </div>
       </article>
     `;
-};
+  };
 
   try {
     const [catalogResponse, infoResponse] = await Promise.all([
       fetch(catalogPath),
-      fetch(saintsPath)
+      fetch(saintsPath),
     ]);
 
     if (!catalogResponse.ok || !infoResponse.ok) {
@@ -335,7 +334,7 @@ return `
 
     const [catalogData, infoData] = await Promise.all([
       catalogResponse.json(),
-      infoResponse.json()
+      infoResponse.json(),
     ]);
 
     const retreats = Array.isArray(catalogData.retreats) ? catalogData.retreats : [];
@@ -345,155 +344,112 @@ return `
       saintsInfo.map((saint) => [saint.slug, saint])
     );
 
-const uniqueSaints = [
-  ...new Map(
-    retreats
-      .filter((retreat) => retreat.heiliger)
-      .map((retreat) => {
-        const name = retreat.heiliger;
-        const slug = slugifySaint(name);
-        const saintInfo = saintsBySlug[slug] || {};
+    const uniqueSaints = [
+      ...new Map(
+        retreats
+          .filter((retreat) => retreat.heiliger)
+          .map((retreat) => {
+            const name = retreat.heiliger;
+            const slug = slugifySaint(name);
+            const saintInfo = saintsBySlug[slug] || {};
 
-        return [
-          slug,
-          {
-            slug,
-            name: saintInfo.name || name,
-            bio: saintInfo.bio_de || "",
-            link: saintInfo.link || "#",
-            image: saintInfo.image || "",
-          }
-        ];
-      })
-  ).values()
-];
+            return [
+              slug,
+              {
+                slug,
+                name: saintInfo.name || name,
+                bio: saintInfo.bio_en || saintInfo.bio || "",
+                link: saintInfo.link || "#",
+                image: saintInfo.image || "",
+              },
+            ];
+          })
+      ).values(),
+    ];
 
     if (uniqueSaints.length === 0) {
-      container.innerHTML = `<p>Derzeit sind keine Heiligen verfügbar.</p>`;
+      grid.innerHTML = `<p>Derzeit sind keine Heiligen verfügbar.</p>`;
+      prevBtn.disabled = true;
+      nextBtn.disabled = true;
       return;
     }
 
-    container.innerHTML = uniqueSaints.map(renderCard).join("");
+    grid.innerHTML = uniqueSaints.map(renderCard).join("");
+
+    // Scroll behavior: 4 cards on desktop, 1 on mobile
+    const getScrollAmount = () => {
+      const card = grid.querySelector(".saint-card");
+      if (!card) return 0;
+      const cardWidth = card.getBoundingClientRect().width;
+      const gap = 16; // approx 1rem
+
+      if (window.innerWidth >= 992) {
+        return (cardWidth + gap) * 4;
+      }
+      return cardWidth + gap;
+    };
+
+    const isScrolledToEnd = () => {
+      return grid.scrollLeft + grid.clientWidth >= grid.scrollWidth - 1;
+    };
+
+    const isScrolledToStart = () => {
+      return grid.scrollLeft <= 0;
+    };
+
+    prevBtn.addEventListener("click", () => {
+      const amount = getScrollAmount();
+
+      if (isScrolledToStart()) {
+        grid.scrollTo({ left: grid.scrollWidth, behavior: "smooth" });
+      } else {
+        grid.scrollBy({ left: -amount, behavior: "smooth" });
+      }
+    });
+
+    nextBtn.addEventListener("click", () => {
+      const amount = getScrollAmount();
+
+      if (isScrolledToEnd()) {
+        grid.scrollTo({ left: 0, behavior: "smooth" });
+      } else {
+        grid.scrollBy({ left: amount, behavior: "smooth" });
+      }
+    });
   } catch (error) {
-    console.error(error);
-    container.innerHTML = `<p>Die Archivdaten konnten derzeit nicht geladen werden.</p>`;
+    console.error("Saints script error", error);
+    grid.innerHTML = `<p>Die Archivdaten konnten derzeit nicht geladen werden.</p>`;
   }
 });
 
-//saints rotation
-document.addEventListener("DOMContentLoaded", () => {
-  const grid = document.querySelector("#saintsGrid");
-  const dots = Array.from(document.querySelectorAll(".saints-dot"));
-  const toggleButton = document.querySelector(".saints-toggle");
-  const toggleIcon = document.querySelector(".saints-toggle-icon");
 
-  if (!grid || !dots.length || !toggleButton) return;
-
-  const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-
-  let currentIndex = 0;
-  let autoRotate = null;
-  let isPaused = prefersReducedMotion;
-
-  function setActiveDot(index) {
-    dots.forEach((dot, i) => {
-      const active = i === index;
-      dot.classList.toggle("is-active", active);
-      dot.setAttribute("aria-current", active ? "true" : "false");
-    });
-  }
-
-  function goToSlide(index) {
-    currentIndex = Math.max(0, Math.min(index, dots.length - 1));
-
-    grid.scrollTo({
-      left: currentIndex * grid.clientWidth,
-      behavior: "smooth"
-    });
-
-    setActiveDot(currentIndex);
-  }
-
-  function startRotation() {
-    if (autoRotate || isPaused) return;
-
-    autoRotate = setInterval(() => {
-      goToSlide((currentIndex + 1) % dots.length);
-    }, 4000);
-
-    toggleButton.setAttribute("aria-label", "Karussell pausieren");
-    toggleButton.setAttribute("aria-pressed", "false");
-    if (toggleIcon) toggleIcon.textContent = "❚❚";
-  }
-
-  function stopRotation() {
-    clearInterval(autoRotate);
-    autoRotate = null;
-
-    toggleButton.setAttribute("aria-label", "Karussell abspielen");
-    toggleButton.setAttribute("aria-pressed", "true");
-    if (toggleIcon) toggleIcon.textContent = "▶";
-  }
-
-  toggleButton.addEventListener("click", () => {
-    if (autoRotate) {
-      isPaused = true;
-      stopRotation();
-    } else {
-      isPaused = false;
-      startRotation();
-    }
-  });
-
-  dots.forEach((dot, index) => {
-    dot.addEventListener("click", () => {
-      isPaused = true;
-      stopRotation();
-      goToSlide(index);
-    });
-  });
-
-  grid.addEventListener("scroll", () => {
-    const index = Math.round(grid.scrollLeft / grid.clientWidth);
-    currentIndex = Math.min(index, dots.length - 1);
-    setActiveDot(currentIndex);
-  });
-
-  grid.addEventListener("mouseenter", stopRotation);
-
-  setActiveDot(0);
-
-  if (!prefersReducedMotion) {
-    startRotation();
-  } else {
-    stopRotation();
-  }
-});
-// hiding and showing Sonstiges field:
+// hiding and showing Sonstiges field
 document.addEventListener("DOMContentLoaded", function () {
-    const select = document.getElementById("mce-AUFMERKS01");
-    const sonstigesField = document.getElementById("sonstiges-field");
-    const sonstigesInput = document.getElementById("mce-AUFMERKS02");
+  const select = document.getElementById("mce-AUFMERKS01");
+  const sonstigesField = document.getElementById("sonstiges-field");
+  const sonstigesInput = document.getElementById("mce-AUFMERKS02");
 
-    function updateSonstigesField() {
-        const isSonstiges =
-            select.value === "Sonstiges";
-        console.log({
-    select: document.getElementById("mce-AUFMERKS01"),
-    field: document.getElementById("sonstiges-field"),
-    input: document.getElementById("mce-AUFMERKS02")
-});
+  if (!select || !sonstigesField || !sonstigesInput) {
+    return;
+  }
 
-        sonstigesField.style.display = isSonstiges ? 'contents': 'none';
-        sonstigesInput.disabled = !isSonstiges;
+  function updateSonstigesField() {
+    const isSonstiges = select.value === "Other (please specify)";
 
-        if (!isSonstiges) {
-            sonstigesInput.value = "";
-        }
+    console.log({
+      select: document.getElementById("mce-AUFMERKS01"),
+      field: document.getElementById("sonstiges-field"),
+      input: document.getElementById("mce-AUFMERKS02")
+    });
+
+    sonstigesField.style.display = isSonstiges ? "contents" : "none";
+    sonstigesInput.disabled = !isSonstiges;
+
+    if (!isSonstiges) {
+      sonstigesInput.value = "";
     }
+  }
 
-    select.addEventListener("change", updateSonstigesField);
-
-    // Zustand auch beim Laden der Seite korrekt setzen
-    updateSonstigesField();
+  select.addEventListener("change", updateSonstigesField);
+  updateSonstigesField();
 });
