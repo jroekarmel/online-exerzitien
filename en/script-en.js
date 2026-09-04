@@ -41,14 +41,6 @@ document.addEventListener("DOMContentLoaded", () => {
     const cardCheckbox = document.querySelector(card);
     const formCheckbox = document.getElementById(formId);
 
-    console.log({
-      key,
-      card,
-      cardCheckbox,
-      formId,
-      formCheckbox
-    });
-
     if (!cardCheckbox || !formCheckbox) return;
 
     items[key] = {

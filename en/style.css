@@ -45,7 +45,7 @@
   --shadow-sm: 0 1px 2px rgba(31, 30, 18, 0.06);
   --shadow-md: 0 12px 30px rgba(31, 24, 18, 0.08);
 
-  --content-width: 1120px;
+  --content-width: 1420px;
   --content-width-signup: 900px;
 
   --font-body: "Inter", system-ui, sans-serif;
@@ -434,17 +434,41 @@ background: radial-gradient(circle at top right, rgba(14, 78, 103, 0.08), transp
 }
 
 .hero {
-  padding: var(--space-8) 0 var(--space-12);
-    position: relative;
+  position: relative;
   width: 100%;
-  height: 100%; /* Full viewport height */
-  overflow: hidden; /* Prevents video overflow */
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  min-height: 85vh;          /* oder 100vh, wenn es den ganzen Screen füllen soll */
+  overflow: hidden;
+
+  /* Hintergrundbild über die ganze Breite */
+  background-image: url("../img/header_img_teresa_johannes.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: grid;
+  align-items: center;       /* zentriert den Inhalt vertikal & horizontal */
+  margin-bottom: 5%;
 }
 
+/* Dunkles Overlay (optional, für bessere Lesbarkeit) */
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.15);
+  z-index: 0;
+}
+
+/* Hero-Container */
 .hero-grid {
+position: relative;
+  z-index: 1;
+  margin-inline-start: 5%;
+  width: 70%;                /* 10 % + 30 % = 40 % */
+  max-width: 75%;
+  padding: var(--space-6) var(--space-8);
+  color: #000000;
+
   display: grid;
   gap: var(--space-6);
 }
@@ -477,7 +501,14 @@ background: radial-gradient(circle at top right, rgba(14, 78, 103, 0.08), transp
   text-transform: uppercase;
   color: var(--color-primary);
 }
-
+.hero-eyebrow {
+    margin: 0 0 var(--space-5);
+  font-size: var(--text-lg);
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--color-surface-2);
+}
 h1,
 h2,
 h3 {
@@ -486,11 +517,16 @@ h3 {
 }
 
 h1,
-.hero-content h2,
 .section-heading h2,
 .section-intro h2 {
   font-family: var(--font-display);
   font-weight: 600;
+}
+.hero-content h2 {
+  font-size: var(--text-xl);
+  margin-bottom: var(--space-1);
+  color: var(--color-surface);
+  font-weight: 100;
 }
 
 h1 {
@@ -787,7 +823,7 @@ position: relative;
 
 /* Card width: 1 visible on mobile */
 .saints-grid .saint-card {
-  flex: 0 0 min(300px, 85vw);
+  flex: 0 0 95%;
   scroll-snap-align: start;
 }
 
@@ -890,7 +926,9 @@ position: relative;
     linear-gradient(180deg, rgba(14, 103, 100, 0.08), rgba(252, 251, 248, 0.92));
 }
 .saints-controls {
-  display: none;
+  display: flex;
+justify-content: center;
+gap: 0.75rem;
 }
 
 @media (min-width: 980px) {
@@ -1013,15 +1051,13 @@ position: relative;
 }
 
 @media (min-width: 980px) {
-  .hero-grid {
-    grid-template-columns: minmax(0, 1.02fr) minmax(0, 0.98fr);
-    align-items: start;
-    gap: var(--space-8);
-  }
     .hero-grid-1col {
     grid-template-columns: minmax(0, 1.02fr);
     align-items: start;
     gap: var(--space-8);
+  }
+  .hero-grid {
+    width: 45%;
   }
 
   .signup-panel {
