@@ -434,19 +434,51 @@ background: radial-gradient(circle at top right, rgba(14, 78, 103, 0.08), transp
 }
 
 .hero {
-  padding: var(--space-8) 0 var(--space-12);
-    position: relative;
+  position: relative;
   width: 100%;
-  height: 100%; /* Full viewport height */
-  overflow: hidden; /* Prevents video overflow */
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  min-height: 85vh;          /* oder 100vh, wenn es den ganzen Screen füllen soll */
+  overflow: hidden;
+
+  /* Hintergrundbild über die ganze Breite */
+  background-image: url("../img/header_img_teresa_johannes.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: grid;
+  align-items: center;       /* zentriert den Inhalt vertikal & horizontal */
+  margin-bottom: 3%;
 }
 
+/* Dunkles Overlay (optional, für bessere Lesbarkeit) */
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.15);
+  z-index: 0;
+}
+
+/* Hero-Container */
 .hero-grid {
+position: relative;
+  z-index: 1;
+  margin-inline-start: 5%;
+  width: 40%;                /* 10 % + 30 % = 40 % */
+  max-width: 100%;
+  padding: var(--space-6) var(--space-8);
+  color: #000000;
+
   display: grid;
   gap: var(--space-6);
+}
+
+/* Auf Desktop */
+@media (max-width: 700px) {
+  .hero-grid {
+    width: min(90%, 480px);
+    padding: var(--space-5);
+  }
 }
 
 .signup-panel,
@@ -477,6 +509,14 @@ background: radial-gradient(circle at top right, rgba(14, 78, 103, 0.08), transp
   text-transform: uppercase;
   color: var(--color-primary);
 }
+.hero-eyebrow {
+    margin: 0 0 var(--space-2);
+  font-size: var(--text-xl);
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--color-text);
+}
 
 h1,
 h2,
@@ -498,11 +538,18 @@ h1 {
   margin-bottom: var(--space-2);
 }
 
-.hero-content h2,
 .section-heading h2,
 .section-intro h2 {
-  font-size: var(--text-lg);
+  font-size: var(--text-xl);
   margin-bottom: var(--space-1);
+  font-weight: 100;
+}
+
+.hero-content h2 {
+  font-size: var(--text-xl);
+  margin-bottom: var(--space-1);
+  color: var(--color-surface);
+  font-weight: 100;
 }
 
 h3 {
@@ -1089,11 +1136,6 @@ position: relative;
 }
 
 @media (min-width: 980px) {
-  .hero-grid {
-    grid-template-columns: minmax(0, 1.02fr) minmax(0, 0.98fr);
-    align-items: start;
-    gap: var(--space-8);
-  }
     .hero-grid-1col {
     grid-template-columns: minmax(0, 1.02fr);
     align-items: start;
@@ -1265,6 +1307,13 @@ position: relative;
   margin-inline: auto;
     overflow: hidden;
   border-radius: var(--radius-lg);
+}
+.hero-image {
+  max-width : 100vh;
+  object-fit:cover;
+  width: fit-content;
+  margin-inline: auto;
+    overflow:visible;
 }
 
 .hero-video-frame {
