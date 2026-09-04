@@ -301,13 +301,13 @@ document.addEventListener("DOMContentLoaded", async () => {
         </div>
         <h3>${escapeHtml(saint.name)}</h3>
 
-        <p class="saint-bio">
+        <p class="saint-bio" hidden>
           ${escapeHtml(saint.bio)}
         </p>
 
         <div class="card-links">
           <a href="${escapeHtml(saint.link || "#")}" target="_blank" rel="noopener noreferrer">
-            Find out more
+            Zjistit více
           </a>
         </div>
       </article>
