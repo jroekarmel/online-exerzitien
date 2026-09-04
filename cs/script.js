@@ -200,7 +200,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
         <div class="card-links">
           <a href="${escapeHtml(link)}" target="_blank" rel="noopener noreferrer">
-            Access the materials
+            Zobrazit materiály
           </a>
         </div>
       </article>
