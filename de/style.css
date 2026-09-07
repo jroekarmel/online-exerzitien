@@ -1476,7 +1476,7 @@ display: flex;
 /* moving header*/
 .moving-banner {
   --banner-height: clamp(70px, 10vw, 150px);
-  --speed: 60s;
+  --speed: 100s;
 
   width: 200vw;
   height: 100%;
