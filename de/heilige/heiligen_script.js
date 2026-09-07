@@ -100,7 +100,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const imagePath = `../${image}`;
     const link = retreat.slug
-      ? `../exerzitien-archiv/${retreat.slug}.html`
+      ? `../archiv/${retreat.slug}.html`
       : "#";
 
     const cardClass =
