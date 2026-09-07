@@ -365,12 +365,19 @@ const uniqueSaints = [
           }
         ];
       })
+      .filter((entry) => entry !== null) // Remove entries where saint was not found
   ).values()
 ];
 
     if (uniqueSaints.length === 0) {
       container.innerHTML = `<p>Derzeit sind keine Heiligen verfügbar.</p>`;
+            prevBtn.disabled = true;
+      nextBtn.disabled = true;
       return;
+    }
+            if (uniqueSaints.length <= 4) {
+      prevBtn.remove();
+      nextBtn.remove();  
     }
 
     container.innerHTML = uniqueSaints.map(renderCard).join("");
@@ -386,184 +393,49 @@ const uniqueSaints = [
     container.innerHTML = `<p>Die Archivdaten konnten derzeit nicht geladen werden.</p>`;
   }
 });
+// Scroll behavior: 4 cards on desktop, 1 on mobile
+const grid = document.getElementById("saints-grid");
+  const prevBtn = document.querySelector(".saints-prev");
+  const nextBtn = document.querySelector(".saints-next");
+    const getScrollAmount = () => {
+      const card = grid.querySelector(".saint-card");
+      if (!card) return 0;
+      const cardWidth = card.getBoundingClientRect().width;
+      const gap = 16; // approx 1rem
 
-// Saints carousel: previous, pause/play, next
-document.addEventListener("DOMContentLoaded", () => {
-  const grid = document.querySelector("#saints-grid");
-  const previousButton = document.querySelector(".saints-prev");
-  const nextButton = document.querySelector(".saints-next");
-  const toggleButton = document.querySelector(".saints-toggle");
-  const toggleIcon = document.querySelector(".saints-toggle-icon");
-
-  if (!grid || !previousButton || !nextButton || !toggleButton) return;
-
-  const prefersReducedMotion = window.matchMedia(
-    "(prefers-reduced-motion: reduce)"
-  ).matches;
-
-  let currentIndex = 0;
-  let autoRotate = null;
-  let isPaused = prefersReducedMotion;
-  let carouselReady = false;
-
-  function getSlides() {
-    return [...grid.querySelectorAll(".saint-card")];
-  }
-
-  function getTotalSlides() {
-    return getSlides().length;
-  }
-
-  function updateButtons() {
-    const hasMoreThanOneSlide = getTotalSlides() > 1;
-
-    previousButton.disabled = !hasMoreThanOneSlide;
-    nextButton.disabled = !hasMoreThanOneSlide;
-    toggleButton.disabled = !hasMoreThanOneSlide;
-
-    previousButton.setAttribute(
-      "aria-label",
-      "Vorherigen Heiligen anzeigen"
-    );
-
-    nextButton.setAttribute(
-      "aria-label",
-      "Nächsten Heiligen anzeigen"
-    );
-  }
-
-  function goToSlide(index, behavior = "smooth") {
-    const slides = getSlides();
-    const totalSlides = slides.length;
-
-    if (totalSlides === 0) return;
-
-    currentIndex = (index + totalSlides) % totalSlides;
-
-    /*
-      This is more reliable than:
-      currentIndex * grid.clientWidth
-
-      It scrolls precisely to the actual card position, even if your cards
-      have a gap, responsive width, padding, or scroll-snap styling.
-    */
-    grid.scrollTo({
-      left: slides[currentIndex].offsetLeft,
-      behavior
-    });
-  }
-
-  function startRotation() {
-    if (
-      autoRotate ||
-      isPaused ||
-      !carouselReady ||
-      getTotalSlides() < 2
-    ) {
-      return;
-    }
-
-    autoRotate = window.setInterval(() => {
-      goToSlide(currentIndex + 1);
-    }, 4000);
-
-    toggleButton.setAttribute("aria-label", "Karussell pausieren");
-    toggleButton.setAttribute("aria-pressed", "false");
-
-    if (toggleIcon) {
-      toggleIcon.textContent = "❚❚";
-    }
-  }
-
-  function stopRotation() {
-    window.clearInterval(autoRotate);
-    autoRotate = null;
-
-    toggleButton.setAttribute("aria-label", "Karussell abspielen");
-    toggleButton.setAttribute("aria-pressed", "true");
-
-    if (toggleIcon) {
-      toggleIcon.textContent = "▶";
-    }
-  }
-
-  previousButton.addEventListener("click", () => {
-    goToSlide(currentIndex - 1);
-  });
-
-  nextButton.addEventListener("click", () => {
-    goToSlide(currentIndex + 1);
-  });
-
-  toggleButton.addEventListener("click", () => {
-    if (autoRotate) {
-      isPaused = true;
-      stopRotation();
-    } else {
-      isPaused = false;
-      startRotation();
-    }
-  });
-
-  grid.addEventListener("scroll", () => {
-    const slides = getSlides();
-
-    if (slides.length === 0) return;
-
-    let nearestIndex = 0;
-    let nearestDistance = Infinity;
-
-    slides.forEach((slide, index) => {
-      const distance = Math.abs(slide.offsetLeft - grid.scrollLeft);
-
-      if (distance < nearestDistance) {
-        nearestDistance = distance;
-        nearestIndex = index;
+      if (window.innerWidth >= 992) {
+        return (cardWidth + gap) * 4;
       }
-    });
+      return cardWidth + gap;
+    };
 
-    currentIndex = nearestIndex;
-  });
+    const isScrolledToEnd = () => {
+      return grid.scrollLeft + grid.clientWidth >= grid.scrollWidth - 1;
+    };
 
-  grid.addEventListener("mouseenter", () => {
-    if (autoRotate) {
-      isPaused = true;
-      stopRotation();
-    }
-  });
+    const isScrolledToStart = () => {
+      return grid.scrollLeft <= 0;
+    };
 
-  grid.addEventListener("focusin", () => {
-    if (autoRotate) {
-      isPaused = true;
-      stopRotation();
-    }
-  });
+    prevBtn.addEventListener("click", () => {
+      const amount = getScrollAmount();
 
-  /*
-    At initial page load there are no cards yet because fetch() is still
-    loading the JSON. Disable controls until the saints-rendering script
-    announces that it has inserted the cards.
-  */
-  updateButtons();
-
-  document.addEventListener(
-    "saintsRendered",
-    () => {
-      carouselReady = true;
-      currentIndex = 0;
-
-      updateButtons();
-      goToSlide(0, "auto");
-
-      if (!prefersReducedMotion) {
-        startRotation();
+      if (isScrolledToStart()) {
+        grid.scrollTo({ left: grid.scrollWidth, behavior: "smooth" });
       } else {
-        stopRotation();
+        grid.scrollBy({ left: -amount, behavior: "smooth" });
       }
-    },
-    { once: true }
-  );
-});
+    });
+
+    nextBtn.addEventListener("click", () => {
+      const amount = getScrollAmount();
+
+      if (isScrolledToEnd()) {
+        grid.scrollTo({ left: 0, behavior: "smooth" });
+      } else {
+        grid.scrollBy({ left: amount, behavior: "smooth" });
+      }
+    });
 // hiding and showing Sonstiges field:
 document.addEventListener("DOMContentLoaded", function () {
     const select = document.getElementById("mce-AUFMERKS01");

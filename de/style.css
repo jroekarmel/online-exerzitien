@@ -540,7 +540,7 @@ h1 {
 
 .section-heading h2,
 .section-intro h2 {
-  font-size: var(--text-xl);
+  font-size: var(--text-lg);
   margin-bottom: var(--space-1);
   font-weight: 100;
 }
@@ -938,7 +938,7 @@ position: relative;
   .saints-grid {
     display: block;
     grid-auto-flow: column;
-    grid-auto-columns: calc((100% - 2rem) / 3);
+    grid-auto-columns: calc((100% - 2rem) / 4);
     gap: 1rem;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
@@ -1086,7 +1086,7 @@ position: relative;
   .saints-grid {
     display: grid;
     grid-auto-flow: column;
-    grid-auto-columns: calc((100% - 2rem) / 3);
+    grid-auto-columns: calc((100% - 2rem) / 4);
     gap: 1rem;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
@@ -1107,7 +1107,7 @@ position: relative;
   .saints-grid {
     display: grid;
     grid-auto-flow: column;
-    grid-auto-columns: calc((100% - 2rem) / 3);
+    grid-auto-columns: calc((100% - 2rem) / 4);
     gap: 1rem;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
