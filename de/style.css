@@ -1473,3 +1473,46 @@ display: flex;
 .interest-group li {
     margin: 0.4rem 0;
 }
+/* moving header*/
+.moving-banner {
+  --banner-height: clamp(70px, 10vw, 150px);
+  --speed: 45s;
+
+  width: 200vw;
+  height: 100%;
+  overflow: hidden;
+  background: #1b1b1b;
+}
+
+.moving-banner__track {
+  display: flex;
+  width: max-content;
+  height: 100%;
+  animation: banner-scroll var(--speed) linear infinite;
+  will-change: transform;
+}
+
+.moving-banner__track img {
+  display: block;
+  width: auto;
+  height: 100%;
+  flex: 0 0 auto;
+  object-fit: cover;
+}
+
+@keyframes banner-scroll {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+/* Respect visitors who prefer reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .moving-banner__track {
+    animation: none;
+  }
+}
