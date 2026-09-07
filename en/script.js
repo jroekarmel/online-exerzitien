@@ -426,9 +426,9 @@ document.addEventListener("DOMContentLoaded", async () => {
 
 // hiding and showing Sonstiges field
 document.addEventListener("DOMContentLoaded", function () {
-  const select = document.getElementById("mce-AUFMERKS01");
-  const sonstigesField = document.getElementById("sonstiges-field");
-  const sonstigesInput = document.getElementById("mce-AUFMERKS02");
+  const select = document.getElementById("mce-MMERGE4");
+  const sonstigesField = document.getElementById("Other (please specify)");
+  const sonstigesInput = document.getElementById("mce-HOWFOUND2");
 
   if (!select || !sonstigesField || !sonstigesInput) {
     return;
@@ -438,9 +438,9 @@ document.addEventListener("DOMContentLoaded", function () {
     const isSonstiges = select.value === "Other (please specify)";
 
     console.log({
-      select: document.getElementById("mce-AUFMERKS01"),
-      field: document.getElementById("sonstiges-field"),
-      input: document.getElementById("mce-AUFMERKS02")
+      select: document.getElementById("mce-MMERGE4"),
+      field: document.getElementById("Other (please specify)"),
+      input: document.getElementById("mce-HOWFOUND2")
     });
 
     sonstigesField.style.display = isSonstiges ? "contents" : "none";

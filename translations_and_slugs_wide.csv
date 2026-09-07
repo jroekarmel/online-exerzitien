@@ -1,0 +1,13 @@
+﻿word,fr,de,es,it,en,pl,ar,pt,zh,cs,hr,hu,mt,nl,ro,vi
+saint,saint,Heiliger,santo,santo,saint,święty,قديس,santo,圣人,svatý,sveti,szent,qaddis,heilige,sfânt,thánh
+saints,saints,Heilige,santos,santi,saints,święci,قديسون,santos,圣人们,svatí,sveti,szentek,qaddisin,heiligen,sfinți,các thánh
+archive,archives,Archiv,archivo,archivio,archive,archiwum,أرشيف,arquivo,档案,archiv,arhiva,archívum,arkivju,archief,arhivă,lưu trữ
+lent,Carême,Fastenzeit,Cuaresma,Quaresima,Lent,Wielki Post,الصوم الكبير,Quaresma,四旬期,Půst,Korizma,Nagyböjt,Randan,Vastentijd,Postul Mare,Mùa Chay
+advent,Avent,Advent,Adviento,Avvento,Advent,Adwent,زمن المجيء,Advento,将临期,Advent,Advent,Advent,Avvent,Advent,Advent,Mùa Vọng
+carmelites,Carmes,Karmeliten,Carmelitas,Carmelitani,Carmelites,Karmelici,الكرمليون,Carmelitas,加尔默罗会士,Karmelitáni,Karmelićani,Karmeliták,Karmelitani,Karmelieten,Carmeliți,Dòng Cát Minh
+discalced carmelites,Carmes déchaux,Unbeschuhte Karmeliten,Carmelitas Descalzos,Carmelitani Scalzi,Discalced Carmelites,Karmelici Bosi,الكرمليون الحفاة,Carmelitas Descalços,赤足加尔默罗会士,Bosí karmelitáni,Bosonogi karmelićani,Sarutlan karmeliták,Karmelitani Skalzi,Ongeschoeide Karmelieten,Carmeliți Desculți,Dòng Cát Minh Nhặt Phép
+online retreat,Retraite en ligne,Online-Exerzitien,Retiro en línea,Ritiro online,Online retreat,Rekolekcje online,خلوة روحية عبر الإنترنت,Retiro online,在线避静,Online duchovní cvičení,Duhovne vježbe online,Online lelkigyakorlat,Irtir online,Online retraite,Retragere online,Tĩnh tâm trực tuyến
+saints (slug),saints,heilige,santos,santi,saints,swieci,qadisun,santos,shengrenmen,svati,sveti,szentek,qaddisin,heiligen,sfinti,cac-thanh
+archive (slug),archives,archiv,archivo,archivio,archive,archiwum,arsheef,arquivo,dangan,archiv,arhiva,archivum,arkivju,archief,arhiva,luu-tru
+lent (slug),careme,fastenzeit,cuaresma,quaresima,lent,wielki-post,al-sawm-al-kabir,quaresma,sixunqi,pust,korizma,nagyböjt,randan,vastentijd,postul-mare,mua-chay
+advent (slug),avent,advent,adviento,avvento,advent,adwent,zaman-al-maji,advento,jianglinqi,advent,advent,advent,avvent,advent,advent,mua-vong
