@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   const catalogPath =
   container.dataset.json ||
-  "../data/exerzitien-katalog.json";
+  "../data/retreat_overview.json";
 
   const seasonLabels = {
     lent: "صوم",
@@ -63,7 +63,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   const getRetreatLink = (retreat) => {
     if (!retreat?.slug) return "#";
-    return `./retreat_archive/${retreat.slug}.html`;
+    return `./arsheef/${getLocalizedField(retreat.slug)}.html`;
   };
 
   const renderCard = (retreat, accented = false) => {
@@ -157,11 +157,11 @@ document.addEventListener("DOMContentLoaded", async () => {
 
 const catalogPath =
   container.dataset.catalog ||
-  "../data/exerzitien-katalog.json";
+  "../data/retreat_overview.json";
 
 const saintsPath =
   container.dataset.saints ||
-  "./saint-info_en.json";
+  "./saint-info_ar.json";
 
     const escapeHtml = (value = "") =>
     String(value)
