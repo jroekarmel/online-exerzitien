@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const DATA_URL = "../de/data/exerzitien-katalog.json";
 
+  console.log (DATA_URL)
   const seasonLabels = {
     lent: "Fastenzeit",
     advent: "Advent"
