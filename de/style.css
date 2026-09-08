@@ -147,7 +147,8 @@ textarea {
   border: 1px solid var(--border);
   color: var(--color-text);
   box-shadow: var(--shadow-sm);
-}
+  margin-left: 1rem;
+  }
 .nav-toggle {
   flex-direction: column;
   gap: 0.26rem;
@@ -160,13 +161,30 @@ textarea {
   background: currentColor;
 }
 .main-nav {
-  grid-area: nav;
+  /* grid-area: nav;
   display: none;
-  padding-top: var(--space-2);
+  padding-top: var(--space-2); */
+    position: fixed;
+  top: 0;
+  left: 0;
+  width: 180px;              /* Breite nach Bedarf */
+  height: 100vh;
+  background: #fff;
+  box-shadow: 2px 0 8px rgba(0,0,0,0.15);
+  z-index: 999;
+
+  /* Startzustand: komplett nach links verschoben (ausgeblendet) */
+  transform: translateX(-100%);
+
+  /* Animation beim Öffnen/Schließen */
+  transition: transform 0.25s ease;
+
+  overflow-y: auto;
 }
 
 .main-nav.is-open {
   display: block;
+  transform: translateX(0);
 }
 
 .main-nav ul {
@@ -182,7 +200,7 @@ textarea {
 .nav-group summary {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
   min-height: 2.75rem;
   width: 100%;
   padding: 0.65rem 0.95rem;
@@ -190,14 +208,13 @@ textarea {
   font-size: var(--text-sm);
   color: var(--text-muted);
   background: var(--surface);
-  border: 1px solid var(--border);
   transition: background 180ms ease, color 180ms ease, transform 180ms ease;
 }
 
 .main-nav a:hover,
 .main-nav a:focus-visible,
-.nav-group summary:hover,
-.nav-group summary:focus-visible {
+.main-nav button:hover,
+.main-nav button:focus-visible {
   color: var(--brown);
   background: rgba(209, 193, 173, 0.28);
 }
@@ -1010,9 +1027,22 @@ gap: 0.75rem;
     display: none;
   }
     .main-nav {
-    display: block;
+    display: flex;
     padding-top: 0;
+        position: static;        /* nicht mehr fixed */
+    width: auto;
+    height: auto;
+    background: transparent;
+    box-shadow: none;
+    transform: none !important; /* Slide-Effekt deaktivieren */
+    transition: none;
+    overflow: visible;
+
   }
+    .theme-toggle {
+      margin-left: 0.5rem;
+      background: #fff;
+    }
 
   .main-nav ul {
     flex-direction: row;
@@ -1023,9 +1053,10 @@ gap: 0.75rem;
   .main-nav a {
     width: auto;
     justify-content: center;
-    background: transparent;
+    background: #fff;
     border: 0;
     border-radius: var(--radius-full);
+    border: 1px solid var(--border);
   }
   .saints-carousel {
     width: 100%;
