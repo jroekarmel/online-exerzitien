@@ -101,7 +101,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const imagePath = `../${image}`;
     const link = retreat.slug
-      ? `../archiv/${retreat.slug}.html`
+      ? `../archiv/${getLocalizedField(retreat.slug)}.html`
       : "#";
 
     const cardClass =
