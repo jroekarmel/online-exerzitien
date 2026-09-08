@@ -700,7 +700,8 @@ position: relative;
 .section p,
 .faq-item p,
 .step p,
-.info-card p {
+.info-card p,
+ul {
   color: var(--color-text-muted);
 }
 
