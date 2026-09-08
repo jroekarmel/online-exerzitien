@@ -15,10 +15,11 @@
   </head>
   <body>
     <a class="skip-link" href="#main">Zum Inhalt springen</a>
-    <header class="site-header">
-      <div class="cover-img">
-        <img src="../img/website_banner.jpg" alt="Heiligen des Karmels">
-      </div>
+<header class="moving-banner" aria-label="Decorative animated banner">
+  <div class="moving-banner__track">
+    <img src="../img/website_banner_wide_e.webp" alt="">
+    <img src="../img/website_banner_wide_e.webp" alt="" aria-hidden="true">
+  </div>
     </header>
       <nav class="header-inner">
         <a href="../" class="brand" aria-label="Startseite">
@@ -30,6 +31,32 @@
         </a>
 
         <div class="header-actions">
+          <nav class="main-nav" id="main-navigation" aria-label="Hauptnavigation">
+        <ul>
+          <li><a href="../index.html"><span class="material-symbols-outlined">home</span></a></li>
+          <li><a href="../index.html#signup-panel">Anmelden</a></li>
+          <li><a href="../index.html#aktuelleExerzitien">Aktuelle Exerzitien</a></li>
+          <li><a href="../index.html#saints-cards">Heilige</a></li>
+          <li><a href="../index.html#archiv-cards">Archiv</a></li>
+        </ul>
+                <button class="font-decrease theme-toggle" type="button" data-font-decrease aria-label="Schriftgröße verkleinern">
+          A-
+        </button>
+          <button class="font-reset theme-toggle" type="button" data-font-reset aria-label="Schriftgröße zurücksetzen">
+          A
+        </button>
+        <button class="font-increase theme-toggle" type="button" data-font-increase aria-label="Schriftgröße vergrößern">
+          A+
+        </button>
+        <button class="theme-toggle" type="button" data-theme-toggle aria-label="Farbschema wechseln">
+          <span class="theme-toggle__icon" aria-hidden="true">◐</span>
+        </button>
+      </nav>
+          <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="main-navigation" aria-label="Menü öffnen">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
   <details class="language-menu">
     <summary class="language-menu__trigger" aria-label="Sprache auswählen">
       <span aria-hidden="true">🌐</span>
