@@ -11,7 +11,7 @@
       href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=dictionary,folded_hands,movie_speaker,today" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=dictionary,folded_hands,movie_speaker,today,home" />
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
@@ -31,6 +31,32 @@
           </span>
         </a>
 <div class="header-actions">
+            <nav class="main-nav" id="main-navigation" aria-label="Hauptnavigation">
+        <ul>
+          <li><a href="index.html"><span class="material-symbols-outlined">home</span></a></li>
+          <li><a href="#signup-panel">Anmelden</a></li>
+          <li><a href="#aktuelleExerzitien">Aktuelle Exerzitien</a></li>
+          <li><a href="#saints-cards">Heilige</a></li>
+          <li><a href="#archiv-cards">Archiv</a></li>
+        </ul>
+      </nav>
+          <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="main-navigation" aria-label="Menü öffnen">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <button class="font-decrease theme-toggle" type="button" data-font-decrease aria-label="Schriftgröße verkleinern">
+          A-
+        </button>
+          <button class="font-reset theme-toggle" type="button" data-font-reset aria-label="Schriftgröße zurücksetzen">
+          A
+        </button>
+        <button class="font-increase theme-toggle" type="button" data-font-increase aria-label="Schriftgröße vergrößern">
+          A+
+        </button>
+        <button class="theme-toggle" type="button" data-theme-toggle aria-label="Farbschema wechseln">
+          <span class="theme-toggle__icon" aria-hidden="true">◐</span>
+        </button>
   <details class="language-menu">
     <summary class="language-menu__trigger" aria-label="Sprache auswählen">
       <span aria-hidden="true">🌐</span>
@@ -146,8 +172,8 @@
         <div class="hero-grid">
           <div class="hero-content">
           <h1 class="hero-eyebrow">Besinnung, Erneuerung und Vorbereitung</h1>
-<h2 class="hero-content">Jedes Jahr bieten wir Ihnen zur Advents- und Fastenzeit die Möglichkeit, an einer Online-Exerzitienreihe in der Schule der Heiligen des Karmel teilzunehmen.</h1>
-<div class="signup-panel">
+<h2 class="hero-content" id="signup-panel">Jedes Jahr bieten wir Ihnen zur Advents- und Fastenzeit die Möglichkeit, an einer Online-Exerzitienreihe in der Schule der Heiligen des Karmel teilzunehmen.</h1>
+  <div class="signup-panel">
             <p class="eyebrow">Anmeldung</p>
             <h3>Erhalten Sie kostenlos die wöchentlichen Meditationen der Unbeschuhten Karmeliten</h3>
             <div
@@ -242,8 +268,9 @@
           </div>
      </div>
      </div>
-
+<div id="aktuelleExerzitien"></div>
       </section>
+
 <section class="container">
 <h2 class="eyebrow">Aktuelle Exerzitien</h2>
 <h3>Advent 2026 mit Bruder Lorenz von der Auferstehung</h3>

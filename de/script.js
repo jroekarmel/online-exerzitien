@@ -18,6 +18,94 @@ const languages = {
   vi: "Tiếng Việt"
 };
 
+// size adjust
+  (function () {
+    const root = document.documentElement;
+    const step = 10;
+    const min = 80;
+    const max = 160;
+    const storageKey = 'fontSizePercent';
+
+    let size = parseInt(localStorage.getItem(storageKey), 10);
+    if (Number.isNaN(size)) size = 100;
+
+    function applySize(value) {
+      const clamped = Math.min(max, Math.max(min, value));
+      root.style.fontSize = clamped + '%';
+      localStorage.setItem(storageKey, String(clamped));
+      return clamped;
+    }
+
+    applySize(size);
+
+    document.querySelector('[data-font-increase]')?.addEventListener('click', function () {
+      size = applySize(size + step);
+    });
+
+        document.querySelector('[data-font-reset]')?.addEventListener('click', function () {
+      size = applySize(100);
+    });
+
+    document.querySelector('[data-font-decrease]')?.addEventListener('click', function () {
+      size = applySize(size - step);
+    });
+  })();
+
+//menu toggle
+  const themeToggle = document.querySelector('[data-theme-toggle]');
+  const navToggle = document.querySelector('.nav-toggle');
+  const nav = document.querySelector('.main-nav');
+  const navLinks = nav ? nav.querySelectorAll('a') : [];
+  const themeToggleSelector = '[data-theme-toggle]';
+  const navToggleSelector = '.nav-toggle';
+
+ const closeNav = () => {
+    if (!nav || !navToggle) return;
+    nav.classList.remove('is-open');
+    navToggle.setAttribute('aria-expanded', 'false');
+  };
+
+  navToggle?.addEventListener('click', () => {
+    if (!nav) return;
+    const isOpen = nav.classList.toggle('is-open');
+    navToggle.setAttribute('aria-expanded', String(isOpen));
+  });
+
+  navLinks.forEach((link) => {
+    link.addEventListener('click', () => {
+      if (window.innerWidth <= 920) closeNav();
+    });
+  });
+
+  document.addEventListener('click', (event) => {
+    if (!nav || !navToggle || window.innerWidth > 920) return;
+    const clickedInsideNav = nav.contains(event.target);
+    const clickedToggle = navToggle.contains(event.target);
+    if (!clickedInsideNav && !clickedToggle) closeNav();
+  });
+
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape') closeNav();
+  });
+
+ function setupToggle(toggleId, wrapId, openText, closedText) {
+  const toggle = document.getElementById(toggleId);
+  const wrap = document.getElementById(wrapId);
+
+  if (!toggle || !wrap) return;
+
+  toggle.addEventListener('click', function (event) {
+    event.preventDefault();
+
+    const isOpen = this.getAttribute('aria-expanded') === 'true';
+    const nextState = !isOpen;
+
+    this.setAttribute('aria-expanded', String(nextState));
+    wrap.hidden = !nextState;
+    this.textContent = nextState ? openText : closedText;
+  });
+}
+
 // syncing Rundbriefe boxes
 document.addEventListener("DOMContentLoaded", () => {
   const pairs = [
