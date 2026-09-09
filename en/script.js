@@ -333,7 +333,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   const catalogPath =
     grid.dataset.catalog ||
-    "../data/retreat_overview.json";
+    "/daten/online_exerzitien_daten/retreat_overview.json";
 
   const saintsPath =
     grid.dataset.saints ||
