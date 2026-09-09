@@ -215,7 +215,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   const catalogPath =
     container.dataset.json ||
-    "../data/retreat_overview.json";
+    "/daten/online_exerzitien_daten/retreat_overview.json";
 
   const seasonLabels = {
     lent: "Lent",
