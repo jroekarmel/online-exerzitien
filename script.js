@@ -133,7 +133,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   const catalogPath =
   container.dataset.json ||
-  "../data/retreat-overview.json";
+  "/daten/retreat-overview.json";
 
   const seasonLabels = {
     lent: "Fastenzeit",
@@ -250,11 +250,11 @@ document.addEventListener("DOMContentLoaded", async () => {
 
 const catalogPath =
   container.dataset.catalog ||
-  "../data/retreat-overview.json";
+  "/daten/retreat-overview.json";
 
 const saintsPath =
   container.dataset.saints ||
-  "../data/heiliger-info.json";
+  "/daten/heiliger-info.json";
 
     const escapeHtml = (value = "") =>
     String(value)

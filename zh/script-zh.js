@@ -247,7 +247,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   const catalogPath =
     grid.dataset.catalog ||
-    "../data/retreat-overview.json";
+    "/daten/retreat-overview.json";
 
   const saintsPath =
     grid.dataset.saints ||

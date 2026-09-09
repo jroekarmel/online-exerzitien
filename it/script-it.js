@@ -250,7 +250,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
 const catalogPath =
   container.dataset.catalog ||
-  "../data/retreat-overview.json";
+  "/daten/retreat-overview.json";
 
 const saintsPath =
   container.dataset.saints ||
