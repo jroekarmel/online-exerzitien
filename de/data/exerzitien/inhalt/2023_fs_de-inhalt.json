@@ -1,0 +1,650 @@
+{
+  "retreat_id": "lent-2023",
+  "season_type": "lent",
+  "weeks": [
+    {
+      "woche_number": 0,
+      "slug": "woche-0",
+      "title": "Aschermittwoch: Der Ruf zur Umkehr",
+      "kurz_text": "Mit der Feier des Aschermittwochs treten wir in die Fastenzeit ein, die uns auf die Osterfreude vorbereitet. Es ist eine besonders geeignete Zeit, um uns innerlich zu erneuern, um uns zu helfen, mit Jesus erneut unser Ja zum Vater zu sprechen. ",
+      "main_text": {
+        "de": ""
+      },
+      "bild_url": "../img/2023_fs/woche-0_header.png",
+      "video_url": "https://www.youtube.com/watch?v=IHxwaXBu4nM",
+      "podcast_url": "",
+      "a4_pdf": "https://mcusercontent.com/7c9d2aa0ecc1fde64fd44bc67/files/fdeae7ab-f93c-f172-7c4e-5fec9e0cbcaf/Ostern23_Intro_DE.01.pdf",
+      "phone_pdf": "",
+      "mail_link": "https://mailchi.mp/edith-stein-gesellschaft/einladung-zu-adventexerzitien-online-1160145",
+      "days": [
+        {
+          "day_index": 1,
+          "day_key": "thursday",
+          "reflection": {
+            "day": "",
+            "motif": "",
+            "bible": "",
+            "bible_ref": "",
+            "saint_text": "",
+            "saint_text_ref": "",
+            "prayer": ""
+          }
+        },
+        {
+          "day_index": 2,
+          "day_key": "friday",
+          "reflection": {
+            "de": "Tagesimpuls Freitag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 3,
+          "day_key": "saturday",
+          "reflection": {
+            "de": "Tagesimpuls Samstag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 4,
+          "day_key": "sunday",
+          "reflection": {
+            "de": "Tagesimpuls Sonntag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        }
+      ]
+    },
+    {
+      "woche_number": 1,
+      "slug": "woche-1",
+      "title": "1. Woche: Jesus lehrt uns die kindlichen Haltungen",
+      "kurz_text": "Zweimal berichten uns die Evangelien von einem geistlichen Kampf Jesu, zum einen vor Beginn seines öffentlichen Auftretens, zum anderen vor dem Eintritt in seine Passion, also seine Versuchungen in der Wüste und die Annahme des Kreuzes in Getsemani.",
+      "main_text": "",
+      "bild_url": "../img/2023_fs/woche-1_header.png",
+      "video_url": "https://www.youtube.com/watch?v=lDjgn431i2Q",
+      "podcast_url": "",
+      "a4_pdf": "https://mcusercontent.com/7c9d2aa0ecc1fde64fd44bc67/files/89408b32-6ac6-0cfe-bfbb-48f754f2da8e/Ostern23_W1_DE.pdf",
+      "phone_pdf": "",
+      "mail_link": "https://mailchi.mp/edith-stein-gesellschaft/einladung-zu-adventexerzitien-online-1160237",
+      "days": [
+        {
+          "day_index": 1,
+          "day_key": "monday",
+          "reflection": {
+            "de": "Tagesimpuls Montag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 2,
+          "day_key": "tuesday",
+          "reflection": {
+            "de": "Tagesimpuls Dienstag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 3,
+          "day_key": "wednesday",
+          "reflection": {
+            "de": "Tagesimpuls Mittwoch."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 4,
+          "day_key": "thursday",
+          "reflection": {
+            "day": "",
+            "motif": "",
+            "bible": "",
+            "bible_ref": "",
+            "saint_text": "",
+            "saint_text_ref": "",
+            "prayer": ""
+          }
+        },
+        {
+          "day_index": 5,
+          "day_key": "friday",
+          "reflection": {
+            "de": "Tagesimpuls Freitag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 6,
+          "day_key": "saturday",
+          "reflection": {
+            "de": "Tagesimpuls Samstag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 7,
+          "day_key": "sunday",
+          "reflection": {
+            "de": "Tagesimpuls Sonntag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        }
+      ]
+    },
+    {
+      "woche_number": 2,
+      "slug": "woche-2",
+      "title": "2. Woche: Im Gebet die Liebe des Vaters empfangen",
+      "kurz_text": "Mit den Versuchungen in der Wüste lehrte uns Jesus die grundlegenden kindlichen Haltungen: dem Vater, der Quelle des Lebens, zugewandt zu bleiben, in einem Akt des Vertrauens und der Liebe, um in Geduld das verheißene Heil von Ihm zu erwarten.",
+      "main_text": {
+        "de": "Haupttext der Woche."
+      },
+      "bild_url": "../img/2023_fs/woche-2_header.png",
+      "video_url": "https://www.youtube.com/watch?v=BWAeFaceHDY",
+      "podcast_url": "",
+      "a4_pdf": "https://mcusercontent.com/7c9d2aa0ecc1fde64fd44bc67/files/394d8d8b-2db0-adfe-7c20-c38ff8bb5098/Ostern23_W2_DE.01.pdf",
+      "phone_pdf": "",
+      "mail_link": "https://mailchi.mp/edith-stein-gesellschaft/einladung-zu-adventexerzitien-online-1160313",
+      "days": [
+        {
+          "day_index": 1,
+          "day_key": "monday",
+          "reflection": {
+            "de": "Tagesimpuls Montag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 2,
+          "day_key": "tuesday",
+          "reflection": {
+            "de": "Tagesimpuls Dienstag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 3,
+          "day_key": "wednesday",
+          "reflection": {
+            "de": "Tagesimpuls Mittwoch."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 4,
+          "day_key": "thursday",
+          "reflection": {
+            "day": "",
+            "motif": "",
+            "bible": "",
+            "bible_ref": "",
+            "saint_text": "",
+            "saint_text_ref": "",
+            "prayer": ""
+          }
+        },
+        {
+          "day_index": 5,
+          "day_key": "friday",
+          "reflection": {
+            "de": "Tagesimpuls Freitag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 6,
+          "day_key": "saturday",
+          "reflection": {
+            "de": "Tagesimpuls Samstag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 7,
+          "day_key": "sunday",
+          "reflection": {
+            "de": "Tagesimpuls Sonntag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        }
+      ]
+    },
+    {
+      "woche_number": 3,
+      "slug": "woche-3",
+      "title": "3. Woche: Die Einladung annehmen, in Gott zu ruhen",
+      "kurz_text": "Das Gebet ist für das christliche Leben wesentlich, nicht nur, weil es ein Ort ist, an dem wir neue Kraft schöpfen können, sondern noch grundlegender deshalb, weil die persönliche Beziehung zu Gott unsere Berufung ausdrückt, Kinder Gottes zu werden. ",
+      "main_text": {
+        "de": ""
+      },
+      "bild_url": "../img/2023_fs/woche-3_header.png",
+      "video_url": "https://www.youtube.com/watch?v=FUdR2cQbXyk",
+      "podcast_url": "",
+      "a4_pdf": "https://mcusercontent.com/7c9d2aa0ecc1fde64fd44bc67/files/05e5e2d0-6f2d-69fe-84c2-0668c61fe9c1/Ostern23_W3_DE.pdf",
+      "phone_pdf": "",
+      "mail_link": "https://mailchi.mp/edith-stein-gesellschaft/einladung-zu-adventexerzitien-online-1160429",
+      "days": [
+        {
+          "day_index": 1,
+          "day_key": "monday",
+          "reflection": {
+            "de": "Tagesimpuls Montag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 2,
+          "day_key": "tuesday",
+          "reflection": {
+            "de": "Tagesimpuls Dienstag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 3,
+          "day_key": "wednesday",
+          "reflection": {
+            "de": "Tagesimpuls Mittwoch."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 4,
+          "day_key": "thursday",
+          "reflection": {
+            "day": "",
+            "motif": "",
+            "bible": "",
+            "bible_ref": "",
+            "saint_text": "",
+            "saint_text_ref": "",
+            "prayer": ""
+          }
+        },
+        {
+          "day_index": 5,
+          "day_key": "friday",
+          "reflection": {
+            "de": "Tagesimpuls Freitag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 6,
+          "day_key": "saturday",
+          "reflection": {
+            "de": "Tagesimpuls Samstag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 7,
+          "day_key": "sunday",
+          "reflection": {
+            "de": "Tagesimpuls Sonntag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        }
+      ]
+    },
+    {
+      "woche_number": 4,
+      "slug": "woche-4",
+      "title": "4. Woche: Was wir tun können: uns innerlich sammeln",
+      "kurz_text": "Nachdem wir die biblischen, theologischen und spirituellen Grundlagen des Gebets entwickelt haben, kann es hilfreich sein, einige grundlegende Orientierungspunkte für die Gestaltung unserer Gebetszeiten zu erläutern.",
+      "main_text": {
+        "de": "Haupttext der Woche."
+      },
+      "bild_url": "/img/2023_fs/woche-4_header.png",
+      "video_url": "https://www.youtube.com/watch?v=zM-gm3u6nq4",
+      "podcast_url": "",
+      "a4_pdf": "https://mcusercontent.com/7c9d2aa0ecc1fde64fd44bc67/files/04e60c8a-60cf-2bee-bfaf-7bf03b9fc9f5/Ostern23_W4_DE.pdf",
+      "phone_pdf": "",
+      "mail_link": "https://mailchi.mp/edith-stein-gesellschaft/einladung-zu-adventexerzitien-online-1160469",
+      "days": [
+        {
+          "day_index": 1,
+          "day_key": "monday",
+          "reflection": {
+            "de": "Tagesimpuls Montag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 2,
+          "day_key": "tuesday",
+          "reflection": {
+            "de": "Tagesimpuls Dienstag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 3,
+          "day_key": "wednesday",
+          "reflection": {
+            "de": "Tagesimpuls Mittwoch."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 4,
+          "day_key": "thursday",
+          "reflection": {
+            "day": "",
+            "motif": "",
+            "bible": "",
+            "bible_ref": "",
+            "saint_text": "",
+            "saint_text_ref": "",
+            "prayer": ""
+          }
+        },
+        {
+          "day_index": 5,
+          "day_key": "friday",
+          "reflection": {
+            "de": "Tagesimpuls Freitag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 6,
+          "day_key": "saturday",
+          "reflection": {
+            "de": "Tagesimpuls Samstag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 7,
+          "day_key": "sunday",
+          "reflection": {
+            "de": "Tagesimpuls Sonntag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        }
+      ]
+    },
+    {
+      "woche_number": 5,
+      "slug": "woche-5",
+      "title": "5. Woche: Sich entschließen, beharrlich im Gebetbeharrlich im Gebet zu seinzu sein",
+      "kurz_text": "Für diejenigen, die diesen Weg des Gebets betreten haben, taucht oft schnell eine Prüfung auf, nämlich die der Leere, des Gefühls, nichts zu tun, oder sogar der Langeweile. Diese Schwierigkeit kommt mehr oder weniger schnell und mit mehr oder weniger Intensität.",
+      "main_text": {
+        "de": ""
+      },
+      "bild_url": "../img/2023_fs/woche-5_header.png",
+      "video_url": "https://www.youtube.com/watch?v=1o2J1OAGXoM",
+      "podcast_url": "",
+      "a4_pdf": "https://mcusercontent.com/7c9d2aa0ecc1fde64fd44bc67/files/4d9d22db-24cc-259b-400e-c95d6c275756/Ostern23_W5_DE.pdf",
+      "phone_pdf": "",
+      "mail_link": "https://mailchi.mp/edith-stein-gesellschaft/einladung-zu-adventexerzitien-online-1160557",
+      "days": [
+        {
+          "day_index": 1,
+          "day_key": "monday",
+          "reflection": {
+            "de": "Tagesimpuls Montag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 2,
+          "day_key": "tuesday",
+          "reflection": {
+            "de": "Tagesimpuls Dienstag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 3,
+          "day_key": "wednesday",
+          "reflection": {
+            "de": "Tagesimpuls Mittwoch."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 4,
+          "day_key": "thursday",
+          "reflection": {
+            "day": "",
+            "motif": "",
+            "bible": "",
+            "bible_ref": "",
+            "saint_text": "",
+            "saint_text_ref": "",
+            "prayer": ""
+          }
+        },
+        {
+          "day_index": 5,
+          "day_key": "friday",
+          "reflection": {
+            "de": "Tagesimpuls Freitag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 6,
+          "day_key": "saturday",
+          "reflection": {
+            "de": "Tagesimpuls Samstag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 7,
+          "day_key": "sunday",
+          "reflection": {
+            "de": "Tagesimpuls Sonntag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        }
+      ]
+    },
+    {
+      "woche_number": 6,
+      "slug": "woche-6",
+      "title": "Karwoche: Den eucharistischen Gehorsam leben",
+      "kurz_text": "Das Gebet ist vor allem der Ort, wo wir lernen, Kinder Gottes zu werden, indem wir die kindlichen Haltungen umsetzen, die uns Jesus während seiner Versuchungen in der Wüste gelehrt hat: Sich Zeit nehmen, um sich dem Vater zuzuwenden, ihn als Vater, als Quelle unseres Lebens anzuerkennen, sein Wort als Nahrung zu empfangen, unser Vertrauen in ihn in einem Akt tiefer Dankbarkeit und Anbetung zu bekräftigen und so in der Hoffnung auszuharren. ",
+      "main_text": {
+        "de": ""
+      },
+      "bild_url": "../img/2023_fs/woche-6_header.png",
+      "video_url": "https://www.youtube.com/watch?v=dFwvE88R59w",
+      "podcast_url": "",
+      "a4_pdf": "https://mcusercontent.com/7c9d2aa0ecc1fde64fd44bc67/files/683583d9-62e0-0d4e-de90-54ce576a83dd/Ostern23_W6_DE.pdf",
+      "phone_pdf": "",
+      "mail_link": "https://mailchi.mp/edith-stein-gesellschaft/einladung-zu-adventexerzitien-online-1160613",
+      "days": [
+        {
+          "day_index": 1,
+          "day_key": "monday",
+          "reflection": {
+            "de": "Tagesimpuls Montag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 2,
+          "day_key": "tuesday",
+          "reflection": {
+            "de": "Tagesimpuls Dienstag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 3,
+          "day_key": "wednesday",
+          "reflection": {
+            "de": "Tagesimpuls Mittwoch."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 4,
+          "day_key": "thursday",
+          "reflection": {
+            "day": "",
+            "motif": "",
+            "bible": "",
+            "bible_ref": "",
+            "saint_text": "",
+            "saint_text_ref": "",
+            "prayer": ""
+          }
+        },
+        {
+          "day_index": 5,
+          "day_key": "friday",
+          "reflection": {
+            "de": "Tagesimpuls Freitag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 6,
+          "day_key": "saturday",
+          "reflection": {
+            "de": "Tagesimpuls Samstag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 7,
+          "day_key": "sunday",
+          "reflection": {
+            "de": "Tagesimpuls Sonntag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        }
+      ]
+    },
+    {
+      "woche_number": 7,
+      "slug": "woche-7",
+      "title": "Ostern: Das missionarische und priesterliche Gebet",
+      "kurz_text": "Am Ende dieser Exerzitien, am Sonntag der Auferstehung des Herrn, ist es wichtig, ein wesentliches Element des persönlichen Gebets hervorzuheben, nämlich seine missionarische und priesterliche Dimension.",
+      "main_text": {
+        "gospel": "",
+        "de": "Haupttext der Woche."
+      },
+      "bild_url": "../img/2023_fs/woche-7_header.png",
+      "video_url": "https://www.youtube.com/watch?v=E2EgBfPFGL4",
+      "podcast_url": "",
+      "a4_pdf": "https://mcusercontent.com/7c9d2aa0ecc1fde64fd44bc67/files/4c27f36a-2aa7-e651-8ef8-b3c06675cce5/Ostern23_Finale_DE.pdf",
+      "phone_pdf": "",
+      "mail_link": "https://mailchi.mp/edith-stein-gesellschaft/einladung-zu-adventexerzitien-online-1160685",
+      "days": [
+        {
+          "day_index": 1,
+          "day_key": "monday",
+          "reflection": {
+            "de": "Tagesimpuls Montag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 2,
+          "day_key": "tuesday",
+          "reflection": {
+            "de": "Tagesimpuls Dienstag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 3,
+          "day_key": "wednesday",
+          "reflection": {
+            "de": "Tagesimpuls Mittwoch."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 4,
+          "day_key": "thursday",
+          "reflection": {
+            "day": "",
+            "motif": "",
+            "bible": "",
+            "bible_ref": "",
+            "saint_text": "",
+            "saint_text_ref": "",
+            "prayer": ""
+          }
+        },
+        {
+          "day_index": 5,
+          "day_key": "friday",
+          "reflection": {
+            "de": "Tagesimpuls Freitag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 6,
+          "day_key": "saturday",
+          "reflection": {
+            "de": "Tagesimpuls Samstag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 7,
+          "day_key": "sunday",
+          "reflection": {
+            "de": "Tagesimpuls Sonntag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        }
+      ]
+    }
+  ]
+}
