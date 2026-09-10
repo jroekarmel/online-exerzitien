@@ -4,17 +4,17 @@
   "weeks": [
     {
       "woche_number": 0,
-      "slug": "woche-0",
+      "slug": "week-0",
       "title": "Ash Wednesday: \"Recovering Purity of Heart\"",
       "kurz_text": "Detaching from self, opening ourselves to God and others. \n The secret of the heart: the path to purity and communion",
       "main_text": {
         "de": "Haupttext der Woche."
       },
-      "bild_url": "../img/2026_fs/woche-0_header.png",
-      "video_url": "https://www.youtube.com/watch?v=iiJ3Q9Cow5g",
-      "podcast_url": "https://www.buzzsprout.com/870355/episodes/18698498-aschermittwoch-die-reinheit-des-herzens-wiederfinden-fastenzeit-exerzitien.mp3?download=true",
+      "bild_url": "../img/2026_lent/week-0_header.png",
+      "video_url": "https://www.youtube.com/watch?v=3a4u8sFi0H8",
+      "podcast_url": "",
       "a4_pdf": "https://mcusercontent.com/7c9d2aa0ecc1fde64fd44bc67/files/ecfb7fed-07a2-e73a-308b-010d2c028152/Intro_EN.01.pdf",
-      "phone_pdf": "https://mcusercontent.com/7c9d2aa0ecc1fde64fd44bc67/files/1e8bd6c6-4631-24dd-a000-c6db8deb516a/Intro_DE.01.pdf",
+      "phone_pdf": "",
       "mail_link": "https://mailchi.mp/b52c80bf5d5d/einladung-zu-adventexerzitien-online-7363256",
       "days": [
         {
@@ -61,15 +61,15 @@
     },
     {
       "woche_number": 1,
-      "slug": "woche-1",
-      "title": "1. Sonntag: Mit Christus siegen",
-      "kurz_text": "Die Wüste durchqueren: Die Prüfung annehmen, um Christus aufzunehmen",
+      "slug": "week-1",
+      "title": "Week 1: Receiving the Victory of Christ",
+      "kurz_text": "Crossing the Desert: Accepting Trial to Receive Christ",
       "main_text": "",
-      "bild_url": "../img/2026_fs/woche-1_header.png",
+      "bild_url": "../img/2026_lent/week-1_header.png",
       "video_url": "https://www.youtube.com/watch?v=VHh-OnA0GNo",
       "podcast_url": "https://www.buzzsprout.com/870355/episodes/18707293-den-sieg-christi-empfangen-1-sonntag.mp3?download=true",
       "a4_pdf": "https://mcusercontent.com/7c9d2aa0ecc1fde64fd44bc67/files/6ed870aa-5e3b-2089-7b46-731bb6dfba1d/W1_DE.01.pdf",
-      "phone_pdf": "https://mcusercontent.com/7c9d2aa0ecc1fde64fd44bc67/files/37a3ff6f-70e0-4a1b-8246-c2855b1a71a9/W1_DE_mobil.01.pdf",
+      "phone_pdf": "",
       "mail_link": "https://mailchi.mp/karmel/einladung-zu-adventexerzitien-2018-7363282",
       "days": [
         {
@@ -143,18 +143,18 @@
     },
     {
       "woche_number": 2,
-      "slug": "woche-2",
-      "title": "2. Sonntag: „Unser Herz – entflammt durch das Herz Christi“  ",
-      "kurz_text": "Vom brennenden Dornbusch zur Herrlichkeit des Kreuzes",
+      "slug": "week-2",
+      "title": "Week 2: Our Hearts illuminated by the Heart of Christ",
+      "kurz_text": "From the burning bush to the glorified Cross",
       "main_text": {
         "de": "Haupttext der Woche."
       },
-      "bild_url": "../img/2026_fs/woche-2_header.png",
-      "video_url": "https://www.youtube.com/watch?v=WqCvpJbVusg",
-      "podcast_url": "https://www.buzzsprout.com/870355/episodes/18748817-unsere-herzen-erleuchtet-vom-herzen-christi-2-sonntag.mp3?download=true",
-      "a4_pdf": "https://mcusercontent.com/7c9d2aa0ecc1fde64fd44bc67/files/7fb2cec6-8893-ff6f-656a-f74ab6c6e1dd/W2_DE.01.pdf",
-      "phone_pdf": "https://mcusercontent.com/7c9d2aa0ecc1fde64fd44bc67/files/81dad836-08f1-700e-1ca2-d1b6b8594e80/W2_DE_mobil.01.pdf",
-      "mail_link": "https://mailchi.mp/karmel/einladung-zu-adventexerzitien-2018-7363316",
+      "bild_url": "../img/2026_lent/week-2_header.png",
+      "video_url": "https://www.youtube.com/watch?v=AaL1Xh8Bmtw",
+      "podcast_url": "",
+      "a4_pdf": "",
+      "phone_pdf": "",
+      "mail_link": "https://us6.campaign-archive.com/?u=7c9d2aa0ecc1fde64fd44bc67&id=6f7466a2f0",
       "days": [
         {
           "day_index": 1,
@@ -227,18 +227,18 @@
     },
     {
       "woche_number": 3,
-      "slug": "woche-3",
-      "title": "3. Sonntag: „Wenn Eva wieder Maria wird”",
-      "kurz_text": "Jesus am Brunnen: Vom Nehmen zum Empfangen",
+      "slug": "week-3",
+      "title": "Week 3: When Eve becomes Mary once again",
+      "kurz_text": "Jesus at the well: from taking to receiving",
       "main_text": {
         "de": "Haupttext der Woche."
       },
-      "bild_url": "../img/2026_fs/woche-3_header.png",
-      "video_url": "https://www.youtube.com/watch?v=695dAu-JeL8",
-      "podcast_url": "https://www.buzzsprout.com/870355/episodes/18788136-wenn-eva-wieder-maria-wird-3-sonntag-fastenzeit-2026.mp3?download=true",
-      "a4_pdf": "https://mcusercontent.com/7c9d2aa0ecc1fde64fd44bc67/files/9320c08e-9a64-42ab-301a-5fe52093a42b/W3_DE.01.pdf",
-      "phone_pdf": "https://mcusercontent.com/7c9d2aa0ecc1fde64fd44bc67/files/c90f0de2-92d7-ac77-c8ac-d7b2aa981001/W3_DE_mobil.01.pdf",
-      "mail_link": "https://mailchi.mp/karmel/einladung-zu-adventexerzitien-2018-7363328",
+      "bild_url": "../img/2026_lent/week-3_header.png",
+      "video_url": "https://youtu.be/mYnwX4r-nwE",
+      "podcast_url": "",
+      "a4_pdf": "",
+      "phone_pdf": "",
+      "mail_link": "https://us6.campaign-archive.com/?u=7c9d2aa0ecc1fde64fd44bc67&id=2fb33b4d51",
       "days": [
         {
           "day_index": 1,
@@ -311,18 +311,18 @@
     },
     {
       "woche_number": 4,
-      "slug": "woche-4",
-      "title": "4. Sonntag: „Mit den Augen Mariens sehen”",
-      "kurz_text": "Von der Blindheit zum Schauen: Die erlösende Menschwerdung und die Barmherzigkeit Gottes",
+      "slug": "week-4",
+      "title": "Week 4: \"Seeing with the Eyes of Mary\"",
+      "kurz_text": "From blindness to vision: the redemptive Incarnation and the mercy of God",
       "main_text": {
         "de": "Haupttext der Woche."
       },
-      "bild_url": "../img/2026_fs/woche-4_header.png",
-      "video_url": "https://youtu.be/ZSIz853GdFQ",
-      "podcast_url": "https://www.buzzsprout.com/870355/episodes/18834846-mit-den-augen-marias-sehen-4-sonntag-fastenzeit-2026.mp3?download=true",
-      "a4_pdf": "https://mcusercontent.com/7c9d2aa0ecc1fde64fd44bc67/files/f665f905-0594-2fb8-55f2-85b0d2e70cff/W4_DE.01.pdf",
-      "phone_pdf": "https://mcusercontent.com/7c9d2aa0ecc1fde64fd44bc67/files/e29fb7d4-a644-6f82-5080-123f2c8f5d33/W4_DE_mobil.01.pdf",
-      "mail_link": "https://mailchi.mp/karmel/einladung-zu-adventexerzitien-2018-7363381",
+      "bild_url": "../img/2026_lent/week-4_header.png",
+      "video_url": "https://youtu.be/aDt0RwNDm2U",
+      "podcast_url": "",
+      "a4_pdf": "",
+      "phone_pdf": "",
+      "mail_link": "https://us6.campaign-archive.com/?u=7c9d2aa0ecc1fde64fd44bc67&id=90e05f4f17",
       "days": [
         {
           "day_index": 1,
@@ -395,18 +395,18 @@
     },
     {
       "woche_number": 5,
-      "slug": "woche-5",
-      "title": "5. Sonntag: „Die Freiheit der Kinder Gottes wiedererlangen“",
-      "kurz_text": "Schlaf, Tod und Erwachen: Die Freundschaft Jesu und das Pascha-Mysterium",
+      "slug": "week-5",
+      "title": "Week 5: Recovering the Freedom of the Children of God",
+      "kurz_text": "Sleep, death and awaking: the friendship of Jesus and the Paschal Mystery",
       "main_text": {
         "de": "Haupttext der Woche."
       },
-      "bild_url": "../img/2026_fs/woche-5_header.png",
-      "video_url": "https://www.youtube.com/watch?v=HWxQ4BML4Mg",
-      "podcast_url": "https://www.buzzsprout.com/870355/episodes/18867034-die-freiheit-der-kinder-gottes-wiederfinden-5-sonntag-fastenzeit-2026.mp3?download=true",
-      "a4_pdf": "https://mcusercontent.com/7c9d2aa0ecc1fde64fd44bc67/files/4fc0a1c3-aa95-2a33-04b9-8f6a9a74d3f8/W5_DE.pdf",
-      "phone_pdf": "https://mcusercontent.com/7c9d2aa0ecc1fde64fd44bc67/files/bba19f3a-d187-b715-6012-c8cc4ccb66f2/W5_DE_mobil.pdf",
-      "mail_link": "https://mailchi.mp/karmel/einladung-zu-adventexerzitien-2018-7363405",
+      "bild_url": "../img/2026_lent/week-5_header.png",
+      "video_url": "https://youtu.be/hMB8s5NdgkY",
+      "podcast_url": "",
+      "a4_pdf": "",
+      "phone_pdf": "",
+      "mail_link": "https://us6.campaign-archive.com/?u=7c9d2aa0ecc1fde64fd44bc67&id=60a956b1b3",
       "days": [
         {
           "day_index": 1,
@@ -479,18 +479,18 @@
     },
     {
       "woche_number": 6,
-      "slug": "woche-6",
-      "title": "Karwoche: „Die Liebeswunde am Kreuz”",
-      "kurz_text": "Im Herzen des Tempels und der Liebe",
+      "slug": "week-6",
+      "title": "Holy Week: \"The Wound of Love of the Cross\"",
+      "kurz_text": "At the heart of the temple and of love",
       "main_text": {
         "de": "Haupttext der Woche."
       },
-      "bild_url": "../img/2026_fs/woche-6_header.png",
-      "video_url": "https://www.youtube.com/watch?v=HWxQ4BML4Mg",
-      "podcast_url": "https://www.buzzsprout.com/870355/episodes/18867034-die-freiheit-der-kinder-gottes-wiederfinden-5-sonntag-fastenzeit-2026.mp3?download=true",
-      "a4_pdf": "https://mcusercontent.com/7c9d2aa0ecc1fde64fd44bc67/files/4fc0a1c3-aa95-2a33-04b9-8f6a9a74d3f8/W5_DE.pdf",
-      "phone_pdf": "https://mcusercontent.com/7c9d2aa0ecc1fde64fd44bc67/files/bba19f3a-d187-b715-6012-c8cc4ccb66f2/W5_DE_mobil.pdf",
-      "mail_link": "https://mailchi.mp/karmel/einladung-zu-adventexerzitien-2018-7363405",
+      "bild_url": "../img/2026_lent/week-6_header.png",
+      "video_url": "https://youtu.be/xQGn3H0YQb4",
+      "podcast_url": "",
+      "a4_pdf": "",
+      "phone_pdf": "",
+      "mail_link": "https://us6.campaign-archive.com/?u=7c9d2aa0ecc1fde64fd44bc67&id=f5deaf48a9",
       "days": [
         {
           "day_index": 1,
@@ -563,19 +563,19 @@
     },
     {
       "woche_number": 7,
-      "slug": "woche-7",
-      "title": "Ostern: Vom Herzen aus Stein zum Herzen aus Fleisch",
-      "kurz_text": "Das offene Grab und die auferstandene Liebe",
+      "slug": "week-7",
+      "title": "Easter: From a Heart of Stone to a Heart of Flesh",
+      "kurz_text": "The open tomb and risen love",
       "main_text": {
         "gospel": "",
         "de": "Haupttext der Woche."
       },
-      "bild_url": "../img/2026_fs/woche-7_header.png",
-      "video_url": "https://youtu.be/gDMbR2a_Acs",
-      "podcast_url": "https://www.buzzsprout.com/870355/episodes/18943552-das-grab-ist-leer-ostersonntag-fastenzeit-2026.mp3?download=true",
-      "a4_pdf": "https://mcusercontent.com/7c9d2aa0ecc1fde64fd44bc67/files/1faa5783-348a-5cab-1458-9076ae98b47d/W7_DE.pdf",
-      "phone_pdf": "https://mcusercontent.com/7c9d2aa0ecc1fde64fd44bc67/files/9b88bc53-5caf-7743-8c37-b86e0da871ee/W7_DE_mobil.pdf",
-      "mail_link": "https://mailchi.mp/karmel/einladung-zu-adventexerzitien-2018-7363485",
+      "bild_url": "../img/2026_lent/week-7_header.png",
+      "video_url": "https://youtu.be/0gT5w35RiVM?feature=shared",
+      "podcast_url": "",
+      "a4_pdf": "",
+      "phone_pdf": "",
+      "mail_link": "https://us6.campaign-archive.com/?u=7c9d2aa0ecc1fde64fd44bc67&id=4729c0ae21",
       "days": [
         {
           "day_index": 1,

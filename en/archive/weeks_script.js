@@ -8,7 +8,7 @@ async function loadData() {
 
   if (!response.ok) {
     throw new Error(
-      `Die JSON-Datei konnte nicht geladen werden: ${response.status} ${response.statusText}`
+      `The JSON file cannot be loaded: ${response.status} ${response.statusText}`
     );
   }
 
@@ -36,7 +36,7 @@ function displayWeeks(data){
         </p>
         <div class="card-links">
           <a href="${item.mail_link}" target="_blank" rel="noopener noreferrer">
-            Materialien dieses Impulses
+            Materials for the week
           </a>
         </div>
       </article>
