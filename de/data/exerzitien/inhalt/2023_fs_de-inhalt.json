@@ -317,7 +317,7 @@
       "main_text": {
         "de": "Haupttext der Woche."
       },
-      "bild_url": "/img/2023_fs/woche-4_header.png",
+      "bild_url": "../img/2023_fs/woche-4_header.png",
       "video_url": "https://www.youtube.com/watch?v=zM-gm3u6nq4",
       "podcast_url": "",
       "a4_pdf": "https://mcusercontent.com/7c9d2aa0ecc1fde64fd44bc67/files/04e60c8a-60cf-2bee-bfaf-7bf03b9fc9f5/Ostern23_W4_DE.pdf",
