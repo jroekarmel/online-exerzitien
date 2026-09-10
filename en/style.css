@@ -1627,3 +1627,51 @@ display: flex;
     animation: none;
   }
 }
+/* Logo slider */
+.logo-slider {
+  max-width: 420px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.logo-slider-frame {
+  position: relative;
+  height: 180px;
+  overflow: hidden;
+  border-radius: 16px;
+}
+
+.logo-slide {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  padding: 1.5rem;
+  opacity: 0;
+  animation: logoFade 9s infinite;
+}
+
+.logo-slide img {
+  max-width: 100%;
+  max-height: 110px;
+  width: auto;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.logo-slide:hover img,
+.logo-slide:focus img {
+  transform: scale(1.05);
+}
+
+.logo-slide--1 { animation-delay: 0s; }
+.logo-slide--2 { animation-delay: 3s; }
+.logo-slide--3 { animation-delay: 6s; }
+
+@keyframes logoFade {
+  0% { opacity: 0; }
+  6% { opacity: 1; }
+  27% { opacity: 1; }
+  33% { opacity: 0; }
+  100% { opacity: 0; }
+}
