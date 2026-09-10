@@ -463,7 +463,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     grid.innerHTML = uniqueSaints.map(renderCard).join("");
 
-    // Scroll behavior: 4 cards on desktop, 1 on mobile
+    // Scroll behavior: 3 cards on desktop, 1 on mobile
     const getScrollAmount = () => {
       const card = grid.querySelector(".saint-card");
       if (!card) return 0;
@@ -471,7 +471,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       const gap = 16; // approx 1rem
 
       if (window.innerWidth >= 992) {
-        return (cardWidth + gap) * 4;
+        return (cardWidth + gap) * 3;
       }
       return cardWidth + gap;
     };

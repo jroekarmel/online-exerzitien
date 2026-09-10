@@ -1054,17 +1054,15 @@ gap: 0.75rem;
   .saints-carousel {
     width: 100%;
   }
-
-  .saints-grid {
-    display: block;
+    .saints-grid {
+    display: grid;
     grid-auto-flow: column;
-    grid-auto-columns: calc((100% - 3rem) / 4);
+    grid-auto-columns: calc((100% - 3rem) / 3);
     gap: 1rem;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
-    scrollbar-width: none;
-    -ms-overflow-style: none;
+    padding-bottom: 0.5rem;
   }
 
   .saints-grid::-webkit-scrollbar {
@@ -1116,16 +1114,6 @@ gap: 0.75rem;
   opacity: 0.45;
   cursor: not-allowed;
 }
-  .saints-grid {
-    display: grid;
-    grid-auto-flow: column;
-    grid-auto-columns: calc((100% - 3rem) / 4);
-    gap: 1rem;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
-    scroll-behavior: smooth;
-    padding-bottom: 0.5rem;
-  }
 
   .saint-card-featured {
     scroll-snap-align: start;
