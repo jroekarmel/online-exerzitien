@@ -13,7 +13,7 @@
     />
     <link
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=dictionary,folded_hands,movie_speaker,today"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=dictionary,folded_hands,movie_speaker,today,home"
     />
     <link rel="stylesheet" href="./style.css" />
   </head>
@@ -37,7 +37,32 @@
         </span>
       </a>
 
-      <div class="header-actions">
+<div class="header-actions"> 
+<nav class="main-nav" id="main-navigation" aria-label="Hauptnavigation">    
+<ul>   
+  <li><a href="/index.html"><span class="material-symbols-outlined">home</span></a></li>     
+  <li><a href="#signup-panel">Register</a></li>     
+  <li><a href="#aktuelleExerzitien">Current Retreat</a></li>     
+  <li><a href="#saints-cards">Saints</a></li>     
+  <li><a href="#archiv-cards">Archive</a></li>  
+  <li><a href="#faq">FAQ</a></li> 
+  <li><a href="#about-us">About the Discalced Carmelites</a></li> 
+</ul>        
+<button class="font-decrease theme-toggle" type="button" data-font-decrease aria-label="Schriftgröße verkleinern">     A-    
+</button>     
+<button class="font-reset theme-toggle" type="button" data-font-reset aria-label="Schriftgröße zurücksetzen">     A    
+</button>    
+<button class="font-increase theme-toggle" type="button" data-font-increase aria-label="Schriftgröße vergrößern">     A+    
+</button>    
+<button class="theme-toggle" type="button" data-theme-toggle aria-label="Farbschema wechseln">     
+<span class="theme-toggle__icon" aria-hidden="true">◐</span>    
+</button>   
+</nav>     
+<button class="nav-toggle" type="button" aria-expanded="false" aria-controls="main-navigation" aria-label="Menü öffnen">     
+<span></span>     
+<span></span>     
+<span></span>    
+</button> 
         <details class="language-menu">
           <summary
             class="language-menu__trigger"
