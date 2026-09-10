@@ -504,7 +504,7 @@ const grid = document.getElementById("saints-grid");
     const isScrolledToStart = () => {
       return grid.scrollLeft <= 0;
     };
-
+    if (prevBtn) {
     prevBtn.addEventListener("click", () => {
       const amount = getScrollAmount();
 
@@ -514,7 +514,8 @@ const grid = document.getElementById("saints-grid");
         grid.scrollBy({ left: -amount, behavior: "smooth" });
       }
     });
-
+  };
+  if (nextBtn) {
     nextBtn.addEventListener("click", () => {
       const amount = getScrollAmount();
 
@@ -524,6 +525,7 @@ const grid = document.getElementById("saints-grid");
         grid.scrollBy({ left: amount, behavior: "smooth" });
       }
     });
+  };
 // hiding and showing Sonstiges field:
 document.addEventListener("DOMContentLoaded", function () {
     const select = document.getElementById("mce-AUFMERKS01");
