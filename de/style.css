@@ -789,6 +789,33 @@ ul {
   padding: var(--space-2) 0;
 }
 
+.saint-image {
+  /* ensure text can wrap around the floated image */
+  overflow: hidden; /* or use a clearfix if you prefer */
+}
+
+.saint-image .image-zoom {
+  float: left;
+  margin: 1.5rem 1rem 0.5rem 0; 
+  max-width: 100%;          
+}
+
+.saint-image .image-zoom img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Optional: on small screens, stack image on top instead of floating */
+@media (max-width: 600px) {
+  .saint-image .image-zoom {
+    float: none;
+    display: block;
+    margin: 0 0 1rem 0;
+    max-width: 100%;
+  }
+}
+
 .two-column,
 .section-heading,
 .footer-inner {
