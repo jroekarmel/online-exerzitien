@@ -557,7 +557,7 @@ position: relative;
   z-index: 1;
   margin-inline-start: 5%;
   width: 40%;                /* 10 % + 30 % = 40 % */
-  max-width: 75%;
+  max-width: 95%;
   padding: var(--space-6) var(--space-8);
   color: #000000;
 
