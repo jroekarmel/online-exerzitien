@@ -244,7 +244,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   const getRetreatLink = (retreat) => {
     if (!retreat?.slug) return;
-    return `./archiv/${retreat.slug}.html`;
+    return `./archiv/${getLocalizedField(retreat.slug)}.html`;
   };
 
   const renderCard = (retreat, accented = false) => {
@@ -256,7 +256,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     const year = retreat.year || "";
     const title = getLocalizedField(retreat.titel);
     const thema = getLocalizedField(retreat.thema);
-    const summary = getLocalizedField(retreat.zusammenfassung);
+    const summary = getLocalizedField(retreat.teaser);
     const image = getLocalizedField(retreat.header_img);
     const link = getRetreatLink(retreat);
         // Advent cards accented, Lent normal
