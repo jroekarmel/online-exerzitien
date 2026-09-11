@@ -83,7 +83,7 @@
     "slug": "joseph",
     "bio_de": "Der heilige Josef, Bräutigam der Gottesmutter Maria und Nährvater Jesu, wird als stiller Gerechter und treuer Beschützer der Kirche und der Familien verehrt.",
     "image": "../img/heiligen/heiliger_joseph.jpg",
-    "link": "#"
+    "link": "../de/heilige/heiliger_josef.html"
   },
   {
     "name": "Heilige Elisabeth von der Dreifaltigkeit",
@@ -91,21 +91,22 @@
     "bio_de": "Elisabeth von der Dreifaltigkeit (1880–1906) war eine französische Karmelitin, deren Spiritualität von der inneren Gegenwart der Heiligsten Dreifaltigkeit im Herzen des Getauften geprägt ist.",
     "bio_de_lang": "<p>Die heilige Elisabeth von der Dreifaltigkeit wurde nur 26 Jahre alt; fünf davon hat sie im Karmelitinnenkloster von Dijon (Frankreich) verbracht. Trotzdem aber war sie, als sie am 9. November 1906 starb, der Überzeugung, dass sie „heimging zum Licht, zur Liebe, zum Leben\". Durch ihre künstlerische Begabung hat sie den Menschen viel Freude gebracht, jedoch ohne sich daran zu verlieren, denn ihre eigentliche Heimat war woanders. Sie wurde am 25. November 1984 selig- und am 16. Oktober 2016 heiliggesprochen.</p>",
     "image": "../img/heiligen/elisabeth_dreifaltigkeit.jpg",
-    "link": "#"
+    "link": "../de/heilige/elisabeth_dreifaltigkeit.html"
   },
   {
     "name": "Sel. Maria-Eugen vom Kinde Jesus OCD",
     "slug": "sel_mariaeugen_vom_kinde_jesus_ocd",
     "bio_de": "Maria-Eugen vom Kinde Jesus (1894–1967) war ein französischer Karmelit und Gründer des Säkularinstituts Notre-Dame de Vie, der die geistliche Lehre Teresas von Ávila und Johannes’ vom Kreuz neu erschloss.",
+    "bio_de_lang": "P. Maria-Eugen vom Kinde Jesus wurde am 19. November 2016 seliggesprochen. Dies ist ein Ereignis von großer Bedeutung für das ganze Volk Gottes, nicht nur für die Karmel-Familie, welcher er angehört. Indem die Heiligkeit seines Lebens feierlich anerkannt worden ist, stellt die Kirche ihn uns auf neue Art und Weise als <strong>einen großen geistlichen Meister für unsere Zeit</strong> vor Augen.<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Henri Grialou wurde am 2. Dezember 1894 in einer armen Familie des Aveyron geboren; von früher Kindheit an vernahm er den Ruf Jesu, Priester zu werden. Seine Studien im großen Seminar von Rodez wurden unterbrochen durch das Drama des ersten Weltkrieges. Direkt nach seiner Priesterweihe (am 4. Februar 1922) trat er ins Noviziat der <strong>Unbeschuhten Karmeliten</strong> in Avon bei Fontainebleau ein und erhielt den Namen Bruder Maria-Eugen vom Kinde Jesus. Nach einer Zeit im Kloster von Lille lebte er in den Gemeinschaften im Süden Frankreichs, wo er auch das Amt des Oberen ausübte. 1932 gründete er nahe des Heiligtums Notre-Dame de Vie in Venasque (in der Nähe von Carpentras) einen neuen „Zweig“ des Karmel: das <strong>Institut Notre-Dame de Vie</strong>, das nach einem bescheidenen Anfang zu einer großartigen Entwicklung berufen ist. 1937 wird P. Maria-Eugen als Mitglied des Generalrates des Ordens der Unbeschuhten Karmeliten nach Rom berufen. Er wird dort bis 1955 bleiben, außer während der Zeit des zweiten Weltkriegs, in der er in Frankreich weilte. Nach dem tödlichen Unfall des Generaloberen im Jahre 1954 wird er als Generalvikar sogar an der Spitze des Ordens stehen. Als er 1955 definitiv nach Frankreich zurückkehrt, wird er zum Provinzial der Provinz Avignon-Aquitaine gewählt, begleitet aber nebenbei weiterhin die Entwicklung des Instituts Notre-Dame de Vie. Nach dem zuerst gegründeten weiblichen Zweig folgt nun auch ein männlicher sowie eine dazugehörige Gemeinschaft für Priester. Nachdem P. Maria-Eugen mit großer Freude das Ereignis des Zweiten Vatikanischen Konzils miterlebt hatte, stirbt er am 27. März 1967 in Notre-Dame de Vie. Es ist dies ein Ostermontag, der Tag, an dem er gerne Maria, die Mutter des Lebens betrachtete, die Mutter jenes Lebens, das in der Auferstehung ihres Sohnes triumphiert.",
     "image": "../img/heiligen/maria_eugen.jpg",
-    "link": "#"
+    "link": "../de/heilige/maria-eugen.html"
   },
   {
     "name": "Heiliger Elija",
     "slug": "elija",
     "bio_de": "Der Prophet Elija gilt als geistlicher Vater der Karmeliten; sein Eifer für den einen wahren Gott und seine Gotteserfahrung auf dem Horeb prägen die Spiritualität des Ordens.",
     "image": "../img/heiligen/heiliger_elija.jpg",
-    "link": "#"
+    "link": "../de/heilige/heiliger_elija.html"
   },
   {
     "name": "Louis Martin und Zélie Martin (Eltern der hl. Thérèse von Lisieux)",
@@ -113,6 +114,6 @@
     "bio_de": "Louis und Zélie Martin, die Eltern der heiligen Thérèse von Lisieux, führten eine tief christliche Ehe und wurden gemeinsam als Vorbilder für heilige Ehe und Familienleben heiliggesprochen.",
     "bio_de_lang": "<p>Der heilige Louis Martin (geboren 1823) war Juwelier; die heilige Marie Zélie, (geboren 1831) stellte Alençonspitzen her. Die Ehe der beiden war mit neun Kindern gesegnet, von denen nur fünf überlebten, das jüngste war die heilige Thérèse von Lisieux. Als vorbildliche christliche Eltern weckten sie in ihren Kindern den Eifer für die Missionen, Liebe zu den Armen und die Verehrung Marias. Nach dem Tod seiner Gattin 1877 zog Louis nach Lisieux, wo er den Abschied seiner Töchter ins Kloster erlebte und in den letzten Lebensjahren noch schwere Leiden durchmachen musste. Gestorben ist er 1894. Das Ehepaar wurde am 19. Oktober 2008 in Lisieux selig- und am 18. Oktober 2015 in Rom heiliggesprochen.</p>",
     "image": "../img/heiligen/louis_martin_und_zelie_martin.jpg",
-    "link": "#"
+    "link": "../de/heilige/louis_zelie_martin.html"
   }
 ]
