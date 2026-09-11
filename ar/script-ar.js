@@ -75,7 +75,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     const year = retreat.year || "";
     const title = getLocalizedField(retreat.titel);
     const thema = getLocalizedField(retreat.thema);
-    const summary = getLocalizedField(retreat.zusammenfassung);
+    const summary = getLocalizedField(retreat.teaser);
     const image = getLocalizedField(retreat.header_img);
     const link = getRetreatLink(retreat);
         // Advent cards accented, Lent normal
