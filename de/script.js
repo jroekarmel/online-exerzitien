@@ -221,7 +221,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   const catalogPath =
   container.dataset.json ||
-  "../de/data/exerzitien-katalog.json";
+  "/daten/online_exerzitien_daten/retreat_overview.json";
 
   const seasonLabels = {
     lent: "Fastenzeit",
@@ -337,8 +337,8 @@ document.addEventListener("DOMContentLoaded", async () => {
   if (!container) return;
 
 const catalogPath =
-  container.dataset.catalog ||
-  "../de/data/exerzitien-katalog.json";
+  container.dataset.json ||
+  "/daten/online_exerzitien_daten/retreat_overview.json";
  
 const saintsPath =
   container.dataset.saints ||
