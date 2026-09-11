@@ -299,7 +299,21 @@ document.addEventListener("DOMContentLoaded", async () => {
     `;
   };
 
+  const renderLoadMoreButton = (onClick) => {
+    const wrapper = document.createElement("div");
+    wrapper.className = "archive-load-more-wrapper";
 
+    const button = document.createElement("button");
+    button.className = "archive-load-more";
+    button.type = "button";
+    button.textContent = "Mehr laden";
+    button.addEventListener("click", onClick);
+
+    wrapper.appendChild(button);
+    container.parentNode.appendChild(wrapper);
+
+    return button;
+  };
   
   try {
 
@@ -324,7 +338,32 @@ document.addEventListener("DOMContentLoaded", async () => {
       return;
     }
 
-    container.innerHTML = archiveRetreats.map(renderCard).join("");
+const PAGE_SIZE = 2;
+    let currentIndex = 0;
+
+    const renderPage = () => {
+      const nextIndex = Math.min(currentIndex + PAGE_SIZE, archiveRetreats.length);
+      const pageRetreats = archiveRetreats.slice(currentIndex, nextIndex);
+
+      const html = pageRetreats.map(renderCard).join("");
+      container.insertAdjacentHTML("beforeend", html);
+
+      currentIndex = nextIndex;
+
+      // Button entfernen, wenn keine weiteren Retreats mehr da sind
+      const loadMoreWrapper = container.parentNode.querySelector(".archive-load-more-wrapper");
+      if (loadMoreWrapper) {
+        if (currentIndex >= archiveRetreats.length) {
+          loadMoreWrapper.remove();
+        }
+      } else if (currentIndex < archiveRetreats.length) {
+        // Button nur erstellen, wenn es noch weitere Retreats gibt
+        renderLoadMoreButton(renderPage);
+      }
+    };
+
+    // Erste Seite rendern (und ggf. Button erzeugen)
+    renderPage();
   } catch (error) {
     console.error(error);
     container.innerHTML = `<p>Die Archivdaten konnten derzeit nicht geladen werden.</p>`;
