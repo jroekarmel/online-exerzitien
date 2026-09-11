@@ -1,0 +1,481 @@
+{
+  "retreat_id": "advent-2023",
+  "season_type": "advent",
+  "weeks": [
+    {
+      "woche_number": 0,
+      "slug": "woche-0",
+      "title": "اﻟﻠﻪ المُﺒﻬِﺮ",
+      "kurz_text": "ﺑﻌﺾ ٌ ﻣﻦ اﻟﺴ ة اﻟﺬاﺗﻴّﺔ",
+      "main_text": {
+        "de": ""
+      },
+      "bild_url": "../img/2023_advent/2023_advent_woche-0_header.png",
+      "video_url": "",
+      "podcast_url": "",
+      "a4_pdf": "https://mcusercontent.com/7c9d2aa0ecc1fde64fd44bc67/files/4748d5e9-1b58-0b3f-b114-829cbdd6e22f/2023_Intro_AR.pdf",
+      "phone_pdf": "",
+      "mail_link": "https://mailchi.mp/781cace44804/einladung-zu-adventexerzitien-2018-1161114",
+      "days": [
+        {
+          "day_index": 1,
+          "day_key": "thursday",
+          "reflection": {
+            "day": "",
+            "motif": "",
+            "bible": "",
+            "bible_ref": "",
+            "saint_text": "",
+            "saint_text_ref": "",
+            "prayer": ""
+          }
+        },
+        {
+          "day_index": 2,
+          "day_key": "friday",
+          "reflection": {
+            "de": "Tagesimpuls Freitag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 3,
+          "day_key": "saturday",
+          "reflection": {
+            "de": "Tagesimpuls Samstag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 4,
+          "day_key": "sunday",
+          "reflection": {
+            "de": "Tagesimpuls Sonntag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        }
+      ]
+    },
+    {
+      "woche_number": 1,
+      "slug": "woche-1",
+      "title": "القداسة كﻬدف",
+      "kurz_text": "سﺎﻤع كلمة اﻹنجيّل: السﻬر بﺤّبّ",
+      "main_text": "",
+      "bild_url": "../img/2023_advent/2023_advent_woche-1_header.jpg",
+      "video_url": "",
+      "podcast_url": "",
+      "a4_pdf": "https://mcusercontent.com/7c9d2aa0ecc1fde64fd44bc67/files/bfc7ffa8-2db7-c285-68f0-721b64196336/2023_W1_AR.pdf",
+      "phone_pdf": "",
+      "mail_link": "https://mailchi.mp/aba80f9191c1/einladung-zu-adventexerzitien-2018-1161130",
+      "days": [
+        {
+          "day_index": 1,
+          "day_key": "monday",
+          "reflection": {
+            "de": "Tagesimpuls Montag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 2,
+          "day_key": "tuesday",
+          "reflection": {
+            "de": "Tagesimpuls Dienstag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 3,
+          "day_key": "wednesday",
+          "reflection": {
+            "de": "Tagesimpuls Mittwoch."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 4,
+          "day_key": "thursday",
+          "reflection": {
+            "day": "",
+            "motif": "",
+            "bible": "",
+            "bible_ref": "",
+            "saint_text": "",
+            "saint_text_ref": "",
+            "prayer": ""
+          }
+        },
+        {
+          "day_index": 5,
+          "day_key": "friday",
+          "reflection": {
+            "de": "Tagesimpuls Freitag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 6,
+          "day_key": "saturday",
+          "reflection": {
+            "de": "Tagesimpuls Samstag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 7,
+          "day_key": "sunday",
+          "reflection": {
+            "de": "Tagesimpuls Sonntag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        }
+      ]
+    },
+    {
+      "woche_number": 2,
+      "slug": "woche-2",
+      "title": "الﺘواﺿﻊ هو الوسيلة ملعﺮﻓة الل",
+      "kurz_text": "سﺎﻤع كلمة الله: ﻓﺮح الﺘواﺿﻊ",
+      "main_text": {
+        "de": ""
+      },
+      "bild_url": "../img/2023_advent/2023_advent_woche-2_header.jpg",
+      "video_url": "",
+      "podcast_url": "",
+      "a4_pdf": "",
+      "phone_pdf": "",
+      "mail_link": "https://mailchi.mp/8fbf16cdb33b/einladung-zu-adventexerzitien-2018-1161202",
+      "days": [
+        {
+          "day_index": 1,
+          "day_key": "monday",
+          "reflection": {
+            "de": "Tagesimpuls Montag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 2,
+          "day_key": "tuesday",
+          "reflection": {
+            "de": "Tagesimpuls Dienstag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 3,
+          "day_key": "wednesday",
+          "reflection": {
+            "de": "Tagesimpuls Mittwoch."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 4,
+          "day_key": "thursday",
+          "reflection": {
+            "day": "",
+            "motif": "",
+            "bible": "",
+            "bible_ref": "",
+            "saint_text": "",
+            "saint_text_ref": "",
+            "prayer": ""
+          }
+        },
+        {
+          "day_index": 5,
+          "day_key": "friday",
+          "reflection": {
+            "de": "Tagesimpuls Freitag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 6,
+          "day_key": "saturday",
+          "reflection": {
+            "de": "Tagesimpuls Samstag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 7,
+          "day_key": "sunday",
+          "reflection": {
+            "de": "Tagesimpuls Sonntag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        }
+      ]
+    },
+    {
+      "woche_number": 3,
+      "slug": "woche-3",
+      "title": "اﻟﻠﻪ ﻓﺮح ﻻﻣﺘﻨﺎهٍ",
+      "kurz_text": "ﺳع ﻛﻠﻤﺔ اﻹﻧﺠﻴﻞ: اﻟﻠﻪ ﻗﺮﻳﺐ ٌ وﻣﺠﻬﻮل",
+      "main_text": {
+        "de": ""
+      },
+      "bild_url": "../img/2023_advent/2023_advent_woche-3_header.jpg",
+      "video_url": "",
+      "podcast_url": "",
+      "a4_pdf": "",
+      "phone_pdf": "",
+      "mail_link": "https://mailchi.mp/d6897f2c4660/einladung-zu-adventexerzitien-2018-1161226",
+      "days": [
+        {
+          "day_index": 1,
+          "day_key": "monday",
+          "reflection": {
+            "de": "Tagesimpuls Montag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 2,
+          "day_key": "tuesday",
+          "reflection": {
+            "de": "Tagesimpuls Dienstag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 3,
+          "day_key": "wednesday",
+          "reflection": {
+            "de": "Tagesimpuls Mittwoch."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 4,
+          "day_key": "thursday",
+          "reflection": {
+            "day": "",
+            "motif": "",
+            "bible": "",
+            "bible_ref": "",
+            "saint_text": "",
+            "saint_text_ref": "",
+            "prayer": ""
+          }
+        },
+        {
+          "day_index": 5,
+          "day_key": "friday",
+          "reflection": {
+            "de": "Tagesimpuls Freitag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 6,
+          "day_key": "saturday",
+          "reflection": {
+            "de": "Tagesimpuls Samstag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 7,
+          "day_key": "sunday",
+          "reflection": {
+            "de": "Tagesimpuls Sonntag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        }
+      ]
+    },
+    {
+      "woche_number": 4,
+      "slug": "woche-4",
+      "title": "ﺑﺎﻟﻘﺮب ﻣﻨﻚ",
+      "kurz_text": "ﺳع ﻛﻠﻤﺔ اﻹﻧﺠﻴﻞ: ﺗﻀﺎﻣﻦ ُ ﻣﺮﻳﻢ اﻟّﺘﻲ ﺣُﺒﻞ ﺑﻬﺎ ﺑﻼ دﻧﺲ",
+      "main_text": {
+        "de": ""
+      },
+      "bild_url": "../img/2023_advent/2023_advent_woche-4_header.jpg",
+      "video_url": "",
+      "podcast_url": "",
+      "a4_pdf": "https://mcusercontent.com/7c9d2aa0ecc1fde64fd44bc67/files/9a7a28da-b016-be64-e22f-4286a2679109/2023_W4_AR.pdf",
+      "phone_pdf": "",
+      "mail_link": "https://mailchi.mp/83d3681e338f/einladung-zu-adventexerzitien-2018-1161318",
+      "days": [
+        {
+          "day_index": 1,
+          "day_key": "monday",
+          "reflection": {
+            "de": "Tagesimpuls Montag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 2,
+          "day_key": "tuesday",
+          "reflection": {
+            "de": "Tagesimpuls Dienstag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 3,
+          "day_key": "wednesday",
+          "reflection": {
+            "de": "Tagesimpuls Mittwoch."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 4,
+          "day_key": "thursday",
+          "reflection": {
+            "day": "",
+            "motif": "",
+            "bible": "",
+            "bible_ref": "",
+            "saint_text": "",
+            "saint_text_ref": "",
+            "prayer": ""
+          }
+        },
+        {
+          "day_index": 5,
+          "day_key": "friday",
+          "reflection": {
+            "de": "Tagesimpuls Freitag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 6,
+          "day_key": "saturday",
+          "reflection": {
+            "de": "Tagesimpuls Samstag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 7,
+          "day_key": "sunday",
+          "reflection": {
+            "de": "Tagesimpuls Sonntag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        }
+      ]
+    },
+    {
+      "woche_number": 5,
+      "slug": "woche-5",
+      "title": "يا له من جمال!",
+      "kurz_text": "",
+      "main_text": {
+        "de": ""
+      },
+      "bild_url": "../img/2023_advent/2023_advent_woche-5_header.jpg",
+      "video_url": "",
+      "podcast_url": "",
+      "a4_pdf": "https://mcusercontent.com/7c9d2aa0ecc1fde64fd44bc67/files/09237086-0fb9-189f-3760-79b8092bf8be/2023_Noel_AR.pdf",
+      "phone_pdf": "",
+      "mail_link": "https://mailchi.mp/49fd63d51b48/einladung-zu-adventexerzitien-2018-1161370",
+      "days": [
+        {
+          "day_index": 1,
+          "day_key": "monday",
+          "reflection": {
+            "de": "Tagesimpuls Montag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 2,
+          "day_key": "tuesday",
+          "reflection": {
+            "de": "Tagesimpuls Dienstag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 3,
+          "day_key": "wednesday",
+          "reflection": {
+            "de": "Tagesimpuls Mittwoch."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 4,
+          "day_key": "thursday",
+          "reflection": {
+            "day": "",
+            "motif": "",
+            "bible": "",
+            "bible_ref": "",
+            "saint_text": "",
+            "saint_text_ref": "",
+            "prayer": ""
+          }
+        },
+        {
+          "day_index": 5,
+          "day_key": "friday",
+          "reflection": {
+            "de": "Tagesimpuls Freitag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 6,
+          "day_key": "saturday",
+          "reflection": {
+            "de": "Tagesimpuls Samstag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 7,
+          "day_key": "sunday",
+          "reflection": {
+            "de": "Tagesimpuls Sonntag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        }
+      ]
+    }
+  ]
+}
