@@ -1,0 +1,606 @@
+<!doctype html>
+<html lang="mt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Irtir online</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=dictionary,folded_hands,movie_speaker,today,home"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Zum Inhalt springen</a>
+    <header class="site-header">
+      <div class="cover-img" hidden>
+        <img src="../img/website_banner.jpg" alt="Heiligen des Karmels" />
+      </div>
+    </header>
+    <nav class="header-inner">
+      <a href="#" class="brand" aria-label="Startseite">
+        <span class="brand-mark" aria-hidden="true"
+          ><img
+            src="../img/apple-touch-icon.png"
+            style="border-radius: var(--radius-lg)"
+        /></span>
+        <span class="brand-text">
+          <span class="brand-kicker">Karmelitani Skalzi</span>
+          <span class="brand-name">Irtir online</span>
+        </span>
+      </a>
+
+<div class="header-actions"> 
+<nav class="main-nav" id="main-navigation" aria-label="Hauptnavigation">    
+<ul>   
+<li><a href="/index.html"><span class="material-symbols-outlined">home</span></a></li>
+<li><a href="#signup-panel">Irreġistra</a></li>
+<li><a href="#aktuelleExerzitien">irtir attwali</a></li>
+<li><a href="#saints-cards">Qaddisin</a></li>
+<li><a href="#archiv-cards">Arkivju</a></li>
+<li><a href="#faq">Mistoqsijiet Frekwenti</a></li>
+<li><a href="#about-us">Dwar il-Karmelitani Skalzi</a></li>
+</ul>        
+<button class="font-decrease theme-toggle" type="button" data-font-decrease aria-label="Schriftgröße verkleinern">     A-    
+</button>     
+<button class="font-reset theme-toggle" type="button" data-font-reset aria-label="Schriftgröße zurücksetzen">     A    
+</button>    
+<button class="font-increase theme-toggle" type="button" data-font-increase aria-label="Schriftgröße vergrößern">     A+    
+</button>    
+<button class="theme-toggle" type="button" data-theme-toggle aria-label="Farbschema wechseln">     
+<span class="theme-toggle__icon" aria-hidden="true">◐</span>    
+</button>   
+</nav>     
+<button class="nav-toggle" type="button" aria-expanded="false" aria-controls="main-navigation" aria-label="Menü öffnen">     
+<span></span>     
+<span></span>     
+<span></span>    
+</button> 
+        <details class="language-menu">
+          <summary
+            class="language-menu__trigger"
+            aria-label="Sprache auswählen"
+          >
+            <span aria-hidden="true">🌐</span>
+            <span>MT</span>
+            <span class="language-menu__current">Malti</span>
+          </summary>
+
+          <nav class="language-menu__list" aria-label="Sprachauswahl">
+            <a
+              href="https://retraites.carmes-paris.org/"
+              lang="fr"
+              hreflang="fr"
+            >
+              <span class="language-flag" aria-hidden="true">🇫🇷</span>
+              <span class="language-code">FR</span>
+              <span>Français</span>
+            </a>
+
+            <a href="../de/" lang="de" hreflang="de">
+              <span class="language-flag" aria-hidden="true">🇦🇹🇩🇪</span>
+              <span class="language-code">DE</span>
+              <span>Deutsch</span>
+            </a>
+
+            <a href="../es/" lang="es" hreflang="es">
+              <span class="language-flag" aria-hidden="true">🇪🇸</span>
+              <span class="language-code">ES</span>
+              <span>Español</span>
+            </a>
+
+            <a href="../it/" lang="it" hreflang="it">
+              <span class="language-flag" aria-hidden="true">🇮🇹</span>
+              <span class="language-code">IT</span>
+              <span>Italiano</span>
+            </a>
+
+            <a href="../en/" lang="en" hreflang="en">
+              <span class="language-flag" aria-hidden="true">🇬🇧🇺🇸</span>
+              <span class="language-code">EN</span>
+              <span>English</span>
+            </a>
+
+            <a href="../pl/" lang="pl" hreflang="pl">
+              <span class="language-flag" aria-hidden="true">🇵🇱</span>
+              <span class="language-code">PL</span>
+              <span>Polski</span>
+            </a>
+
+            <a href="../ar/" lang="ar" hreflang="ar" dir="rtl">
+              <span class="language-flag" aria-hidden="true">🇱🇧🇸🇦</span>
+              <span class="language-code">AR</span>
+              <span>العربية</span>
+            </a>
+
+            <a href="../pt/" lang="pt" hreflang="pt">
+              <span class="language-flag" aria-hidden="true">🇧🇷🇵🇹</span>
+              <span class="language-code">PT</span>
+              <span>Português</span>
+            </a>
+
+            <a href="../zh/" lang="zh" hreflang="zh">
+              <span class="language-flag" aria-hidden="true">🇨🇳</span>
+              <span class="language-code">ZH</span>
+              <span>中文</span>
+            </a>
+
+            <a href="../cs/" lang="cs" hreflang="cs">
+              <span class="language-flag" aria-hidden="true">🇨🇿</span>
+              <span class="language-code">CS</span>
+              <span>Čeština</span>
+            </a>
+
+            <a href="../hr/" lang="hr" hreflang="hr">
+              <span class="language-flag" aria-hidden="true">🇭🇷</span>
+              <span class="language-code">HR</span>
+              <span>Hrvatski</span>
+            </a>
+
+            <a href="../hu/" lang="hu" hreflang="hu">
+              <span class="language-flag" aria-hidden="true">🇭🇺</span>
+              <span class="language-code">HU</span>
+              <span>Magyar</span>
+            </a>
+
+            <a href="../mt/" lang="mt" hreflang="mt" aria-current="page">
+              <span class="language-flag" aria-hidden="true">🇲🇹</span>
+              <span class="language-code">MT</span>
+              <span>Malti</span>
+              <span class="language-check" aria-hidden="true">✓</span>
+            </a>
+
+            <a href="../nl/" lang="nl" hreflang="nl">
+              <span class="language-flag" aria-hidden="true">🇳🇱</span>
+              <span class="language-code">NL</span>
+              <span>Nederlands</span>
+            </a>
+
+            <a href="../ro/" lang="ro" hreflang="ro">
+              <span class="language-flag" aria-hidden="true">🇷🇴</span>
+              <span class="language-code">RO</span>
+              <span>Română</span>
+            </a>
+
+            <a href="../vi/" lang="vi" hreflang="vi">
+              <span class="language-flag" aria-hidden="true">🇻🇳</span>
+              <span class="language-code">VI</span>
+              <span>Tiếng Việt</span>
+            </a>
+          </nav>
+        </details>
+      </div>
+    </nav>
+
+    <main id="main">
+  <section class="hero">
+    <div class="hero-grid">
+      <div class="hero-content">
+        <p class="hero-eyebrow">
+          Żmien għar-riflessjoni, il-mistrieħ u t-tħejjija
+        </p>
+        <h2 hero-content>
+          Il-Karmelitani Skalzi jistednuk biex tingħaqad magħna għal irtir online
+        </h2>
+        <div class="signup-panel">
+          <p class="eyebrow">Reġistrazzjoni</p>
+          <h1>Irrreġistra hawn għall-irtir online</h1>
+          <p class="lead">
+            Irċievi r-riflessjonijiet tal-irtir direttament permezz tal-email u
+            ħalli l-Ispiritwalità Karmelitana tmexxi l-vjaġġ tiegħek matul l-Avvent jew ir-Randan
+          </p>
+
+              <div
+                class="form-placeholder"
+                aria-label="Platzhalter für Anmeldeformular"
+              >
+                <div class="embed-box">
+                  <section class="section-intro" id="abonniere">
+                    <div id="mc_embed_shell">
+                      <div id="mc_embed_signup">
+                        <form
+                          action="https://eepurl.us6.list-manage.com/subscribe/post?u=7c9d2aa0ecc1fde64fd44bc67&amp;id=48970c68bf&amp;f_id=008a54e3f0"
+                          method="post"
+                          id="mc-embedded-subscribe-form"
+                          name="mc-embedded-subscribe-form"
+                          class="validate"
+                          target="_self"
+                          novalidate=""
+                        >
+                          <div id="mc_embed_signup_scroll">
+                            <div class="mc-field-group">
+                              <label for="mce-EMAIL"
+                                >Email Address* (required)</label
+                              ><input
+                                type="email"
+                                name="EMAIL"
+                                class="required email"
+                                id="mce-EMAIL"
+                                required=""
+                                value=""
+                              />
+                            </div>
+                            <div class="mc-field-group">
+                              <label for="mce-FNAME">First Name </label
+                              ><input
+                                type="text"
+                                name="FNAME"
+                                class="text"
+                                id="mce-FNAME"
+                                value=""
+                              />
+                            </div>
+                            <div class="mc-field-group">
+                              <label for="mce-LNAME">Last Name </label
+                              ><input
+                                type="text"
+                                name="LNAME"
+                                class="text"
+                                id="mce-LNAME"
+                                value=""
+                              />
+                            </div>
+                            <div class="mc-field-group">
+                              <label for="mce-MMERGE3">Country </label
+                              ><input
+                                type="text"
+                                name="MMERGE3"
+                                class="text"
+                                id="mce-MMERGE3"
+                                value=""
+                              />
+                            </div>
+                            <div class="mc-field-group">
+                              <label for="mce-MMERGE4"
+                                >How did you hear about the retreat? </label
+                              ><select name="MMERGE4" class="" id="mce-MMERGE4">
+                                <option value=""></option>
+                                <option value="Please select...">
+                                  Please select...
+                                </option>
+                                <option
+                                  value="ICS Publications (website / email)"
+                                >
+                                  ICS Publications (website / email)
+                                </option>
+                                <option
+                                  value="Parish, monastery, or Carmelite community"
+                                >
+                                  Parish, monastery, or Carmelite community
+                                </option>
+                                <option
+                                  value="Friend, family member, or colleague"
+                                >
+                                  Friend, family member, or colleague
+                                </option>
+                                <option value="Search engine (Google, etc.)">
+                                  Search engine (Google, etc.)
+                                </option>
+                                <option
+                                  value="Social Media (Instagram, Facebook, etc.)"
+                                >
+                                  Social Media (Instagram, Facebook, etc.)
+                                </option>
+                                <option value="Other (please specify)">
+                                  Other (please specify)
+                                </option>
+                              </select>
+                            </div>
+                            <div class="mc-field-group">
+                              <label for="mce-HOWFOUND2"
+                                >Other (please specify) </label
+                              ><input
+                                type="text"
+                                name="HOWFOUND2"
+                                class="text"
+                                id="mce-HOWFOUND2"
+                                value=""
+                              />
+                            </div>
+                            <div id="mce-responses" class="clear">
+                              <div
+                                class="response"
+                                id="mce-error-response"
+                                style="display: none"
+                              ></div>
+                              <div
+                                class="response"
+                                id="mce-success-response"
+                                style="display: none"
+                              ></div>
+                            </div>
+                            <div
+                              style="position: absolute; left: -5000px"
+                              aria-hidden="true"
+                            >
+                              <input
+                                type="text"
+                                name="b_7c9d2aa0ecc1fde64fd44bc67_48970c68bf"
+                                tabindex="-1"
+                                value=""
+                              />
+                            </div>
+                            <div class="clear">
+                              <input
+                                type="submit"
+                                name="subscribe"
+                                id="mc-embedded-subscribe"
+                                class="button-signup"
+                                value="Subscribe"
+                              />
+                            </div>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </section>
+                </div>
+              </div>
+              <div class="datenschutz-toggle">
+  <a
+    href="#datenschutz-wrap"
+    id="datenschutz-toggle"
+    aria-expanded="false"
+    aria-controls="datenschutz-wrap"
+    >Politika tal-Privatezza</a
+  >
+  <div id="datenschutz-wrap" hidden>
+    <p style="font-size: 14px">
+      Nużaw Mailchimp bħala l-pjattaforma tal-marketing tagħna. Billi tikklikkja l-
+      buttuna “Abbona”, taqbel li d-data tiegħek tiġi ttrasferita lil Mailchimp
+      għall-ipproċessar.
+    </p>
+    <a
+      class="plain-link"
+      href="https://mailchimp.com/legal/terms/"
+      target="_blank"
+      rel="noopener noreferrer"
+      style="
+        display: inline-block;
+        font-size: 14px;
+        font-weight: 200;
+        text-decoration: none;
+      "
+    >
+      Tista’ ssib aktar informazzjoni dwar il-politika ta’ protezzjoni tad-data
+      ta’ Mailchimp hawnhekk.
+    </a>
+  </div>
+</div>
+</div>
+</div>
+</section>
+<section class="container">
+  <h2 class="eyebrow">Irtir Attwali</h2>
+  <h3>Avvent 2026 ma’ Fra Lawrenz tar-Rixxurrezzjoni</h3>
+  <p>
+    Fra Lawrenz tar-Rixxurrezzjoni, figura diskreta tal-Ordni Karmelitana, kien
+    wieħed mill-kbar masters tal-ħajja spiritwali fis-seklu 17. It-tagħlim tiegħu,
+    li reġa’ ġie ddugat mill-Papa Ljun XIV, jibqa’ sorprendentement rilevanti
+    llum.
+  </p>
+  <p>
+    Dan il-lay brother umli jgħallimna nqiegħdu l-preżenza ta’ Alla fiċ-ċentru
+    tal-ħajja ta’ kuljum tagħna. Id-duttrina tiegħu hija għerqa fit-tradizzjoni
+    Kristjana l-kbira u tweġib għas-sejħa ta’ Ġesù biex “nitolbu mingħajr ma
+    nieqfu” (Luqa 18:1), skont l-eżortazzjoni ta’ San Pawl: “Itolbu mingħajr
+    interruzzjoni” (1 Tessalonikin 5:17). Għal Fra Lawrenz, it-triq hija sempliċi:
+    li nibqgħu f’kull mument fil-preżenza ta’ Alla, x’ikunu x-xogħlijiet
+    tagħna.
+  </p>
+  <p>
+    F’dan l-istaġun tal-Avvent, nistednuk tiskopri din l-iskola tal-preżenza ta’
+    Alla, biex tikber f’relazzjoni aktar sempliċi, aktar fiduċjuża u aktar intima
+    mal-Mulej.
+  </p>
+
+  <div class="hero-video-frame">
+    <div class="video-wrapper">
+      <div class="hero-video">
+        <iframe
+          src="https://www.youtube.com/embed/3a4u8sFi0H8?autoplay=1&mute=1&loop=1&playlist=3a4u8sFi0H8&controls=1&rel=0&modestbranding=1"
+          title="Lent Isn’t About Your Plan (Ash Wednesday)"
+          allow="autoplay; encrypted-media; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section section-features">
+  <div class="container">
+    <p class="eyebrow">Kontenut</p>
+    <h1>Kull Ġimgħa fil-kaxxa tal-email tiegħek:</h1>
+    <div class="cards-grid">
+      <article class="info-card">
+        <span class="step-index"
+          ><span class="material-symbols-outlined"> dictionary </span></span
+        >
+        <h3>Meditazzjoni fuq il-Vanġelu u kwotazzjonijiet mill-Qaddis</h3>
+      </article>
+
+      <article class="info-card">
+        <span class="step-index"
+          ><span class="material-symbols-outlined"> movie_speaker </span></span
+        >
+        <h3>
+          Vidjo qasir mill-friari Karmelitani tagħna dwar it-tema tal-ġimgħa
+        </h3>
+      </article>
+
+      <article class="info-card">
+        <span class="step-index"
+          ><span class="material-symbols-outlined"> folded_hands </span></span
+        >
+        <h3>Suġġerimenti prattiċi biex tarrikkixxi t-talb tiegħek</h3>
+      </article>
+      <article class="info-card">
+        <span class="step-index"
+          ><span class="material-symbols-outlined"> today </span></span
+        >
+        <h3>Kalendarju b’punti tat-talb għal kull jum</h3>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section section-saints" id="saints-cards">
+  <div class="container">
+    <div class="section-head">
+      <p class="section-label">Mexxejja Spiritwali Karmelitani</p>
+      <h2>Qaddisin u ikoni featured fl-irtiri tagħna</h2>
+    </div>
+    <div class="saints-carousel">
+      <div class="saints-grid" id="saints-grid"></div>
+    </div>
+    <div class="saints-controls">
+      <button
+        class="button-signup saints-prev"
+        type="button"
+        aria-label="Uri l-grupp ta’ qabel"
+        aria-controls="saints-grid"
+      >
+        <span aria-hidden="true">&lt;&lt;</span>
+      </button>
+      <button
+        class="button-signup saints-next"
+        type="button"
+        aria-label="Uri l-grupp li jmiss"
+        aria-controls="saints-grid"
+      >
+        <span aria-hidden="true">&gt;&gt;</span>
+      </button>
+    </div>
+  </div>
+</section>
+
+<section
+  class="section section-archive"
+  aria-labelledby="archiv-titel"
+  id="archiv-cards"
+>
+  <div class="container">
+    <div class="section-head">
+      <p class="section-label">Irtiri Preċedenti</p>
+      <h2>Irtiri Magħżula mis-Snin Preċedenti</h2>
+    </div>
+
+    <div class="archive-grid">
+      <!-- wird per JavaScript gefüllt -->
+    </div>
+  </div>
+</section>
+
+<section class="section section-faq" id="faq">
+  <div class="container">
+    <div class="section-heading narrow">
+      <p class="section-kicker">Mistoqsijiet Frekwenti</p>
+      <h2>Mistoqsijiet Frekwenti</h2>
+    </div>
+
+    <div class="faq-list">
+      <details class="faq-item">
+        <summary>X’inhu irtir online?</summary>
+        <p>
+          L-irtir online huwa mfassal biex jgħin biex titqawwa r-relazzjoni
+          spiritwali tagħna ma’ Ġesù fid-dawl tal-Vanġeli. Għal dan il-għan,
+          riflessjonijiet se jintbagħtu permezz tal-email matul kull ġimgħa
+          tal-Avvent u r-Randan.
+        </p>
+      </details>
+
+      <details class="faq-item">
+        <summary>Kemm-il darba se nirċievi messaġġi?</summary>
+        <p>
+          Se tirċievi email ta’ merħba u mbagħad emails kull ġimgħa matul l-Avvent
+          u r-Randan.
+        </p>
+      </details>
+
+      <details class="faq-item">
+        <summary>Il-parteċipazzjoni tiswa xi ħaġa?</summary>
+        <p>
+          Ir-reġistrazzjoni hija b’xejn. Donazzjonijiet huma milqugħa biex
+          jappoġġjaw ix-xogħol tagħna.
+        </p>
+      </details>
+
+      <details class="faq-item">
+        <summary>Ma rċevejtx email – x’għandi nagħmel?</summary>
+        <p>
+          Jekk jogħġbok iċċekkja l-folder tal-ispam tiegħek. Jekk tlift xi
+          materjali, tista’ wkoll tibbrawżja l-arkivju fuq dan is-sit.
+        </p>
+      </details>
+    </div>
+  </div>
+</section>
+
+      <section class="section section-intro">
+        <div class="container two-column">
+          <div>
+            <p class="section-kicker">Spread the word</p>
+          </div>
+          <div>
+            <p>
+              Please invite your friends and family to join this retreat by
+              sharing this webpage:
+              <a href="https://retreat-online.karmel.at"
+                >retreat-online.karmel.at</a
+              >
+            </p>
+            <p>
+              If you have any difficulty registering or if there are any
+              problems, please email the retreat coordinators at
+              <a href="mailto:retreat-online@karmel.at"
+                >retreat-online@karmel.at</a
+              >.
+            </p>
+            <p>
+              We suggest downloading and printing the retreat poster to share at
+              your parish, community, or prayer group. We wish you a blessed
+              Advent season and a fruitful retreat experience!
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>
+          © The Discalced Carmelite Friars of Paris and Austria, together with
+          ICS Publications (Washington DC).
+        </p>
+        <p>
+          This online retreat was written by Fr. Didier, OCD (from the Paris
+          Convent) with a Carmelite working group. English translations prepared
+          by OCDS members from North America. The English distribution is
+          organized by Discalced Carmelite friars in the United States in
+          collaboration with ICS Publications in Washington, DC. Videos provided
+          by the Discalced Carmelite friars, Washington Province in
+          collaboration with ICS Publications.
+        </p>
+      </div>
+      <div class="logo-slider-frame">
+        <a href="https://carmes-paris.org/" target="_blank" rel="noopener noreferrer" class="logo-slide logo-slide--1">
+      <img src="img/carm_paris_logo.png" alt="Logo von die Karmeliten in Österreich">
+    </a>
+            <a href="https://www.karmel.at" target="_blank" rel="noopener noreferrer" class="logo-slide logo-slide--2">
+      <img src="img/carm_austria_logo.png" alt="Logo von die Karmeliten in Österreich">
+    </a>
+                <a href="https://www.karmel.at" target="_blank" rel="noopener noreferrer" class="logo-slide logo-slide--3">
+      <img src="img/ics_logo.png" alt="Logo von die Karmeliten in Österreich">
+    </a>
+      </div>
+    </footer>
+  </body>
+  <script type="module" src="./script.js"></script>
+</html>
