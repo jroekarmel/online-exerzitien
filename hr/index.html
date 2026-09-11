@@ -1,9 +1,9 @@
 <!doctype html>
-<html lang="en">
+<html lang="hr">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Carmelite Online Retreats</title>
+    <title>Karmelićanske online duhovne obnove</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -13,42 +13,67 @@
     />
     <link
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=dictionary,folded_hands,movie_speaker,today"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=dictionary,folded_hands,movie_speaker,today,home"
     />
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <a class="skip-link" href="#main">Zum Inhalt springen</a>
+    <a class="skip-link" href="#main">Preskoči na sadržaj</a>
     <header class="site-header">
       <div class="cover-img" hidden>
-        <img src="../img/website_banner.jpg" alt="Heiligen des Karmels" />
+        <img src="../img/website_banner.jpg" alt="Sveci Karmela" />
       </div>
     </header>
     <nav class="header-inner">
-      <a href="#" class="brand" aria-label="Startseite">
+      <a href="#" class="brand" aria-label="Početna">
         <span class="brand-mark" aria-hidden="true"
           ><img
             src="../img/apple-touch-icon.png"
             style="border-radius: var(--radius-lg)"
         /></span>
         <span class="brand-text">
-          <span class="brand-kicker">Discalced Carmelites</span>
-          <span class="brand-name">Online Retreats</span>
+          <span class="brand-kicker">Bosonogi karmelićani</span>
+          <span class="brand-name">Online duhovne obnove</span>
         </span>
       </a>
 
-      <div class="header-actions">
+<div class="header-actions"> 
+<nav class="main-nav" id="main-navigation" aria-label="Hauptnavigation">    
+<ul>   
+  <li><a href="/index.html"><span class="material-symbols-outlined">home</span></a></li>     
+  <li><a href="#signup-panel">Prijava</a></li>     
+  <li><a href="#aktuelleExerzitien">Aktualna duhovna obnova</a></li>     
+  <li><a href="#saints-cards">Sveti</a></li>     
+  <li><a href="#archiv-cards">Arhiva</a></li>  
+  <li><a href="#faq">FAQ</a></li> 
+  <li><a href="#about-us">O nama</a></li> 
+</ul>        
+<button class="font-decrease theme-toggle" type="button" data-font-decrease aria-label="Schriftgröße verkleinern">     A-    
+</button>     
+<button class="font-reset theme-toggle" type="button" data-font-reset aria-label="Schriftgröße zurücksetzen">     A    
+</button>    
+<button class="font-increase theme-toggle" type="button" data-font-increase aria-label="Schriftgröße vergrößern">     A+    
+</button>    
+<button class="theme-toggle" type="button" data-theme-toggle aria-label="Farbschema wechseln">     
+<span class="theme-toggle__icon" aria-hidden="true">◐</span>    
+</button>   
+</nav>     
+<button class="nav-toggle" type="button" aria-expanded="false" aria-controls="main-navigation" aria-label="Menü öffnen">     
+<span></span>     
+<span></span>     
+<span></span>    
+</button> 
         <details class="language-menu">
           <summary
             class="language-menu__trigger"
-            aria-label="Sprache auswählen"
+            aria-label="Odaberite jezik"
           >
             <span aria-hidden="true">🌐</span>
-            <span>EN</span>
-            <span class="language-menu__current">English</span>
+            <span>HR</span>
+            <span class="language-menu__current">Hrvatski</span>
           </summary>
 
-          <nav class="language-menu__list" aria-label="Sprachauswahl">
+          <nav class="language-menu__list" aria-label="Odabir jezika">
             <a
               href="https://retraites.carmes-paris.org/"
               lang="fr"
@@ -77,11 +102,10 @@
               <span>Italiano</span>
             </a>
 
-            <a href="../en/" lang="en" hreflang="en" aria-current="page">
+            <a href="../en/" lang="en" hreflang="en">
               <span class="language-flag" aria-hidden="true">🇬🇧🇺🇸</span>
               <span class="language-code">EN</span>
               <span>English</span>
-              <span class="language-check" aria-hidden="true">✓</span>
             </a>
 
             <a href="../pl/" lang="pl" hreflang="pl">
@@ -114,10 +138,16 @@
               <span>Čeština</span>
             </a>
 
-            <a href="../hr/" lang="hr" hreflang="hr">
+            <a
+              href="../hr/"
+              lang="hr"
+              hreflang="hr"
+              aria-current="page"
+            >
               <span class="language-flag" aria-hidden="true">🇭🇷</span>
               <span class="language-code">HR</span>
               <span>Hrvatski</span>
+              <span class="language-check" aria-hidden="true">✓</span>
             </a>
 
             <a href="../hu/" lang="hu" hreflang="hu">
@@ -159,19 +189,19 @@
         <div class="hero-grid">
           <div class="hero-content">
             <p class="hero-eyebrow">
-              A time for reflection, rest and preparation
+              Vrijeme za razmišljanje, odmor i pripremu
             </p>
             <h2 hero-content>
-              The Discalced Carmelites invite you to join us for an online
-              retreat
+              Bosi karmelićani pozivaju vas da nam se pridružite na online
+              duhovnoj obnovi
             </h2>
             <div class="signup-panel">
-              <p class="eyebrow">Registration</p>
-              <h1>Sign up for the online retreat here</h1>
+              <p class="eyebrow">Prijava</p>
+              <h1>Ovdje se prijavite za online duhovnu obnovu</h1>
               <p class="lead">
-                Receive the reflections from the retreat directly by email and
-                let Carmelite Spirituality guide your journey through Advent or
-                Lent
+                Primajte razmišljanja s duhovne obnove izravno e-poštom i
+                dopustite da vas karmelićanska duhovnost vodi kroz došašće ili
+                korizmu
               </p>
 
               <div
@@ -321,255 +351,228 @@
                 </div>
               </div>
               <div class="datenschutz-toggle">
-                <a
-                  href="#datenschutz-wrap"
-                  id="datenschutz-toggle"
-                  aria-expanded="false"
-                  aria-controls="datenschutz-wrap"
-                  >Privacy Policy</a
-                >
-                <div id="datenschutz-wrap" hidden>
-                  <p style="font-size: 14px">
-                    We use Mailchimp as our marketing plattform. By clicking the
-                    "Subscribe" button, you agree to have your data transferred
-                    to Mailchimp for processing.
-                  </p>
-                  <a
-                    class="plain-link"
-                    href="https://mailchimp.com/legal/terms/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    style="
-                      display: inline-block;
-                      font-size: 14px;
-                      font-weight: 200;
-                      text-decoration: none;
-                    "
-                  >
-                    You can find out more about Mailchimp's data protection
-                    policy here.
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="container">
-        <h2 class="eyebrow">Current Retreat</h2>
-        <h3>Advent 2026 with Brother Laurence of the Resurrection</h3>
-        <p>
-          Brother Laurentius of the Resurrection, a understated figure of the
-          Carmelite Order, was one of the great masters of the spiritual life in
-          the 17th century. His teachings, recently brought back into the
-          spotlight by Pope Leo XIV, remain remarkably relevant today.
-        </p>
-        <p>
-          This humble lay brother teaches us to place the presence of God at the
-          center of our daily lives. His doctrine is rooted in the great
-          Christian tradition and responds to Jesus’ call to “pray without
-          ceasing” (Luke 18:1), in accordance with Saint Paul’s exhortation:
-          “Pray without interruption” (1 Thessalonians 5:17). For Brother
-          Lawrence, the way is simple: to remain at every moment in the presence
-          of God, whatever our occupations may be.
-        </p>
-        <p>
-          In this Advent season, we invite you to discover this school of the
-          presence of God, so as to grow in a relationship that is simpler, more
-          confident, and more intimate with the Lord.
-        </p>
+  <a
+    href="#datenschutz-wrap"
+    id="datenschutz-toggle"
+    aria-expanded="false"
+    aria-controls="datenschutz-wrap"
+    >Pravila o privatnosti</a
+  >
+  <div id="datenschutz-wrap" hidden>
+    <p style="font-size: 14px">
+      Koristimo Mailchimp kao svoju platformu za marketing. Klikom na gumb
+      „Pretplati se” pristajete da se vaši podaci proslijede Mailchimpu radi
+      obrade.
+    </p>
+    <a
+      class="plain-link"
+      href="https://mailchimp.com/legal/terms/"
+      target="_blank"
+      rel="noopener noreferrer"
+      style="
+        display: inline-block;
+        font-size: 14px;
+        font-weight: 200;
+        text-decoration: none;
+      "
+    >
+      Više o Mailchimpovoj politici zaštite podataka možete saznati ovdje.
+    </a>
+  </div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="container">
+  <h2 class="eyebrow">Trenutna duhovna obnova</h2>
+  <h3>Došašće 2026. s bratom Laurencijem od Uskrsnuća</h3>
+  <p>
+    Brat Laurentius od Uskrsnuća, suzdržana ličnost Karmelskog reda, bio je jedan
+    od velikih učitelja duhovnog života u 17. stoljeću. Njegov nauk, koji je
+    nedavno ponovno istaknuo papa Lav XIV., ostaje iznimno relevantan i danas.
+  </p>
+  <p>
+    Ovaj ponizni laik uči nas da u središte svog svakodnevnog života stavimo
+    Božju prisutnost. Njegov nauk ukorijenjen je u velikoj kršćanskoj tradiciji
+    i odgovara na Isusov poziv da „neprestano molimo” (Luka 18,1), u skladu s
+    poticajem svetog Pavla: „Molite bez prestanka” (1 Sol 5,17). Za brata
+    Laurencija put je jednostavan: u svakom trenutku ostati u Božjoj prisutnosti,
+    bez obzira na naše obveze.
+  </p>
+  <p>
+    U ovom došašću pozivamo vas da otkrijete ovu školu Božje prisutnosti kako
+    biste rasli u jednostavnijem, pouzljivijem i prisnijem odnosu s Gospodinom.
+  </p>
 
-        <div class="hero-video-frame">
-          <div class="video-wrapper">
-            <div class="hero-video">
-              <iframe
-                src="https://www.youtube.com/embed/3a4u8sFi0H8?autoplay=1&mute=1&loop=1&playlist=3a4u8sFi0H8&controls=1&rel=0&modestbranding=1"
-                title="Lent Isn’t About Your Plan (Ash Wednesday)"
-                allow="autoplay; encrypted-media; picture-in-picture"
-                allowfullscreen
-              ></iframe>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="section section-features">
-        <div class="container">
-          <p class="eyebrow">Contents</p>
-          <h1>Every Friday in your inbox:</h1>
-          <div class="cards-grid">
-            <article class="info-card">
-              <span class="step-index"
-                ><span class="material-symbols-outlined">
-                  dictionary
-                </span></span
-              >
-              <h3>A meditation on the Gospel and quotes from the Saint</h3>
-            </article>
+  <div class="hero-video-frame">
+    <div class="video-wrapper">
+      <div class="hero-video">
+        <iframe
+          src="https://www.youtube.com/embed/3a4u8sFi0H8?autoplay=1&mute=1&loop=1&playlist=3a4u8sFi0H8&controls=1&rel=0&modestbranding=1"
+          title="Korizma nije o vašem planu (Čista srijeda)"
+          allow="autoplay; encrypted-media; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section section-features">
+  <div class="container">
+    <p class="eyebrow">Sadržaj</p>
+    <h1>Svaki petak u vašem sandučiću:</h1>
+    <div class="cards-grid">
+      <article class="info-card">
+        <span class="step-index"
+          ><span class="material-symbols-outlined"> dictionary </span></span
+        >
+        <h3>Razmišljanje o Evanđelju i citati svetca</h3>
+      </article>
 
-            <article class="info-card">
-              <span class="step-index"
-                ><span class="material-symbols-outlined">
-                  movie_speaker
-                </span></span
-              >
-              <h3>
-                A brief video from our Carmelite friars on the weekly theme
-              </h3>
-            </article>
+      <article class="info-card">
+        <span class="step-index"
+          ><span class="material-symbols-outlined"> movie_speaker </span></span
+        >
+        <h3>Kratki video naših karmelićanskih redovnika o tjednoj temi</h3>
+      </article>
 
-            <article class="info-card">
-              <span class="step-index"
-                ><span class="material-symbols-outlined">
-                  folded_hands
-                </span></span
-              >
-              <h3>Practical suggestions to enrich your prayer</h3>
-            </article>
-            <article class="info-card">
-              <span class="step-index"
-                ><span class="material-symbols-outlined"> today </span></span
-              >
-              <h3>A calendar with prayer starters for each day</h3>
-            </article>
-          </div>
-        </div>
-      </section>
+      <article class="info-card">
+        <span class="step-index"
+          ><span class="material-symbols-outlined"> folded_hands </span></span
+        >
+        <h3>Praktični prijedlozi za obogaćivanje vaše molitve</h3>
+      </article>
+      <article class="info-card">
+        <span class="step-index"
+          ><span class="material-symbols-outlined"> today </span></span
+        >
+        <h3>Kalendar s početnicama molitve za svaki dan</h3>
+      </article>
+    </div>
+  </div>
+</section>
 
-      <section class="section section-saints" id="saints-cards">
-        <div class="container">
-          <div class="section-head">
-            <p class="section-label">Carmelite Spiritual Leaders</p>
-            <h2>Saints and icons featured in our retreats</h2>
-          </div>
-          <div class="saints-carousel">
-            <div class="saints-grid" id="saints-grid"></div>
-          </div>
-          <div class="saints-controls">
-            <button
-              class="button-signup saints-prev"
-              type="button"
-              aria-label="Vorherige Gruppe anzeigen"
-              aria-controls="saints-grid"
-            >
-              <span aria-hidden="true">&lt;&lt;</span>
-            </button>
-            <button
-              class="button-signup saints-next"
-              type="button"
-              aria-label="Nächste Gruppe anzeigen"
-              aria-controls="saints-grid"
-            >
-              <span aria-hidden="true">&gt;&gt;</span>
-            </button>
-          </div>
-        </div>
-      </section>
-
-      <section
-        class="section section-archive"
-        aria-labelledby="archiv-titel"
-        id="archiv-cards"
+<section class="section section-saints" id="saints-cards">
+  <div class="container">
+    <div class="section-head">
+      <p class="section-label">Karmelićanski duhovni vođe</p>
+      <h2>Sveci i ikone prikazani u našim duhovnim obnovama</h2>
+    </div>
+    <div class="saints-carousel">
+      <div class="saints-grid" id="saints-grid"></div>
+    </div>
+    <div class="saints-controls">
+      <button
+        class="button-signup saints-prev"
+        type="button"
+        aria-label="Prikaži prethodnu grupu"
+        aria-controls="saints-grid"
       >
-        <div class="container">
-          <div class="section-head">
-            <p class="section-label">Previous Retreats</p>
-            <h2>Selected Retreats from the Previous Years</h2>
-          </div>
+        <span aria-hidden="true">&lt;&lt;</span>
+      </button>
+      <button
+        class="button-signup saints-next"
+        type="button"
+        aria-label="Prikaži sljedeću grupu"
+        aria-controls="saints-grid"
+      >
+        <span aria-hidden="true">&gt;&gt;</span>
+      </button>
+    </div>
+  </div>
+</section>
 
-          <div class="archive-grid">
-            <!-- wird per JavaScript gefüllt -->
-          </div>
-        </div>
-      </section>
+<section
+  class="section section-archive"
+  aria-labelledby="archiv-titel"
+  id="archiv-cards"
+>
+  <div class="container">
+    <div class="section-head">
+      <p class="section-label">Prijašnje duhovne obnove</p>
+      <h2>Odabrane duhovne obnove iz prethodnih godina</h2>
+    </div>
 
-      <section class="section section-faq">
-        <div class="container">
-          <div class="section-heading narrow">
-            <p class="section-kicker">FAQs</p>
-            <h2>Frequently Asked Questions</h2>
-          </div>
+    <div class="archive-grid">
+      <!-- popunjava se putem JavaScripta -->
+    </div>
+  </div>
+</section>
 
-          <div class="faq-list">
-            <details class="faq-item">
-              <summary>What is an online retreat?</summary>
-              <p>
-                The online retreat is designed to help deepen our spiritual
-                relationship with Jesus in light of the Gospels. For this
-                purpose, reflections will be sent by email during each week of
-                Advent and Lent.
-              </p>
-            </details>
+<section class="section section-faq">
+  <div class="container">
+    <div class="section-heading narrow">
+      <p class="section-kicker">ČPP</p>
+      <h2>Često postavljana pitanja</h2>
+    </div>
 
-            <details class="faq-item">
-              <summary>How often will I receive messages?</summary>
-              <p>
-                You will receive a welcome email and then weekly emails during
-                advent and lent.
-              </p>
-            </details>
+    <div class="faq-list">
+      <details class="faq-item">
+        <summary>Što je online duhovna obnova?</summary>
+        <p>
+          Online duhovna obnova osmišljena je kako bi pomogla produbiti naš
+          duhovni odnos s Isusom u svjetlu Evanđelja. U tu svrhu tijekom svakog
+          tjedna došašća i korizme e-poštom se šalju razmišljanja.
+        </p>
+      </details>
 
-            <details class="faq-item">
-              <summary>Does participation cost anything?</summary>
-              <p>
-                Regristation is free. Donations are welcome to support our work.
-              </p>
-            </details>
+      <details class="faq-item">
+        <summary>Koliko često ću primati poruke?</summary>
+        <p>
+          Primit ćete e-poruku dobrodošlice, a zatim tjedne e-poruke tijekom
+          došašća i korizme.
+        </p>
+      </details>
 
-            <details class="faq-item">
-              <summary>I didn't receive an email - what schould I do?</summary>
-              <p>
-                Please check your spam folder. If you missed any materials, you
-                can also browse the archive on this website.
-              </p>
-            </details>
-          </div>
-        </div>
-      </section>
+      <details class="faq-item">
+        <summary>Košta li sudjelovanje?</summary>
+        <p>
+          Prijava je besplatna. Donacije su dobrodošle kako bi se podržao naš
+          rad.
+        </p>
+      </details>
 
-      <section class="section section-intro">
-        <div class="container two-column">
-          <div>
-            <p class="section-kicker">Spread the word</p>
-          </div>
-          <div>
-            <p>
-              Please invite your friends and family to join this retreat by
-              sharing this webpage:
-              <a href="https://retreat-online.karmel.at"
-                >retreat-online.karmel.at</a
-              >
-            </p>
-            <p>
-              If you have any difficulty registering or if there are any
-              problems, please email the retreat coordinators at
-              <a href="mailto:retreat-online@karmel.at"
-                >retreat-online@karmel.at</a
-              >.
-            </p>
-            <p>
-              We suggest downloading and printing the retreat poster to share at
-              your parish, community, or prayer group. We wish you a blessed
-              Advent season and a fruitful retreat experience!
-            </p>
-          </div>
-        </div>
-      </section>
-    </main>
+      <details class="faq-item">
+        <summary>Nisam primio/la e-poruku – što da učinim?</summary>
+        <p>
+          Provjerite svoju mapu s neželjenom poštom. Ako vam nedostaju neki
+          materijali, možete pregledati i arhivu na ovoj web-stranici.
+        </p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<section class="section section-intro">
+  <div class="container two-column">
+    <div>
+      <p class="section-kicker">Proširite vijest</p>
+    </div>
+    <div>
+      <p>
+        Pozovite svoje prijatelje i obitelj da se pridruže ovoj duhovnoj obnovi
+        dijeljenjem ove web-stranice:
+        <a href="http://www.online-duhovne.karmel.at/"
+          >online-duhovne.karmel.at</a
+        >
+      </p>
+      <p>
+        Predlažemo da preuzmete i ispišete plakat za duhovnu obnovu kako biste
+        ga podijelili u svojoj župi, zajednici ili molitvenoj skupini. Želimo
+        vam blagoslovljeno došašće i plodonosno iskustvo duhovne obnove!
+      </p>
+    </div>
+  </div>
+</section>
 
     <footer class="site-footer">
       <div class="container footer-inner">
         <p>
-          © The Discalced Carmelite Friars of Paris and Austria, together with
-          ICS Publications (Washington DC).
+          © Karmelićani iz Francuske, Austrije i Hrvatske - <a href="www.karmel.hr">www.karmel.hr</a>
         </p>
         <p>
-          This online retreat was written by Fr. Didier, OCD (from the Paris
-          Convent) with a Carmelite working group. English translations prepared
-          by OCDS members from North America. The English distribution is
-          organized by Discalced Carmelite friars in the United States in
-          collaboration with ICS Publications in Washington, DC. Videos provided
-          by the Discalced Carmelite friars, Washington Province in
-          collaboration with ICS Publications.
+Ove duhovne vježbe su priredili karmelićani pariške Provincije zajedno sa karmelskom radnom skupinom. 
         </p>
       </div>
     </footer>
