@@ -1041,7 +1041,7 @@ ul {
 }
 /* Card width: 1 visible on mobile */
 .saints-grid .saint-card {
-  flex: 0 0 min(300px, 85vw);
+  flex: 0 0 min(90vw);
   scroll-snap-align: start;
 }
 
