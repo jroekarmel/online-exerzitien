@@ -131,6 +131,22 @@ textarea {
   text-decoration: none;
   cursor: pointer;
 }
+.button-saints-nav {
+      display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2.75rem;
+  max-height: 2rem;
+  padding: 0.7rem 0.9rem;
+  border: 1px solid #d8d8d8;
+  border-radius: var(--radius-full);
+  background: rgba(255, 252, 248, 0.99);
+  color: var(--brown);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+}
 .archive-load-more-wrapper {
   display: flex;
   justify-content: center;
@@ -998,7 +1014,20 @@ ul {
 .section-archive {
   position: relative;
 }
+.section-saints {
+  position: relative;
+  width: 100%;
+  min-height: 85vh;          /* oder 100vh, wenn es den ganzen Screen füllen soll */
+  overflow: hidden;
 
+  /* Hintergrundbild über die ganze Breite */
+  background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url("./img/saints-background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  margin-bottom: 5%;
+}
 
 .saints-grid {
   display: flex;
@@ -1112,7 +1141,7 @@ ul {
 .saint-card-featured,
 .saint-card-overview {
   background:
-    linear-gradient(180deg, rgba(14, 103, 100, 0.08), rgba(252, 251, 248, 0.92));
+    linear-gradient(180deg, rgba(248, 255, 255, 0.98), rgba(252, 251, 248, 0.92));
 }
 .saints-controls {
   display: flex;
