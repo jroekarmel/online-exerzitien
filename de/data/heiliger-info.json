@@ -78,9 +78,9 @@
     "image": "../de/img/heiligen/lorenz.jpg",
     "link": "../de/heilige/bruder_lorenz.html"
   },
-  {
+    {
     "name": "Heiliger Josef",
-    "slug": "heiliger_josef",
+    "slug": "josef",
     "bio_de": "Der heilige Josef, Bräutigam der Gottesmutter Maria und Nährvater Jesu, wird als stiller Gerechter und treuer Beschützer der Kirche und der Familien verehrt.",
     "image": "../de/img/heiligen/heiliger_josef.jpg",
     "link": "../de/heilige/heiliger_josef.html"
