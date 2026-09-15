@@ -1890,6 +1890,82 @@ textarea:focus-visible {
   }
 }
 
+/* =========================================================
+   Logo slider
+   ========================================================= */
+
+.logo-slider {
+  max-width: 420px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.logo-slider-frame {
+  position: relative;
+  height: 180px;
+  overflow: hidden;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  background: var(--color-surface);
+}
+
+.logo-slide {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  padding: 1.5rem;
+  opacity: 0;
+  animation: logoFade 9s infinite;
+}
+
+.logo-slide img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  max-height: 110px;
+  transition: transform var(--transition);
+}
+
+.logo-slide:hover img,
+.logo-slide:focus-within img {
+  transform: scale(1.05);
+}
+
+.logo-slide--1 {
+  animation-delay: 0s;
+}
+
+.logo-slide--2 {
+  animation-delay: 3s;
+}
+
+.logo-slide--3 {
+  animation-delay: 6s;
+}
+
+@keyframes logoFade {
+  0% {
+    opacity: 0;
+  }
+
+  6% {
+    opacity: 1;
+  }
+
+  27% {
+    opacity: 1;
+  }
+
+  33% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
 
 /* =========================================================
    Hover and reduced-motion behavior
@@ -1942,5 +2018,12 @@ textarea:focus-visible {
 
   .moving-banner__track {
     animation: none;
+  }
+    .logo-slide {
+    animation: none;
+  }
+
+  .logo-slide:first-child {
+    opacity: 1;
   }
 }
