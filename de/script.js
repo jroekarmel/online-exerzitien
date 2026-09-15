@@ -51,12 +51,40 @@ const languages = {
     });
   })();
 
-//menu toggle
+//dark mode
+ const root = document.documentElement;
   const themeToggle = document.querySelector('[data-theme-toggle]');
+  const themeToggleSelector = '[data-theme-toggle]';
+
+  let theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+  root.setAttribute('data-theme', theme);
+
+  const updateThemeLabel = () => {
+    if (!themeToggle) return;
+    themeToggle.setAttribute('aria-label', theme === 'dark' ? 'Hellen Modus aktivieren' : 'Dunklen Modus aktivieren');
+    themeToggle.querySelector('.theme-toggle__icon').textContent = theme === 'dark' ? '☀' : '◐';
+  };
+
+  updateThemeLabel();
+
+  themeToggle?.addEventListener('click', () => {
+    theme = theme === 'dark' ? 'light' : 'dark';
+    root.setAttribute('data-theme', theme);
+    localStorage.setItem('myStyle', theme);
+    updateThemeLabel();
+  });
+  window.onload = function () {
+    if (localStorage.getItem('myStyle')) {
+      theme = localStorage.getItem('myStyle');
+      root.setAttribute ("data-theme", theme);
+      updateThemeLabel();
+    }
+  }
+//menu toggle
+
   const navToggle = document.querySelector('.nav-toggle');
   const nav = document.querySelector('.main-nav');
   const navLinks = nav ? nav.querySelectorAll('a') : [];
-  const themeToggleSelector = '[data-theme-toggle]';
   const navToggleSelector = '.nav-toggle';
 
  const closeNav = () => {
