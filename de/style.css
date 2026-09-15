@@ -87,7 +87,7 @@ body::after {
   inset: 0;
   z-index: -1;
 
-  background-image: url("./img/website_banner.jpg");
+  background-image: url("../de/img/website_banner.jpg");
   background-repeat: no-repeat;
   background-position: bottom right;
   background-size: auto;
@@ -608,7 +608,7 @@ background: radial-gradient(circle at top right, rgba(14, 78, 103, 0.08), transp
   overflow: hidden;
 
   /* Hintergrundbild über die ganze Breite */
-  background-image: url("../img/header_img_teresa_johannes.jpg");
+  background-image: url("../de/img/header_img_teresa_johannes.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1021,7 +1021,7 @@ ul {
   overflow: hidden;
 
   /* Hintergrundbild über die ganze Breite */
-  background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url("./img/saints-background.jpg");
+  background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url("../de/img/saints-background.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

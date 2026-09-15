@@ -3,21 +3,21 @@
     "name": "Heiliger Johannes vom Kreuz",
     "slug": "johannes_vom_kreuz",
     "bio_de": "Johannes vom Kreuz (1542–1591) war ein spanischer Karmelit, Mystiker und Kirchenlehrer, der durch seine Lehre vom geistlichen Weg der Läuterung und Vereinigung mit Gott bekannt wurde.",
-    "image": "../img/heiligen/johannes_vom_kreuz.jpg",
+    "image": "../de/img/heiligen/johannes_vom_kreuz.jpg",
     "link": "../de/heilige/johannes_vom_kreuz.html"
   },
   {
     "name": "Heilige Mirjam von Jesus, dem Gekreuzigten",
     "slug": "mirjam_von_jesus_dem_gekreuzigten",
     "bio_de": "Mirjam von Jesus, dem Gekreuzigten (1846–1878), auch Mariam Baouardy, war eine palästinensische Karmelitin, Mystikerin und Stigmatisierte, die für ihre Demut und außergewöhnlichen Gnadengaben verehrt wird.",
-    "image": "../img/heiligen/mirjam_von_jesus.jpg",
+    "image": "../de/img/heiligen/mirjam_von_jesus.jpg",
     "link": "../de/heilige/mirjam_von_jesus.html"
   },
   {
     "name": "Heilige Thérèse von Lisieux",
     "slug": "therese_von_lisieux",
     "bio_de": "Thérèse von Lisieux (1873–1897), Karmelitin und Kirchenlehrerin, lehrte den „Kleinen Weg“ des Vertrauens und der Liebe und ist eine der beliebtesten Heiligen der Neuzeit.",
-    "image": "../img/heiligen/therese_von_lisieux.png",
+    "image": "../de/img/heiligen/therese_von_lisieux.png",
     "link": "../de/heilige/therese_von_lisieux.html"
   },
   {
@@ -25,7 +25,7 @@
     "slug": "pater_jacques_von_jesus",
     "bio_de": "Pater Jacques von Jesus (1900–1945), Karmelit und französischer Priester, versteckte während des Zweiten Weltkriegs jüdische Kinder, wurde verhaftet und starb kurz nach der Befreiung eines Konzentrationslagers.",
     "bio_de_lang": "Der kleine Lucien, der am 29. Januar 1900 in eine arme Familie, deren Alltag von harter Arbeit geprägt ist, hineingeboren wird, will sehr schnell ein « großer Herr Pfarrer » werden. Die entchristlichten Landstriche und die sich selbst überlassenen Kinder wecken und festigen seine Leidenschaft als Apostel und Erzieher.",
-    "image": "../img/heiligen/pater_jacques_von_jesus.jpg",
+    "image": "../de/img/heiligen/pater_jacques_von_jesus.jpg",
     "link": "../de/heilige/jacques_von_jesus.html"
   },
   {
@@ -33,56 +33,56 @@
     "slug": "teresa_de_los_andes",
     "bio_de": "Teresa de Los Andes (1900–1920) war eine chilenische Karmelitin, die schon in jungen Jahren durch ihre tiefe Liebe zu Christus und ihre Hingabe im Klosterleben bekannt wurde.",
     "bio_de_lang": "Die heilige Teresa von Jesu (von Los Andes) wurde am 13. Juli 1900 in Santiago de Chile geboren. Mit 19 Jahren trat sie in den Karmel der Stadt Los Andes ein, starb aber bereits nach einem knappen Jahr am 12. April 1920 an Typhus. Sie ist die erste Heilige Chiles und des Teresianischen Karmel in Lateinamerika. Vor allem die armen und einfachen Menschen ihres Heimatlandes haben sie lieb gewonnen. Am 3. April 1987 sprach sie Papst Johannes Paul II. bei seinem Besuch in Santiago de Chile selig. Ihre Heiligsprechung fand am 21.März 1993 in Rom statt.",
-    "image": "../img/heiligen/teresa_de_los_andes.jpg",
+    "image": "../de/img/heiligen/teresa_de_los_andes.jpg",
     "link": "../de/heilige/teresa_de_los_andes.html"
   },
   {
     "name": "Die Heiligen des Karmel",
     "slug": "die_heiligen_des_karmel",
     "bio_de": "Die Heiligen des Karmel umfassen eine große Schar von Männern und Frauen, die im Geist Marias vom Berge Karmel durch Kontemplation, Opfer und Dienst an der Kirche zur Heiligkeit gelangt sind.",
-    "image": "../img/heiligen/heiligen_des_karmel.jpg",
+    "image": "../de/img/heiligen/heiligen_des_karmel.jpg",
     "link": "../de/heilige/heiligen_des_karmel.html"
   },
   {
     "name": "Heilige Teresa von Ávila",
     "slug": "teresa_von_avila",
     "bio_de": "Teresa von Ávila (1515–1582) war eine spanische Mystikerin, Reformerin des Karmel und Kirchenlehrerin, die durch ihre geistlichen Schriften und Klosterreformen die Spiritualität des Abendlandes prägte.",
-    "image": "../img/heiligen/teresa_von_avila.png",
+    "image": "../de/img/heiligen/teresa_von_avila.png",
     "link": "../de/heilige/teresa_von_avila.html"
   },
   {
     "name": "Maria von der Menschwerdung",
     "slug": "maria_von_der_menschwerdung",
     "bio_de": "Sr. Maria von der Menschwerdung ist eine Karmelitin, deren Spiritualität sich besonders auf das Geheimnis der Menschwerdung Christi konzentriert und die zur Betrachtung des menschgewordenen Gottes einlädt.",
-    "image": "../img/heiligen/maria_von_der_menschwerdung.jpg",
+    "image": "../de/img/heiligen/maria_von_der_menschwerdung.jpg",
     "link": "../de/heilige/maria_von_der_menschwerdung.html"
   },
   {
     "name": "Unsere Liebe Frau vom Berge Karmel",
     "slug": "unsere_liebe_frau_vom_berge_karmel",
     "bio_de": "Unsere Liebe Frau vom Berge Karmel ist ein Marientitel, der auf den biblischen Berg Karmel verweist; sie wird als Patronin des Karmelitenordens verehrt und mit dem Skapulier verbunden.",
-    "image": "../img/heiligen/unsere_liebe_frau_vom_berge_karmel.jpg",
+    "image": "../de/img/heiligen/unsere_liebe_frau_vom_berge_karmel.jpg",
     "link": "../de/heilige/unsere_liebe_frau.html"
   },
   {
     "name": "Heilige Teresa-Benedicta vom Kreuz (Edith Stein)",
     "slug": "teresabenedicta_vom_kreuz_edith_stein",
     "bio_de": "Teresa-Benedicta vom Kreuz (Edith Stein, 1891–1942) war eine jüdischstämmige Philosophin, die zum katholischen Glauben konvertierte, Karmelitin wurde und als Märtyrin im KZ Auschwitz starb.",
-    "image": "../img/heiligen/edith_stein.jpg",
+    "image": "../de/img/heiligen/edith_stein.jpg",
     "link": "../de/heilige/edith_stein.html"
   },
   {
     "name": "Br. Lorenz von der Auferstehung",
     "slug": "br_lorenz_von_der_auferstehung",
     "bio_de": "Bruder Lorenz von der Auferstehung (1614–1691) war ein französischer Laienbruder des Karmel, der für seine Lehre von der beständigen Gegenwart Gottes im Alltag bekannt wurde.",
-    "image": "../img/heiligen/lorenz.jpg",
+    "image": "../de/img/heiligen/lorenz.jpg",
     "link": "../de/heilige/bruder_lorenz.html"
   },
   {
     "name": "Heiliger Josef",
-    "slug": "joseph",
+    "slug": "heiliger_josef",
     "bio_de": "Der heilige Josef, Bräutigam der Gottesmutter Maria und Nährvater Jesu, wird als stiller Gerechter und treuer Beschützer der Kirche und der Familien verehrt.",
-    "image": "../img/heiligen/heiliger_joseph.jpg",
+    "image": "../de/img/heiligen/heiliger_josef.jpg",
     "link": "../de/heilige/heiliger_josef.html"
   },
   {
@@ -90,7 +90,7 @@
     "slug": "elisabeth_von_der_dreifaltigkeit",
     "bio_de": "Elisabeth von der Dreifaltigkeit (1880–1906) war eine französische Karmelitin, deren Spiritualität von der inneren Gegenwart der Heiligsten Dreifaltigkeit im Herzen des Getauften geprägt ist.",
     "bio_de_lang": "<p>Die heilige Elisabeth von der Dreifaltigkeit wurde nur 26 Jahre alt; fünf davon hat sie im Karmelitinnenkloster von Dijon (Frankreich) verbracht. Trotzdem aber war sie, als sie am 9. November 1906 starb, der Überzeugung, dass sie „heimging zum Licht, zur Liebe, zum Leben\". Durch ihre künstlerische Begabung hat sie den Menschen viel Freude gebracht, jedoch ohne sich daran zu verlieren, denn ihre eigentliche Heimat war woanders. Sie wurde am 25. November 1984 selig- und am 16. Oktober 2016 heiliggesprochen.</p>",
-    "image": "../img/heiligen/elisabeth_dreifaltigkeit.jpg",
+    "image": "../de/img/heiligen/elisabeth_dreifaltigkeit.jpg",
     "link": "../de/heilige/elisabeth_dreifaltigkeit.html"
   },
   {
@@ -98,14 +98,14 @@
     "slug": "sel_mariaeugen_vom_kinde_jesus_ocd",
     "bio_de": "Maria-Eugen vom Kinde Jesus (1894–1967) war ein französischer Karmelit und Gründer des Säkularinstituts Notre-Dame de Vie, der die geistliche Lehre Teresas von Ávila und Johannes’ vom Kreuz neu erschloss.",
     "bio_de_lang": "P. Maria-Eugen vom Kinde Jesus wurde am 19. November 2016 seliggesprochen. Dies ist ein Ereignis von großer Bedeutung für das ganze Volk Gottes, nicht nur für die Karmel-Familie, welcher er angehört. Indem die Heiligkeit seines Lebens feierlich anerkannt worden ist, stellt die Kirche ihn uns auf neue Art und Weise als <strong>einen großen geistlichen Meister für unsere Zeit</strong> vor Augen.<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Henri Grialou wurde am 2. Dezember 1894 in einer armen Familie des Aveyron geboren; von früher Kindheit an vernahm er den Ruf Jesu, Priester zu werden. Seine Studien im großen Seminar von Rodez wurden unterbrochen durch das Drama des ersten Weltkrieges. Direkt nach seiner Priesterweihe (am 4. Februar 1922) trat er ins Noviziat der <strong>Unbeschuhten Karmeliten</strong> in Avon bei Fontainebleau ein und erhielt den Namen Bruder Maria-Eugen vom Kinde Jesus. Nach einer Zeit im Kloster von Lille lebte er in den Gemeinschaften im Süden Frankreichs, wo er auch das Amt des Oberen ausübte. 1932 gründete er nahe des Heiligtums Notre-Dame de Vie in Venasque (in der Nähe von Carpentras) einen neuen „Zweig“ des Karmel: das <strong>Institut Notre-Dame de Vie</strong>, das nach einem bescheidenen Anfang zu einer großartigen Entwicklung berufen ist. 1937 wird P. Maria-Eugen als Mitglied des Generalrates des Ordens der Unbeschuhten Karmeliten nach Rom berufen. Er wird dort bis 1955 bleiben, außer während der Zeit des zweiten Weltkriegs, in der er in Frankreich weilte. Nach dem tödlichen Unfall des Generaloberen im Jahre 1954 wird er als Generalvikar sogar an der Spitze des Ordens stehen. Als er 1955 definitiv nach Frankreich zurückkehrt, wird er zum Provinzial der Provinz Avignon-Aquitaine gewählt, begleitet aber nebenbei weiterhin die Entwicklung des Instituts Notre-Dame de Vie. Nach dem zuerst gegründeten weiblichen Zweig folgt nun auch ein männlicher sowie eine dazugehörige Gemeinschaft für Priester. Nachdem P. Maria-Eugen mit großer Freude das Ereignis des Zweiten Vatikanischen Konzils miterlebt hatte, stirbt er am 27. März 1967 in Notre-Dame de Vie. Es ist dies ein Ostermontag, der Tag, an dem er gerne Maria, die Mutter des Lebens betrachtete, die Mutter jenes Lebens, das in der Auferstehung ihres Sohnes triumphiert.",
-    "image": "../img/heiligen/maria_eugen.jpg",
+    "image": "../de/img/heiligen/maria_eugen.jpg",
     "link": "../de/heilige/maria-eugen.html"
   },
   {
     "name": "Heiliger Elija",
     "slug": "elija",
     "bio_de": "Der Prophet Elija gilt als geistlicher Vater der Karmeliten; sein Eifer für den einen wahren Gott und seine Gotteserfahrung auf dem Horeb prägen die Spiritualität des Ordens.",
-    "image": "../img/heiligen/heiliger_elija.jpg",
+    "image": "../de/img/heiligen/heiliger_elija.jpg",
     "link": "../de/heilige/heiliger_elija.html"
   },
   {
@@ -113,7 +113,7 @@
     "slug": "louis_martin_und_zelie_martin_eltern_der_hl_therese_von_lisieux",
     "bio_de": "Louis und Zélie Martin, die Eltern der heiligen Thérèse von Lisieux, führten eine tief christliche Ehe und wurden gemeinsam als Vorbilder für heilige Ehe und Familienleben heiliggesprochen.",
     "bio_de_lang": "<p>Der heilige Louis Martin (geboren 1823) war Juwelier; die heilige Marie Zélie, (geboren 1831) stellte Alençonspitzen her. Die Ehe der beiden war mit neun Kindern gesegnet, von denen nur fünf überlebten, das jüngste war die heilige Thérèse von Lisieux. Als vorbildliche christliche Eltern weckten sie in ihren Kindern den Eifer für die Missionen, Liebe zu den Armen und die Verehrung Marias. Nach dem Tod seiner Gattin 1877 zog Louis nach Lisieux, wo er den Abschied seiner Töchter ins Kloster erlebte und in den letzten Lebensjahren noch schwere Leiden durchmachen musste. Gestorben ist er 1894. Das Ehepaar wurde am 19. Oktober 2008 in Lisieux selig- und am 18. Oktober 2015 in Rom heiliggesprochen.</p>",
-    "image": "../img/heiligen/louis_martin_und_zelie_martin.jpg",
+    "image": "../de/img/heiligen/louis_martin_und_zelie_martin.jpg",
     "link": "../de/heilige/louis_zelie_martin.html"
   }
 ]

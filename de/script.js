@@ -128,13 +128,13 @@ document.addEventListener("DOMContentLoaded", () => {
     const cardCheckbox = document.querySelector(card);
     const formCheckbox = document.getElementById(formId);
 
-    console.log({
-        key,
-        card,
-        cardCheckbox,
-        formId,
-        formCheckbox
-    });
+    // console.log({
+    //     key,
+    //     card,
+    //     cardCheckbox,
+    //     formId,
+    //     formCheckbox
+    // });
 
     if (!cardCheckbox || !formCheckbox) return;
 
@@ -574,11 +574,11 @@ document.addEventListener("DOMContentLoaded", function () {
     function updateSonstigesField() {
         const isSonstiges =
             select.value === "Sonstiges";
-        console.log({
-    select: document.getElementById("mce-AUFMERKS01"),
-    field: document.getElementById("sonstiges-field"),
-    input: document.getElementById("mce-AUFMERKS02")
-});
+    //     console.log({
+    // select: document.getElementById("mce-AUFMERKS01"),
+    // field: document.getElementById("sonstiges-field"),
+    // input: document.getElementById("mce-AUFMERKS02")
+// });
 
         sonstigesField.style.display = isSonstiges ? 'contents': 'none';
         sonstigesInput.disabled = !isSonstiges;
