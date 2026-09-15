@@ -251,7 +251,7 @@ body::after {
   position: fixed;
   inset: 0;
   z-index: -1;
-  background-image: url("../de/img/website_banner.jpg");
+  background-image: url("../en/img/website_banner.jpg");
   background-repeat: no-repeat;
   background-position: bottom right;
   background-size: auto;
@@ -848,7 +848,7 @@ summary {
   min-height: 85vh;
   margin-bottom: 5%;
   overflow: hidden;
-  background-image: url("../de/img/header_img_teresa_johannes.jpg");
+  background-image: url("../en/img/header_img_teresa_johannes.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
