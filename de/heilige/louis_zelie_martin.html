@@ -4,13 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Louis Martin und Zélie Martin (Eltern der hl. Thérèse von Lisieux)</title>
-
+    <link rel="icon" type="image/png" sizes="32x32" href="/de/img/karmel_at_favicon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=dictionary,folded_hands,movie_speaker,today,home,settings,settings_accessibility" />
     <link rel="stylesheet" href="../style.css" />
   </head>
   <body>
@@ -23,33 +24,48 @@
     </header>
       <nav class="header-inner">
         <a href="../" class="brand" aria-label="Startseite">
-          <span class="brand-mark" aria-hidden="true"><img src="../img/apple-touch-icon.png" style="border-radius: var(--radius-lg)"></span>
+          <span class="brand-mark" aria-hidden="true"><img src="/de/img/karmel_at_brand_logo.png" style="border-radius: var(--radius-lg)"></span>
           <span class="brand-text">
             <span class="brand-kicker">Teresianischer Karmel</span>
             <span class="brand-name">Online-Exerzitien</span>
           </span>
         </a>
         <div class="header-actions">
-          <nav class="main-nav" id="main-navigation" aria-label="Hauptnavigation">
+            <nav class="main-nav" id="main-navigation" aria-label="Hauptnavigation">
         <ul>
           <li><a href="../index.html"><span class="material-symbols-outlined">home</span></a></li>
           <li><a href="../index.html#signup-panel">Anmelden</a></li>
           <li><a href="../index.html#aktuelleExerzitien">Aktuelle Exerzitien</a></li>
-          <li><a href="../index.html#saints-cards">Heilige</a></li>
+          <li><a href="../index.html#saints-cards">Persönlichkeiten</a></li>
           <li><a href="../index.html#archiv-cards">Archiv</a></li>
+          <li><a href="../index.html#faq">FAQ</a></li>
+          <li><a href="../index.html#weiterempfehlen">Weiterempfehlen</a></li>
+          <li><a href="../about.html">Über die Karmeliten</a></li>
         </ul>
+                        <details class="settings_accessibility">
+                          <summary class="settings_accessibility_trigger" aria-label="Accessiblity Settings">
+                            <span class="material-symbols-outlined" aria-label="true">
+                            settings
+                            </span>  
+                            <span class="material-symbols-outlined" aria-label="true">
+                            settings_accessibility
+                            </span>                        
+                          </summary>
+                <nav class="settings_accessibility_list" aria-label="Sprachauswahl">
                 <button class="font-decrease theme-toggle" type="button" data-font-decrease aria-label="Schriftgröße verkleinern">
           A-
         </button>
           <button class="font-reset theme-toggle" type="button" data-font-reset aria-label="Schriftgröße zurücksetzen">
           A
-        </button>
+        </button> 
         <button class="font-increase theme-toggle" type="button" data-font-increase aria-label="Schriftgröße vergrößern">
           A+
         </button>
         <button class="theme-toggle" type="button" data-theme-toggle aria-label="Farbschema wechseln">
           <span class="theme-toggle__icon" aria-hidden="true">◐</span>
         </button>
+                </nav>
+        </details>
       </nav>
           <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="main-navigation" aria-label="Menü öffnen">
           <span></span>
