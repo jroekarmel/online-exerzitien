@@ -359,7 +359,8 @@ document.addEventListener("DOMContentLoaded", async () => {
         const dateA = a.start_datum || `${a.year || 0}-01-01`;
         const dateB = b.start_datum || `${b.year || 0}-01-01`;
         return new Date(dateB) - new Date(dateA);
-      });
+      })
+      .slice(1); // Skip the most recent retreat (current retreat)
 
     if (archiveRetreats.length === 0) {
       container.innerHTML = `<p>Derzeit sind keine Archivdaten verfügbar.</p>`;
