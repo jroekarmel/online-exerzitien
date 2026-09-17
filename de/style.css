@@ -1129,7 +1129,7 @@ ul {
    ========================================================= */
 
 .section {
-  padding: var(--space-12) 0;
+  padding: var(--space-8) 0;
 }
 
 .section-intro {
@@ -1886,7 +1886,7 @@ textarea:focus-visible {
   }
 
   .section {
-    padding: var(--space-16) 0;
+    padding: var(--space-8) 0;
   }
 
   #mc_embed_signup #mc_embed_signup_scroll {
