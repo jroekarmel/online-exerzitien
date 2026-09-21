@@ -878,6 +878,18 @@ summary {
   color: var(--color-text);
 }
 
+.hero-grid-two-cols {
+  position: relative;
+  z-index: 1;
+  display:grid;
+  gap: var(--space-6);
+  width: 50%;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin-inline-start: 5%;
+  padding: var(--space-6);
+  color: var(--color-text);
+}
+
 .hero-eyebrow {
   margin: var(--space-2) var(--space-40) var(--space-2);
   color: var(--color-text);
@@ -913,10 +925,23 @@ summary {
   box-shadow: var(--shadow-sm);
 }
 
+.hero-card h2 {
+  margin: var(--space-2) 0 var(--space-2);
+  color: var(--color-text);
+  font-family: var(--font-display);
+  font-size: var(--text-xl);
+  font-weight: 600;
+}
+
 .hero-card-text {
   margin: 0;
   color: var(--color-text);
 }
+
+.org-image {
+  height:100px;
+}
+
 
 
 /* =========================================================
@@ -1704,6 +1729,10 @@ textarea:focus-visible {
     margin-inline: auto;
     padding: var(--space-5);
   }
+    .hero-grid-two-cols {
+    grid-template-columns: 1fr;
+    width: 90%;
+}
 }
 
 @media (max-width: 600px) {
