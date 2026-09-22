@@ -1,0 +1,271 @@
+/* Cleaned stylesheet based on the supplied InDesign CSS. */
+@font-face {
+	font-family:"Adobe Garamond Pro";
+	font-style:italic;
+	font-weight:normal;
+	src : url("../../font/AGaramondPro-Italic.otf");
+}
+@font-face {
+	font-family:"Adobe Garamond Pro";
+	font-style:oblique;
+	font-weight:normal;
+	src : url("../../font/AGaramondPro-Italic.otf");
+}
+@font-face {
+	font-family:"Adobe Garamond Pro";
+	font-style:normal;
+	font-weight:normal;
+	src : url("../../font/AGaramondPro-Regular.otf");
+}
+@font-face {
+	font-family:DIN;
+	font-style:normal;
+	font-weight:normal;
+	src : url("../../font/DIN-Regular.otf");
+}
+@font-face {
+	font-family:"Minion Pro";
+	font-style:normal;
+	font-weight:normal;
+	src : url("../../font/MinionPro-Regular.otf");
+}
+
+html, body { margin: 0; padding: 0; }
+body { width: 595.28px; height: 841.89px; }
+
+p { margin: 0; padding: 0; }
+
+/* ==========================================================
+   EASY TEXT CONTROLS
+   Change only X, Y, SIZE and ALIGN below.
+   X/Y are page coordinates in px.
+   SIZE is the actual rendered font size in px.
+   ========================================================== */
+:root {
+  --title-x: 242.435px;
+  --title-y: 82.199px;
+  --title-size: 30.8px;
+  --title-align: left;
+
+  --subtitle-x: 44.819px;
+  --subtitle-y: 815.672px;
+  --subtitle-size: 42px;
+  --subtitle-align: left;
+
+  --subtitle2-x: -0.001px;
+  --subtitle2-y: 7.795px;
+  --subtitle2-size: 42px;
+  --subtitle2-align: left;
+
+  --theme-x: 250.734px;
+  --theme-y: 246.687px;
+  --theme-size: 41.9px;
+  --theme-align: left;
+
+  --author-x: 246.685px;
+  --author-y: 123.641px;
+  --author-size: 67px;
+  --author-align: left;
+
+  --dates-x: 319.230px;
+  --dates-y: 378.870px;
+  --dates-size: 30.8px;
+  --dates-align: left;
+
+  --website-x: 137.136px;
+  --website-y: 747.225px;
+  --website-size: 26.5px;
+  --website-align: left;
+
+  --registration-x: 120.705px;
+  --registration-y: 709.480px;
+  --registration-size: 30.8px;
+  --registration-align: left;
+
+  --delivery-x: 377.551px;
+  --delivery-y: 501.902px;
+  --delivery-size: 17px;
+  --delivery-align: left;
+
+  --description-x: 377.551px;
+  --description-y: 537.892px;
+  --description-size: 14px;
+  --description-align: left;
+
+}
+
+.translation-title {
+  position: absolute;
+  left: var(--title-x);
+  top: var(--title-y);
+  font-family: "Adobe Garamond Pro", serif;
+  font-size: var(--title-size);
+  font-style: normal;
+  font-variant: small-caps;
+  font-weight: normal;
+  color: #ffffff;
+  text-align: var(--title-align);
+  line-height: 1;
+  white-space: normal;
+  margin: 0;
+  padding: 0;
+}
+
+.translation-subtitle {
+  position: absolute;
+  left: var(--subtitle-x);
+  top: var(--subtitle-y);
+  font-family: "DIN (TT) MediumAlternate", sans-serif;
+  font-size: var(--subtitle-size);
+  font-style: normal;
+  font-variant: small-caps;
+  font-weight: normal;
+  color: #fffdfd;
+  text-align: var(--subtitle-align);
+  line-height: 1;
+  white-space: normal;
+  margin: 0;
+  padding: 0;
+}
+
+.translation-subtitle2 {
+  position: absolute;
+  left: var(--subtitle2-x);
+  top: var(--subtitle2-y);
+  font-family: "DIN (TT) MediumAlternate", sans-serif;
+  font-size: var(--subtitle2-size);
+  font-style: normal;
+  font-variant: small-caps;
+  font-weight: normal;
+  color: #fffdfd;
+  text-align: var(--subtitle2-align);
+  line-height: 1;
+  white-space: normal;
+  margin: 0;
+  padding: 0;
+}
+
+.translation-theme {
+  position: absolute;
+  left: var(--theme-x);
+  top: var(--theme-y);
+  font-family: "Adobe Garamond Pro", serif;
+  font-size: var(--theme-size);
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #ffffff;
+  text-align: var(--theme-align);
+  line-height: 1;
+  white-space: normal;
+  margin: 0;
+  padding: 0;
+}
+
+.translation-author {
+  position: absolute;
+  left: var(--author-x);
+  top: var(--author-y);
+  font-family: "Adobe Garamond Pro", serif;
+  font-size: var(--author-size);
+  font-style: normal;
+  font-variant: small-caps;
+  font-weight: normal;
+  color: #ffffff;
+  text-align: var(--author-align);
+  line-height: 1;
+  white-space: normal;
+  margin: 0;
+  padding: 0;
+}
+
+.translation-dates {
+  position: absolute;
+  left: var(--dates-x);
+  top: var(--dates-y);
+  font-family: "DIN (TT) LightAlternate", sans-serif;
+  font-size: var(--dates-size);
+  font-style: normal;
+  font-variant: small-caps;
+  font-weight: normal;
+  color: #ffffff;
+  text-align: var(--dates-align);
+  line-height: 1;
+  white-space: normal;
+  margin: 0;
+  padding: 0;
+}
+
+.translation-website {
+  position: absolute;
+  left: var(--website-x);
+  top: var(--website-y);
+  font-family: "DIN (TT) BoldAlternate", sans-serif;
+  font-size: var(--website-size);
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #fccd98;
+  text-align: var(--website-align);
+  line-height: 1;
+  white-space: normal;
+  margin: 0;
+  padding: 0;
+}
+
+.translation-registration {
+  position: absolute;
+  left: var(--registration-x);
+  top: var(--registration-y);
+  font-family: "DIN (TT) RegularAlternate", sans-serif;
+  font-size: var(--registration-size);
+  font-style: normal;
+  font-variant: small-caps;
+  font-weight: normal;
+  color: #fccd98;
+  text-align: var(--registration-align);
+  line-height: 1;
+  white-space: normal;
+  margin: 0;
+  padding: 0;
+}
+
+.translation-delivery {
+  position: absolute;
+  left: var(--delivery-x);
+  top: var(--delivery-y);
+  font-family: "DIN (TT) RegularAlternate", sans-serif;
+  font-size: var(--delivery-size);
+  font-style: normal;
+  font-variant: small-caps;
+  font-weight: normal;
+  color: #ffffff;
+  text-align: var(--delivery-align);
+  line-height: 1;
+  white-space: normal;
+  margin: 0;
+  padding: 0;
+}
+
+.translation-description {
+  position: absolute;
+  left: var(--description-x);
+  top: var(--description-y);
+  font-family: DIN, sans-serif;
+  font-size: var(--description-size);
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #ffffff;
+  text-align: var(--description-align);
+  line-height: 1;
+  white-space: normal;
+  margin: 0;
+  padding: 0;
+}
+
+div.Basic-Graphics-Frame { border: 1px solid #000000;}
+div.Basic-Text-Frame { border-style: solid; }
+div._idGenObjectStyle-Disabled { background-color: transparent; border-width: 0; }
+img._idGenObjectAttribute-1 { height: 100%; min-width: 100%; width: 100%; }
+img._idGenObjectAttribute-2 { left: 0; position: absolute; top: 0; }

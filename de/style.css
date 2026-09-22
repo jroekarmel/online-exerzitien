@@ -1166,6 +1166,7 @@ ul {
 .footer-inner {
   display: grid;
   gap: var(--space-4);
+  justify-content: center;
 }
 
 .cards-grid {

@@ -17,6 +17,7 @@ const languages = {
   ro: "Română",
   vi: "Tiếng Việt"
 };
+  document.getElementById("year").textContent = new Date().getFullYear();
 
 // size adjust
   (function () {
