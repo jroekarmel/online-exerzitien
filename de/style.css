@@ -1183,6 +1183,11 @@ ul {
   gap: var(--space-4);
 }
 
+.support-grid {
+  display: grid;
+  gap: var(--space-4);
+}
+
 .info-card {
   padding: var(--space-5);
   border-radius: var(--radius-lg);
@@ -1745,6 +1750,10 @@ textarea:focus-visible {
 
   .cards-grid {
     grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+    .support-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .steps {
