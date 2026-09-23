@@ -882,7 +882,7 @@ summary {
   gap: var(--space-6);
   width: 40%;
   max-width: 95%;
-  margin-inline-start: 5%;
+  margin-inline-start: 1%;
   padding: var(--space-6) var(--space-8);
   color: var(--color-text);
 }
@@ -1691,8 +1691,8 @@ textarea:focus-visible {
 
 @media (max-width: 700px) {
   .hero-grid {
-    width: min(90%, 480px);
-    margin-inline: auto;
+    width: min(80%, 480px);
+    margin-inline: 0.25vw;
     padding: var(--space-5);
   }
     .hero-grid-two-cols {
