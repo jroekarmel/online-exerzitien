@@ -250,17 +250,18 @@ body {
   line-height: 1.45;
 }
 
-body::after {
-  content: "";
-  position: fixed;
-  inset: 0;
-  z-index: -1;
-  background-image: url("../de/img/website_banner.jpg");
-  background-repeat: no-repeat;
-  background-position: bottom right;
-  background-size: auto;
-  opacity: 0.04;
-  pointer-events: none;
+.header-banner {
+  width: 100%;
+  max-height: 30vh;
+  overflow: hidden;
+}
+
+.header-banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+   object-position: center;
+  display: block;
 }
 
 [data-theme="dark"] body::after {
@@ -272,6 +273,9 @@ img,
 svg {
   display: block;
   max-width: 100%;
+}
+.svg-icon {
+  display: inline;
 }
 
 a {
@@ -1661,50 +1665,6 @@ ul {
 }
 
 
-/* =========================================================
-   Moving banner
-   ========================================================= */
-
-.moving-banner {
-  --banner-height: clamp(70px, 10vw, 150px);
-  --speed: 60s;
-
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  background: #1b1b1b;
-}
-
-[data-theme="dark"] .moving-banner {
-  background: #0e1215;
-}
-
-.moving-banner__track {
-  display: flex;
-  width: max-content;
-  height: 100%;
-  animation: banner-scroll var(--speed) linear infinite;
-  will-change: transform;
-}
-
-.moving-banner__track img {
-  display: block;
-  width: auto;
-  height: 100%;
-  flex: 0 0 auto;
-  object-fit: cover;
-}
-
-@keyframes banner-scroll {
-  from {
-    transform: translateX(0);
-  }
-
-  to {
-    transform: translateX(-50%);
-  }
-}
-
 
 /* =========================================================
    Focus styles
@@ -2058,14 +2018,4 @@ textarea:focus-visible {
     animation-iteration-count: 1 !important;
   }
 
-  .moving-banner__track {
-    animation: none;
-  }
-    .logo-slide {
-    animation: none;
-  }
-
-  .logo-slide:first-child {
-    opacity: 1;
-  }
 }
