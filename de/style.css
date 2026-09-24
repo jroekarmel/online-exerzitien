@@ -250,20 +250,6 @@ body {
   line-height: 1.45;
 }
 
-.header-banner {
-  width: 100%;
-  max-height: 30vh;
-  overflow: hidden;
-}
-
-.header-banner img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-   object-position: center;
-  display: block;
-}
-
 [data-theme="dark"] body::after {
   opacity: 0.025;
   filter: brightness(0.65) saturate(0.8);
@@ -276,6 +262,22 @@ svg {
 }
 .svg-icon {
   display: inline;
+}
+
+.header-banner {
+  width: 100%;
+  max-height: 30vh;
+  overflow: hidden;
+}
+
+.header-banner img {
+  width: 213%;
+  height: 100%;
+  object-fit: cover;
+   object-position: center;
+  display: block;
+  max-width: 213%;
+  transform: translateX(-26%);
 }
 
 a {
@@ -874,29 +876,14 @@ summary {
   background: var(--hero-overlay);
   content: "";
 }
-
-.hero-grid {
-  position: relative;
-  z-index: 1;
-  display: grid;
-  gap: var(--space-6);
-  width: 40%;
-  max-width: 95%;
-  margin-inline-start: 1%;
-  padding: var(--space-6) var(--space-8);
-  color: var(--color-text);
-}
-
-.hero-grid-two-cols {
-  position: relative;
-  z-index: 1;
-  display:grid;
-  gap: var(--space-6);
-  width: 50%;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  margin-inline-start: 5%;
-  padding: var(--space-6);
-  color: var(--color-text);
+  .hero-grid {
+    width: min(80%, 480px);
+    margin-inline: 0.25vw;
+    padding: var(--space-5);
+  }
+    .hero-grid-two-cols {
+    grid-template-columns: 1fr;
+    width: 90%;
 }
 
 .hero-eyebrow {
@@ -1694,17 +1681,6 @@ textarea:focus-visible {
    Responsive layout
    ========================================================= */
 
-@media (max-width: 700px) {
-  .hero-grid {
-    width: min(80%, 480px);
-    margin-inline: 0.25vw;
-    padding: var(--space-5);
-  }
-    .hero-grid-two-cols {
-    grid-template-columns: 1fr;
-    width: 90%;
-}
-}
 
 @media (max-width: 600px) {
   .settings_accessibility {
@@ -1743,6 +1719,30 @@ textarea:focus-visible {
     padding: var(--space-10) 0 var(--space-16);
   }
 
+  .hero-grid {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  gap: var(--space-6);
+  width: 40%;
+  max-width: 95%;
+  margin-inline-start: 1%;
+  padding: var(--space-6) var(--space-8);
+  color: var(--color-text);
+}
+
+.hero-grid-two-cols {
+  position: relative;
+  z-index: 1;
+  display:grid;
+  gap: var(--space-6);
+  width: 50%;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin-inline-start: 5%;
+  padding: var(--space-6);
+  color: var(--color-text);
+}
+
   .two-column {
     grid-template-columns: 0.9fr 1.1fr;
     align-items: start;
@@ -1750,6 +1750,12 @@ textarea:focus-visible {
 
   .cards-grid {
     grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .header-banner img {
+    width: 100%;
+object-fit: contain;
+transform: translateX(0%);
   }
 
     .support-grid {
