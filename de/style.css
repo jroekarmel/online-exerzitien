@@ -449,10 +449,10 @@ summary {
 .settings_accessibility {
   display: grid;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   min-height: 2.75rem;
   padding: 0.65rem 0.95rem;
-  padding: 0.6rem 3rem;
+  padding: 0.6rem .6rem;
 }
 
 .settings_accessibility_trigger,
@@ -504,7 +504,7 @@ summary {
   overflow-y: auto;
   border-radius: var(--radius-lg);
   top: calc(100% - 0.5rem);
-  right: 7%;
+  right: 25%;
   gap: 0.2rem;
   max-height: min(32rem, 70vh);
 }
@@ -1789,6 +1789,7 @@ transform: translateX(0%);
     var(--color-text) 15%,
     transparent
   );
+  right: 7%;
     background: var(--color-surface);
   box-shadow: var(--shadow-md);
   }
