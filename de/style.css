@@ -870,18 +870,15 @@ summary {
   min-height: 85vh;
   margin-bottom: 5%;
   overflow: hidden;
-  background-image: url("../de/img/header_img_teresa_johannes.jpg");
+  background-image: 
+      linear-gradient(
+      var(--hero-overlay),
+      var(--hero-overlay)
+    ),
+  url("../de/img/header_img_teresa_johannes.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-.hero::before {
-  position: absolute;
-  inset: 0;
-  z-index: 0;
-  background: var(--hero-overlay);
-  content: "";
 }
   .hero-grid {
     width: min(80%, 480px);
