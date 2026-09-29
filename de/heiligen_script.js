@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   if (!container) return;
 
-  const DATA_URL = "/daten/online_exerzitien_daten/retreat_overview.json";
+  const DATA_URL = "../de/data/retreat_overview.json";
 
   console.log (DATA_URL)
   const seasonLabels = {
