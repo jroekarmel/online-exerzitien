@@ -1,0 +1,650 @@
+{
+  "retreat_id": "lent-2020-st-john-of-the-cross",
+  "season_type": "lent",
+  "weeks": [
+    {
+      "woche_number": 0,
+      "slug": "woche-0",
+      "title": "Aschermittwoch: Reisen zu den Gipfeln",
+      "kurz_text": "Juan de Yepes wird 1542 in Kastilien in eine arme Weberfamilie geboren. Nach dem Tod des Vaters von Johannes lässt sich die Familie in Medina del Campo nieder, um der Armut zu entfliehen. Johannes tritt dort im Alter von 21 Jahren bei den Karmeliten ein und erhält den Namen Johannes vom hl. Matthäus...",
+      "main_text": {
+        "de": ""
+      },
+      "bild_url": "../img/2020_fs/woche-0_header.png",
+      "video_url": "https://youtu.be/c4pMp8lY-xg",
+      "podcast_url": "",
+      "a4_pdf": "https://mcusercontent.com/7c9d2aa0ecc1fde64fd44bc67/files/09a614cc-79bb-40f7-a221-0f64db79c3fa/Intro_Exerzitien_2020_D.pdf",
+      "phone_pdf": "https://mcusercontent.com/7c9d2aa0ecc1fde64fd44bc67/files/f26b66a1-7db6-461c-83fd-1328ec8a762a/Smartphone_Intro_Exerzitien_2020_D.pdf",
+      "mail_link": "https://mailchi.mp/karmel/einladung-zu-adventexerzitien-online-1156845",
+      "days": [
+        {
+          "day_index": 1,
+          "day_key": "thursday",
+          "reflection": {
+            "day": "",
+            "motif": "",
+            "bible": "",
+            "bible_ref": "",
+            "saint_text": "",
+            "saint_text_ref": "",
+            "prayer": ""
+          }
+        },
+        {
+          "day_index": 2,
+          "day_key": "friday",
+          "reflection": {
+            "de": "Tagesimpuls Freitag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 3,
+          "day_key": "saturday",
+          "reflection": {
+            "de": "Tagesimpuls Samstag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 4,
+          "day_key": "sunday",
+          "reflection": {
+            "de": "Tagesimpuls Sonntag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        }
+      ]
+    },
+    {
+      "woche_number": 1,
+      "slug": "woche-1",
+      "title": "1. Sonntag: Das Hindernis in uns",
+      "kurz_text": "Wir sind also unterwegs, um uns dem Berg Karmel zu nähern und der Heilige Geist führt uns, um mit Jesus in der Wüste zu beginnen.– Ein wenig angenehmer Halt, zumal er uns die Hindernisse unseres Fortschritts aufzeigt, nicht nur äußere, sondern innere Hindernisse...",
+      "main_text": "",
+      "bild_url": "../img/2020_fs/woche-1_header.png",
+      "video_url": "https://youtu.be/rv4gr_OSvag",
+      "podcast_url": "",
+      "a4_pdf": "https://mcusercontent.com/7c9d2aa0ecc1fde64fd44bc67/files/cf53cc90-7897-41fc-bcda-90d6a72aea53/S1_Exerzitien_2020_D.pdf",
+      "phone_pdf": "https://mcusercontent.com/7c9d2aa0ecc1fde64fd44bc67/files/b8aa9e94-2057-4f45-8ffa-5d48119f739c/Smartphone_S1_Exerzitien_2020_D.pdf",
+      "mail_link": "https://mailchi.mp/karmel/einladung-zu-adventexerzitien-online-1156929",
+      "days": [
+        {
+          "day_index": 1,
+          "day_key": "monday",
+          "reflection": {
+            "de": "Tagesimpuls Montag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 2,
+          "day_key": "tuesday",
+          "reflection": {
+            "de": "Tagesimpuls Dienstag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 3,
+          "day_key": "wednesday",
+          "reflection": {
+            "de": "Tagesimpuls Mittwoch."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 4,
+          "day_key": "thursday",
+          "reflection": {
+            "day": "",
+            "motif": "",
+            "bible": "",
+            "bible_ref": "",
+            "saint_text": "",
+            "saint_text_ref": "",
+            "prayer": ""
+          }
+        },
+        {
+          "day_index": 5,
+          "day_key": "friday",
+          "reflection": {
+            "de": "Tagesimpuls Freitag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 6,
+          "day_key": "saturday",
+          "reflection": {
+            "de": "Tagesimpuls Samstag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 7,
+          "day_key": "sunday",
+          "reflection": {
+            "de": "Tagesimpuls Sonntag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        }
+      ]
+    },
+    {
+      "woche_number": 2,
+      "slug": "woche-2",
+      "title": "2. Sonntag: Jesus allein",
+      "kurz_text": "Nach unserem Zwischenhalt in der Wüste gelangen wir in dieser 2. Fastenwoche zu einem ersten Gipfel, dem des Tabor, „einem hohen Berg.“ Es ist nicht der „sehr hohe Berg“, wohin der Teufel Jesus führte, um die „Pracht“ der Reiche der Welt zu betrachten.",
+      "main_text": {
+        "de": "Haupttext der Woche."
+      },
+      "bild_url": "../img/2020_fs/woche-2_header.png",
+      "video_url": "https://youtu.be/5puBtT2M8xk",
+      "podcast_url": "",
+      "a4_pdf": "https://mcusercontent.com/7c9d2aa0ecc1fde64fd44bc67/files/ccc14b1d-404f-4907-bbc0-6597a8e70734/S2_Exerzitien_2020_D.pdf",
+      "phone_pdf": "https://mcusercontent.com/7c9d2aa0ecc1fde64fd44bc67/files/db5e32a9-ddbe-465a-a4c0-60a2f51af3a1/S2_Smartphone_Exerzitien_2020_D.pdf",
+      "mail_link": "https://mailchi.mp/karmel/einladung-zu-adventexerzitien-online-1157057",
+      "days": [
+        {
+          "day_index": 1,
+          "day_key": "monday",
+          "reflection": {
+            "de": "Tagesimpuls Montag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 2,
+          "day_key": "tuesday",
+          "reflection": {
+            "de": "Tagesimpuls Dienstag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 3,
+          "day_key": "wednesday",
+          "reflection": {
+            "de": "Tagesimpuls Mittwoch."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 4,
+          "day_key": "thursday",
+          "reflection": {
+            "day": "",
+            "motif": "",
+            "bible": "",
+            "bible_ref": "",
+            "saint_text": "",
+            "saint_text_ref": "",
+            "prayer": ""
+          }
+        },
+        {
+          "day_index": 5,
+          "day_key": "friday",
+          "reflection": {
+            "de": "Tagesimpuls Freitag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 6,
+          "day_key": "saturday",
+          "reflection": {
+            "de": "Tagesimpuls Samstag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 7,
+          "day_key": "sunday",
+          "reflection": {
+            "de": "Tagesimpuls Sonntag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        }
+      ]
+    },
+    {
+      "woche_number": 3,
+      "slug": "woche-3",
+      "title": "3. Sonntag: Bis ins Herz",
+      "kurz_text": "Wir haben den verklärten Herrn auf dem Tabor betrachtet, dann sind wir ihm gefolgt und haben dabei die Einsicht gewonnen, dass wir nur in seiner Nachfolge sicher an das Ziel unserer Reise gelangen, den Berg Karmel. Aber der Weg ist lang. ",
+      "main_text": {
+        "de": ""
+      },
+      "bild_url": "../img/2020_fs/woche-3_header.png",
+      "video_url": "https://youtu.be/URgiR0ixs80",
+      "podcast_url": "",
+      "a4_pdf": "https://mcusercontent.com/7c9d2aa0ecc1fde64fd44bc67/files/304a1c9d-7142-4d3b-b8d5-26ff84eae4dc/S3_Exerzitien_2020_D_einzeln.pdf",
+      "phone_pdf": "https://mcusercontent.com/7c9d2aa0ecc1fde64fd44bc67/files/7fa392cb-655e-4454-a7e5-a06b7d9000ff/S3_Smartphone_Exerzitien_2020_D.pdf",
+      "mail_link": "https://mailchi.mp/karmel/einladung-zu-adventexerzitien-online-1157165",
+      "days": [
+        {
+          "day_index": 1,
+          "day_key": "monday",
+          "reflection": {
+            "de": "Tagesimpuls Montag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 2,
+          "day_key": "tuesday",
+          "reflection": {
+            "de": "Tagesimpuls Dienstag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 3,
+          "day_key": "wednesday",
+          "reflection": {
+            "de": "Tagesimpuls Mittwoch."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 4,
+          "day_key": "thursday",
+          "reflection": {
+            "day": "",
+            "motif": "",
+            "bible": "",
+            "bible_ref": "",
+            "saint_text": "",
+            "saint_text_ref": "",
+            "prayer": ""
+          }
+        },
+        {
+          "day_index": 5,
+          "day_key": "friday",
+          "reflection": {
+            "de": "Tagesimpuls Freitag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 6,
+          "day_key": "saturday",
+          "reflection": {
+            "de": "Tagesimpuls Samstag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 7,
+          "day_key": "sunday",
+          "reflection": {
+            "de": "Tagesimpuls Sonntag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        }
+      ]
+    },
+    {
+      "woche_number": 4,
+      "slug": "woche-4",
+      "title": "4. Sonntag: Ein Nachtmarsch",
+      "kurz_text": "",
+      "main_text": {
+        "de": "Haupttext der Woche."
+      },
+      "bild_url": "../img/2020_fs/woche-4_header.png",
+      "video_url": "https://youtu.be/2TqdMyAVAJY",
+      "podcast_url": "",
+      "a4_pdf": "https://mcusercontent.com/7c9d2aa0ecc1fde64fd44bc67/files/3286bdda-13ae-42c9-9173-267c56d1109a/S4_Exerzitien_2020_D.pdf",
+      "phone_pdf": "https://mcusercontent.com/7c9d2aa0ecc1fde64fd44bc67/files/72e4817c-9241-49f5-aa2c-1acd965c2cf2/S4_Smartphone_Exerzitien_2020_D.pdf",
+      "mail_link": "https://mailchi.mp/karmel/einladung-zu-adventexerzitien-online-1157189",
+      "days": [
+        {
+          "day_index": 1,
+          "day_key": "monday",
+          "reflection": {
+            "de": "Tagesimpuls Montag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 2,
+          "day_key": "tuesday",
+          "reflection": {
+            "de": "Tagesimpuls Dienstag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 3,
+          "day_key": "wednesday",
+          "reflection": {
+            "de": "Tagesimpuls Mittwoch."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 4,
+          "day_key": "thursday",
+          "reflection": {
+            "day": "",
+            "motif": "",
+            "bible": "",
+            "bible_ref": "",
+            "saint_text": "",
+            "saint_text_ref": "",
+            "prayer": ""
+          }
+        },
+        {
+          "day_index": 5,
+          "day_key": "friday",
+          "reflection": {
+            "de": "Tagesimpuls Freitag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 6,
+          "day_key": "saturday",
+          "reflection": {
+            "de": "Tagesimpuls Samstag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 7,
+          "day_key": "sunday",
+          "reflection": {
+            "de": "Tagesimpuls Sonntag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        }
+      ]
+    },
+    {
+      "woche_number": 5,
+      "slug": "woche-5",
+      "title": "5. Sonntag: Zum neuen Leben erwachen",
+      "kurz_text": "",
+      "main_text": {
+        "de": ""
+      },
+      "bild_url": "../img/2020_fs/woche-5_header.png",
+      "video_url": "https://youtu.be/Ecv6v0wKvd4",
+      "podcast_url": "",
+      "a4_pdf": "https://mcusercontent.com/7c9d2aa0ecc1fde64fd44bc67/files/ae698801-d234-4333-af0a-0131587dec43/S5_Exerzitien_2020_DE_NEU.pdf",
+      "phone_pdf": "https://mcusercontent.com/7c9d2aa0ecc1fde64fd44bc67/files/bfbb26b9-1ccd-4b23-93ee-ce1045135516/S5_Smartphone_Exerzitien_2020_DE_NEU.pdf",
+      "mail_link": "https://mailchi.mp/karmel/einladung-zu-adventexerzitien-online-1157285",
+      "days": [
+        {
+          "day_index": 1,
+          "day_key": "monday",
+          "reflection": {
+            "de": "Tagesimpuls Montag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 2,
+          "day_key": "tuesday",
+          "reflection": {
+            "de": "Tagesimpuls Dienstag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 3,
+          "day_key": "wednesday",
+          "reflection": {
+            "de": "Tagesimpuls Mittwoch."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 4,
+          "day_key": "thursday",
+          "reflection": {
+            "day": "",
+            "motif": "",
+            "bible": "",
+            "bible_ref": "",
+            "saint_text": "",
+            "saint_text_ref": "",
+            "prayer": ""
+          }
+        },
+        {
+          "day_index": 5,
+          "day_key": "friday",
+          "reflection": {
+            "de": "Tagesimpuls Freitag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 6,
+          "day_key": "saturday",
+          "reflection": {
+            "de": "Tagesimpuls Samstag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 7,
+          "day_key": "sunday",
+          "reflection": {
+            "de": "Tagesimpuls Sonntag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        }
+      ]
+    },
+    {
+      "woche_number": 6,
+      "slug": "woche-6",
+      "title": "Karwoche: Der wahrhaft Geistliche",
+      "kurz_text": "Jesus ist öffentlich in Jerusalem eingezogen und die Menge jubelte ihm als ihren Messias zu: „Hosanna dem Sohn Davids! Gesegnet sei er, der kommt im Namen des Herrn!“ (Mt 21,9). Aber die Menge ist wankelmütig und wird einige Tage später Pilatus zurufen: „Kreuzige ihn!“ (Mt 27,22). Jesus wird zum Objekt der Entfesselung menschlicher Gewalt in den Rufen und Schlägen. Der Kont",
+      "main_text": {
+        "de": ""
+      },
+      "bild_url": "../img/2020_fs/woche-6_header.png",
+      "video_url": "https://youtu.be/zgyC77pPi44",
+      "podcast_url": "",
+      "a4_pdf": "https://mcusercontent.com/7c9d2aa0ecc1fde64fd44bc67/files/2d093ccb-99ea-40f8-ad24-6b247c19f66f/S6_Exerzitien_2020_D.pdf",
+      "phone_pdf": "https://mcusercontent.com/7c9d2aa0ecc1fde64fd44bc67/files/298b4104-4ca5-4cf5-be2b-071cb39c5c11/S6_Smartphone_Exerzitien_2020_D.pdf",
+      "mail_link": "https://mailchi.mp/karmel/einladung-zu-adventexerzitien-online-1157301",
+      "days": [
+        {
+          "day_index": 1,
+          "day_key": "monday",
+          "reflection": {
+            "de": "Tagesimpuls Montag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 2,
+          "day_key": "tuesday",
+          "reflection": {
+            "de": "Tagesimpuls Dienstag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 3,
+          "day_key": "wednesday",
+          "reflection": {
+            "de": "Tagesimpuls Mittwoch."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 4,
+          "day_key": "thursday",
+          "reflection": {
+            "day": "",
+            "motif": "",
+            "bible": "",
+            "bible_ref": "",
+            "saint_text": "",
+            "saint_text_ref": "",
+            "prayer": ""
+          }
+        },
+        {
+          "day_index": 5,
+          "day_key": "friday",
+          "reflection": {
+            "de": "Tagesimpuls Freitag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 6,
+          "day_key": "saturday",
+          "reflection": {
+            "de": "Tagesimpuls Samstag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 7,
+          "day_key": "sunday",
+          "reflection": {
+            "de": "Tagesimpuls Sonntag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        }
+      ]
+    },
+    {
+      "woche_number": 7,
+      "slug": "woche-7",
+      "title": "Ostern: In dieser seligen Nacht",
+      "kurz_text": "Die Frauen trauen ihren Ohren nicht. Sie sind von den Worten des Engels so erschüt tert, dass sie sich nicht einmal die Zeit zu nehmen scheinen, in die Grabeshöhle zu gehen; sie laufen weg! Sie glauben wirklich, dass der Gekreuzigte, den sie suchten, vom Tod erstanden ist; nicht für das eine Mal wie Lazarus, sondern endgültig...",
+      "main_text": {
+        "gospel": "",
+        "de": "Haupttext der Woche."
+      },
+      "bild_url": "../img/2020_fs/woche-7_header.png",
+      "video_url": "https://youtu.be/7BZ91WLrX-4",
+      "podcast_url": "",
+      "a4_pdf": "https://mcusercontent.com/7c9d2aa0ecc1fde64fd44bc67/files/58ca6978-bd0b-42e0-bbdf-70716c093595/S7_Exerzitien_2020_D.pdf",
+      "phone_pdf": "https://mcusercontent.com/7c9d2aa0ecc1fde64fd44bc67/files/d3965e60-e331-4cd6-95f0-c3db620247f8/S7_Smartphone_Exerzitien_2020_D.pdf",
+      "mail_link": "https://mailchi.mp/karmel/einladung-zu-adventexerzitien-online-1157345",
+      "days": [
+        {
+          "day_index": 1,
+          "day_key": "monday",
+          "reflection": {
+            "de": "Tagesimpuls Montag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 2,
+          "day_key": "tuesday",
+          "reflection": {
+            "de": "Tagesimpuls Dienstag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 3,
+          "day_key": "wednesday",
+          "reflection": {
+            "de": "Tagesimpuls Mittwoch."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 4,
+          "day_key": "thursday",
+          "reflection": {
+            "day": "",
+            "motif": "",
+            "bible": "",
+            "bible_ref": "",
+            "saint_text": "",
+            "saint_text_ref": "",
+            "prayer": ""
+          }
+        },
+        {
+          "day_index": 5,
+          "day_key": "friday",
+          "reflection": {
+            "de": "Tagesimpuls Freitag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 6,
+          "day_key": "saturday",
+          "reflection": {
+            "de": "Tagesimpuls Samstag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 7,
+          "day_key": "sunday",
+          "reflection": {
+            "de": "Tagesimpuls Sonntag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        }
+      ]
+    }
+  ]
+}

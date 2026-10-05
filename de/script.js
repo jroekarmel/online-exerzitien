@@ -15,7 +15,8 @@ const languages = {
   mt: "Malti",
   nl: "Nederlands",
   ro: "Română",
-  vi: "Tiếng Việt"
+  vi: "Tiếng Việt",
+  id: "Bahasa Indonesia"
 };
   document.getElementById("year").textContent = new Date().getFullYear();
 

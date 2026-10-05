@@ -1,0 +1,481 @@
+{
+  "retreat_id": "advent-2026-maria-von-jesus",
+  "season_type": "advent",
+  "weeks": [
+    {
+      "woche_number": 0,
+      "slug": "woche-0",
+      "title": "Einleitung: Von der gespannten Erwartung hin zum Frieden: mit Mirjam gehen",
+      "kurz_text": "1) Drei Ankünfte, eine Hoffnung. 2) Heilige Maria von Jesus, dem Gekreuzigten: eine kleine Schwester für unsere Zeit. 3) Biographische Grundzüge.",
+      "main_text": {
+        "de": "Haupttext der Woche."
+      },
+      "bild_url": "../img/2025_ad/2025_ad_woche-0_header.png",
+      "video_url": "https://www.youtube.com/watch?v=4pk6q0wZrmY",
+      "podcast_url": "https://www.buzzsprout.com/870355/episodes/18250289",
+      "a4_pdf": "https://mcusercontent.com/7c9d2aa0ecc1fde64fd44bc67/files/1c4827c9-28c8-2dd2-e8d1-d4fbdf589b55/Intro_DE.pdf",
+      "phone_pdf": "https://mcusercontent.com/7c9d2aa0ecc1fde64fd44bc67/files/b350c910-8abb-ce12-a189-f467528e420e/Intro_DE_mobil.pdf",
+      "mail_link": "https://mailchi.mp/karmel/einladung-zu-adventexerzitien-2018-7362955",
+      "days": [
+        {
+          "day_index": 1,
+          "day_key": "thursday",
+          "reflection": {
+            "day": "",
+            "motif": "",
+            "bible": "",
+            "bible_ref": "",
+            "saint_text": "",
+            "saint_text_ref": "",
+            "prayer": ""
+          }
+        },
+        {
+          "day_index": 2,
+          "day_key": "friday",
+          "reflection": {
+            "de": "Tagesimpuls Freitag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 3,
+          "day_key": "saturday",
+          "reflection": {
+            "de": "Tagesimpuls Samstag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 4,
+          "day_key": "sunday",
+          "reflection": {
+            "de": "Tagesimpuls Sonntag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        }
+      ]
+    },
+    {
+      "woche_number": 1,
+      "slug": "woche-1",
+      "title": "1. Sonntag: Kommet und Wachet",
+      "kurz_text": "So möchte uns Mirjam von Jesus, dem Gekreuzigten, wachrütteln ...",
+      "main_text": "",
+      "bild_url": "../img/2025_ad/2025_ad_woche-1_header.png",
+      "video_url": "https://youtu.be/2pFAqVmJjAw",
+      "podcast_url": "https://www.buzzsprout.com/870355/episodes/18258880",
+      "a4_pdf": "https://mcusercontent.com/7c9d2aa0ecc1fde64fd44bc67/files/7f2bf031-fbc5-8b93-4361-cd099321f6e3/W1_DE.pdf",
+      "phone_pdf": "https://mcusercontent.com/7c9d2aa0ecc1fde64fd44bc67/files/77f3e064-6ed0-c82c-c0a8-1d98570f558a/W1_DE_mobil.pdf",
+      "mail_link": "https://mailchi.mp/karmel/einladung-zu-adventexerzitien-2018-7362999",
+      "days": [
+        {
+          "day_index": 1,
+          "day_key": "monday",
+          "reflection": {
+            "de": "Tagesimpuls Montag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 2,
+          "day_key": "tuesday",
+          "reflection": {
+            "de": "Tagesimpuls Dienstag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 3,
+          "day_key": "wednesday",
+          "reflection": {
+            "de": "Tagesimpuls Mittwoch."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 4,
+          "day_key": "thursday",
+          "reflection": {
+            "day": "",
+            "motif": "",
+            "bible": "",
+            "bible_ref": "",
+            "saint_text": "",
+            "saint_text_ref": "",
+            "prayer": ""
+          }
+        },
+        {
+          "day_index": 5,
+          "day_key": "friday",
+          "reflection": {
+            "de": "Tagesimpuls Freitag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 6,
+          "day_key": "saturday",
+          "reflection": {
+            "de": "Tagesimpuls Samstag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 7,
+          "day_key": "sunday",
+          "reflection": {
+            "de": "Tagesimpuls Sonntag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        }
+      ]
+    },
+    {
+      "woche_number": 2,
+      "slug": "woche-2",
+      "title": "2. Sonntag: Mirjam und der Heilige Geist",
+      "kurz_text": "Kehrt um ... Der, der kommt, tauft mit dem Heiligen Geist und mit Feuer",
+      "main_text": {
+        "de": "Haupttext der Woche."
+      },
+      "bild_url": "../img/2025_ad/2025_ad_woche-2_header.png",
+      "video_url": "https://youtu.be/GhZgKsVH57U",
+      "podcast_url": "https://www.buzzsprout.com/870355/episodes/18297731",
+      "a4_pdf": "https://mcusercontent.com/7c9d2aa0ecc1fde64fd44bc67/files/1d8db0c6-e760-502d-18bf-2abdd654d195/W2_DE.pdf",
+      "phone_pdf": "https://mcusercontent.com/7c9d2aa0ecc1fde64fd44bc67/files/e43fb726-32bf-b8d7-36ff-1a17f670d443/W2_DE_mobil.pdf",
+      "mail_link": "https://mailchi.mp/karmel/einladung-zu-adventexerzitien-2018-7363039",
+      "days": [
+        {
+          "day_index": 1,
+          "day_key": "monday",
+          "reflection": {
+            "de": "Tagesimpuls Montag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 2,
+          "day_key": "tuesday",
+          "reflection": {
+            "de": "Tagesimpuls Dienstag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 3,
+          "day_key": "wednesday",
+          "reflection": {
+            "de": "Tagesimpuls Mittwoch."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 4,
+          "day_key": "thursday",
+          "reflection": {
+            "day": "",
+            "motif": "",
+            "bible": "",
+            "bible_ref": "",
+            "saint_text": "",
+            "saint_text_ref": "",
+            "prayer": ""
+          }
+        },
+        {
+          "day_index": 5,
+          "day_key": "friday",
+          "reflection": {
+            "de": "Tagesimpuls Freitag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 6,
+          "day_key": "saturday",
+          "reflection": {
+            "de": "Tagesimpuls Samstag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 7,
+          "day_key": "sunday",
+          "reflection": {
+            "de": "Tagesimpuls Sonntag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        }
+      ]
+    },
+    {
+      "woche_number": 3,
+      "slug": "woche-3",
+      "title": "3. Sonntag: Die Freude Gottes empfangen!",
+      "kurz_text": "Die prophetische Freude: ein Blick, der über die Prüfung hinausgeht",
+      "main_text": {
+        "de": "Haupttext der Woche."
+      },
+      "bild_url": "../img/2025_ad/2025_ad_woche-3_header.png",
+      "video_url": "https://www.youtube.com/watch?v=TnP29FmmRoA",
+      "podcast_url": "https://www.buzzsprout.com/870355/episodes/18338187-die-freude-gottes-empfangen-exerzitien-mit-mirjam-von-jesus-dem-gekreuzigten.mp3?download=true",
+      "a4_pdf": "https://mcusercontent.com/7c9d2aa0ecc1fde64fd44bc67/files/a59cec7a-14a9-1704-d192-167163133189/W3_DE.pdf",
+      "phone_pdf": "https://mcusercontent.com/7c9d2aa0ecc1fde64fd44bc67/files/4c5a018a-7d07-f841-e876-9fff46140716/W3_DE_mobil.pdf",
+      "mail_link": "https://mailchi.mp/karmel/einladung-zu-adventexerzitien-2018-7363068",
+      "days": [
+        {
+          "day_index": 1,
+          "day_key": "monday",
+          "reflection": {
+            "de": "Tagesimpuls Montag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 2,
+          "day_key": "tuesday",
+          "reflection": {
+            "de": "Tagesimpuls Dienstag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 3,
+          "day_key": "wednesday",
+          "reflection": {
+            "de": "Tagesimpuls Mittwoch."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 4,
+          "day_key": "thursday",
+          "reflection": {
+            "day": "",
+            "motif": "",
+            "bible": "",
+            "bible_ref": "",
+            "saint_text": "",
+            "saint_text_ref": "",
+            "prayer": ""
+          }
+        },
+        {
+          "day_index": 5,
+          "day_key": "friday",
+          "reflection": {
+            "de": "Tagesimpuls Freitag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 6,
+          "day_key": "saturday",
+          "reflection": {
+            "de": "Tagesimpuls Samstag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 7,
+          "day_key": "sunday",
+          "reflection": {
+            "de": "Tagesimpuls Sonntag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        }
+      ]
+    },
+    {
+      "woche_number": 4,
+      "slug": "woche-4",
+      "title": "4. Sonntag: Mit Maria und Josef … Sich dem Willen Gottes hingeben",
+      "kurz_text": "Von der Hingabe an Gottes Willen. Mirjam, Tochter Mariens und Josefs: Hingabe als Weg zur Vereinigung mit Gott",
+      "main_text": {
+        "de": "Haupttext der Woche."
+      },
+      "bild_url": "../img/2025_ad/2025_ad_woche-4_header.png",
+      "video_url": "https://youtu.be/ZZq7X_VOYcA",
+      "podcast_url": "https://www.buzzsprout.com/870355/episodes/18377938-mit-maria-und-josef-exerzitien-mit-mirjam-von-jesus-dem-gekreuzigten.mp3?download=true",
+      "a4_pdf": "https://mcusercontent.com/7c9d2aa0ecc1fde64fd44bc67/files/bacd99f7-20d2-23f6-bef0-c6cb90d63b85/W4_DE.pdf",
+      "phone_pdf": "https://mcusercontent.com/7c9d2aa0ecc1fde64fd44bc67/files/f398ccb9-7bf5-2370-2cc2-373d6cc8d9f4/W4_DE_mobil.pdf",
+      "mail_link": "hhttps://mailchi.mp/karmel/einladung-zu-adventexerzitien-2018-7363097",
+      "days": [
+        {
+          "day_index": 1,
+          "day_key": "monday",
+          "reflection": {
+            "de": "Tagesimpuls Montag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 2,
+          "day_key": "tuesday",
+          "reflection": {
+            "de": "Tagesimpuls Dienstag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 3,
+          "day_key": "wednesday",
+          "reflection": {
+            "de": "Tagesimpuls Mittwoch."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 4,
+          "day_key": "thursday",
+          "reflection": {
+            "day": "",
+            "motif": "",
+            "bible": "",
+            "bible_ref": "",
+            "saint_text": "",
+            "saint_text_ref": "",
+            "prayer": ""
+          }
+        },
+        {
+          "day_index": 5,
+          "day_key": "friday",
+          "reflection": {
+            "de": "Tagesimpuls Freitag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 6,
+          "day_key": "saturday",
+          "reflection": {
+            "de": "Tagesimpuls Samstag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 7,
+          "day_key": "sunday",
+          "reflection": {
+            "de": "Tagesimpuls Sonntag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        }
+      ]
+    },
+    {
+      "woche_number": 5,
+      "slug": "woche-5",
+      "title": "5. Sonntag: Beten für den Frieden",
+      "kurz_text": "Wie zu Zeiten des Propheten Jesaja setzen die „Mächtigen dieser Welt“ auf den Krieg, um ihre Herrschaft zu etablieren...",
+      "main_text": {
+        "de": "Haupttext der Woche."
+      },
+      "bild_url": "../img/2025_ad/2025_ad_woche-5_header.png",
+      "video_url": "https://www.youtube.com/watch?v=qd2YojQ4_0c",
+      "podcast_url": "https://www.buzzsprout.com/870355/episodes/18407025-weihnachten-beten-fur-den-frieden-exerzitien-mit-mirjam-von-jesus-dem-gekreuzigten.mp3?download=true",
+      "a4_pdf": "https://mcusercontent.com/7c9d2aa0ecc1fde64fd44bc67/files/d00a97ba-158e-36f6-870b-99b5d241b125/Noel_DE.pdf",
+      "phone_pdf": "https://mcusercontent.com/7c9d2aa0ecc1fde64fd44bc67/files/24601200-dfa0-bc49-79be-856e9212e62d/Noel_DE_mobil.pdf",
+      "mail_link": "https://mailchi.mp/karmel/einladung-zu-adventexerzitien-2018-7363127",
+      "days": [
+        {
+          "day_index": 1,
+          "day_key": "monday",
+          "reflection": {
+            "de": "Tagesimpuls Montag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 2,
+          "day_key": "tuesday",
+          "reflection": {
+            "de": "Tagesimpuls Dienstag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 3,
+          "day_key": "wednesday",
+          "reflection": {
+            "de": "Tagesimpuls Mittwoch."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 4,
+          "day_key": "thursday",
+          "reflection": {
+            "day": "",
+            "motif": "",
+            "bible": "",
+            "bible_ref": "",
+            "saint_text": "",
+            "saint_text_ref": "",
+            "prayer": ""
+          }
+        },
+        {
+          "day_index": 5,
+          "day_key": "friday",
+          "reflection": {
+            "de": "Tagesimpuls Freitag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 6,
+          "day_key": "saturday",
+          "reflection": {
+            "de": "Tagesimpuls Samstag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        },
+        {
+          "day_index": 7,
+          "day_key": "sunday",
+          "reflection": {
+            "de": "Tagesimpuls Sonntag."
+          },
+          "video_url": "",
+          "podcast_url": ""
+        }
+      ]
+    }
+  ]
+}
