@@ -875,7 +875,7 @@ summary {
       var(--hero-overlay),
       var(--hero-overlay)
     ),
-  url("../de/img/header_img_teresa_johannes.jpg");
+  url("./img/header_img_teresa_johannes.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
