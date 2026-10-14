@@ -106,7 +106,7 @@
       },
       "header_img": {
         "fr": "",
-        "de": "../de/img/2026_advent_header_DE.jpg",
+        "de": "./img/2026_advent_header_DE.jpg",
         "es": "",
         "it": "",
         "en": "../en/img/2026_advent_header_EN.jpg",
@@ -223,7 +223,7 @@
       },
       "header_img": {
         "fr": "",
-        "de": "../de/img/2026_lent_header_DE.png",
+        "de": "./img/2026_lent_header_DE.png",
         "es": "../es/img/2026_lent_header_ES.png",
         "it": "../it/img/2026_lent_header_IT.png",
         "en": "../en/img/2026_lent_header_EN.png",
@@ -340,7 +340,7 @@
       },
       "header_img": {
         "fr": "",
-        "de": "../de/img/AD25_header_DE.png",
+        "de": "./img/AD25_header_DE.png",
         "es": "../es/img/2025_advent_header_ES.png",
         "it": "../it/img/2025_advent_header_IT.jpg",
         "en": "../en/img/2025_advent_header_EN.png",
@@ -457,7 +457,7 @@
       },
       "header_img": {
         "fr": "../img/FS25_header_FR.png",
-        "de": "../de/img/FS25_header_DE.png",
+        "de": "./img/FS25_header_DE.png",
         "es": "../es/img/FS25_header_ES.png",
         "it": "../it/img/2025_lent_header_IT.png",
         "en": "../en/img/2025_lent_header_EN.png",
@@ -574,7 +574,7 @@
       },
       "header_img": {
         "fr": "../img/AD24_header_FR.png",
-        "de": "../de/img/AD24_header_DE.png",
+        "de": "./img/AD24_header_DE.png",
         "es": "../img/AD24_header_ES.png",
         "it": "../it/img/2024_advent_header_IT.png",
         "en": "../img/AD24_header_EN.png",
@@ -691,7 +691,7 @@
       },
       "header_img": {
         "fr": "../img/2024_lent_header_FR.png",
-        "de": "../de/img/2024_lent_header_DE.png",
+        "de": "./img/2024_lent_header_DE.png",
         "es": "../es/img/2024_lent_header_ES.png",
         "it": "../it/img/2024_lent_header_IT.png",
         "en": "../en/img/2024_lent_header_EN.png",
@@ -808,7 +808,7 @@
       },
       "header_img": {
         "fr": "../img/2023_advent_header_FR.png",
-        "de": "../de/img/2023_advent_header_DE.png",
+        "de": "./img/2023_advent_header_DE.png",
         "es": "../img/2023_advent_header_ES.png",
         "it": "../it/img/2023_advent_header_IT.jpg",
         "en": "../img/2023_advent_header_EN.png",
@@ -925,7 +925,7 @@
       },
       "header_img": {
         "fr": "../img/2023_lent_header_FR.png",
-        "de": "../de/img/2023_lent_header_DE.png",
+        "de": "./img/2023_lent_header_DE.png",
         "es": "../img/2023_lent_header_ES.png",
         "it": "../it/img/2023_lent_header_IT.png",
         "en": "../img/2023_lent_header_EN.png",
@@ -1040,7 +1040,7 @@
       },
       "header_img": {
         "fr": "../img/AD22_header_FR.png",
-        "de": "../de/img/AD22_header_DE.png",
+        "de": "./img/AD22_header_DE.png",
         "es": "../img/AD22_header_ES.png",
         "it": "../it/img/AD22_header_IT.png",
         "en": "../img/AD22_header_EN.png",
@@ -1157,7 +1157,7 @@
       },
       "header_img": {
         "fr": "../img/FS22_header_FR.png",
-        "de": "../de/img/FS22_header_DE.jpg",
+        "de": "./img/FS22_header_DE.jpg",
         "es": "../img/FS22_header_ES.png",
         "it": "../it/img/FS22_header_IT.png",
         "en": "../img/FS22_header_EN.png",
@@ -1274,7 +1274,7 @@
       },
       "header_img": {
         "fr": "../img/AD21_header_FR.png",
-        "de": "../de/img/AD21_header_DE.jpg",
+        "de": "./img/AD21_header_DE.jpg",
         "es": "../img/AD21_header_ES.png",
         "it": "../it/img/AD21_header_IT.png",
         "en": "../img/AD21_header_EN.png",
@@ -1391,7 +1391,7 @@
       },
       "header_img": {
         "fr": "../img/FS21_header_FR.png",
-        "de": "../de/img/FS21_header_DE.jpg",
+        "de": "./img/FS21_header_DE.jpg",
         "es": "../es/img/2021_lent_header_ES.jpg",
         "it": "../it/img/FS21_header_IT.png",
         "en": "../img/FS21_header_EN.png",
@@ -1508,7 +1508,7 @@
       },
       "header_img": {
         "fr": "../img/AD20_header_FR.png",
-        "de": "../de/img/AD20_header_DE.jpg",
+        "de": "./img/AD20_header_DE.jpg",
         "es": "../img/AD20_header_ES.png",
         "it": "../it/img/AD20_header_IT.png",
         "en": "../img/AD20_header_EN.png",
@@ -1625,7 +1625,7 @@
       },
       "header_img": {
         "fr": "../img/FS20_header_FR.png",
-        "de": "../de/img/FS20_header_DE.jpg",
+        "de": "./img/FS20_header_DE.jpg",
         "es": "../img/FS20_header_ES.png",
         "it": "../it/img/FS20_header_IT.png",
         "en": "../img/FS20_header_EN.png",
@@ -1742,7 +1742,7 @@
       },
       "header_img": {
         "fr": "../img/AD19_header_FR.png",
-        "de": "../de/img/AD19_header_DE.jpg",
+        "de": "./img/AD19_header_DE.jpg",
         "es": "../img/AD19_header_ES.png",
         "it": "../it/img/AD19_header_IT.png",
         "en": "../img/AD19_header_EN.png",
@@ -1859,7 +1859,7 @@
       },
       "header_img": {
         "fr": "../img/FS19_header_FR.png",
-        "de": "../de/img/FS19_header_DE.jpg",
+        "de": "./img/FS19_header_DE.jpg",
         "es": "../img/FS19_header_ES.png",
         "it": "../it/img/FS19_header_IT.png",
         "en": "../img/FS19_header_EN.png",
@@ -1976,7 +1976,7 @@
       },
       "header_img": {
         "fr": "../img/AD18_header_FR.png",
-        "de": "../de/img/AD18_header_DE.jpg",
+        "de": "./img/AD18_header_DE.jpg",
         "es": "../img/AD18_header_ES.png",
         "it": "../it/img/AD18_header_IT.png",
         "en": "../img/AD18_header_EN.png",
@@ -2093,7 +2093,7 @@
       },
       "header_img": {
         "fr": "../img/FS18_header_FR.png",
-        "de": "../de/img/FS18_header_DE.jpg",
+        "de": "./img/FS18_header_DE.jpg",
         "es": "../img/FS18_header_ES.png",
         "it": "../it/img/FS18_header_IT.png",
         "en": "../img/FS18_header_EN.png",
@@ -2210,7 +2210,7 @@
       },
       "header_img": {
         "fr": "../img/AD17_header_FR.png",
-        "de": "../de/img/AD17_header_DE.jpg",
+        "de": "./img/AD17_header_DE.jpg",
         "es": "../img/AD17_header_ES.png",
         "it": "../it/img/AD17_header_IT.png",
         "en": "../img/AD17_header_EN.png",
@@ -2327,7 +2327,7 @@
       },
       "header_img": {
         "fr": "../img/FS17_header_FR.png",
-        "de": "../de/img/FS17_header_DE.jpg",
+        "de": "./img/FS17_header_DE.jpg",
         "es": "../img/FS17_header_ES.png",
         "it": "../it/img/FS17_header_IT.png",
         "en": "../img/FS17_header_EN.png",
@@ -2444,7 +2444,7 @@
       },
       "header_img": {
         "fr": "../img/AD16_header_FR.png",
-        "de": "../de/img/AD16_header_DE.jpg",
+        "de": "./img/AD16_header_DE.jpg",
         "es": "../img/AD16_header_ES.png",
         "it": "../it/img/AD16_header_IT.png",
         "en": "../img/AD16_header_EN.png",
@@ -2561,7 +2561,7 @@
       },
       "header_img": {
         "fr": "../img/FS16_header_FR.png",
-        "de": "../de/img/FS16_header_DE.jpg",
+        "de": "./img/FS16_header_DE.jpg",
         "es": "../img/FS16_header_ES.png",
         "it": "../it/img/FS16_header_IT.png",
         "en": "../img/FS16_header_EN.png",
@@ -2678,7 +2678,7 @@
       },
       "header_img": {
         "fr": "../img/AD15_header_FR.png",
-        "de": "../de/img/AD15_header_DE.jpg",
+        "de": "./img/AD15_header_DE.jpg",
         "es": "../img/AD15_header_ES.png",
         "it": "../it/img/AD15_header_IT.png",
         "en": "../img/AD15_header_EN.png",
@@ -2795,7 +2795,7 @@
       },
       "header_img": {
         "fr": "../img/FS15_header_FR.png",
-        "de": "../de/img/FS15_header_DE.jpg",
+        "de": "./img/FS15_header_DE.jpg",
         "es": "../img/FS15_header_ES.png",
         "it": "../it/img/FS15_header_IT.png",
         "en": "../img/FS15_header_EN.png",
@@ -2912,7 +2912,7 @@
       },
       "header_img": {
         "fr": "../img/AD14_header_FR.png",
-        "de": "../de/img/AD14_header_DE.jpg",
+        "de": "./img/AD14_header_DE.jpg",
         "es": "../img/AD14_header_ES.png",
         "it": "../it/img/AD14_header_IT.png",
         "en": "../img/AD14_header_EN.png",
@@ -3029,7 +3029,7 @@
       },
       "header_img": {
         "fr": "../img/FS14_header_FR.png",
-        "de": "../de/img/FS14_header_DE.jpg",
+        "de": "./img/FS14_header_DE.jpg",
         "es": "../img/FS14_header_ES.png",
         "it": "../it/img/FS14_header_IT.png",
         "en": "../img/FS14_header_EN.png",
@@ -3146,7 +3146,7 @@
       },
       "header_img": {
         "fr": "../img/AD13_header_FR.png",
-        "de": "../de/img/AD13_header_DE.jpg",
+        "de": "./img/AD13_header_DE.jpg",
         "es": "../img/AD13_header_ES.png",
         "it": "../it/img/AD13_header_IT.png",
         "en": "../img/AD13_header_EN.png",
@@ -3263,7 +3263,7 @@
       },
       "header_img": {
         "fr": "../img/FS13_header_FR.png",
-        "de": "../de/img/FS13_header_DE.jpg",
+        "de": "./img/FS13_header_DE.jpg",
         "es": "../img/FS13_header_ES.png",
         "it": "../it/img/FS13_header_IT.png",
         "en": "../img/FS13_header_EN.png",
@@ -3362,7 +3362,7 @@
       },
       "header_img": {
         "fr": "../img/AD12_header_FR.png",
-        "de": "../de/img/AD12_header_DE.jpg",
+        "de": "./img/AD12_header_DE.jpg",
         "es": "../img/AD12_header_ES.png",
         "it": "../it/img/AD12_header_IT.png",
         "en": "../img/AD12_header_EN.png",
@@ -3479,7 +3479,7 @@
       },
             "header_img": {
         "fr": "../img/AD12_header_FR.png",
-        "de": "../de/img/FS12_header_DE.png",
+        "de": "./img/FS12_header_DE.png",
         "es": "../img/AD12_header_ES.png",
         "it": "../it/img/AD12_header_IT.png",
         "en": "../img/AD12_header_EN.png",
