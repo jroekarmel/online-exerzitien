@@ -102,6 +102,10 @@
   --hover-color: var(--color-surface-2);
 }
 
+.logo-dark {
+  display: none;
+}
+
 
 /* Explicit dark mode */
 
@@ -159,6 +163,13 @@
   --border-color: var(--color-border);
   --color-background: var(--color-bg);
   --hover-color: #303b44;
+      .logo-light {
+    display: none;
+  }
+
+  .logo-dark {
+    display: block;
+  }
 }
 
 
@@ -793,6 +804,11 @@ summary {
   background: var(--color-primary-soft);
   color: var(--color-primary);
   font-size: 1.1rem;
+}
+[data-theme="dark"] {
+  .brand-mark {
+    filter: invert(1);
+  }
 }
 
 .brand-text {
