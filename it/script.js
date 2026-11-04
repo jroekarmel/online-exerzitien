@@ -228,7 +228,7 @@ document.addEventListener("DOMContentLoaded", async () => {
           ${escapeHtml(summary)}
         </p>
 
-        <div class="card-links">
+        <div class="card-links" hidden>
           <a href="${escapeHtml(link)}" target="_blank" rel="noopener noreferrer">
             Access the materials
           </a>
@@ -380,7 +380,7 @@ return `
           ${escapeHtml(saint.bio)}
         </p>
 
-        <div class="card-links">
+        <div class="card-links" hidden>
           <a href="${escapeHtml(saint.link || "#")}" target="_blank" rel="noopener noreferrer">
             Learn more
           </a>
