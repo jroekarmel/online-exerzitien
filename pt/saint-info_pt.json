@@ -1,0 +1,115 @@
+[
+  {
+    "name": "São João da Cruz",
+    "slug": "johannes_vom_kreuz",
+    "bio_en": "São João da Cruz (1542–1591) foi um carmelita espanhol, místico e Doutor da Igreja, conhecido pelos seus ensinamentos sobre o caminho espiritual de purificação e união com Deus.",
+    "image": "./img/saints/johannes_vom_kreuz.jpg",
+    "link": "#"
+  },
+  {
+    "name": "Santa Maria de Jesus Crucificado",
+    "slug": "mirjam_von_jesus_dem_gekreuzigten",
+    "bio_en": "Santa Maria de Jesus Crucificado (1846–1878), conhecida como a «Pequena Árabe», nasceu na Terra Santa. Foi uma humilde carmelita que aprendeu a ler e a escrever já adulta e fundou mosteiros carmelitas na Terra Santa e na Índia. A sua vida simples e luminosa, conduzida pelo Espírito Santo, convida-nos a deixar-nos amar e transformar por Jesus.",
+    "bio_en_long": "Mariam Baouardy nasceu a 5 de janeiro de 1846 em Ibillin, na Alta Galileia, numa família cristã oriental pobre e profundamente crente. Depois de os seus pais terem perdido doze filhos rapazes ainda na infância, Mariam nasceu graças a uma peregrinação a Belém. Dois anos mais tarde nasceu o seu irmão Boulos, mas, quando tinha apenas três anos, Mariam perdeu ambos os pais e foi confiada a um tio paterno, que mais tarde se mudou para Alexandria.\nDesde muito jovem, manifestou uma profunda sensibilidade espiritual, percebendo a natureza passageira da vida e sentindo o convite a entregar o seu coração a Deus. Ainda antes de completar 13 anos, recusou um casamento arranjado, desejando consagrar-se inteiramente a Cristo. Maltratada pelo tio, procurou um antigo criado deste, que tentou pressioná-la a converter-se ao Islão. Mariam recusou, proclamando a sua fé cristã. O criado cortou-lhe a garganta e abandonou-a numa viela escura. Mariam despertou numa gruta, onde foi cuidada por uma mulher vestida de azul, que mais tarde identificaria como a Virgem Maria. Uma mulher conduziu-a depois a uma igreja e deixou-a ali. Mariam começou a trabalhar como criada para várias famílias em Alexandria, Jerusalém, Beirute e, posteriormente, Marselha, onde, em 1865, entrou na congregação das Irmãs de São José da Aparição. Em breve começaram a manifestar-se os seus dons místicos: visões, êxtases, estigmas e profecias. Após dois anos de noviciado, não lhe foi permitido professar os votos.\nEm junho de 1867, entrou no Carmelo de Pau, em França, como irmã conversa, tomando o nome de Irmã Maria de Jesus Crucificado. Pequena e discreta, dedicou-se aos trabalhos manuais, vivendo os seus dons místicos com humildade. Em 1870, partiu para a Índia para ajudar a fundar o Carmelo de Mangalore, onde desempenhou a sua missão com grande espírito de abnegação. Professou os seus votos no final do noviciado, a 21 de novembro de 1871. Contudo, começaram a surgir mal-entendidos em torno das manifestações dos seus dons místicos, levantando dúvidas sobre a autenticidade das suas experiências. As tensões daí resultantes levaram finalmente ao seu regresso ao Carmelo de Pau, em França, em 1872. Foi ali recebida calorosamente e retomou a sua vida simples como irmã conversa, rodeada pelo carinho das suas irmãs.\nEm 1875, depois de muitos obstáculos, fundou o Carmelo de Belém. O Senhor revelou-lhe tanto o local como os planos de construção. Graças aos seus conhecimentos de árabe, pôde acompanhar e supervisionar as obras. Contribuiu também para a aquisição de terrenos destinados ao futuro Carmelo de Nazaré. Enquanto transportava água para os trabalhadores da construção do Carmelo de Belém, caiu e ficou gravemente ferida. A gangrena provocou a sua morte a 26 de agosto de 1878. A sua vida, marcada pela humildade, pelo serviço e pelas experiências místicas, faz dela uma testemunha do universo invisível da fé.",
+    "image": "./img/saints/mirjam_von_jesus.jpg",
+    "link": "#"
+  },
+  {
+    "name": "Santa Teresa de Lisieux",
+    "slug": "therese_von_lisieux",
+    "bio_en": "Santa Teresa de Lisieux (1873–1897), carmelita e Doutora da Igreja, ensinou o «Pequeno Caminho» da confiança e do amor. É uma das santas mais populares dos tempos modernos.",
+    "image": "./img/saints/therese_von_lisieux.png",
+    "link": "#"
+  },
+  {
+    "name": "Padre Jacques de Jesus",
+    "slug": "pater_jacques_von_jesus",
+    "bio_en": "O Padre Jacques de Jesus (1900–1945), carmelita e sacerdote francês, escondeu crianças judias durante a Segunda Guerra Mundial. Foi preso e morreu pouco depois da libertação de um campo de concentração.",
+    "image": "./img/saints/pater_jacques_von_jesus.jpg",
+    "link": "#"
+  },
+  {
+    "name": "Santa Teresa dos Andes",
+    "slug": "teresa_de_los_andes",
+    "bio_en": "Teresa dos Andes (1900–1920) foi uma carmelita chilena que, desde muito jovem, se destacou pelo seu profundo amor a Cristo e pela sua dedicação à vida conventual.",
+    "image": "./img/saints/teresa_de_los_andes.jpg",
+    "link": "#"
+  },
+  {
+    "name": "Os Santos do Carmelo",
+    "slug": "die_heiligen_des_karmel",
+    "bio_en": "Os santos do Carmelo incluem uma grande multidão de homens e mulheres que alcançaram a santidade no espírito de Maria do Monte Carmelo, através da contemplação, do sacrifício e do serviço à Igreja.",
+    "image": "./img/saints/heiligen_des_karmel.jpg",
+    "link": "#"
+  },
+  {
+    "name": "Santa Teresa de Ávila",
+    "slug": "teresa_von_avila",
+    "bio_en": "Santa Teresa de Ávila (1515–1582) foi uma mística espanhola, reformadora do Carmelo e Doutora da Igreja, cujos escritos espirituais e reformas conventuais marcaram profundamente a espiritualidade ocidental.",
+    "image": "./img/saints/teresa_von_avila.png",
+    "link": "#"
+  },
+  {
+    "name": "Maria da Encarnação",
+    "slug": "maria_von_der_menschwerdung",
+    "bio_en": "A Irmã Maria da Encarnação foi uma carmelita cuja espiritualidade se centrava particularmente no mistério da Encarnação de Cristo, convidando as pessoas a contemplar Deus feito homem.",
+    "image": "./img/saints/maria_von_der_menschwerdung.jpg",
+    "link": "#"
+  },
+  {
+    "name": "Nossa Senhora do Carmo",
+    "slug": "unsere_liebe_frau_vom_berge_karmel",
+    "bio_en": "Nossa Senhora do Carmo é um título mariano que faz referência ao Monte Carmelo bíblico. É venerada como padroeira da Ordem do Carmo e está associada ao escapulário.",
+    "image": "./img/saints/unsere_liebe_frau_vom_berge_karmel.jpg",
+    "link": "#"
+  },
+  {
+    "name": "Santa Teresa Benedita da Cruz (Edith Stein)",
+    "slug": "teresabenedicta_vom_kreuz_edith_stein",
+    "bio_en": "Teresa Benedita da Cruz (Edith Stein, 1891–1942) foi uma filósofa de origem judaica que se converteu à fé católica, tornou-se carmelita e morreu mártir no campo de concentração de Auschwitz.",
+    "image": "./img/saints/edith_stein.jpg",
+    "link": "#"
+  },
+  {
+    "name": "Irmão Lourenço da Ressurreição",
+    "slug": "br_lorenz_von_der_auferstehung",
+    "bio_en": "O Irmão Lourenço da Ressurreição (1614–1691) foi um irmão leigo carmelita francês, conhecido pelos seus ensinamentos sobre a presença constante de Deus na vida quotidiana.",
+    "image": "./img/saints/lorenz.jpg",
+    "link": "../heilige/bruder_lorenz.html"
+  },
+  {
+    "name": "São José",
+    "slug": "josef",
+    "bio_en": "São José, esposo da Virgem Maria e pai adotivo de Jesus, é venerado como homem justo e silencioso, fiel protetor da Igreja e das famílias.",
+    "image": "./img/saints/heiliger_joseph.jpg",
+    "link": "#"
+  },
+  {
+    "name": "Santa Isabel da Santíssima Trindade",
+    "slug": "elisabeth_von_der_dreifaltigkeit",
+    "bio_en": "Isabel da Santíssima Trindade (1880–1906) foi uma carmelita francesa cuja espiritualidade foi profundamente marcada pela presença da Santíssima Trindade no coração da pessoa batizada.",
+    "image": "./img/saints/elisabeth_dreifaltigkeit.jpg",
+    "link": "#"
+  },
+  {
+    "name": "Beato Maria-Eugénio do Menino Jesus OCD",
+    "slug": "sel_mariaeugen_vom_kinde_jesus_ocd",
+    "bio_en": "Maria-Eugénio do Menino Jesus (1894–1967) foi um carmelita francês e fundador do instituto secular Notre-Dame de Vie. Renovou o acesso aos ensinamentos espirituais de Teresa de Ávila e João da Cruz.",
+    "image": "./img/saints/maria_eugen.jpg",
+    "link": "#"
+  },
+  {
+    "name": "Santo Elias",
+    "slug": "elija",
+    "bio_en": "O profeta Elias é considerado o pai espiritual dos carmelitas. O seu zelo pelo único Deus verdadeiro e a sua experiência de Deus no Horeb marcaram profundamente a espiritualidade da Ordem.",
+    "image": "./img/saints/heiliger_elija.jpg",
+    "link": "#"
+  },
+  {
+    "name": "Luís e Zélia Martin (pais de Santa Teresa de Lisieux)",
+    "slug": "louis_martin_und_zelie_martin_eltern_der_hl_therese_von_lisieux",
+    "bio_en": "Luís e Zélia Martin, pais de Santa Teresa de Lisieux, viveram um matrimónio profundamente cristão e foram canonizados em conjunto, sendo exemplos de santidade no matrimónio e na vida familiar.",
+    "image": "./img/saints/louis_martin_und_zelie_martin.jpg",
+    "link": "#"
+  }
+]

@@ -20,14 +20,6 @@ const languages = {
 };
   document.getElementById("year").textContent = new Date().getFullYear();
 
-const catalogPath =
-  container.dataset.json ||
-  "/data/retreat_overview.json";
- 
-const saintsPath =
-  container.dataset.saints ||
-  "./saint-info_hr.json";
-
 // size adjust
   (function () {
     const root = document.documentElement;
@@ -321,6 +313,14 @@ const PAGE_SIZE = 2;
 document.addEventListener("DOMContentLoaded", async () => {
   const container = document.querySelector("#saints-cards .saints-grid");
   if (!container) return;
+
+  const catalogPath =
+  container.dataset.json ||
+  "/data/retreat_overview.json";
+ 
+const saintsPath =
+  container.dataset.saints ||
+  "./saint-info_hr.json";
 
     const escapeHtml = (value = "") =>
     String(value)
