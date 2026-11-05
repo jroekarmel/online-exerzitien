@@ -420,6 +420,11 @@ const uniqueSaints = [
         const slug = slugifySaint(name);
         const saintInfo = saintsBySlug[slug] || {};
 
+            if (!saintInfo.slug) {
+          console.warn(`Saint not found: ${name} (slug: ${slug})`);
+          return null;
+        }
+
         return [
           slug,
           {

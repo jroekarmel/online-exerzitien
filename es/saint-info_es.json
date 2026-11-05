@@ -50,14 +50,14 @@
     "link": "#"
   },
   {
-    "name": "Mary of the Incarnation",
+    "name": "María de la Encarnación",
     "slug": "maria_von_der_menschwerdung",
     "bio": "Sister Mary of the Incarnation was a Carmelite whose spirituality focused particularly on the mystery of Christ’s Incarnation and invited people to contemplate God made man.",
     "image": "./img/saints/maria_von_der_menschwerdung.jpg",
     "link": "#"
   },
   {
-    "name": "Our Lady of Mount Carmel",
+    "name": "Virgen del Carmen",
     "slug": "unsere_liebe_frau_vom_berge_karmel",
     "bio": "Our Lady of Mount Carmel is a Marian title referring to the biblical Mount Carmel. She is venerated as the patroness of the Carmelite Order and is associated with the scapular.",
     "image": "./img/saints/unsere_liebe_frau_vom_berge_karmel.jpg",
@@ -71,15 +71,15 @@
     "link": "#"
   },
   {
-    "name": "Brother Lawrence of the Resurrection",
+    "name": "El Hermano Lorenzo de la Resurrección",
     "slug": "br_lorenz_von_der_auferstehung",
     "bio": "Brother Lawrence of the Resurrection (1614–1691) was a French Carmelite lay brother known for his teaching on the constant presence of God in everyday life.",
     "image": "./img/saints/lorenz.jpg",
     "link": "../heilige/bruder_lorenz.html"
   },
   {
-    "name": "Saint Joseph",
-    "slug": "joseph",
+    "name": "San José",
+    "slug": "josef",
     "bio": "Saint Joseph, husband of the Virgin Mary and foster father of Jesus, is venerated as the silent just man and faithful protector of the Church and families.",
     "image": "./img/saints/heiliger_joseph.jpg",
     "link": "#"
@@ -92,21 +92,21 @@
     "link": "#"
   },
   {
-    "name": "Blessed Marie-Eugène of the Child Jesus OCD",
+    "name": "El Beato María-Eugenio del Niño Jesús, O.C.D.",
     "slug": "sel_mariaeugen_vom_kinde_jesus_ocd",
     "bio": "Marie-Eugène of the Child Jesus (1894–1967) was a French Carmelite and founder of the secular institute Notre-Dame de Vie. He renewed access to the spiritual teachings of Teresa of Ávila and John of the Cross.",
     "image": "./img/saints/maria_eugen.jpg",
     "link": "#"
   },
   {
-    "name": "Saint Elijah",
+    "name": "Santo Elías",
     "slug": "elija",
     "bio": "The prophet Elijah is regarded as the spiritual father of the Carmelites. His zeal for the one true God and his experience of God at Horeb have shaped the spirituality of the Order.",
     "image": "./img/saints/heiliger_elija.jpg",
     "link": "#"
   },
   {
-    "name": "Louis Martin and Zélie Martin (parents of Saint Thérèse of Lisieux)",
+    "name": "Luis Martin (Louis Martin) y Zélie Guérin (Padres de Santa Teresita del Niño Jesús)",
     "slug": "louis_martin_und_zelie_martin_eltern_der_hl_therese_von_lisieux",
     "bio": "Louis and Zélie Martin, the parents of Saint Thérèse of Lisieux, lived a deeply Christian marriage and were canonized together as role models of holy marriage and family life.",
     "image": "./img/saints/louis_martin_und_zelie_martin.jpg",
