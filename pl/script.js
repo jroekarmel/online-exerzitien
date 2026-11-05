@@ -162,8 +162,8 @@ document.addEventListener("DOMContentLoaded", async () => {
   "/data/retreat_overview.json";
 
   const seasonLabels = {
-    lent: "Quaresima",
-    advent: "Avvento"
+    lent: "Wielki Post",
+    advent: "Adwent"
   };
 
   const escapeHtml = (value = "") =>
