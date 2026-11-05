@@ -320,7 +320,7 @@ const catalogPath =
  
 const saintsPath =
   container.dataset.saints ||
-  "./saint-info_es.json";
+  "./saint-info_pl.json";
 
     const escapeHtml = (value = "") =>
     String(value)
