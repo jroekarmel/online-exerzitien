@@ -102,6 +102,10 @@
   --hover-color: var(--color-surface-2);
 }
 
+.logo-dark {
+  display: none;
+}
+
 
 /* Explicit dark mode */
 
@@ -159,6 +163,13 @@
   --border-color: var(--color-border);
   --color-background: var(--color-bg);
   --hover-color: #303b44;
+      .logo-light {
+    display: none;
+  }
+
+  .logo-dark {
+    display: block;
+  }
 }
 
 
@@ -794,6 +805,11 @@ summary {
   color: var(--color-primary);
   font-size: 1.1rem;
 }
+[data-theme="dark"] {
+  .brand-mark {
+    filter: invert(1);
+  }
+}
 
 .brand-text {
   display: flex;
@@ -875,7 +891,7 @@ summary {
       var(--hero-overlay),
       var(--hero-overlay)
     ),
-  url("../img/header_img_teresa_johannes.jpg");
+  url("./img/header_img_teresa_johannes.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
