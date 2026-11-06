@@ -517,7 +517,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     function updateSonstigesField() {
         const isSonstiges =
-            select.value === "Other";
+            select.value === "Other (please specify)";
     //     console.log({
     // select: document.getElementById("mce-AUFMERKS01"),
     // field: document.getElementById("sonstiges-field"),
