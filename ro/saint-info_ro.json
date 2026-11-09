@@ -1,6 +1,6 @@
 [
   {
-    "name": "Saint John of the Cross",
+    "name": "Sfântul Ioan al Crucii",
     "name_de": "Heiliger Johannes vom Kreuz",
     "slug": "johannes_vom_kreuz",
     "bio_en": "John of the Cross (1542–1591) was a Spanish Carmelite, mystic, and Doctor of the Church, known for his teaching on the spiritual path of purification and union with God.",
@@ -9,7 +9,7 @@
     "link": "./saints/john_cross.html"
   },
   {
-    "name": "Saint Mariam of Jesus Crucified",
+    "name": "Sfânta Mariam a lui Isus Răstignit",
     "name_de": "Heilige Mirjam von Jesus, dem Gekreuzigten",
     "slug": "mirjam_von_jesus_dem_gekreuzigten",
     "bio_en": "Saint Mariam of Jesus Crucified (1846-1878), the \"Little Arab,\" born in the Holy Land, a humble Carmelite who learned to read and write as an adult, founded Carmelite monasteries in the Holy Land and India. Her simple and radiant life, led by the Holy Spirit, invites us to let ourselves be loved and transformed by Jesus.",
@@ -18,7 +18,7 @@
     "link": "./saints/mariam_jesus_crucified.html"
   },
   {
-    "name": "Saint Thérèse of Lisieux",
+    "name": "Sfânta Tereza a Pruncului Isus",
     "name_de": "Heilige Thérèse von Lisieux",
     "slug": "therese_von_lisieux",
     "bio_en": "Thérèse of Lisieux (1873–1897), a Carmelite and Doctor of the Church, taught the “Little Way” of trust and love and is one of the most popular saints of modern times.",
@@ -27,7 +27,7 @@
     "link": "./saints/therese_lisieux.html"
   },
   {
-    "name": "Father Jacques of Jesus",
+    "name": "Părintele Jacques de la Isus",
     "name_de": "Pater Jacques von Jesus",
     "slug": "pater_jacques_von_jesus",
     "bio_en": "Father Jacques of Jesus (1900–1945), a Carmelite and French priest, hid Jewish children during the Second World War, was arrested, and died shortly after the liberation of a concentration camp.",
@@ -36,7 +36,7 @@
     "link": "./saints/jacques_jesus.html"
   },
   {
-    "name": "Saint Teresa of the Andes",
+    "name": "Sf. Tereza a lui Isus, de Los Andes",
     "name_de": "Heilige Teresa de Los Andes",
     "slug": "teresa_de_los_andes",
     "bio_en": "Teresa of the Andes (1900–1920) was a Chilean Carmelite who became known from a young age for her deep love of Christ and her devotion to life in the convent.",
@@ -45,7 +45,7 @@
     "link": "./saints/teresa_andes.html"
   },
   {
-    "name": "The Saints of Carmel",
+    "name": "Sfinții Carmelului",
     "name_de": "Die Heiligen des Karmel",
     "slug": "die_heiligen_des_karmel",
     "bio_en": "The saints of Carmel include a great multitude of men and women who attained holiness in the spirit of Mary of Mount Carmel through contemplation, sacrifice, and service to the Church.",
@@ -53,7 +53,7 @@
     "link": "./saints/saints_carmel.html"
   },
   {
-    "name": "Saint Teresa of Ávila",
+    "name": "Sfânta Tereza de Ávila",
     "name_de": "Heilige Teresa von Ávila",
     "slug": "teresa_von_avila",
     "bio_en": "Teresa of Ávila (1515–1582) was a Spanish mystic, reformer of Carmel, and Doctor of the Church whose spiritual writings and convent reforms profoundly shaped Western spirituality.",
@@ -62,7 +62,7 @@
     "link": "./saints/teresa_avila.html"
   },
   {
-    "name": "Mary of the Incarnation",
+    "name": "Maria a întrupării",
     "name_de": "Maria von der Menschwerdung",
     "slug": "maria_von_der_menschwerdung",
     "bio_en": "Sister Mary of the Incarnation was a Carmelite whose spirituality focused particularly on the mystery of Christ’s Incarnation and invited people to contemplate God made man.",
@@ -71,7 +71,7 @@
     "link": "./saints/mary_incarnation.html"
   },
   {
-    "name": "Our Lady of Mount Carmel",
+    "name": "Maica Domnului de pe Muntele Carmel",
     "name_de": "Unsere Liebe Frau vom Berge Karmel",
     "slug": "unsere_liebe_frau_vom_berge_karmel",
     "bio_en": "Our Lady of Mount Carmel is a Marian title referring to the biblical Mount Carmel. She is venerated as the patroness of the Carmelite Order and is associated with the scapular.",
@@ -80,7 +80,7 @@
     "link": "./saints/lady_mount_carmel.html"
   },
   {
-    "name": "Saint Teresa Benedicta of the Cross (Edith Stein)",
+    "name": "Sfânta Tereza Benedicta a Crucii (Edith Stein)",
     "name_de": "Heilige Teresa-Benedicta vom Kreuz (Edith Stein)",
     "slug": "teresabenedicta_vom_kreuz_edith_stein",
     "bio_en": "Teresa Benedicta of the Cross (Edith Stein, 1891–1942) was a philosopher of Jewish heritage who converted to the Catholic faith, became a Carmelite, and died as a martyr in Auschwitz concentration camp.",
@@ -89,7 +89,7 @@
     "link": "./saints/edith_stein.html"
   },
   {
-    "name": "Brother Lawrence of the Resurrection",
+    "name": "Fratele Laurențiu al Învierii",
     "name_de": "Br. Lorenz von der Auferstehung",
     "slug": "br_lorenz_von_der_auferstehung",
     "bio_en": "Brother Lawrence of the Resurrection (1614–1691) was a French Carmelite lay brother known for his teaching on the constant presence of God in everyday life.",
@@ -98,7 +98,7 @@
     "link": "./saints/brother_lawrence.html"
   },
   {
-    "name": "Saint Joseph",
+    "name": "Sf Iosif",
     "name_de": "Heiliger Josef",
     "slug": "josef",
     "bio_en": "Saint Joseph, husband of the Virgin Mary and foster father of Jesus, is venerated as the silent just man and faithful protector of the Church and families.",
@@ -107,7 +107,7 @@
     "link": "./saints/saint_joseph.html"
   },
   {
-    "name": "Saint Elisabeth of the Trinity",
+    "name": "Sfânta Elisabeta a Sfintei Treimi",
     "name_de": "Heilige Elisabeth von der Dreifaltigkeit",
     "slug": "elisabeth_von_der_dreifaltigkeit",
     "bio_en": "Elisabeth of the Trinity (1880–1906) was a French Carmelite whose spirituality was shaped by the indwelling presence of the Most Holy Trinity in the heart of the baptized person.",
@@ -116,7 +116,7 @@
     "link": "./saints/elisabeth_trinity.html"
   },
   {
-    "name": "Saint Elijah",
+    "name": "Sf. Ilie",
     "name_de": "Heiliger Elija",
     "slug": "elija",
     "bio_en": "The prophet Elijah is regarded as the spiritual father of the Carmelites. His zeal for the one true God and his experience of God at Horeb have shaped the spirituality of the Order.",
@@ -125,7 +125,7 @@
     "link": "./saints/saint_elijah.html"
   },
   {
-    "name": "Louis Martin and Zélie Martin (parents of Saint Thérèse of Lisieux)",
+    "name": "Sfinții Zelie și Louis Martin – părinții Sfintei Tereza a Pruncului Isus (de Lisieux)",
     "name_de": "Louis Martin und Zélie Martin (Eltern der hl. Thérèse von Lisieux)",
     "slug": "louis_martin_und_zelie_martin_eltern_der_hl_therese_von_lisieux",
     "bio_en": "Louis and Zélie Martin, the parents of Saint Thérèse of Lisieux, lived a deeply Christian marriage and were canonized together as role models of holy marriage and family life.",
