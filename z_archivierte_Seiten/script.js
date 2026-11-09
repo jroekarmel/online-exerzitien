@@ -15,126 +15,8 @@ const languages = {
   mt: "Malti",
   nl: "Nederlands",
   ro: "Română",
-  vi: "Tiếng Việt",
-  id: "Bahasa Indonesia"
+  vi: "Tiếng Việt"
 };
-  document.getElementById("year").textContent = new Date().getFullYear();
-
-// size adjust
-  (function () {
-    const root = document.documentElement;
-    const step = 10;
-    const min = 80;
-    const max = 160;
-    const storageKey = 'fontSizePercent';
-
-    let size = parseInt(localStorage.getItem(storageKey), 10);
-    if (Number.isNaN(size)) size = 100;
-
-    function applySize(value) {
-      const clamped = Math.min(max, Math.max(min, value));
-      root.style.fontSize = clamped + '%';
-      localStorage.setItem(storageKey, String(clamped));
-      return clamped;
-    }
-
-    applySize(size);
-
-    document.querySelector('[data-font-increase]')?.addEventListener('click', function () {
-      size = applySize(size + step);
-    });
-
-        document.querySelector('[data-font-reset]')?.addEventListener('click', function () {
-      size = applySize(100);
-    });
-
-    document.querySelector('[data-font-decrease]')?.addEventListener('click', function () {
-      size = applySize(size - step);
-    });
-  })();
-
-//dark mode
- const root = document.documentElement;
-  const themeToggle = document.querySelector('[data-theme-toggle]');
-  const themeToggleSelector = '[data-theme-toggle]';
-
-  let theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-  root.setAttribute('data-theme', theme);
-
-  const updateThemeLabel = () => {
-    if (!themeToggle) return;
-    themeToggle.setAttribute('aria-label', theme === 'dark' ? 'Hellen Modus aktivieren' : 'Dunklen Modus aktivieren');
-    themeToggle.querySelector('.theme-toggle__icon').textContent = theme === 'dark' ? '☀' : '◐';
-  };
-
-  updateThemeLabel();
-
-  themeToggle?.addEventListener('click', () => {
-    theme = theme === 'dark' ? 'light' : 'dark';
-    root.setAttribute('data-theme', theme);
-    localStorage.setItem('myStyle', theme);
-    updateThemeLabel();
-  });
-  window.onload = function () {
-    if (localStorage.getItem('myStyle')) {
-      theme = localStorage.getItem('myStyle');
-      root.setAttribute ("data-theme", theme);
-      updateThemeLabel();
-    }
-  }
-//menu toggle
-
-  const navToggle = document.querySelector('.nav-toggle');
-  const nav = document.querySelector('.main-nav');
-  const navLinks = nav ? nav.querySelectorAll('a') : [];
-  const navToggleSelector = '.nav-toggle';
-
- const closeNav = () => {
-    if (!nav || !navToggle) return;
-    nav.classList.remove('is-open');
-    navToggle.setAttribute('aria-expanded', 'false');
-  };
-
-  navToggle?.addEventListener('click', () => {
-    if (!nav) return;
-    const isOpen = nav.classList.toggle('is-open');
-    navToggle.setAttribute('aria-expanded', String(isOpen));
-  });
-
-  navLinks.forEach((link) => {
-    link.addEventListener('click', () => {
-      if (window.innerWidth <= 920) closeNav();
-    });
-  });
-
-  document.addEventListener('click', (event) => {
-    if (!nav || !navToggle || window.innerWidth > 920) return;
-    const clickedInsideNav = nav.contains(event.target);
-    const clickedToggle = navToggle.contains(event.target);
-    if (!clickedInsideNav && !clickedToggle) closeNav();
-  });
-
-  document.addEventListener('keydown', (event) => {
-    if (event.key === 'Escape') closeNav();
-  });
-
- function setupToggle(toggleId, wrapId, openText, closedText) {
-  const toggle = document.getElementById(toggleId);
-  const wrap = document.getElementById(wrapId);
-
-  if (!toggle || !wrap) return;
-
-  toggle.addEventListener('click', function (event) {
-    event.preventDefault();
-
-    const isOpen = this.getAttribute('aria-expanded') === 'true';
-    const nextState = !isOpen;
-
-    this.setAttribute('aria-expanded', String(nextState));
-    wrap.hidden = !nextState;
-    this.textContent = nextState ? openText : closedText;
-  });
-}
 
 // syncing Rundbriefe boxes
 document.addEventListener("DOMContentLoaded", () => {
@@ -158,13 +40,13 @@ document.addEventListener("DOMContentLoaded", () => {
     const cardCheckbox = document.querySelector(card);
     const formCheckbox = document.getElementById(formId);
 
-    // console.log({
-    //     key,
-    //     card,
-    //     cardCheckbox,
-    //     formId,
-    //     formCheckbox
-    // });
+    console.log({
+        key,
+        card,
+        cardCheckbox,
+        formId,
+        formCheckbox
+    });
 
     if (!cardCheckbox || !formCheckbox) return;
 
@@ -251,7 +133,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   const catalogPath =
   container.dataset.json ||
-  "./data/retreat_overview.json";
+  "/daten/retreat-overview.json";
 
   const seasonLabels = {
     lent: "Fastenzeit",
@@ -273,8 +155,8 @@ document.addEventListener("DOMContentLoaded", async () => {
   };
 
   const getRetreatLink = (retreat) => {
-    if (!retreat?.slug) return;
-    return `./archiv/${getLocalizedField(retreat.slug)}.html`;
+    if (!retreat?.slug) return "#";
+    return `./archiv/${retreat.slug}.html`;
   };
 
   const renderCard = (retreat, accented = false) => {
@@ -286,7 +168,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     const year = retreat.year || "";
     const title = getLocalizedField(retreat.titel);
     const thema = getLocalizedField(retreat.thema);
-    const summary = getLocalizedField(retreat.teaser);
+    const summary = getLocalizedField(retreat.zusammenfassung);
     const image = getLocalizedField(retreat.header_img);
     const link = getRetreatLink(retreat);
         // Advent cards accented, Lent normal
@@ -329,21 +211,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     `;
   };
 
-  const renderLoadMoreButton = (onClick) => {
-    const wrapper = document.createElement("div");
-    wrapper.className = "archive-load-more-wrapper";
 
-    const button = document.createElement("button");
-    button.className = "archive-load-more";
-    button.type = "button";
-    button.textContent = "Mehr laden";
-    button.addEventListener("click", onClick);
-
-    wrapper.appendChild(button);
-    container.parentNode.appendChild(wrapper);
-
-    return button;
-  };
   
   try {
 
@@ -361,40 +229,14 @@ document.addEventListener("DOMContentLoaded", async () => {
         const dateA = a.start_datum || `${a.year || 0}-01-01`;
         const dateB = b.start_datum || `${b.year || 0}-01-01`;
         return new Date(dateB) - new Date(dateA);
-      })
-      .slice(1); // Skip the most recent retreat (current retreat)
+      });
 
     if (archiveRetreats.length === 0) {
       container.innerHTML = `<p>Derzeit sind keine Archivdaten verfügbar.</p>`;
       return;
     }
 
-const PAGE_SIZE = 2;
-    let currentIndex = 0;
-
-    const renderPage = () => {
-      const nextIndex = Math.min(currentIndex + PAGE_SIZE, archiveRetreats.length);
-      const pageRetreats = archiveRetreats.slice(currentIndex, nextIndex);
-
-      const html = pageRetreats.map(renderCard).join("");
-      container.insertAdjacentHTML("beforeend", html);
-
-      currentIndex = nextIndex;
-
-      // Button entfernen, wenn keine weiteren Retreats mehr da sind
-      const loadMoreWrapper = container.parentNode.querySelector(".archive-load-more-wrapper");
-      if (loadMoreWrapper) {
-        if (currentIndex >= archiveRetreats.length) {
-          loadMoreWrapper.remove();
-        }
-      } else if (currentIndex < archiveRetreats.length) {
-        // Button nur erstellen, wenn es noch weitere Retreats gibt
-        renderLoadMoreButton(renderPage);
-      }
-    };
-
-    // Erste Seite rendern (und ggf. Button erzeugen)
-    renderPage();
+    container.innerHTML = archiveRetreats.map(renderCard).join("");
   } catch (error) {
     console.error(error);
     container.innerHTML = `<p>Die Archivdaten konnten derzeit nicht geladen werden.</p>`;
@@ -407,12 +249,12 @@ document.addEventListener("DOMContentLoaded", async () => {
   if (!container) return;
 
 const catalogPath =
-  container.dataset.json ||
-  "./data/retreat_overview.json";
- 
+  container.dataset.catalog ||
+  "/daten/retreat-overview.json";
+
 const saintsPath =
   container.dataset.saints ||
-  "./data/heiliger-info.json";
+  "/daten/heiliger-info.json";
 
     const escapeHtml = (value = "") =>
     String(value)
@@ -523,79 +365,110 @@ const uniqueSaints = [
           }
         ];
       })
-      .filter((entry) => entry !== null) // Remove entries where saint was not found
   ).values()
 ];
 
     if (uniqueSaints.length === 0) {
       container.innerHTML = `<p>Derzeit sind keine Heiligen verfügbar.</p>`;
-            prevBtn.disabled = true;
-      nextBtn.disabled = true;
       return;
-    }
-            if (uniqueSaints.length <= 4) {
-      prevBtn.remove();
-      nextBtn.remove();  
     }
 
     container.innerHTML = uniqueSaints.map(renderCard).join("");
-    document.dispatchEvent(
-  new CustomEvent("saintsRendered", {
-    detail: {
-      count: uniqueSaints.length
-    }
-  })
-);
   } catch (error) {
     console.error(error);
     container.innerHTML = `<p>Die Archivdaten konnten derzeit nicht geladen werden.</p>`;
   }
 });
-// Scroll behavior: 4 cards on desktop, 1 on mobile
-const grid = document.getElementById("saints-grid");
-  const prevBtn = document.querySelector(".saints-prev");
-  const nextBtn = document.querySelector(".saints-next");
-    const getScrollAmount = () => {
-      const card = grid.querySelector(".saint-card");
-      if (!card) return 0;
-      const cardWidth = card.getBoundingClientRect().width;
-      const gap = 16; // approx 1rem
 
-      if (window.innerWidth >= 992) {
-        return (cardWidth + gap) * 4;
-      }
-      return cardWidth + gap;
-    };
+//saints rotation
+document.addEventListener("DOMContentLoaded", () => {
+  const grid = document.querySelector("#saintsGrid");
+  const dots = Array.from(document.querySelectorAll(".saints-dot"));
+  const toggleButton = document.querySelector(".saints-toggle");
+  const toggleIcon = document.querySelector(".saints-toggle-icon");
 
-    const isScrolledToEnd = () => {
-      return grid.scrollLeft + grid.clientWidth >= grid.scrollWidth - 1;
-    };
+  if (!grid || !dots.length || !toggleButton) return;
 
-    const isScrolledToStart = () => {
-      return grid.scrollLeft <= 0;
-    };
-    if (prevBtn) {
-    prevBtn.addEventListener("click", () => {
-      const amount = getScrollAmount();
+  const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
-      if (isScrolledToStart()) {
-        grid.scrollTo({ left: grid.scrollWidth, behavior: "smooth" });
-      } else {
-        grid.scrollBy({ left: -amount, behavior: "smooth" });
-      }
+  let currentIndex = 0;
+  let autoRotate = null;
+  let isPaused = prefersReducedMotion;
+
+  function setActiveDot(index) {
+    dots.forEach((dot, i) => {
+      const active = i === index;
+      dot.classList.toggle("is-active", active);
+      dot.setAttribute("aria-current", active ? "true" : "false");
     });
-  };
-  if (nextBtn) {
-    nextBtn.addEventListener("click", () => {
-      const amount = getScrollAmount();
+  }
 
-      if (isScrolledToEnd()) {
-        grid.scrollTo({ left: 0, behavior: "smooth" });
-      } else {
-        grid.scrollBy({ left: amount, behavior: "smooth" });
-      }
+  function goToSlide(index) {
+    currentIndex = Math.max(0, Math.min(index, dots.length - 1));
+
+    grid.scrollTo({
+      left: currentIndex * grid.clientWidth,
+      behavior: "smooth"
     });
-  };
+
+    setActiveDot(currentIndex);
+  }
+
+  function startRotation() {
+    if (autoRotate || isPaused) return;
+
+    autoRotate = setInterval(() => {
+      goToSlide((currentIndex + 1) % dots.length);
+    }, 4000);
+
+    toggleButton.setAttribute("aria-label", "Karussell pausieren");
+    toggleButton.setAttribute("aria-pressed", "false");
+    if (toggleIcon) toggleIcon.textContent = "❚❚";
+  }
+
+  function stopRotation() {
+    clearInterval(autoRotate);
+    autoRotate = null;
+
+    toggleButton.setAttribute("aria-label", "Karussell abspielen");
+    toggleButton.setAttribute("aria-pressed", "true");
+    if (toggleIcon) toggleIcon.textContent = "▶";
+  }
+
+  toggleButton.addEventListener("click", () => {
+    if (autoRotate) {
+      isPaused = true;
+      stopRotation();
+    } else {
+      isPaused = false;
+      startRotation();
+    }
+  });
+
+  dots.forEach((dot, index) => {
+    dot.addEventListener("click", () => {
+      isPaused = true;
+      stopRotation();
+      goToSlide(index);
+    });
+  });
+
+  grid.addEventListener("scroll", () => {
+    const index = Math.round(grid.scrollLeft / grid.clientWidth);
+    currentIndex = Math.min(index, dots.length - 1);
+    setActiveDot(currentIndex);
+  });
+
+  grid.addEventListener("mouseenter", stopRotation);
+
+  setActiveDot(0);
+
+  if (!prefersReducedMotion) {
+    startRotation();
+  } else {
+    stopRotation();
+  }
+});
 // hiding and showing Sonstiges field:
 document.addEventListener("DOMContentLoaded", function () {
     const select = document.getElementById("mce-AUFMERKS01");
@@ -605,11 +478,11 @@ document.addEventListener("DOMContentLoaded", function () {
     function updateSonstigesField() {
         const isSonstiges =
             select.value === "Sonstiges";
-    //     console.log({
-    // select: document.getElementById("mce-AUFMERKS01"),
-    // field: document.getElementById("sonstiges-field"),
-    // input: document.getElementById("mce-AUFMERKS02")
-// });
+        console.log({
+    select: document.getElementById("mce-AUFMERKS01"),
+    field: document.getElementById("sonstiges-field"),
+    input: document.getElementById("mce-AUFMERKS02")
+});
 
         sonstigesField.style.display = isSonstiges ? 'contents': 'none';
         sonstigesInput.disabled = !isSonstiges;
