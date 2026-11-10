@@ -374,7 +374,7 @@ return `
             loading="lazy"
           >
         </div>
-        <h3>${escapeHtml(saint.name)}</h3>
+        <h3 hidden>${escapeHtml(saint.name)}</h3>
 
         <p class="saint-bio">
           ${escapeHtml(saint.bio)}
