@@ -1,7 +1,7 @@
 {
   "meta": {
     "default_language": "en",
-    "supported_languages": ["fr", "de", "es", "it", "en", "pl", "ar", "pt", "zh", "cs", "hr", "hu", "mt", "nl", "ro", "vi"],
+    "supported_languages": ["fr", "de", "es", "it", "en", "pl", "ar", "pt", "zh", "cs", "hr", "hu", "mt", "nl", "ro", "vi", "id"],
     "version": "1.0.0",
     "updated_at": "2026-07-16T10:19:00+02:00"
   },
@@ -48,7 +48,8 @@
         "mt": "",
         "nl": "",
         "ro": "",
-        "vi": ""
+        "vi": "",
+        "id": ""
       },
       "titel": {
         "fr": "",

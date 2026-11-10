@@ -244,7 +244,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     const button = document.createElement("button");
     button.className = "archive-load-more";
     button.type = "button";
-    button.textContent = "Cargar más";
+    button.textContent = "تحميل المزيد";
     button.addEventListener("click", onClick);
 
     wrapper.appendChild(button);
@@ -374,7 +374,7 @@ return `
             loading="lazy"
           >
         </div>
-        <h3>${escapeHtml(saint.name)}</h3>
+        <h3 hidden>${escapeHtml(saint.name)}</h3>
 
         <p class="saint-bio">
           ${escapeHtml(saint.bio)}

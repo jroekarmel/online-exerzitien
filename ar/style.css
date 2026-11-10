@@ -1,5 +1,6 @@
 :root {
   color-scheme: light;
+  text-align: end;
 
   /* Typography */
   --text-xs: clamp(0.75rem, 0.7rem + 0.25vw, 0.875rem);
@@ -1331,7 +1332,7 @@ ul {
 
 .saints-grid .saint-card {
   flex: 0 0 min(90vw);
-  scroll-snap-align: start;
+  scroll-snap-align: end;
 }
 
 .archive-grid {
@@ -1746,7 +1747,7 @@ textarea:focus-visible {
   }
 
   .cards-grid {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .header-banner img {
@@ -1777,7 +1778,7 @@ transform: translateX(0%);
   }
 
   .saint-card-featured {
-    scroll-snap-align: start;
+    scroll-snap-align: end;
   }
 
   .saints-grid::-webkit-scrollbar {
