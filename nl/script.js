@@ -244,7 +244,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     const button = document.createElement("button");
     button.className = "archive-load-more";
     button.type = "button";
-    button.textContent = "Cargar más";
+    button.textContent = "Meer laden";
     button.addEventListener("click", onClick);
 
     wrapper.appendChild(button);
