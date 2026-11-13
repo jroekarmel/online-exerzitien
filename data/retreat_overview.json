@@ -27,7 +27,7 @@
         "nl": "2026_advent",
         "ro": "2026_advent",
         "vi": "2026_mua-vong",
-        "id": ""
+        "id": "2026_adven"
       },
       "heiliger": "Br. Lorenz von der Auferstehung",
       "start_datum": "2026-11-25",
@@ -146,7 +146,8 @@
         "mt": "2026_randan",
         "nl": "2026_vastentijd",
         "ro": "2026_postul-mare",
-        "vi": "2026_mua-chay"
+        "vi": "2026_mua-chay",
+        "id": "2026_masa-prapaskah"
       },
       "heiliger": "Heiliger Johannes vom Kreuz",
       "start_datum": "2026-02-18",
@@ -168,7 +169,8 @@
         "mt": "Irtir tar-Randan Karmelitan Online 2026",
         "nl": "Vastentijd 2026 Online retraite: Sint Jan van het Kruis",
         "ro": "Postul Mare Reculegere spirituală carmelitană online Împreună cu Sfântul Ioan al Crucii",
-        "vi": "Tĩnh tâm trên mạng trong mùa Chay 2026 của dòng Cát-Minh Chân Trần"
+        "vi": "Tĩnh tâm trên mạng trong mùa Chay 2026 của dòng Cát-Minh Chân Trần",
+        "id": ""
       },
       "titel": {
         "fr": "",
@@ -263,7 +265,8 @@
         "mt": "2025_avvent",
         "nl": "2025_advent",
         "ro": "2025_advent",
-        "vi": "2025_mua-vong"
+        "vi": "2025_mua-vong",
+        "id": "2025_adven"
 },
       "heiliger": "Heilige Mirjam von Jesus, dem Gekreuzigten",
       "start_datum": "2025-11-26",
@@ -285,7 +288,8 @@
         "mt": "Irtir onlajn tal-Karmelitani Avvent 2025 Ma’ Santa Marjam ta' Ġesù Msallab",
         "nl": "Advent 2025 Online retraite: St. Mariam van de Gekruisigde Jesus",
         "ro": "Advent 2025 Reculegere spirituală carmelitană online împreună cu Sfânta Mariam a lui Isus Răstignit (1846-1878)",
-        "vi": "Tĩnh tâm trên mạng trong mùa Vọng 2025 của dòng Cát-Minh Chân Trần"
+        "vi": "Tĩnh tâm trên mạng trong mùa Vọng 2025 của dòng Cát-Minh Chân Trần",
+        "id": "Retret Online Untuk Adven 2025 Oleh Para Karmelit Tak Berkasut bersama St. Mariam dari Yesus Tersalib (1846-1878)"
       },
       "titel": {
         "fr": "Mariam ou la voie des pauvres du Seigneur",
@@ -303,7 +307,8 @@
         "mt": "\"Marjam, jew it-Triq tal-Foqra tal-Mulej\"",
         "nl": "“De weg van de armen van de Heer”",
         "ro": "„Mariam sau calea săracilor Domnului”",
-        "vi": "Cùng bước với Ma-ri-am"
+        "vi": "Cùng bước với Ma-ri-am",
+        "id": "« Maria Jalan dari Umat Anawim Allah »"
       },
       "zusammenfassung": {
         "fr": "",
@@ -321,7 +326,8 @@
         "mt": "Din is-sena, Santa Marjam (Baouardy) ta' Ġesù Msallab, l-\"Għarbija ċkejkna\" imwielda fil-Palestina, se tiggwidana fil-vjaġġ tal-Avvent tagħna lejn il-Milied. Santa Marjam (1846-1878), Karmelitana umli li tgħallmet taqra u tikteb bħala adulta, waqqfet monasteri Karmelitani fl-Indja u l-Art Imqaddsa. Il-ħajja sempliċi u radjanti tagħha, immexxija mill-Ispirtu s-Santu, tistiedinna nħallu lilna nfusna ninħabbu u nitbiddlu minn Ġesù...",
         "nl": "Dit jaar zal een kleine heilige karmelietes geboren in het land van Jezus, heilige Mariam van de Gekruisigde Jezus, ons vergezellen. Tien jaar geleden, op 17 mei 2015, werd ze namelijk heilig verklaard door paus Franciscus. Haar hele leven is een Woord van God. De boodschap die Mariam ons nalaat, met haar zeer beeldende taal die ons dichter bij de Bijbel brengt, is een oproep voor ons, om te leren ons te laten liefhebben door Jezus en ons te laten leiden door de Heilige Geest in een wereld waar alle waarden instorten, waardoor ruimte komt voor een gevoel van onveiligheid. Mariam van de Gekruisigde Jezus combineert nederigheid en armoede met verbluffende bovennatuurlijke en mystieke ervaringen. Deze tegenstellingen worden beleefd in een hart dat volledig is overgeleverd aan de liefde van God, in een totale gehoorzaamheid aan zijn wil, een maagdelijk en transparant hart voor de genade van God, beschikbaar voor de werking van de Geest, die haar geleidelijk configureert tot de Gekruisigde Jezus wiens naam zij draagt.",
         "ro": "Anul acesta, Sfânta Mariam (Bouarday) a lui Isus Răstignit, „mica arabă” născută în Palestina, ne va însoți în călătoria noastră de Advent către Crăciun. Sfânta Mariam (1846-1878), o călugăriță carmelitană umilă și analfabetă, a fondat mai multe mănăstiri carmelitane în Israel și India. ",
-        "vi": "Nếu bạn đăng ký theo mẫu dưới đây, bạn sẽ nhận một e-mail miễn phí mỗi thứ sáu: bạn sẽ có thể nhận bản văn dưới dạng pdf. Nội dung suy niệm xu61t phát từ các bài đọc chúa nhật để giúp bạn học với thánh Ma-ri-am . Một lịch mùa Vọng sẽ cũng giúp bạn được nuôi dưỡng hằng ngày, từ thứ hai đến thứ bảy."
+        "vi": "Nếu bạn đăng ký theo mẫu dưới đây, bạn sẽ nhận một e-mail miễn phí mỗi thứ sáu: bạn sẽ có thể nhận bản văn dưới dạng pdf. Nội dung suy niệm xu61t phát từ các bài đọc chúa nhật để giúp bạn học với thánh Ma-ri-am . Một lịch mùa Vọng sẽ cũng giúp bạn được nuôi dưỡng hằng ngày, từ thứ hai đến thứ bảy.",
+        "id": "Para Karmelit Tak Berkasut dan Penerbit OCD mengundang Anda untuk membiarkan diri Anda dibimbing selama masa Adven ini oleh Santa Maria Yesus yang Tersalib — “Si Kecil dari Arab” — yang lahir di Tanah Suci, seorang suster Karmelit yang sederhana dan tidak terpelajar, yang mendirikan beberapa biara Karmel di Israel dan India.\nHidupnya yang sederhana dan bercahaya, yang dipimpin oleh Roh Kudus, mengundang kita untuk membiarkan diri kita dikasihi dan diubah oleh Yesus…"
       },
             "teaser": {
         "fr": "",
@@ -339,7 +345,8 @@
         "mt": "Din is-sena, Santa Marjam (Baouardy) ta' Ġesù Msallab, l-\"Għarbija ċkejkna\" imwielda fil-Palestina, se tiggwidana fil-vjaġġ tal-Avvent tagħna lejn il-Milied. Santa Marjam (1846-1878), Karmelitana umli li tgħallmet taqra u tikteb bħala adulta, waqqfet monasteri Karmelitani fl-Indja u l-Art Imqaddsa. Il-ħajja sempliċi u radjanti tagħha, immexxija mill-Ispirtu s-Santu, tistiedinna nħallu lilna nfusna ninħabbu u nitbiddlu minn Ġesù...",
         "nl": "Dit jaar zal een kleine heilige karmelietes geboren in het land van Jezus, heilige Mariam van de Gekruisigde Jezus, ons vergezellen. Tien jaar geleden, op 17 mei 2015, werd ze namelijk heilig verklaard door paus Franciscus. Haar hele leven is een Woord van God. De boodschap die Mariam ons nalaat, met haar zeer beeldende taal die ons dichter bij de Bijbel brengt, is een oproep voor ons, om te leren ons te laten liefhebben door Jezus en ons te laten leiden door de Heilige Geest in een wereld waar alle waarden instorten, waardoor ruimte komt voor een gevoel van onveiligheid. Mariam van de Gekruisigde Jezus combineert nederigheid en armoede met verbluffende bovennatuurlijke en mystieke ervaringen. Deze tegenstellingen worden beleefd in een hart dat volledig is overgeleverd aan de liefde van God, in een totale gehoorzaamheid aan zijn wil, een maagdelijk en transparant hart voor de genade van God, beschikbaar voor de werking van de Geest, die haar geleidelijk configureert tot de Gekruisigde Jezus wiens naam zij draagt.",
         "ro": "Anul acesta, Sfânta Mariam (Bouarday) a lui Isus Răstignit, „mica arabă” născută în Palestina, ne va însoți în călătoria noastră de Advent către Crăciun. Sfânta Mariam (1846-1878), o călugăriță carmelitană umilă și analfabetă, a fondat mai multe mănăstiri carmelitane în Israel și India. ",
-        "vi": "Nếu bạn đăng ký theo mẫu dưới đây, bạn sẽ nhận một e-mail miễn phí mỗi thứ sáu: bạn sẽ có thể nhận bản văn dưới dạng pdf. Nội dung suy niệm xu61t phát từ các bài đọc chúa nhật để giúp bạn học với thánh Ma-ri-am . Một lịch mùa Vọng sẽ cũng giúp bạn được nuôi dưỡng hằng ngày, từ thứ hai đến thứ bảy."
+        "vi": "Nếu bạn đăng ký theo mẫu dưới đây, bạn sẽ nhận một e-mail miễn phí mỗi thứ sáu: bạn sẽ có thể nhận bản văn dưới dạng pdf. Nội dung suy niệm xu61t phát từ các bài đọc chúa nhật để giúp bạn học với thánh Ma-ri-am . Một lịch mùa Vọng sẽ cũng giúp bạn được nuôi dưỡng hằng ngày, từ thứ hai đến thứ bảy.",
+        "id": "Para Karmelit Tak Berkasut dan Penerbit OCD mengundang Anda untuk membiarkan diri Anda dibimbing selama masa Adven ini oleh Santa Maria Yesus yang Tersalib"
       },
       "header_img": {
         "fr": "",
@@ -357,7 +364,8 @@
         "mt": "../mt/img/2025_advent_header_MT.png",
         "nl": "../nl/img/2025_advent_header_NL.png",
         "ro": "../ro/img/2025_advent_header_RO.jpg",
-        "vi": "../vi/img/2025_advent_header_VI.jpg"
+        "vi": "../vi/img/2025_advent_header_VI.jpg",
+        "id": "../id/img/2025_advent_header_ID.jpg"
       }
     },
     {
