@@ -303,7 +303,10 @@ document.addEventListener("DOMContentLoaded", async () => {
     const retreats = Array.isArray(data.retreats) ? data.retreats : [];
 
     const archiveRetreats = retreats
-      .filter(retreat => retreat?.art === "lent" || retreat?.art === "advent")
+      .filter(retreat =>
+    (retreat?.art === "lent" || retreat?.art === "advent") &&
+    getLocalizedField(retreat.titel, lang).trim() !== ""
+  )
       .sort((a, b) => {
         const dateA = a.start_datum || `${a.year || 0}-01-01`;
         const dateB = b.start_datum || `${b.year || 0}-01-01`;

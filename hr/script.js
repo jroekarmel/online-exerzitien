@@ -244,7 +244,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     const button = document.createElement("button");
     button.className = "archive-load-more";
     button.type = "button";
-    button.textContent = "Cargar más";
+    button.textContent = "Učitaj više";
     button.addEventListener("click", onClick);
 
     wrapper.appendChild(button);
@@ -263,8 +263,12 @@ document.addEventListener("DOMContentLoaded", async () => {
     const data = await response.json();
     const retreats = Array.isArray(data.retreats) ? data.retreats : [];
 
-    const archiveRetreats = retreats
-      .filter(retreat => retreat?.art === "lent" || retreat?.art === "advent")
+    const lang = document.documentElement.lang || "hr";
+const archiveRetreats = retreats
+      .filter(retreat =>
+    (retreat?.art === "lent" || retreat?.art === "advent") &&
+    getLocalizedField(retreat.titel, lang).trim() !== ""
+  )
       .sort((a, b) => {
         const dateA = a.start_datum || `${a.year || 0}-01-01`;
         const dateB = b.start_datum || `${b.year || 0}-01-01`;
