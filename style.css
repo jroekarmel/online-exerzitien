@@ -1568,6 +1568,7 @@ ul {
 .hero-video {
     width: 100%;
     aspect-ratio: 16 / 9;
+    border-radius: var(--radius-lg);
 }
 
 .hero-video video {
@@ -1576,11 +1577,12 @@ ul {
     display: block;
     object-fit: cover;
 }
-/* Hide mobile video on desktop 
+/* Hide mobile video on desktop */
 .video-desktop {
-    display: none !important;
+border-radius: var(--radius-lg);
+    /* display: none !important;*/
 }
-*/
+
 /* Switch on mobile
 @media (min-width: 767px) {
     .video-desktop {
