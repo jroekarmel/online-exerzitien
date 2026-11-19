@@ -1576,21 +1576,22 @@ ul {
     display: block;
     object-fit: cover;
 }
-/* Hide mobile video on desktop */
-.video-mobile {
+/* Hide mobile video on desktop 
+.video-desktop {
     display: none !important;
 }
-
-/* Switch on mobile */
-@media (max-width: 767px) {
+*/
+/* Switch on mobile
+@media (min-width: 767px) {
     .video-desktop {
-        display: none !important;
+        display: block !important;
     }
 
     .video-mobile {
-        display: block !important;
+        display: none !important;
     }
 }
+    */
 
 .cover-img img {
   display: block;
